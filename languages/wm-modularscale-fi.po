@@ -1,0 +1,224 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wm-modularscale 1.0.0\n"
+"Report-Msgid-Bugs-To: https://www.wendermedia.com\n"
+"POT-Creation-Date: 2026-08-27 12:00+0200\n"
+"PO-Revision-Date: 2026-08-27 12:00+0200\n"
+"Last-Translator: Arnold Wender <info@wendermedia.com>\n"
+"Language-Team: Wender Media <info@wendermedia.com>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Wender Media i18n Studio\n"
+
+msgid "-- Seleccionar proporción o escribir valor --"
+msgstr "-- Seleccionar proporción o escribir valor --"
+
+msgid "1.125 — Major Second (Compacto, ideal apps)"
+msgstr "1.125 — Major Second (Compacto, ideal apps)"
+
+msgid "1.200 — Minor Third (Clásico, ideal blogs)"
+msgstr "1.200 — Minor Third (Clásico, ideal blogs)"
+
+msgid "1.250 — Major Third (Recomendado web corporativa)"
+msgstr "1.250 — Major Third (Recomendado web corporativa)"
+
+msgid "1.333 — Perfect Fourth (Títulos destacados)"
+msgstr "1.333 — Perfect Fourth (Títulos destacados)"
+
+msgid "1.414 — Augmented Fourth (Editorial)"
+msgstr "1.414 — Augmented Fourth (Editorial)"
+
+msgid "1.500 — Perfect Fifth (Diseños creativos)"
+msgstr "1.500 — Perfect Fifth (Diseños creativos)"
+
+msgid "1.618 — Golden Ratio (Titulares gigantes)"
+msgstr "1.618 — Golden Ratio (Titulares gigantes)"
+
+msgid "Activar y aplicar esta escala a todo el sitio web"
+msgstr "Activar y aplicar esta escala a todo el sitio web"
+
+msgid "Ajustes de Escala"
+msgstr "Ajustes de Escala"
+
+msgid "Alto Impacto / Revista (1.618 - Proporción Áurea)"
+msgstr "Alto Impacto / Revista (1.618 - Proporción Áurea)"
+
+msgid "Aplica automáticamente los tamaños calculados a las etiquetas <h1> hasta <h6>, párrafos <p> y listas de tu tema."
+msgstr "Aplica automáticamente los tamaños calculados a las etiquetas <h1> hasta <h6>, párrafos <p> y listas de tu tema."
+
+msgid "Calculando variables CSS..."
+msgstr "Calculando variables CSS..."
+
+msgid "Clásico para Blogs (1.200 - Minor Third)"
+msgstr "Clásico para Blogs (1.200 - Minor Third)"
+
+msgid "Cuánto más grande es el número, mayor diferencia habrá entre un título H1 y un subtítulo H3."
+msgstr "Cuánto más grande es el número, mayor diferencia habrá entre un título H1 y un subtítulo H3."
+
+msgid "Define la unidad CSS generada en las variables de tu tema."
+msgstr "Define la unidad CSS generada en las variables de tu tema."
+
+msgid "Definiciones claras de los términos tipográficos para no diseñadores."
+msgstr "Definiciones claras de los términos tipográficos para no diseñadores."
+
+msgid "El factor multiplicador constante entre un escalón de tamaño y el siguiente. Un ratio de 1.25 significa que cada título es un 25% más grande que el anterior."
+msgstr "El factor multiplicador constante entre un escalón de tamaño y el siguiente. Un ratio de 1.25 significa que cada título es un 25% más grande que el anterior."
+
+msgid "El tamaño de fuente del cuerpo de texto normal (<p>). En el 95% de las webs modernas se fija en 16px para garantizar legibilidad en móviles y pantallas grandes."
+msgstr "El tamaño de fuente del cuerpo de texto normal (<p>). En el 95% de las webs modernas se fija en 16px para garantizar legibilidad en móviles y pantallas grandes."
+
+msgid "El tamaño estándar de lectura en internet es 16px. Es el tamaño del cuerpo de texto a partir del cual se calculan los títulos."
+msgstr "El tamaño estándar de lectura en internet es 16px. Es el tamaño del cuerpo de texto a partir del cual se calculan los títulos."
+
+msgid "Elige una proporción recomendada con 1 clic:"
+msgstr "Elige una proporción recomendada con 1 clic:"
+
+msgid "En diseño web profesional, elegir tamaños de letra al azar hace que una página se vea desordenada. Una escala modular toma un tamaño base (por ejemplo 16px) y lo multiplica por una proporción matemática fija (como en la música), garantizando que todos los títulos (H1 a H6) y párrafos crezcan de forma equilibrada, elegante y fácil de leer."
+msgstr "En diseño web profesional, elegir tamaños de letra al azar hace que una página se vea desordenada. Una escala modular toma un tamaño base (por ejemplo 16px) y lo multiplica por una proporción matemática fija (como en la música), garantizando que todos los títulos (H1 a H6) y párrafos crezcan de forma equilibrada, elegante y fácil de leer."
+
+msgid "Encabezado de Bloque de Contenido H3"
+msgstr "Encabezado de Bloque de Contenido H3"
+
+msgid "Estas variables CSS están disponibles automáticamente en tu tema hijo, bloques de Gutenberg o estilos personalizados:"
+msgstr "Estas variables CSS están disponibles automáticamente en tu tema hijo, bloques de Gutenberg o estilos personalizados:"
+
+msgid "Este es el texto estándar de un párrafo en tu web. Todas las proporciones tipográficas están calculadas matemáticamente para ofrecer la máxima armonía visual y comodidad de lectura."
+msgstr "Este es el texto estándar de un párrafo en tu web. Todas las proporciones tipográficas están calculadas matemáticamente para ofrecer la máxima armonía visual y comodidad de lectura."
+
+msgid "Estándar Corporativo (1.250 - Major Third) [Recomendado]"
+msgstr "Estándar Corporativo (1.250 - Major Third) [Recomendado]"
+
+msgid "Etiqueta Menor o Subtítulo H5"
+msgstr "Etiqueta Menor o Subtítulo H5"
+
+msgid "Generación matemática de tamaños equilibrados para títulos (H1-H6), párrafos y variables CSS nativas para WordPress."
+msgstr "Generación matemática de tamaños equilibrados para títulos (H1-H6), párrafos y variables CSS nativas para WordPress."
+
+msgid "Glosario Tipográfico"
+msgstr "Glosario Tipográfico"
+
+msgid "Glosario de Conceptos Tipográficos"
+msgstr "Glosario de Conceptos Tipográficos"
+
+msgid "Guía & Presets"
+msgstr "Guía & Presets"
+
+msgid "H1: Calculando..."
+msgstr "H1: Calculando..."
+
+msgid "H2: Calculando..."
+msgstr "H2: Calculando..."
+
+msgid "H3: Calculando..."
+msgstr "H3: Calculando..."
+
+msgid "H4: Calculando..."
+msgstr "H4: Calculando..."
+
+msgid "H5: Calculando..."
+msgstr "H5: Calculando..."
+
+msgid "H6: Calculando..."
+msgstr "H6: Calculando..."
+
+msgid "La relación matemática clásica presente en la naturaleza y el arte. Produce un contraste muy marcado entre titulares gigantes y texto pequeño."
+msgstr "La relación matemática clásica presente en la naturaleza y el arte. Produce un contraste muy marcado entre titulares gigantes y texto pequeño."
+
+msgid "Moderno y Dinámico (1.333 - Perfect Fourth)"
+msgstr "Moderno y Dinámico (1.333 - Perfect Fourth)"
+
+msgid "Modular Scale (Tipografía)"
+msgstr "Modular Scale (Tipografía)"
+
+msgid "Navegación del Plugin"
+msgstr "Navegación del Plugin"
+
+msgid "Nota al Pie o Epígrafe H6"
+msgstr "Nota al Pie o Epígrafe H6"
+
+msgid "Número de decimales a redondear en el archivo CSS (2 es el estándar)."
+msgstr "Número de decimales a redondear en el archivo CSS (2 es el estándar)."
+
+msgid "Observa cómo cambiarán los tamaños de tus titulares y textos en tiempo real antes de guardar."
+msgstr "Observa cómo cambiarán los tamaños de tus titulares y textos en tiempo real antes de guardar."
+
+msgid "Opciones de Configuración"
+msgstr "Opciones de Configuración"
+
+msgid "Precisión (Decimales)"
+msgstr "Precisión (Decimales)"
+
+msgid "Previsualizador en Vivo (Sandbox)"
+msgstr "Previsualizador en Vivo (Sandbox)"
+
+msgid "Proporción / Ratio"
+msgstr "Proporción / Ratio"
+
+msgid "Proporción de Escala (Ratio)"
+msgstr "Proporción de Escala (Ratio)"
+
+msgid "Proporción Áurea (Golden Ratio - 1.618)"
+msgstr "Proporción Áurea (Golden Ratio - 1.618)"
+
+msgid "Párrafo: Calculando..."
+msgstr "Párrafo: Calculando..."
+
+msgid "Sandbox en Vivo"
+msgstr "Sandbox en Vivo"
+
+msgid "Subtítulo de Sección H2"
+msgstr "Subtítulo de Sección H2"
+
+msgid "Tamaño Base (Base Size)"
+msgstr "Tamaño Base (Base Size)"
+
+msgid "Tamaño Base (Texto normal / Párrafo)"
+msgstr "Tamaño Base (Texto normal / Párrafo)"
+
+msgid "Tipografía Modular Proporcional & Armónica"
+msgstr "Tipografía Modular Proporcional & Armónica"
+
+msgid "Titular Principal H1"
+msgstr "Titular Principal H1"
+
+msgid "Título de Tarjeta o Característica H4"
+msgstr "Título de Tarjeta o Característica H4"
+
+msgid "Unidad de Medida"
+msgstr "Unidad de Medida"
+
+msgid "Unidades REM"
+msgstr "Unidades REM"
+
+msgid "Unidades relativas a la configuración del navegador del usuario. Facilitan que usuarios con problemas de visión puedan agrandar el texto sin romper el diseño."
+msgstr "Unidades relativas a la configuración del navegador del usuario. Facilitan que usuarios con problemas de visión puedan agrandar el texto sin romper el diseño."
+
+msgid "Variables CSS Generadas"
+msgstr "Variables CSS Generadas"
+
+msgid "Variables CSS Nativas Generadas"
+msgstr "Variables CSS Nativas Generadas"
+
+msgid "WM Modular Scale"
+msgstr "WM Modular Scale"
+
+msgid "WM Modular Scale — Calculadora y Escala Tipográfica"
+msgstr "WM Modular Scale — Calculadora y Escala Tipográfica"
+
+msgid "em (Relativo al contenedor)"
+msgstr "em (Relativo al contenedor)"
+
+msgid "px (Píxeles - Más predecible y directo)"
+msgstr "px (Píxeles - Más predecible y directo)"
+
+msgid "rem (Recomendado para accesibilidad responsive)"
+msgstr "rem (Recomendado para accesibilidad responsive)"
+
+msgid "¿Qué es la escala modular y para qué sirve?"
+msgstr "¿Qué es la escala modular y para qué sirve?"
+
+msgid "💾 Guardar Cambios de Tipografía"
+msgstr "💾 Guardar Cambios de Tipografía"
+

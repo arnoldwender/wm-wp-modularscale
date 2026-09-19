@@ -1,0 +1,40 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "wm-scale/fluid-lead",
+  "version": "1.2.0",
+  "title": "Fluid Lead Text (WM Scale)",
+  "category": "wm-scale",
+  "icon": "editor-paragraph",
+  "description": "Paragraph with the fluid body font size, a maximum line length of 35–85 characters (default 65) and pretty line wrapping.",
+  "keywords": ["lead", "paragraph", "fluid", "typography", "reading"],
+  "textdomain": "wm-modularscale",
+  "attributes": {
+    "content": {
+      "type": "string",
+      "source": "html",
+      "selector": "p",
+      "default": "Einführungstext mit optimierter Zeilenbreite für ermüdungsfreies Lesen."
+    },
+    "measureLimit": {
+      "type": "integer",
+      "default": 65
+    },
+    "align": {
+      "type": "string",
+      "default": "left"
+    }
+  },
+  "supports": {
+    "align": ["left", "center", "right"],
+    "color": {
+      "text": true,
+      "background": true
+    },
+    "spacing": {
+      "margin": true,
+      "padding": true
+    }
+  },
+  "render": "file:./render.php"
+}

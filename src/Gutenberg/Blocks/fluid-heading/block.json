@@ -1,0 +1,49 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "wm-scale/fluid-heading",
+  "version": "1.2.0",
+  "title": "Fluid Heading (WM Scale)",
+  "category": "wm-scale",
+  "icon": "heading",
+  "description": "Heading (H1–H6) with the fluid font-size class of its level, balanced line wrapping and an optional custom clamp() value.",
+  "keywords": ["heading", "fluid", "typography", "scale", "modular"],
+  "textdomain": "wm-modularscale",
+  "attributes": {
+    "content": {
+      "type": "string",
+      "source": "html",
+      "selector": "h1,h2,h3,h4,h5,h6",
+      "default": "Überschrift mit harmonischer Skala"
+    },
+    "level": {
+      "type": "integer",
+      "default": 2
+    },
+    "step": {
+      "type": "integer",
+      "default": 5
+    },
+    "align": {
+      "type": "string",
+      "default": "left"
+    },
+    "customClamp": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "supports": {
+    "align": ["left", "center", "right", "wide", "full"],
+    "color": {
+      "gradients": true,
+      "text": true,
+      "background": true
+    },
+    "spacing": {
+      "margin": true,
+      "padding": true
+    }
+  },
+  "render": "file:./render.php"
+}

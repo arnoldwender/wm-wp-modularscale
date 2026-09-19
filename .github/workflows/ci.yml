@@ -1,0 +1,59 @@
+name: CI Test Suite
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        php-version: ['8.1', '8.2', '8.3']
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: ${{ matrix.php-version }}
+          extensions: dom, mbstring, json, openssl, libxml, simplexml
+
+      # One php call per file: `php tests/test-*.php` runs only the first file of the glob and hands the
+      # others to it as arguments, so test-ui-family.php never ran (measured 2026-09-15).
+      - name: Run Standalone Test Suite
+        run: |
+          php tests/test-suite.php
+          php tests/test-ui-family.php
+
+      - name: Mutation Check
+        run: bash tests/run-mutations.sh
+
+      # The settings-page script is JavaScript; tests/sandbox.test.ts runs it in jsdom.
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+
+      - name: Vitest
+        run: |
+          npm ci
+          npm test
+
+      - name: Compliance & Security Audit
+        run: python3 .github/scripts/security-audit.py
+
+      - name: CRA / SBOM Validation
+        run: |
+          # El mandato SBOM del Cyber Resilience Act aplica desde el 2027-12-11.
+          # Hasta que la flota tenga SBOMs esto avisa, no rompe el build.
+          if [ ! -f "bom.json" ]; then
+            echo "::warning::bom.json (SBOM) ausente — pendiente para el CRA (2027-12-11)."
+          else
+            echo "bom.json presente."
+          fi

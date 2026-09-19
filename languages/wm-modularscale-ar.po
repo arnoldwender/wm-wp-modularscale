@@ -1,0 +1,224 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wm-modularscale 1.0.0\n"
+"Report-Msgid-Bugs-To: https://www.wendermedia.com\n"
+"POT-Creation-Date: 2026-08-27 12:00+0200\n"
+"PO-Revision-Date: 2026-08-27 12:00+0200\n"
+"Last-Translator: Arnold Wender <info@wendermedia.com>\n"
+"Language-Team: Wender Media <info@wendermedia.com>\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Wender Media i18n Studio\n"
+
+msgid "-- Seleccionar proporción o escribir valor --"
+msgstr "-- اختر النسبة أو أدخل القيمة --"
+
+msgid "1.125 — Major Second (Compacto, ideal apps)"
+msgstr "1.125 — Major Second (كومباكتو، التطبيقات المثالية)"
+
+msgid "1.200 — Minor Third (Clásico, ideal blogs)"
+msgstr "1200 - الثلث الصغير (المدونات الكلاسيكية والمثالية)"
+
+msgid "1.250 — Major Third (Recomendado web corporativa)"
+msgstr "1,250 - المركز الثالث (موقع الويب الموصى به للشركة)"
+
+msgid "1.333 — Perfect Fourth (Títulos destacados)"
+msgstr "1,333 - الرابع المثالي (العناوين المميزة)"
+
+msgid "1.414 — Augmented Fourth (Editorial)"
+msgstr "1.414 - الرابع المعزز (الافتتاحي)"
+
+msgid "1.500 — Perfect Fifth (Diseños creativos)"
+msgstr "1,500 - الخامسة المثالية (التصاميم الإبداعية)"
+
+msgid "1.618 — Golden Ratio (Titulares gigantes)"
+msgstr "1,618 — النسبة الذهبية (العناوين العملاقة)"
+
+msgid "Activar y aplicar esta escala a todo el sitio web"
+msgstr "تفعيل وتطبيق هذا المقياس على الموقع بأكمله"
+
+msgid "Ajustes de Escala"
+msgstr "إعدادات المقياس"
+
+msgid "Alto Impacto / Revista (1.618 - Proporción Áurea)"
+msgstr "التأثير العالي / المجلة (1,618 - النسبة الذهبية)"
+
+msgid "Aplica automáticamente los tamaños calculados a las etiquetas <h1> hasta <h6>, párrafos <p> y listas de tu tema."
+msgstr "يتم تطبيق الأحجام المحسوبة تلقائيًا على العلامات من <h1> إلى <h6> والفقرات <p> والقوائم الموجودة في موضوعك."
+
+msgid "Calculando variables CSS..."
+msgstr "جارٍ حساب متغيرات CSS..."
+
+msgid "Clásico para Blogs (1.200 - Minor Third)"
+msgstr "الكلاسيكية للمدونات (1200 - الثلث الصغير)"
+
+msgid "Cuánto más grande es el número, mayor diferencia habrá entre un título H1 y un subtítulo H3."
+msgstr "كلما زاد العدد، زاد الفرق بين عنوان H1 وعنوان فرعي H3."
+
+msgid "Define la unidad CSS generada en las variables de tu tema."
+msgstr "حدد وحدة CSS التي تم إنشاؤها في متغيرات السمة الخاصة بك."
+
+msgid "Definiciones claras de los términos tipográficos para no diseñadores."
+msgstr "تعريفات واضحة للمصطلحات المطبعية لغير المصممين."
+
+msgid "El factor multiplicador constante entre un escalón de tamaño y el siguiente. Un ratio de 1.25 significa que cada título es un 25% más grande que el anterior."
+msgstr "عامل الضرب الثابت بين خطوة حجم واحدة والتي تليها. نسبة 1.25 تعني أن كل عنوان أكبر بنسبة 25% من العنوان السابق."
+
+msgid "El tamaño de fuente del cuerpo de texto normal (<p>). En el 95% de las webs modernas se fija en 16px para garantizar legibilidad en móviles y pantallas grandes."
+msgstr "حجم خط النص الأساسي العادي (<p>). في 95% من مواقع الويب الحديثة يتم ضبطها على 16 بكسل لضمان سهولة القراءة على الهواتف المحمولة والشاشات الكبيرة."
+
+msgid "El tamaño estándar de lectura en internet es 16px. Es el tamaño del cuerpo de texto a partir del cual se calculan los títulos."
+msgstr "حجم القراءة القياسي على الإنترنت هو 16 بكسل. هو حجم نص النص الذي يتم حساب العناوين منه."
+
+msgid "Elige una proporción recomendada con 1 clic:"
+msgstr "اختر النسبة الموصى بها بنقرة واحدة:"
+
+msgid "En diseño web profesional, elegir tamaños de letra al azar hace que una página se vea desordenada. Una escala modular toma un tamaño base (por ejemplo 16px) y lo multiplica por una proporción matemática fija (como en la música), garantizando que todos los títulos (H1 a H6) y párrafos crezcan de forma equilibrada, elegante y fácil de leer."
+msgstr "في تصميم الويب الاحترافي، يؤدي اختيار أحجام الخطوط عشوائيًا إلى جعل الصفحة تبدو مزدحمة. يأخذ المقياس المعياري حجمًا أساسيًا (على سبيل المثال 16 بكسل) ويضربه بنسبة رياضية ثابتة (كما هو الحال في الموسيقى)، مما يضمن نمو جميع العناوين (H1 إلى H6) والفقرات بطريقة متوازنة وأنيقة وسهلة القراءة."
+
+msgid "Encabezado de Bloque de Contenido H3"
+msgstr "رأس كتلة المحتوى H3"
+
+msgid "Estas variables CSS están disponibles automáticamente en tu tema hijo, bloques de Gutenberg o estilos personalizados:"
+msgstr "تتوفر متغيرات CSS هذه تلقائيًا في قالبك الفرعي أو كتل Gutenberg أو الأنماط المخصصة:"
+
+msgid "Este es el texto estándar de un párrafo en tu web. Todas las proporciones tipográficas están calculadas matemáticamente para ofrecer la máxima armonía visual y comodidad de lectura."
+msgstr "هذا هو النص القياسي للفقرة على موقع الويب الخاص بك. يتم حساب جميع النسب المطبعية رياضيًا لتوفير أقصى قدر من التناغم البصري وراحة القراءة."
+
+msgid "Estándar Corporativo (1.250 - Major Third) [Recomendado]"
+msgstr "معيار الشركة (1,250 - التخصص الثالث) [موصى به]"
+
+msgid "Etiqueta Menor o Subtítulo H5"
+msgstr "تسمية أصغر أو عنوان فرعي H5"
+
+msgid "Generación matemática de tamaños equilibrados para títulos (H1-H6), párrafos y variables CSS nativas para WordPress."
+msgstr "توليد رياضي للأحجام المتوازنة للعناوين (H1-H6) والفقرات ومتغيرات CSS الأصلية لـ WordPress."
+
+msgid "Glosario Tipográfico"
+msgstr "معجم مطبعي"
+
+msgid "Glosario de Conceptos Tipográficos"
+msgstr "معجم المفاهيم المطبعية"
+
+msgid "Guía & Presets"
+msgstr "الدليل والإعدادات المسبقة"
+
+msgid "H1: Calculando..."
+msgstr "H1: حساب..."
+
+msgid "H2: Calculando..."
+msgstr "H2: حساب..."
+
+msgid "H3: Calculando..."
+msgstr "H3: الحساب..."
+
+msgid "H4: Calculando..."
+msgstr "H4: حساب..."
+
+msgid "H5: Calculando..."
+msgstr "H5: الحساب..."
+
+msgid "H6: Calculando..."
+msgstr "H6: حساب..."
+
+msgid "La relación matemática clásica presente en la naturaleza y el arte. Produce un contraste muy marcado entre titulares gigantes y texto pequeño."
+msgstr "العلاقة الرياضية الكلاسيكية موجودة في الطبيعة والفن. إنه ينتج تناقضًا صارخًا للغاية بين العناوين الكبيرة والنصوص الصغيرة."
+
+msgid "Moderno y Dinámico (1.333 - Perfect Fourth)"
+msgstr "حديثة وديناميكية (1,333 - الرابعة المثالية)"
+
+msgid "Modular Scale (Tipografía)"
+msgstr "مقياس معياري (الطباعة)"
+
+msgid "Navegación del Plugin"
+msgstr "التنقل في البرنامج المساعد"
+
+msgid "Nota al Pie o Epígrafe H6"
+msgstr "حاشية سفلية أو عنوان H6"
+
+msgid "Número de decimales a redondear en el archivo CSS (2 es el estándar)."
+msgstr "عدد المنازل العشرية المطلوب تقريبها في ملف CSS (2 هو المعيار)."
+
+msgid "Observa cómo cambiarán los tamaños de tus titulares y textos en tiempo real antes de guardar."
+msgstr "شاهد كيف ستتغير أحجام عناوينك ونصوصك في الوقت الفعلي قبل حفظها."
+
+msgid "Opciones de Configuración"
+msgstr "خيارات التكوين"
+
+msgid "Precisión (Decimales)"
+msgstr "الدقة (الكسور العشرية)"
+
+msgid "Previsualizador en Vivo (Sandbox)"
+msgstr "المعاينة المباشرة (وضع الحماية)"
+
+msgid "Proporción / Ratio"
+msgstr "نسبة/نسبة"
+
+msgid "Proporción de Escala (Ratio)"
+msgstr "نسبة المقياس (النسبة)"
+
+msgid "Proporción Áurea (Golden Ratio - 1.618)"
+msgstr "النسبة الذهبية (النسبة الذهبية - 1.618)"
+
+msgid "Párrafo: Calculando..."
+msgstr "الفقرة: حساب..."
+
+msgid "Sandbox en Vivo"
+msgstr "صندوق الرمل المباشر"
+
+msgid "Subtítulo de Sección H2"
+msgstr "القسم H2 العنوان الفرعي"
+
+msgid "Tamaño Base (Base Size)"
+msgstr "حجم القاعدة"
+
+msgid "Tamaño Base (Texto normal / Párrafo)"
+msgstr "الحجم الأساسي (نص عادي / فقرة)"
+
+msgid "Tipografía Modular Proporcional & Armónica"
+msgstr "الطباعة النسبية والتوافقية المعيارية"
+
+msgid "Titular Principal H1"
+msgstr "H1 الحامل الرئيسي"
+
+msgid "Título de Tarjeta o Característica H4"
+msgstr "عنوان البطاقة أو الخاصية H4"
+
+msgid "Unidad de Medida"
+msgstr "وحدة القياس"
+
+msgid "Unidades REM"
+msgstr "وحدات الريم"
+
+msgid "Unidades relativas a la configuración del navegador del usuario. Facilitan que usuarios con problemas de visión puedan agrandar el texto sin romper el diseño."
+msgstr "الوحدات المتعلقة بإعدادات متصفح المستخدم. إنها تسهل على المستخدمين الذين يعانون من مشاكل في الرؤية تكبير النص دون كسر التصميم."
+
+msgid "Variables CSS Generadas"
+msgstr "متغيرات CSS التي تم إنشاؤها"
+
+msgid "Variables CSS Nativas Generadas"
+msgstr "تم إنشاء متغيرات CSS الأصلية"
+
+msgid "WM Modular Scale"
+msgstr "مقياس وحدات WM"
+
+msgid "WM Modular Scale — Calculadora y Escala Tipográfica"
+msgstr "مقياس WM المعياري – الآلة الحاسبة والمقياس المطبعي"
+
+msgid "em (Relativo al contenedor)"
+msgstr "في (بالنسبة للحاوية)"
+
+msgid "px (Píxeles - Más predecible y directo)"
+msgstr "px (وحدات البكسل - أكثر قابلية للتنبؤ بها ومباشرة)"
+
+msgid "rem (Recomendado para accesibilidad responsive)"
+msgstr "rem (موصى به لإمكانية الوصول سريعة الاستجابة)"
+
+msgid "¿Qué es la escala modular y para qué sirve?"
+msgstr "ما هو المقياس المعياري وما هو الغرض منه؟"
+
+msgid "💾 Guardar Cambios de Tipografía"
+msgstr "💾 حفظ تغييرات الطباعة"
+

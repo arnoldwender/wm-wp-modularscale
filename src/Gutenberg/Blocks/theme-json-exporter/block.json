@@ -1,0 +1,22 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "wm-scale/theme-json-exporter",
+  "version": "1.2.0",
+  "title": "Theme.json Exporter (WM Scale)",
+  "category": "wm-scale",
+  "icon": "code-standards",
+  "description": "Shows the theme.json fontSizes and the Tailwind CSS v4 @theme block generated from the stored scale.",
+  "keywords": ["theme.json", "exporter", "tokens", "json", "tailwind"],
+  "textdomain": "wm-modularscale",
+  "attributes": {
+    "format": {
+      "type": "string",
+      "default": "json"
+    }
+  },
+  "supports": {
+    "align": ["wide", "full"]
+  },
+  "render": "file:./render.php"
+}

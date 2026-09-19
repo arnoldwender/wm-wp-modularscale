@@ -1,0 +1,95 @@
+/* WM Modular Scale - Dynamic Typography Styles */
+
+body {
+    font-size: var(--wmmsp-base-size, 16px);
+    line-height: 1.6;
+}
+
+h1 {
+    font-size: var(--wmmsp-h1, 2.5rem);
+    line-height: 1.3;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: var(--wmmsp-h2, 2rem);
+    line-height: 1.35;
+    margin-bottom: 0.9rem;
+}
+
+h3 {
+    font-size: var(--wmmsp-h3, 1.75rem);
+    line-height: 1.4;
+    margin-bottom: 0.8rem;
+}
+
+h4 {
+    font-size: var(--wmmsp-h4, 1.5rem);
+    line-height: 1.45;
+    margin-bottom: 0.7rem;
+}
+
+h5 {
+    font-size: var(--wmmsp-h5, 1.25rem);
+    line-height: 1.5;
+    margin-bottom: 0.6rem;
+}
+
+h6 {
+    font-size: var(--wmmsp-h6, 1rem);
+    line-height: 1.55;
+    margin-bottom: 0.5rem;
+}
+
+p, ul, li, blockquote {
+    font-size: var(--wmmsp-paragraph, 1rem);
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+blockquote {
+    font-size: var(--wmmsp-h3, 1.75rem);
+    font-style: italic;
+    border-left: 4px solid #ccc;
+    padding-left: 1rem;
+    margin: 1.5rem 0;
+}
+
+code, pre {
+    font-family: monospace;
+    background: #f5f5f5;
+    padding: 0.5rem;
+    border-radius: 4px;
+    font-size: var(--wmmsp-h6, 1rem);
+}
+
+/* Ensure smooth scaling */
+:root {
+  /* Wender Media Canonical Brand Identity Tokens */
+  --wm-navy: #002D5B;
+  --wm-brand-blue: #0072BB;
+  --wm-brand-medium: #004C91;
+  --wm-brand-light: #339AD8;
+  --wm-gold: #FFD700;
+  --wm-gold-dark: #FFA500;
+  --wm-magenta: #D1006C;
+    --wmmsp-base-size: 16px;
+    --wmmsp-h1: calc(var(--wmmsp-base-size) * 2.5);
+    --wmmsp-h2: calc(var(--wmmsp-base-size) * 2);
+    --wmmsp-h3: calc(var(--wmmsp-base-size) * 1.75);
+    --wmmsp-h4: calc(var(--wmmsp-base-size) * 1.5);
+    --wmmsp-h5: calc(var(--wmmsp-base-size) * 1.25);
+    --wmmsp-h6: calc(var(--wmmsp-base-size) * 1);
+    --wmmsp-paragraph: calc(var(--wmmsp-base-size) * 1);
+}
+
+/*
+ * No viewport override of the base size: until 2026-09-14 this sheet dropped it to 14px under
+ * 1024px and 12px under 768px, against the 16px body minimum the plugin promises (BFSG 2025,
+ * readme "Accessibility Compliance"). The inline :root block from wmmsp_force_styles() carries
+ * the configured size on every viewport.
+ *
+ * The admin quick-guide / jump-nav / preset-pill block that followed (170 lines of forced
+ * rules, one of them suppressing the focus outline) moved to the family sheets in assets/css/;
+ * it never belonged in a frontend sheet.
+ */

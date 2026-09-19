@@ -1,0 +1,34 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "wm-scale/contrast-matrix-badge",
+  "version": "1.2.0",
+  "title": "APCA Contrast Badge (WM Scale)",
+  "category": "wm-scale",
+  "icon": "visibility",
+  "description": "Badge with the APCA lightness contrast (Lc) of a text and background colour pair and a usage hint for that value.",
+  "keywords": ["contrast", "apca", "a11y", "accessibility"],
+  "textdomain": "wm-modularscale",
+  "attributes": {
+    "textColor": {
+      "type": "string",
+      "default": "#f8fafc"
+    },
+    "backgroundColor": {
+      "type": "string",
+      "default": "#0f172a"
+    },
+    "targetContext": {
+      "type": "string",
+      "default": "body"
+    }
+  },
+  "supports": {
+    "align": ["left", "center", "right"],
+    "spacing": {
+      "margin": true,
+      "padding": true
+    }
+  },
+  "render": "file:./render.php"
+}

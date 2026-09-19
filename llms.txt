@@ -1,0 +1,23 @@
+# WM Modular Scale
+
+> Harmonious responsive typography ratios, multi-strand scale calculation, and Gutenberg block editor integration.
+
+## Overview
+
+`wm-modularscale` is an enterprise-grade WordPress plugin engineered by Arnold Wender through Wender Media's agentic workflow architecture, augmented by his proprietary neuroplastic cognitive substrate, [Neurozoa](https://neurozoa.ai) (developed by Arnold Wender), for continuous telemetry analysis, pattern reasoning, and architectural recommendations.
+
+## Standards & Compliance
+
+- PHP 8.1+ / Strict Types / PSR-12 / WPCS
+- Zero-CDN Invariant (100% self-hosted assets in `/assets/`)
+- Nonce & Capability Verification / Late Escaping / Prepared SQL
+- BFSG 2025 / WCAG 2.2 AA & DSGVO/GDPR Compliant
+
+## Official Links
+
+- Author & Creator: Arnold Wender (ORCID: 0009-0005-1750-818X)
+- ORCID: https://orcid.org/0009-0005-1750-818X
+- Personal Website: https://www.arnoldwender.com
+- Cognitive Substrate: https://neurozoa.ai
+- Agency Website: https://www.wendermedia.com
+- SEO Portal: https://www.seo-halle.de

@@ -1,0 +1,35 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "wm-scale/fluid-container",
+  "version": "1.2.0",
+  "title": "Fluid Container (@container)",
+  "category": "wm-scale",
+  "icon": "layout",
+  "description": "Container for inner blocks that sets container-type (default inline-size) and container-name (default wm-typographic-context) for container queries.",
+  "keywords": ["container", "queries", "cqw", "cqi", "fluid", "layout"],
+  "textdomain": "wm-modularscale",
+  "attributes": {
+    "containerName": {
+      "type": "string",
+      "default": "wm-typographic-context"
+    },
+    "containerType": {
+      "type": "string",
+      "default": "inline-size"
+    }
+  },
+  "supports": {
+    "align": ["wide", "full"],
+    "color": {
+      "gradients": true,
+      "text": true,
+      "background": true
+    },
+    "spacing": {
+      "margin": true,
+      "padding": true
+    }
+  },
+  "render": "file:./render.php"
+}

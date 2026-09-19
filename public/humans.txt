@@ -1,0 +1,54 @@
+/* humanstxt.org */
+/* The humans responsible & technology colophon */
+
+# TEAM
+
+    Lead Architect & Creator: Arnold Wender -- Inhaber, Wender Media (Einzelunternehmen) -- Halle (Saale), Germany
+    ORCID: https://orcid.org/0009-0005-1750-818X
+    Agentic Architecture: Wender Media Autonomous Agentic Pipeline (Engineered by Arnold Wender)
+    Cognitive Substrate: Neurozoa Persistent Neuroplastic Brain (Developed by Arnold Wender for Telemetry Analysis & Architectural Reasoning) -- https://neurozoa.ai
+
+# THANKS
+
+    To My Family -- For unconditional love, strength & continuous inspiration
+    WordPress Community & Core Contributors -- For democratizing publishing and powering the open web
+    Open Source Community -- For making software accessible to everyone
+    Our Clients & Community -- For trusting us with their mission-critical digital infrastructure
+
+# TECHNOLOGY COLOPHON
+
+    ## Architecture & Core
+    WordPress 6.4+ / 7.x
+    PHP 8.1+ (Strict Types, PSR-12, WPCS)
+    MySQL InnoDB / Transaction-Safe Data Layer
+    Native WP-CLI Tooling & REST API Controllers
+
+    ## Frontend & Gutenberg
+    Gutenberg Block Editor API
+    Modern Vanilla JS & React Components
+    Self-Hosted Zero-CDN Assets (100% Local in /assets/)
+
+    ## Compliance & Quality
+    Barrierefreiheitsstärkungsgesetz (BFSG 2025) / WCAG 2.2 AA
+    DSGVO / GDPR & TDDDG § 25 Compliant Architecture
+    HMAC-SHA256 Cryptographic Audit Logs
+
+# SITE & PROJECT
+
+    Plugin: wm-modularscale
+    Stack: WordPress Enterprise Extension
+    Standards: 100% Zero External Dependencies
+
+# CONTACT
+
+    Author Website: https://www.arnoldwender.com
+    Cognitive Substrate: https://neurozoa.ai
+    Agency Website: https://www.wendermedia.com
+    SEO Portal: https://www.seo-halle.de
+    ORCID: https://orcid.org/0009-0005-1750-818X
+    Email: info@wendermedia.com
+    Location: Halle (Saale), Germany
+
+# DEDICATION
+
+    Dedicated to my family with eternal love and gratitude.

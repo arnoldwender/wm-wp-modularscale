@@ -1,0 +1,30 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "wm-scale/typographic-grid",
+  "version": "1.2.0",
+  "title": "Typographic Grid (WM Scale)",
+  "category": "wm-scale",
+  "icon": "grid-view",
+  "description": "Grid of 1–6 equal columns for inner blocks, with a gap from the scale (default var(--wm-step-2)).",
+  "keywords": ["grid", "columns", "rhythm", "baseline", "typography"],
+  "textdomain": "wm-modularscale",
+  "attributes": {
+    "columns": {
+      "type": "integer",
+      "default": 3
+    },
+    "gap": {
+      "type": "string",
+      "default": "var(--wm-step-2, 1.5rem)"
+    }
+  },
+  "supports": {
+    "align": ["wide", "full"],
+    "spacing": {
+      "margin": true,
+      "padding": true
+    }
+  },
+  "render": "file:./render.php"
+}
