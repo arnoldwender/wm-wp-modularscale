@@ -3,7 +3,7 @@
  * Plugin Name:       WM Modular Scale
  * Plugin URI:        https://www.wendermedia.com/plugins/wm-modularscale/
  * Description:       Generates harmonious, responsive typography ratios and modular scales with a visual live preview sandbox for non-technical users.
- * Version:           1.2.0
+ * Version:           1.2.1
  * Requires at least: 6.4
  * Tested up to:      7.1
  * Requires PHP:      8.1
@@ -68,7 +68,7 @@ function wmmsp_force_styles() {
 		return;
 	}
 
-	wp_enqueue_style( 'wm-modularscale-css', plugins_url( 'wm-modularscale.css', __FILE__ ), [], '1.2.0' );
+	wp_enqueue_style( 'wm-modularscale-css', plugins_url( 'wm-modularscale.css', __FILE__ ), [], '1.2.1' );
 
 	$base      = (float) get_option( 'wmmsp_base_size', 16 );
 	$ratio     = (float) get_option( 'wmmsp_ratio', 1.25 );

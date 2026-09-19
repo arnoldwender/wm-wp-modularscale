@@ -1,6 +1,6 @@
 # WM Modular Scale — Developer Manual
 
-> **Author & Lead Architect:** Arnold Wender ([ORCID: 0009-0005-1750-818X](https://orcid.org/0009-0005-1750-818X)) · Wender Media · Halle (Saale) · 2026  
+> **Author & Web Developer:** Arnold Wender ([ORCID: 0009-0005-1750-818X](https://orcid.org/0009-0005-1750-818X)) · Wender Media · Halle (Saale) · 2026  
 > Everything below is measured against the code in this repository (2026-09-14). The previous edition of this file documented a REST namespace, a `wp_wm_modularscale_presets` table and an HMAC chain that never existed here.
 
 ---
@@ -134,7 +134,7 @@ Registered with `register_block_type_from_metadata()` on `init`; the category `w
 
 ## 8. WM Suite Hub spoke
 
-`ModularScale_Spoke_Adapter` (loaded only when the hub's interface exists): slug `wm-modularscale`, version `1.2.0`, health `HEALTHY`, SBOM component with the SHA-256 of `wm-modularscale.php`, settings URL `admin.php?page=wm-modular-scale`, telemetry `base_size`, `scale_ratio`, `typography_applied`, `token_h1..h3`, actions `self_test` / `calculate_scale`.
+`ModularScale_Spoke_Adapter` (loaded only when the hub's interface exists): slug `wm-modularscale`, version `1.2.1`, health `HEALTHY`, SBOM component with the SHA-256 of `wm-modularscale.php`, settings URL `admin.php?page=wm-modular-scale`, telemetry `base_size`, `scale_ratio`, `typography_applied`, `token_h1..h3`, actions `self_test` / `calculate_scale`.
 
 ---
 

@@ -15,7 +15,7 @@
 </p>
 
 > **Typographic scale calculator, fluid `clamp()` token generator and Gutenberg / GeneratePress / GenerateBlocks typography bridge for WordPress**  
-> **Author & Lead Architect:** Arnold Wender ([ORCID: 0009-0005-1750-818X](https://orcid.org/0009-0005-1750-818X)) · Inhaber, Wender Media (Einzelunternehmen) · Halle (Saale), Germany · 2026  
+> **Author & Web Developer:** Arnold Wender ([ORCID: 0009-0005-1750-818X](https://orcid.org/0009-0005-1750-818X)) · Inhaber, Wender Media (Einzelunternehmen) · Halle (Saale), Germany · 2026  
 > **Corporate Portal:** [https://www.wendermedia.com](https://www.wendermedia.com) · **Personal Website:** [https://www.arnoldwender.com](https://www.arnoldwender.com) · **SEO Portal:** [https://www.seo-halle.de](https://www.seo-halle.de) · **Cognitive Substrate:** [https://neurozoa.ai](https://neurozoa.ai)
 
 > This README describes what the plugin ships. Until 2026-09-14 it also described WP-CLI commands (`wp modular …`), a REST namespace, a `[wm_modular_scale_grid]` shortcode, GoBD audit exports and an HMAC hash chain; none of those exist in this repository (measured: no `WP_CLI::add_command`, `register_rest_route`, `add_shortcode`, `hash_hmac` or `dbDelta` call). The plugin stores ten options and prints CSS.

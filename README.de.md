@@ -7,7 +7,7 @@
 </p>
 
 > **Typografischer Skalen-Rechner, Generator fluider `clamp()`-Tokens und Typografie-Brücke zu Gutenberg, GeneratePress und GenerateBlocks**  
-> **Autor & Chefarchitekt:** Arnold Wender ([ORCID: 0009-0005-1750-818X](https://orcid.org/0009-0005-1750-818X)) · Inhaber von Wender Media und SEO Halle · Halle (Saale) · 2026  
+> **Autor & Webentwickler:** Arnold Wender ([ORCID: 0009-0005-1750-818X](https://orcid.org/0009-0005-1750-818X)) · Inhaber, Wender Media (Einzelunternehmen) · Halle (Saale) · 2026  
 > **Unternehmensportal:** [https://www.wendermedia.com](https://www.wendermedia.com) · **Persönliche Website:** [https://www.arnoldwender.com](https://www.arnoldwender.com) · **SEO Portal:** [https://www.seo-halle.de](https://www.seo-halle.de) · **Kognitives Substrat:** [https://neurozoa.ai](https://neurozoa.ai)
 
 > Diese Datei beschreibt, was das Plugin tatsächlich ausliefert. Bis zum 2026-09-14 nannte sie WP-CLI-Befehle (`wp modular …`), REST-Endpunkte, einen Shortcode `[wm_modular_scale_grid]`, GoBD-Exporte und eine HMAC-Hash-Kette; nichts davon existiert in diesem Repository (gemessen: kein `WP_CLI::add_command`, `register_rest_route`, `add_shortcode`, `hash_hmac`, `dbDelta`). Das Plugin speichert zehn Optionen und gibt CSS aus.

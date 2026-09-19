@@ -15,7 +15,7 @@
 </p>
 
 > **Typographic scale calculator, fluid `clamp()` token generator and Gutenberg / GeneratePress / GenerateBlocks typography bridge for WordPress**  
-> **Δημιουργός και επικεφαλής αρχιτέκτονας:** Arnold Wender ([ORCID: 0009-0005-1750-818X](https://orcid.org/0009-0005-1750-818X)) · Inhaber, Wender Media (Einzelunternehmen) · Halle (Saale), Germany · 2026  
+> **Δημιουργός και προγραμματιστής ιστού:** Arnold Wender ([ORCID: 0009-0005-1750-818X](https://orcid.org/0009-0005-1750-818X)) · Inhaber, Wender Media (Einzelunternehmen) · Halle (Saale), Germany · 2026  
 > **Επίσημος ιστότοπος:** [https://www.wendermedia.com](https://www.wendermedia.com) · **Personal Website:** [https://www.arnoldwender.com](https://www.arnoldwender.com) · **SEO Portal:** [https://www.seo-halle.de](https://www.seo-halle.de) · **Cognitive Substrate:** [https://neurozoa.ai](https://neurozoa.ai)
 
 ---

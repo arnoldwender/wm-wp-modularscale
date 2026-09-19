@@ -4,7 +4,7 @@ Tags: typography, modular scale, design tokens, css clamp, tailwindcss, gutenber
 Requires at least: 6.4
 Tested up to: 7.1
 Requires PHP: 8.1
-Stable tag: 1.2.0
+Stable tag: 1.2.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -56,6 +56,12 @@ No. It loads pure CSS without external CDN calls or runtime JavaScript execution
 * Settings page and dashboard widget on the Wender Media family sheets (shared tokens and components, visible focus rings, native wrap, family badge); the live sandbox script ships from assets/js instead of inline.
 * The admin enqueue pointed at a file that does not exist (404 on every settings page load); fixed.
 * The frontend sheet no longer shrinks the base font size to 14px / 12px on small viewports.
+
+= 1.2.1 =
+* Fix: `package.json` pointed at a repository that is not public. It now names github.com/arnoldwender/wm-wp-modularscale.
+* Docs: the author line said "Lead Architect" (and "Chefarchitekt", "capo architetto", "glowny architekt" ... in the translated READMEs). In Germany "Architekt" is a title reserved by the Architektengesetz of each Land; the line reads Web Developer now, in each language.
+* Docs: the author's legal role is stated once and correctly — Inhaber, Wender Media (Einzelunternehmen). There is one Einzelunternehmen; SEO Halle is one of its brands.
+* Tests: the mutation runner copied the tree with rsync and silenced the error; rsync is absent from ordinary CI images, so the copy came out empty and the runner blamed the suite. It uses tar now, says what failed, and refuses a copy shorter than what git listed.
 
 = 1.2.0 =
 * Scale engine, seven blocks, theme.json, GeneratePress and GenerateBlocks bridges, WM Suite Hub adapter, admin menu and dashboard widget.

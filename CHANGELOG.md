@@ -37,6 +37,14 @@ All notable changes to **WM Modular Scale** are documented in this file in adher
 
 ---
 
+## [1.2.1] - 2026-09-19
+
+- `package.json` named `arnoldwender/wm-modularscale`, which is PRIVATE: a 404 for every reader, and it published the internal repository's name. It names the public repository now.
+- The author line read "Author & Lead Architect", and its translations `Chefarchitekt`, `capo architetto`, `główny architekt`, `Príomh-Ailtire`, `Perit Prinċipali` and the rest, in 24 languages. "Architekt" is a title reserved by the Architektengesetz of each Land; the English compound "Software Architect" passes because the domain word removes the confusion, and this line had none while sitting next to a German address and a German legal form. It reads "Author & Web Developer" now, one per language.
+- The legal role is `Inhaber, Wender Media (Einzelunternehmen)` in every language. The earlier pass matched the English phrasings only and left `Inhaber von … und …` and `Titular de … y …` alive: the title was fixed and the claim of two companies survived.
+- The SBOM the plugin reports to the hub declared `Proprietary Wender Media Commercial License`, while the header, `readme.txt`, `package.json` and `LICENSE` all say GPLv2 or later — and the endpoint that serves it needs no authentication. It declares `GPL-2.0-or-later`, which is a real SPDX identifier.
+- `tests/run-mutations.sh` copied the working tree with `rsync` and discarded the error. `rsync` is not in ordinary CI base images; the copy came out empty and the runner reported "CONTROL FAILED", blaming the tests for a copy that never happened. It uses `tar`, states the cause, and verifies the copy by counting what `git ls-files` listed against what arrived.
+
 ## [1.2.0] — 2026-08-27
 
 Reconstructed on 2026-09-15: the plugin header went from 1.1.2 to 1.2.0 in `093fb86` (2026-08-27) and no entry was written; `readme.txt` got its `= 1.2.0 =` notes in `5a248ae` (2026-08-29). The list below is what the commits between them changed, read from their diffs.

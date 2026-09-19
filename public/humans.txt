@@ -3,7 +3,7 @@
 
 # TEAM
 
-    Lead Architect & Creator: Arnold Wender -- Inhaber, Wender Media (Einzelunternehmen) -- Halle (Saale), Germany
+    Author & Web Developer: Arnold Wender -- Inhaber, Wender Media (Einzelunternehmen) -- Halle (Saale), Germany
     ORCID: https://orcid.org/0009-0005-1750-818X
     Agentic Architecture: Wender Media Autonomous Agentic Pipeline (Engineered by Arnold Wender)
     Cognitive Substrate: Neurozoa Persistent Neuroplastic Brain (Developed by Arnold Wender for Telemetry Analysis & Architectural Reasoning) -- https://neurozoa.ai
