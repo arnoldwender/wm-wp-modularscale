@@ -88,6 +88,28 @@ return [
 		],
 	],
 	[
+		'the spoke adapter carries its own copy of the version again',
+		[
+			[ 'includes/class-modularscale-spoke-adapter.php', '$header = get_file_data( dirname( __DIR__ ) . \'/wm-modularscale.php\', [ \'version\' => \'Version\' ], \'plugin\' );
+
+		return \'\' !== $header[\'version\'] ? $header[\'version\'] : \'0.0.0\';', 'return \'1.2.0\';' ],
+		],
+	],
+	[
+		'Plugin::VERSION drifts from the plugin header again',
+		[
+			[ 'src/Plugin.php', 'public const VERSION = \'1.2.2\';', 'public const VERSION = \'1.2.0\';' ],
+		],
+	],
+	[
+		'the SBOM declares a Proprietary licence again',
+		[
+			[ 'includes/class-modularscale-spoke-adapter.php', '\'id\'   => \'GPL-2.0-or-later\',
+						\'name\' => \'GNU General Public License v2.0 or later\',', '\'id\'   => \'Proprietary\',
+						\'name\' => \'Proprietary Wender Media Commercial License\',' ],
+		],
+	],
+	[
 		'theme.json bridge reads the raw options again',
 		[
 			[ 'src/Integration/Theme_Json_Bridge.php', '$scale      = Plugin::scale_options();

@@ -556,6 +556,28 @@ $t->assert(
 	json_encode( $wrong_default )
 );
 
+// The hub SBOM is the only machine-readable statement of this plugin's version and licence, and it is
+// served without authentication. Both were wrong until 2026-09-20: the adapter returned the literal
+// '1.2.0' for a 1.2.2 plugin, and declared `Proprietary` although the header, readme.txt, package.json
+// and LICENSE all say GPLv2 or later. The CHANGELOG for 1.2.1 claimed the licence was already fixed;
+// `git log` on the adapter shows it was untouched since before that release.
+preg_match( '/^\s*\*\s*Version:\s*(\S+)/m', $main_code, $header_version );
+$t->assert(
+	isset( $header_version[1] ) && 1 !== preg_match( "/function get_version\(\): string \{\s*return '/", $adapter_src ),
+	'The spoke adapter reads the version from the plugin header instead of carrying a second copy of it',
+	json_encode( [ 'header' => $header_version[1] ?? null ] )
+);
+$t->assert(
+	isset( $header_version[1] ) && \WenderMedia\ModularScale\Plugin::VERSION === $header_version[1],
+	'Plugin::VERSION (the token stylesheet cache-buster) equals the version in the plugin header',
+	json_encode( [ 'header' => $header_version[1] ?? null, 'const' => \WenderMedia\ModularScale\Plugin::VERSION ] )
+);
+$t->assert(
+	false !== strpos( $adapter_src, "'id'   => 'GPL-2.0-or-later'" ) && false === strpos( $adapter_src, "'Proprietary'" ),
+	'The SBOM the adapter reports declares the licence the plugin ships under (GPL-2.0-or-later), not Proprietary',
+	json_encode( [ 'proprietary present' => false !== strpos( $adapter_src, "'Proprietary'" ) ] )
+);
+
 $direct_readers = [];
 foreach ( [ 'src/Integration/Theme_Json_Bridge.php', 'src/Gutenberg/Blocks/ratio-visualizer/render.php', 'src/Gutenberg/Blocks/theme-json-exporter/render.php', 'src/Plugin.php' ] as $reader ) {
 	if ( preg_match( "/get_option\(\s*'wmmsp_(base_size_max|min_viewport|max_viewport)'/", (string) file_get_contents( $plugin_root . '/' . $reader ), $dm ) && ! str_ends_with( $reader, 'Plugin.php' ) ) {

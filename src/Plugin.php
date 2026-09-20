@@ -22,9 +22,14 @@ use WenderMedia\ModularScale\Tokens\CSS_Token_Generator;
 final class Plugin {
 
 	/**
-	 * Plugin version
+	 * Plugin version — must equal the `Version:` header of wm-modularscale.php.
+	 *
+	 * It is the cache-buster of the token stylesheet, so while this said 1.2.0 and the header said
+	 * 1.2.2, an update shipped new tokens under the old version and browsers kept the old sheet.
+	 * A constant cannot call get_file_data(), so the header stays the single source and a test
+	 * pins this against it: change one without the other and the suite turns red.
 	 */
-	public const VERSION = '1.2.0';
+	public const VERSION = '1.2.2';
 
 	/**
 	 * Singleton instance

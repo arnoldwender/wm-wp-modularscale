@@ -30,8 +30,18 @@ class ModularScale_Spoke_Adapter implements WM_Plugin_Module_Interface {
 		return 'WM Modular Scale';
 	}
 
+	/**
+	 * The version WordPress itself reads, not a copy of it.
+	 *
+	 * This returned the literal '1.2.0' while the plugin header said 1.2.2, so the hub's SBOM
+	 * reported `pkg:wordpress/wm-modularscale@1.2.0` for a 1.2.2 install — and nothing could
+	 * notice, because a second copy of a number is a second thing that can be wrong. The header
+	 * is the one source WordPress uses, so it is the one read here.
+	 */
 	public function get_version(): string {
-		return '1.2.0';
+		$header = get_file_data( dirname( __DIR__ ) . '/wm-modularscale.php', [ 'version' => 'Version' ], 'plugin' );
+
+		return '' !== $header['version'] ? $header['version'] : '0.0.0';
 	}
 
 	public function get_description(): string {
@@ -56,11 +66,16 @@ class ModularScale_Spoke_Adapter implements WM_Plugin_Module_Interface {
 					'content' => hash_file( 'sha256', dirname( __DIR__ ) . '/wm-modularscale.php' ),
 				],
 			],
+			// The licence the plugin actually ships under. The header, readme.txt, package.json and
+			// LICENSE all say GPLv2 or later; this declared `Proprietary` until 2026-09-20, and the hub
+			// serves the SBOM without authentication, so the one machine-readable statement of this
+			// plugin's licence was the wrong one. `GPL-2.0-or-later` is a real SPDX id; `Proprietary`
+			// never was. The CHANGELOG entry for 1.2.1 claimed this was already fixed — it was not.
 			'licenses'    => [
 				[
 					'license' => [
-						'id'   => 'Proprietary',
-						'name' => 'Proprietary Wender Media Commercial License',
+						'id'   => 'GPL-2.0-or-later',
+						'name' => 'GNU General Public License v2.0 or later',
 					],
 				],
 			],
