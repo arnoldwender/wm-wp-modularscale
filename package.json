@@ -1,6 +1,6 @@
 {
   "name": "wm-modularscale",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "type": "module",
   "description": "WordPress plugin: modular type scale, fluid clamp() tokens and typography bridges. npm is used for the vitest suite only.",
   "private": true,

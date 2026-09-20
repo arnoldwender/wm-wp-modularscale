@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: wm-modularscale 2026.1\n"
-"Report-Msgid-Bugs-To: https://wendermedia.com\n"
-"POT-Creation-Date: 2026-08-29 00:24+0000\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wm-modularscale\n"
+"POT-Creation-Date: 2026-09-19T22:24:49+00:00\n"
 "PO-Revision-Date: 2026-08-29 00:24+0000\n"
 "Last-Translator: Arnold Wender <arnold.wender@gmail.com>\n"
 "Language-Team: Wender Media <info@wendermedia.com>\n"
@@ -15,314 +15,899 @@ msgstr ""
 "X-Generator: Wender Media Enterprise i18n Engine 2026\n"
 "X-Domain: wm-modularscale\n"
 
-#: wm-modularscale-pl_PL.po:1
-msgid "-- Seleccionar proporción o escribir valor --"
-msgstr "-- Seleccionar proporción o escribir valor --"
-
-#: wm-modularscale-pl_PL.po:1
-msgid "1.125 — Major Second (Compacto, ideal apps)"
-msgstr "1.125 — Major Second (Compacto, ideal apps)"
-
-#: wm-modularscale-pl_PL.po:1
-msgid "1.200 — Minor Third (Clásico, ideal blogs)"
-msgstr "1.200 — Minor Third (Clásico, ideal blogs)"
-
-#: wm-modularscale-pl_PL.po:1
-msgid "1.250 — Major Third (Recomendado web corporativa)"
-msgstr "1.250 — Major Third (Recomendado web corporativa)"
-
-#: wm-modularscale-pl_PL.po:1
-msgid "1.333 — Perfect Fourth (Títulos destacados)"
-msgstr "1.333 — Perfect Fourth (Títulos destacados)"
-
-#: wm-modularscale-pl_PL.po:1
-msgid "1.414 — Augmented Fourth (Editorial)"
-msgstr "1.414 — Augmented Fourth (Editorial)"
-
-#: wm-modularscale-pl_PL.po:1
-msgid "1.500 — Perfect Fifth (Diseños creativos)"
-msgstr "1.500 — Perfect Fifth (Diseños creativos)"
-
-#: wm-modularscale-pl_PL.po:1
-msgid "1.618 — Golden Ratio (Titulares gigantes)"
-msgstr "1.618 — Golden Ratio (Titulares gigantes)"
-
-#: wm-modularscale.php:619
-msgid "Activar y aplicar esta escala a todo el sitio web"
-msgstr "Aktivujte a použijte tuto stupnici na celý web"
-
-#: wm-modularscale.php:535
-msgid "Ajustes de Escala"
-msgstr "Nastavení měřítka"
-
-#: wm-modularscale-pl_PL.po:1
-msgid "Alto Impacto / Revista (1.618 - Proporción Áurea)"
-msgstr "Alto Impacto / Revista (1.618 - Proporción Áurea)"
-
-#: wm-modularscale-pl_PL.po:1
-msgid "Aplica automáticamente los tamaños calculados a las etiquetas <h1> hasta <h6>, párrafos <p> y listas de tu tema."
-msgstr "Aplica automáticamente los tamaños calculados a las etiquetas <h1> hasta <h6>, párrafos <p> y listas de tu tema."
-
-#: wm-modularscale.php:687
-msgid "Calculando variables CSS..."
-msgstr "Výpočet proměnných CSS..."
-
-#: wm-modularscale-pl_PL.po:1
-msgid "Clásico para Blogs (1.200 - Minor Third)"
-msgstr "Clásico para Blogs (1.200 - Minor Third)"
-
-#: wm-modularscale-pl_PL.po:1
-msgid "Cuánto más grande es el número, mayor diferencia habrá entre un título H1 y un subtítulo H3."
-msgstr "Cuánto más grande es el número, mayor diferencia habrá entre un título H1 y un subtítulo H3."
-
-#: wm-modularscale.php:604
-msgid "Define la unidad CSS generada en las variables de tu tema."
-msgstr "Definujte vygenerovanou jednotku CSS ve svých proměnných motivu."
-
-#: wm-modularscale-pl_PL.po:1
-msgid "Definiciones claras de los términos tipográficos para no diseñadores."
-msgstr "Definiciones claras de los términos tipográficos para no diseñadores."
-
-#: wm-modularscale.php:196
-msgid "Einstellungen"
-msgstr "Einstellungen"
-
-#: wm-modularscale-pl_PL.po:1
-msgid "El factor multiplicador constante entre un escalón de tamaño y el siguiente. Un ratio de 1.25 significa que cada título es un 25% más grande que el anterior."
-msgstr "El factor multiplicador constante entre un escalón de tamaño y el siguiente. Un ratio de 1.25 significa que cada título es un 25% más grande que el anterior."
-
-#: wm-modularscale-pl_PL.po:1
-msgid "El tamaño de fuente del cuerpo de texto normal (<p>). En el 95% de las webs modernas se fija en 16px para garantizar legibilidad en móviles y pantallas grandes."
-msgstr "El tamaño de fuente del cuerpo de texto normal (<p>). En el 95% de las webs modernas se fija en 16px para garantizar legibilidad en móviles y pantallas grandes."
-
-#: wm-modularscale-pl_PL.po:1
-msgid "El tamaño estándar de lectura en internet es 16px. Es el tamaño del cuerpo de texto a partir del cual se calculan los títulos."
-msgstr "El tamaño estándar de lectura en internet es 16px. Es el tamaño del cuerpo de texto a partir del cual se calculan los títulos."
-
-#: wm-modularscale-pl_PL.po:1
-msgid "Elige una proporción recomendada con 1 clic:"
-msgstr "Elige una proporción recomendada con 1 clic:"
-
-#: wm-modularscale-pl_PL.po:1
-msgid "En diseño web profesional, elegir tamaños de letra al azar hace que una página se vea desordenada. Una escala modular toma un tamaño base (por ejemplo 16px) y lo multiplica por una proporción matemática fija (como en la música), garantizando que todos los títulos (H1 a H6) y párrafos crezcan de forma equilibrada, elegante y fácil de leer."
-msgstr "En diseño web profesional, elegir tamaños de letra al azar hace que una página se vea desordenada. Una escala modular toma un tamaño base (por ejemplo 16px) y lo multiplica por una proporción matemática fija (como en la música), garantizando que todos los títulos (H1 a H6) y párrafos crezcan de forma equilibrada, elegante y fácil de leer."
-
-#: wm-modularscale.php:653
-msgid "Encabezado de Bloque de Contenido H3"
-msgstr "Záhlaví bloku obsahu H3"
-
-#: wm-modularscale-pl_PL.po:1
-msgid "Estas variables CSS están disponibles automáticamente en tu tema hijo, bloques de Gutenberg o estilos personalizados:"
-msgstr "Estas variables CSS están disponibles automáticamente en tu tema hijo, bloques de Gutenberg o estilos personalizados:"
-
-#: wm-modularscale-pl_PL.po:1
-msgid "Este es el texto estándar de un párrafo en tu web. Todas las proporciones tipográficas están calculadas matemáticamente para ofrecer la máxima armonía visual y comodidad de lectura."
-msgstr "Este es el texto estándar de un párrafo en tu web. Todas las proporciones tipográficas están calculadas matemáticamente para ofrecer la máxima armonía visual y comodidad de lectura."
-
-#: wm-modularscale-pl_PL.po:1
-msgid "Estándar Corporativo (1.250 - Major Third) [Recomendado]"
-msgstr "Estándar Corporativo (1.250 - Major Third) [Recomendado]"
-
-#: wm-modularscale-pl_PL.po:1
-msgid "Etiqueta Menor o Subtítulo H5"
-msgstr "Etiqueta Menor o Subtítulo H5"
-
-#: wm-modularscale-pl_PL.po:1
-msgid "Generación matemática de tamaños equilibrados para títulos (H1-H6), párrafos y variables CSS nativas para WordPress."
-msgstr "Generación matemática de tamaños equilibrados para títulos (H1-H6), párrafos y variables CSS nativas para WordPress."
-
-#: wm-modularscale-pl_PL.po:1
-msgid "Glosario Tipográfico"
-msgstr "Glosario Tipográfico"
-
-#: wm-modularscale-pl_PL.po:1
-msgid "Glosario de Conceptos Tipográficos"
-msgstr "Glosario de Conceptos Tipográficos"
-
-#: wm-modularscale-pl_PL.po:1
-msgid "Guía & Presets"
-msgstr "Guía & Presets"
-
-#: wm-modularscale.php:642
-msgid "H1: Calculando..."
-msgstr "H1: Počítám..."
-
-#: wm-modularscale.php:647
-msgid "H2: Calculando..."
-msgstr "H2: Počítám..."
-
-#: wm-modularscale.php:652
-msgid "H3: Calculando..."
-msgstr "H3: Počítám..."
-
-#: wm-modularscale.php:657
-msgid "H4: Calculando..."
-msgstr "H4: Počítám..."
-
-#: wm-modularscale.php:662
-msgid "H5: Calculando..."
-msgstr "H5: Počítám..."
-
-#: wm-modularscale.php:667
-msgid "H6: Calculando..."
-msgstr "H6: Počítám..."
-
-#: wm-modularscale-pl_PL.po:1
-msgid "La relación matemática clásica presente en la naturaleza y el arte. Produce un contraste muy marcado entre titulares gigantes y texto pequeño."
-msgstr "La relación matemática clásica presente en la naturaleza y el arte. Produce un contraste muy marcado entre titulares gigantes y texto pequeño."
-
-#: wm-modularscale.php:159
-msgid "Mathematisch harmonische Skala aktiv"
-msgstr "Mathematisch harmonische Skala aktiv"
-
-#: wm-modularscale-pl_PL.po:1
-msgid "Moderno y Dinámico (1.333 - Perfect Fourth)"
-msgstr "Moderno y Dinámico (1.333 - Perfect Fourth)"
-
-#: wm-modularscale.php:100
-msgid "Modular Scale"
-msgstr "Modular Scale"
-
-#: wm-modularscale-pl_PL.po:1
-msgid "Modular Scale (Tipografía)"
-msgstr "Modular Scale (Tipografía)"
-
-#: wm-modularscale-pl_PL.po:1
-msgid "Navegación del Plugin"
-msgstr "Navegación del Plugin"
-
-#: wm-modularscale-pl_PL.po:1
-msgid "Nota al Pie o Epígrafe H6"
-msgstr "Nota al Pie o Epígrafe H6"
-
-#: wm-modularscale-pl_PL.po:1
-msgid "Número de decimales a redondear en el archivo CSS (2 es el estándar)."
-msgstr "Número de decimales a redondear en el archivo CSS (2 es el estándar)."
-
-#: wm-modularscale-pl_PL.po:1
-msgid "Observa cómo cambiarán los tamaños de tus titulares y textos en tiempo real antes de guardar."
-msgstr "Observa cómo cambiarán los tamaños de tus titulares y textos en tiempo real antes de guardar."
-
-#: wm-modularscale-pl_PL.po:1
-msgid "Opciones de Configuración"
-msgstr "Opciones de Configuración"
-
-#: wm-modularscale-pl_PL.po:1
-msgid "Precisión (Decimales)"
-msgstr "Precisión (Decimales)"
-
-#: wm-modularscale.php:635
-msgid "Previsualizador en Vivo (Sandbox)"
-msgstr "Živý náhled (Sandbox)"
-
-#: wm-modularscale-pl_PL.po:1
-msgid "Proporción / Ratio"
-msgstr "Proporción / Ratio"
-
-#: wm-modularscale-pl_PL.po:1
-msgid "Proporción de Escala (Ratio)"
-msgstr "Proporción de Escala (Ratio)"
-
-#: wm-modularscale-pl_PL.po:1
-msgid "Proporción Áurea (Golden Ratio - 1.618)"
-msgstr "Proporción Áurea (Golden Ratio - 1.618)"
-
-#: wm-modularscale-pl_PL.po:1
-msgid "Párrafo: Calculando..."
-msgstr "Párrafo: Calculando..."
-
-#: wm-modularscale.php:538
-msgid "Sandbox en Vivo"
-msgstr "Živé pískoviště"
-
-#: wm-modularscale-pl_PL.po:1
-msgid "Subtítulo de Sección H2"
-msgstr "Subtítulo de Sección H2"
-
-#: wm-modularscale-pl_PL.po:1
-msgid "Tamaño Base (Base Size)"
-msgstr "Tamaño Base (Base Size)"
-
-#: wm-modularscale-pl_PL.po:1
-msgid "Tamaño Base (Texto normal / Párrafo)"
-msgstr "Tamaño Base (Texto normal / Párrafo)"
-
-#: wm-modularscale-pl_PL.po:1
-msgid "Tipografía Modular Proporcional & Armónica"
-msgstr "Tipografía Modular Proporcional & Armónica"
-
-#: wm-modularscale.php:643
-msgid "Titular Principal H1"
-msgstr "Hlavní držák H1"
-
-#: wm-modularscale-pl_PL.po:1
-msgid "Typografie-Cockpit öffnen"
-msgstr "Typografie-Cockpit öffnen"
-
-#: wm-modularscale-pl_PL.po:1
-msgid "Título de Tarjeta o Característica H4"
-msgstr "Título de Tarjeta o Característica H4"
-
-#: wm-modularscale.php:598
-msgid "Unidad de Medida"
-msgstr "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know."
-
-#: wm-modularscale.php:706
-msgid "Unidades REM"
-msgstr "REM jednotky"
-
-#: wm-modularscale-pl_PL.po:1
-msgid "Unidades relativas a la configuración del navegador del usuario. Facilitan que usuarios con problemas de visión puedan agrandar el texto sin romper el diseño."
-msgstr "Unidades relativas a la configuración del navegador del usuario. Facilitan que usuarios con problemas de visión puedan agrandar el texto sin romper el diseño."
-
-#: wm-modularscale.php:541
-msgid "Variables CSS Generadas"
-msgstr "Generované proměnné CSS"
-
-#: wm-modularscale.php:683
-msgid "Variables CSS Nativas Generadas"
-msgstr "Generované nativní proměnné CSS"
-
-#: wm-modularscale.php:99 wm-modularscale.php:120
+#. Plugin Name of the plugin
+#: wm-modularscale.php wm-modularscale.php:111 wm-modularscale.php:132
 msgid "WM Modular Scale"
 msgstr "Modulární měřítko WM"
 
-#: wm-modularscale-pl_PL.po:1
-msgid "WM Modular Scale — Calculadora y Escala Tipográfica"
-msgstr "WM Modular Scale — Calculadora y Escala Tipográfica"
+#. Plugin URI of the plugin
+#: wm-modularscale.php
+msgid "https://www.wendermedia.com/plugins/wm-modularscale/"
+msgstr ""
 
-#: wm-modularscale-pl_PL.po:1
-msgid "WM Modular Scale — Einstellungen & Vorschau"
-msgstr "WM Modular Scale — Einstellungen & Vorschau"
+#. Description of the plugin
+#: wm-modularscale.php
+msgid ""
+"Generates harmonious, responsive typography ratios and modular scales with a "
+"visual live preview sandbox for non-technical users."
+msgstr ""
 
-#: wm-modularscale-pl_PL.po:1
+#. Author of the plugin
+#: wm-modularscale.php
+msgid "Arnold Wender"
+msgstr ""
+
+#. Author URI of the plugin
+#: wm-modularscale.php
+msgid "https://www.arnoldwender.com"
+msgstr ""
+
+#: src/Gutenberg/Block_Manager.php:71
 msgid "WM Modular Scale — Typografie Enterprise"
 msgstr "WM Modular Scale — Typografie Enterprise"
 
-#: wm-modularscale.php:602
-msgid "em (Relativo al contenedor)"
-msgstr "v (vzhledem ke kontejneru)"
+#: wm-modularscale.php:112
+msgid "Modular Scale"
+msgstr "Modular Scale"
 
-#: wm-modularscale-pl_PL.po:1
-msgid "px (Píxeles - Más predecible y directo)"
-msgstr "px (Píxeles - Más predecible y directo)"
+#: wm-modularscale.php:123
+msgid "WM Modular Scale — Einstellungen & Vorschau"
+msgstr "WM Modular Scale — Einstellungen & Vorschau"
 
-#: wm-modularscale.php:601
-msgid "rem (Recomendado para accesibilidad responsive)"
-msgstr "rem (doporučeno pro citlivou dostupnost)"
+#: wm-modularscale.php:124
+msgid "Typografie & Skalen"
+msgstr ""
 
-#: wm-modularscale.php:550
-msgid "¿Qué es la escala modular y para qué sirve?"
-msgstr "¿Qué es la escala modular y para qué sirve?"
+#: wm-modularscale.php:133
+msgid "Modular Scale (Typografie)"
+msgstr ""
 
-#: wm-modularscale-pl_PL.po:1
-msgid "⚙️ Typografie & Skalen"
-msgstr "⚙️ Typografie & Skalen"
+#: wm-modularscale.php:151
+msgid "WM Modular Scale — Harmonische Typografie & CSS Variablen"
+msgstr ""
 
-#: wm-modularscale-pl_PL.po:1
-msgid "💾 Guardar Cambios de Tipografía"
-msgstr "💾 Guardar Cambios de Tipografía"
+#: wm-modularscale.php:176
+msgid "Skala auf der Website angewendet"
+msgstr ""
 
-#: wm-modularscale-pl_PL.po:1
-msgid "📐 WM Modular Scale — Harmonische Typografie & CSS Variablen"
-msgstr "📐 WM Modular Scale — Harmonische Typografie & CSS Variablen"
+#: wm-modularscale.php:177
+msgid "Skala berechnet, noch nicht auf die Website angewendet"
+msgstr ""
+
+#: wm-modularscale.php:180
+msgid "Fluid-Tokens (--wm-step-*) und Stylesheet (--wmmsp-*)"
+msgstr ""
+
+#: wm-modularscale.php:187 wm-modularscale.php:296
+msgid "Basisgröße"
+msgstr ""
+
+#: wm-modularscale.php:191
+msgid "Verhältnis"
+msgstr ""
+
+#: wm-modularscale.php:194
+msgid "Aktiv"
+msgstr ""
+
+#: wm-modularscale.php:194
+msgid "Aus"
+msgstr ""
+
+#: wm-modularscale.php:195
+msgid "Auf der Website"
+msgstr ""
+
+#: wm-modularscale.php:201
+msgid "Typografie-Cockpit öffnen"
+msgstr "Typografie-Cockpit öffnen"
+
+#: wm-modularscale.php:216 wm-modularscale.php:314 wm-modularscale.php:342
+msgid "Einstellungen"
+msgstr "Einstellungen"
+
+#: wm-modularscale.php:241
+msgid "Part of the Wender Media plugin family"
+msgstr ""
+
+#: wm-modularscale.php:243
+msgid "Wender Media"
+msgstr ""
+
+#: wm-modularscale.php:244
+msgid "Hub"
+msgstr ""
+
+#: wm-modularscale.php:244
+msgid "Standalone"
+msgstr ""
+
+#: wm-modularscale.php:258
+msgid "wird berechnet …"
+msgstr ""
+
+#: wm-modularscale.php:278
+msgid "Kleine Terz 1.200 – Blog"
+msgstr ""
+
+#: wm-modularscale.php:279
+msgid "Große Terz 1.250 – Voreinstellung"
+msgstr ""
+
+#: wm-modularscale.php:280
+msgid "Quarte 1.333 – markante Überschriften"
+msgstr ""
+
+#: wm-modularscale.php:281
+msgid "Goldener Schnitt 1.618 – Magazin, große Titel"
+msgstr ""
+
+#: wm-modularscale.php:285
+msgid "1.125 — Große Sekunde (kompakt, Anwendungen)"
+msgstr ""
+
+#: wm-modularscale.php:286
+msgid "1.200 — Kleine Terz (Blog)"
+msgstr ""
+
+#: wm-modularscale.php:287
+msgid "1.250 — Große Terz (Voreinstellung)"
+msgstr ""
+
+#: wm-modularscale.php:288
+msgid "1.333 — Quarte (markante Überschriften)"
+msgstr ""
+
+#: wm-modularscale.php:289
+msgid "1.414 — Übermäßige Quarte (Editorial)"
+msgstr ""
+
+#: wm-modularscale.php:290
+msgid "1.500 — Quinte (kreative Layouts)"
+msgstr ""
+
+#: wm-modularscale.php:291
+msgid "1.618 — Goldener Schnitt (sehr große Titel)"
+msgstr ""
+
+#: wm-modularscale.php:295 wm-modularscale.php:356
+msgid "Verhältnis (Ratio)"
+msgstr ""
+
+#: wm-modularscale.php:295
+msgid ""
+"Der feste Faktor zwischen zwei Stufen der Skala. Bei 1.25 ist jede Stufe 25 "
+"% größer als die vorherige."
+msgstr ""
+
+#: wm-modularscale.php:296
+msgid ""
+"Die Schriftgröße des Fließtexts (<p>). Aus ihr werden alle Überschriften "
+"berechnet. Browser verwenden ohne eigene Einstellung 16 px."
+msgstr ""
+
+#: wm-modularscale.php:297
+msgid "rem-Einheiten"
+msgstr ""
+
+#: wm-modularscale.php:297
+msgid ""
+"Relativ zur Schriftgröße, die im Browser eingestellt ist. Wer dort eine "
+"größere Schrift wählt, bekommt alle Stufen entsprechend größer."
+msgstr ""
+
+#: wm-modularscale.php:298
+msgid "Goldener Schnitt (1.618)"
+msgstr ""
+
+#: wm-modularscale.php:298
+msgid ""
+"Das Verhältnis (1 + √5) / 2. Als Skala ergibt es einen starken "
+"Größenunterschied zwischen Überschriften und Fließtext."
+msgstr ""
+
+#: wm-modularscale.php:305
+msgid "Modulare Typografie"
+msgstr ""
+
+#: wm-modularscale.php:306
+msgid "WM Modular Scale — Typografische Skala"
+msgstr ""
+
+#: wm-modularscale.php:307
+msgid ""
+"Berechnet die Schriftgrößen für Überschriften (H1–H6) und Fließtext aus "
+"einer Basisgröße und einem Verhältnis und gibt sie als CSS-Variablen aus."
+msgstr ""
+
+#: wm-modularscale.php:311
+msgid "Seitennavigation"
+msgstr ""
+
+#: wm-modularscale.php:312
+msgid "Springen zu:"
+msgstr ""
+
+#: wm-modularscale.php:313
+msgid "Anleitung & Vorlagen"
+msgstr ""
+
+#: wm-modularscale.php:315 wm-modularscale.php:402
+msgid "Live-Vorschau"
+msgstr ""
+
+#: wm-modularscale.php:316 wm-modularscale.php:423
+msgid "CSS-Variablen"
+msgstr ""
+
+#: wm-modularscale.php:317 wm-modularscale.php:432
+msgid "Glossar"
+msgstr ""
+
+#: wm-modularscale.php:323
+msgid "Was ist eine modulare Skala?"
+msgstr ""
+
+#: wm-modularscale.php:326
+msgid ""
+"Eine modulare Skala nimmt eine Basisgröße (zum Beispiel 16 px) und "
+"multipliziert sie Stufe für Stufe mit einem festen Verhältnis, wie die "
+"Intervalle in der Musik. So stehen Überschriften (H1 bis H6) und Fließtext "
+"in einem gleichbleibenden Größenverhältnis, statt einzeln festgelegt zu "
+"werden."
+msgstr ""
+
+#: wm-modularscale.php:329
+msgid "Vorlage übernehmen (setzt auch Basisgröße 16 und Einheit px):"
+msgstr ""
+
+#: wm-modularscale.php:350
+msgid "Basisgröße (Fließtext)"
+msgstr ""
+
+#: wm-modularscale.php:352
+msgid ""
+"Die Größe des Fließtexts, aus der die Überschriften berechnet werden. "
+"Browser verwenden ohne eigene Einstellung 16 px."
+msgstr ""
+
+#: wm-modularscale.php:358
+msgid "Vorlage wählen oder Wert eingeben"
+msgstr ""
+
+#: wm-modularscale.php:363
+msgid "Verhältnis als Zahl"
+msgstr ""
+
+#: wm-modularscale.php:365
+msgid "Je größer der Wert, desto größer der Abstand zwischen H1 und H3."
+msgstr ""
+
+#: wm-modularscale.php:369
+msgid "Einheit"
+msgstr ""
+
+#: wm-modularscale.php:371
+msgid "px (Pixel, feste Größe)"
+msgstr ""
+
+#: wm-modularscale.php:372
+msgid "rem (relativ zur Schriftgröße des Browsers)"
+msgstr ""
+
+#: wm-modularscale.php:373
+msgid "em (relativ zum übergeordneten Element)"
+msgstr ""
+
+#: wm-modularscale.php:375
+msgid ""
+"Einheit der Variablen --wmmsp-* im Stylesheet. Die Fluid-Tokens --wm-step-* "
+"verwenden immer rem."
+msgstr ""
+
+#: wm-modularscale.php:379
+msgid "Nachkommastellen"
+msgstr ""
+
+#: wm-modularscale.php:381
+msgid ""
+"Auf so viele Nachkommastellen rundet das Stylesheet die Werte "
+"(Voreinstellung 2)."
+msgstr ""
+
+#: wm-modularscale.php:388
+msgid "Skala auf der Website anwenden"
+msgstr ""
+
+#: wm-modularscale.php:389
+msgid ""
+"Gibt die Fluid-Tokens --wm-step-* im Seitenkopf aus und lädt das Stylesheet, "
+"das body, h1–h6, Absätze, Listen, Zitate und Code aus diesen Werten setzt."
+msgstr ""
+
+#: wm-modularscale.php:395
+msgid "Typografie speichern"
+msgstr ""
+
+#: wm-modularscale.php:404
+msgid ""
+"Zeigt die Größen des Stylesheets (--wmmsp-*) für die aktuellen Felder, bevor "
+"Sie speichern."
+msgstr ""
+
+#: wm-modularscale.php:409
+msgid "Hauptüberschrift H1"
+msgstr ""
+
+#: wm-modularscale.php:410
+msgid "Abschnittsüberschrift H2"
+msgstr ""
+
+#: wm-modularscale.php:411
+msgid "Überschrift eines Inhaltsblocks H3"
+msgstr ""
+
+#: wm-modularscale.php:412
+msgid "Titel einer Karte H4"
+msgstr ""
+
+#: wm-modularscale.php:413
+msgid "Kleine Überschrift H5"
+msgstr ""
+
+#: wm-modularscale.php:414
+msgid "Fußnote H6"
+msgstr ""
+
+#: wm-modularscale.php:415
+msgid "Fließtext"
+msgstr ""
+
+#: wm-modularscale.php:415
+msgid ""
+"Das ist ein Absatz im Fließtext. Seine Größe ist die Basisgröße; die "
+"Überschriften darüber sind daraus berechnet."
+msgstr ""
+
+#: wm-modularscale.php:425
+msgid ""
+"Diese Variablen setzt das Stylesheet, wenn die Skala angewendet wird. Die "
+"fließenden Stufen --wm-step-neg-2 bis --wm-step-6 berechnet das Plugin "
+"zusätzlich aus Basisgröße, maximaler Basisgröße und den Viewport-Breiten."
+msgstr ""
+
+#: wm-modularscale.php:427
+msgid "Variablen werden berechnet …"
+msgstr ""
+
+#: wm-modularscale.php:434
+msgid "Die Begriffe dieser Seite kurz erklärt."
+msgstr ""
+
+#: src/Gutenberg/Blocks/contrast-matrix-badge/block.json
+msgctxt "block title"
+msgid "APCA Contrast Badge (WM Scale)"
+msgstr ""
+
+#: src/Gutenberg/Blocks/contrast-matrix-badge/block.json
+msgctxt "block description"
+msgid ""
+"Badge with the APCA lightness contrast (Lc) of a text and background colour "
+"pair and a usage hint for that value."
+msgstr ""
+
+#: src/Gutenberg/Blocks/contrast-matrix-badge/block.json
+msgctxt "block keyword"
+msgid "contrast"
+msgstr ""
+
+#: src/Gutenberg/Blocks/contrast-matrix-badge/block.json
+msgctxt "block keyword"
+msgid "apca"
+msgstr ""
+
+#: src/Gutenberg/Blocks/contrast-matrix-badge/block.json
+msgctxt "block keyword"
+msgid "a11y"
+msgstr ""
+
+#: src/Gutenberg/Blocks/contrast-matrix-badge/block.json
+msgctxt "block keyword"
+msgid "accessibility"
+msgstr ""
+
+#: src/Gutenberg/Blocks/fluid-container/block.json
+msgctxt "block title"
+msgid "Fluid Container (@container)"
+msgstr ""
+
+#: src/Gutenberg/Blocks/fluid-container/block.json
+msgctxt "block description"
+msgid ""
+"Container for inner blocks that sets container-type (default inline-size) "
+"and container-name (default wm-typographic-context) for container queries."
+msgstr ""
+
+#: src/Gutenberg/Blocks/fluid-container/block.json
+msgctxt "block keyword"
+msgid "container"
+msgstr ""
+
+#: src/Gutenberg/Blocks/fluid-container/block.json
+msgctxt "block keyword"
+msgid "queries"
+msgstr ""
+
+#: src/Gutenberg/Blocks/fluid-container/block.json
+msgctxt "block keyword"
+msgid "cqw"
+msgstr ""
+
+#: src/Gutenberg/Blocks/fluid-container/block.json
+msgctxt "block keyword"
+msgid "cqi"
+msgstr ""
+
+#: src/Gutenberg/Blocks/fluid-container/block.json
+#: src/Gutenberg/Blocks/fluid-heading/block.json
+#: src/Gutenberg/Blocks/fluid-lead/block.json
+msgctxt "block keyword"
+msgid "fluid"
+msgstr ""
+
+#: src/Gutenberg/Blocks/fluid-container/block.json
+msgctxt "block keyword"
+msgid "layout"
+msgstr ""
+
+#: src/Gutenberg/Blocks/fluid-heading/block.json
+msgctxt "block title"
+msgid "Fluid Heading (WM Scale)"
+msgstr ""
+
+#: src/Gutenberg/Blocks/fluid-heading/block.json
+msgctxt "block description"
+msgid ""
+"Heading (H1–H6) with the fluid font-size class of its level, balanced line "
+"wrapping and an optional custom clamp() value."
+msgstr ""
+
+#: src/Gutenberg/Blocks/fluid-heading/block.json
+msgctxt "block keyword"
+msgid "heading"
+msgstr ""
+
+#: src/Gutenberg/Blocks/fluid-heading/block.json
+#: src/Gutenberg/Blocks/fluid-lead/block.json
+#: src/Gutenberg/Blocks/typographic-grid/block.json
+msgctxt "block keyword"
+msgid "typography"
+msgstr ""
+
+#: src/Gutenberg/Blocks/fluid-heading/block.json
+#: src/Gutenberg/Blocks/ratio-visualizer/block.json
+msgctxt "block keyword"
+msgid "scale"
+msgstr ""
+
+#: src/Gutenberg/Blocks/fluid-heading/block.json
+msgctxt "block keyword"
+msgid "modular"
+msgstr ""
+
+#: src/Gutenberg/Blocks/fluid-lead/block.json
+msgctxt "block title"
+msgid "Fluid Lead Text (WM Scale)"
+msgstr ""
+
+#: src/Gutenberg/Blocks/fluid-lead/block.json
+msgctxt "block description"
+msgid ""
+"Paragraph with the fluid body font size, a maximum line length of 35–85 "
+"characters (default 65) and pretty line wrapping."
+msgstr ""
+
+#: src/Gutenberg/Blocks/fluid-lead/block.json
+msgctxt "block keyword"
+msgid "lead"
+msgstr ""
+
+#: src/Gutenberg/Blocks/fluid-lead/block.json
+msgctxt "block keyword"
+msgid "paragraph"
+msgstr ""
+
+#: src/Gutenberg/Blocks/fluid-lead/block.json
+msgctxt "block keyword"
+msgid "reading"
+msgstr ""
+
+#: src/Gutenberg/Blocks/ratio-visualizer/block.json
+msgctxt "block title"
+msgid "Ratio Visualizer (SVG Curve)"
+msgstr ""
+
+#: src/Gutenberg/Blocks/ratio-visualizer/block.json
+msgctxt "block description"
+msgid ""
+"Shows the nine scale steps with their minimum and maximum size in px, "
+"calculated from the stored base sizes and ratio."
+msgstr ""
+
+#: src/Gutenberg/Blocks/ratio-visualizer/block.json
+msgctxt "block keyword"
+msgid "visualizer"
+msgstr ""
+
+#: src/Gutenberg/Blocks/ratio-visualizer/block.json
+msgctxt "block keyword"
+msgid "ratio"
+msgstr ""
+
+#: src/Gutenberg/Blocks/ratio-visualizer/block.json
+msgctxt "block keyword"
+msgid "svg"
+msgstr ""
+
+#: src/Gutenberg/Blocks/ratio-visualizer/block.json
+msgctxt "block keyword"
+msgid "curve"
+msgstr ""
+
+#: src/Gutenberg/Blocks/ratio-visualizer/block.json
+msgctxt "block keyword"
+msgid "preview"
+msgstr ""
+
+#: src/Gutenberg/Blocks/theme-json-exporter/block.json
+msgctxt "block title"
+msgid "Theme.json Exporter (WM Scale)"
+msgstr ""
+
+#: src/Gutenberg/Blocks/theme-json-exporter/block.json
+msgctxt "block description"
+msgid ""
+"Shows the theme.json fontSizes and the Tailwind CSS v4 @theme block "
+"generated from the stored scale."
+msgstr ""
+
+#: src/Gutenberg/Blocks/theme-json-exporter/block.json
+msgctxt "block keyword"
+msgid "theme.json"
+msgstr ""
+
+#: src/Gutenberg/Blocks/theme-json-exporter/block.json
+msgctxt "block keyword"
+msgid "exporter"
+msgstr ""
+
+#: src/Gutenberg/Blocks/theme-json-exporter/block.json
+msgctxt "block keyword"
+msgid "tokens"
+msgstr ""
+
+#: src/Gutenberg/Blocks/theme-json-exporter/block.json
+msgctxt "block keyword"
+msgid "json"
+msgstr ""
+
+#: src/Gutenberg/Blocks/theme-json-exporter/block.json
+msgctxt "block keyword"
+msgid "tailwind"
+msgstr ""
+
+#: src/Gutenberg/Blocks/typographic-grid/block.json
+msgctxt "block title"
+msgid "Typographic Grid (WM Scale)"
+msgstr ""
+
+#: src/Gutenberg/Blocks/typographic-grid/block.json
+msgctxt "block description"
+msgid ""
+"Grid of 1–6 equal columns for inner blocks, with a gap from the scale "
+"(default var(--wm-step-2))."
+msgstr ""
+
+#: src/Gutenberg/Blocks/typographic-grid/block.json
+msgctxt "block keyword"
+msgid "grid"
+msgstr ""
+
+#: src/Gutenberg/Blocks/typographic-grid/block.json
+msgctxt "block keyword"
+msgid "columns"
+msgstr ""
+
+#: src/Gutenberg/Blocks/typographic-grid/block.json
+msgctxt "block keyword"
+msgid "rhythm"
+msgstr ""
+
+#: src/Gutenberg/Blocks/typographic-grid/block.json
+msgctxt "block keyword"
+msgid "baseline"
+msgstr ""
+
+#~ msgid "-- Seleccionar proporción o escribir valor --"
+#~ msgstr "-- Seleccionar proporción o escribir valor --"
+
+#~ msgid "1.125 — Major Second (Compacto, ideal apps)"
+#~ msgstr "1.125 — Major Second (Compacto, ideal apps)"
+
+#~ msgid "1.200 — Minor Third (Clásico, ideal blogs)"
+#~ msgstr "1.200 — Minor Third (Clásico, ideal blogs)"
+
+#~ msgid "1.250 — Major Third (Recomendado web corporativa)"
+#~ msgstr "1.250 — Major Third (Recomendado web corporativa)"
+
+#~ msgid "1.333 — Perfect Fourth (Títulos destacados)"
+#~ msgstr "1.333 — Perfect Fourth (Títulos destacados)"
+
+#~ msgid "1.414 — Augmented Fourth (Editorial)"
+#~ msgstr "1.414 — Augmented Fourth (Editorial)"
+
+#~ msgid "1.500 — Perfect Fifth (Diseños creativos)"
+#~ msgstr "1.500 — Perfect Fifth (Diseños creativos)"
+
+#~ msgid "1.618 — Golden Ratio (Titulares gigantes)"
+#~ msgstr "1.618 — Golden Ratio (Titulares gigantes)"
+
+#~ msgid "Activar y aplicar esta escala a todo el sitio web"
+#~ msgstr "Aktivujte a použijte tuto stupnici na celý web"
+
+#~ msgid "Ajustes de Escala"
+#~ msgstr "Nastavení měřítka"
+
+#~ msgid "Alto Impacto / Revista (1.618 - Proporción Áurea)"
+#~ msgstr "Alto Impacto / Revista (1.618 - Proporción Áurea)"
+
+#~ msgid ""
+#~ "Aplica automáticamente los tamaños calculados a las etiquetas <h1> hasta "
+#~ "<h6>, párrafos <p> y listas de tu tema."
+#~ msgstr ""
+#~ "Aplica automáticamente los tamaños calculados a las etiquetas <h1> hasta "
+#~ "<h6>, párrafos <p> y listas de tu tema."
+
+#~ msgid "Calculando variables CSS..."
+#~ msgstr "Výpočet proměnných CSS..."
+
+#~ msgid "Clásico para Blogs (1.200 - Minor Third)"
+#~ msgstr "Clásico para Blogs (1.200 - Minor Third)"
+
+#~ msgid ""
+#~ "Cuánto más grande es el número, mayor diferencia habrá entre un título H1 "
+#~ "y un subtítulo H3."
+#~ msgstr ""
+#~ "Cuánto más grande es el número, mayor diferencia habrá entre un título H1 "
+#~ "y un subtítulo H3."
+
+#~ msgid "Define la unidad CSS generada en las variables de tu tema."
+#~ msgstr "Definujte vygenerovanou jednotku CSS ve svých proměnných motivu."
+
+#~ msgid ""
+#~ "Definiciones claras de los términos tipográficos para no diseñadores."
+#~ msgstr ""
+#~ "Definiciones claras de los términos tipográficos para no diseñadores."
+
+#~ msgid ""
+#~ "El factor multiplicador constante entre un escalón de tamaño y el "
+#~ "siguiente. Un ratio de 1.25 significa que cada título es un 25% más "
+#~ "grande que el anterior."
+#~ msgstr ""
+#~ "El factor multiplicador constante entre un escalón de tamaño y el "
+#~ "siguiente. Un ratio de 1.25 significa que cada título es un 25% más "
+#~ "grande que el anterior."
+
+#~ msgid ""
+#~ "El tamaño de fuente del cuerpo de texto normal (<p>). En el 95% de las "
+#~ "webs modernas se fija en 16px para garantizar legibilidad en móviles y "
+#~ "pantallas grandes."
+#~ msgstr ""
+#~ "El tamaño de fuente del cuerpo de texto normal (<p>). En el 95% de las "
+#~ "webs modernas se fija en 16px para garantizar legibilidad en móviles y "
+#~ "pantallas grandes."
+
+#~ msgid ""
+#~ "El tamaño estándar de lectura en internet es 16px. Es el tamaño del "
+#~ "cuerpo de texto a partir del cual se calculan los títulos."
+#~ msgstr ""
+#~ "El tamaño estándar de lectura en internet es 16px. Es el tamaño del "
+#~ "cuerpo de texto a partir del cual se calculan los títulos."
+
+#~ msgid "Elige una proporción recomendada con 1 clic:"
+#~ msgstr "Elige una proporción recomendada con 1 clic:"
+
+#~ msgid ""
+#~ "En diseño web profesional, elegir tamaños de letra al azar hace que una "
+#~ "página se vea desordenada. Una escala modular toma un tamaño base (por "
+#~ "ejemplo 16px) y lo multiplica por una proporción matemática fija (como en "
+#~ "la música), garantizando que todos los títulos (H1 a H6) y párrafos "
+#~ "crezcan de forma equilibrada, elegante y fácil de leer."
+#~ msgstr ""
+#~ "En diseño web profesional, elegir tamaños de letra al azar hace que una "
+#~ "página se vea desordenada. Una escala modular toma un tamaño base (por "
+#~ "ejemplo 16px) y lo multiplica por una proporción matemática fija (como en "
+#~ "la música), garantizando que todos los títulos (H1 a H6) y párrafos "
+#~ "crezcan de forma equilibrada, elegante y fácil de leer."
+
+#~ msgid "Encabezado de Bloque de Contenido H3"
+#~ msgstr "Záhlaví bloku obsahu H3"
+
+#~ msgid ""
+#~ "Estas variables CSS están disponibles automáticamente en tu tema hijo, "
+#~ "bloques de Gutenberg o estilos personalizados:"
+#~ msgstr ""
+#~ "Estas variables CSS están disponibles automáticamente en tu tema hijo, "
+#~ "bloques de Gutenberg o estilos personalizados:"
+
+#~ msgid ""
+#~ "Este es el texto estándar de un párrafo en tu web. Todas las proporciones "
+#~ "tipográficas están calculadas matemáticamente para ofrecer la máxima "
+#~ "armonía visual y comodidad de lectura."
+#~ msgstr ""
+#~ "Este es el texto estándar de un párrafo en tu web. Todas las proporciones "
+#~ "tipográficas están calculadas matemáticamente para ofrecer la máxima "
+#~ "armonía visual y comodidad de lectura."
+
+#~ msgid "Estándar Corporativo (1.250 - Major Third) [Recomendado]"
+#~ msgstr "Estándar Corporativo (1.250 - Major Third) [Recomendado]"
+
+#~ msgid "Etiqueta Menor o Subtítulo H5"
+#~ msgstr "Etiqueta Menor o Subtítulo H5"
+
+#~ msgid ""
+#~ "Generación matemática de tamaños equilibrados para títulos (H1-H6), "
+#~ "párrafos y variables CSS nativas para WordPress."
+#~ msgstr ""
+#~ "Generación matemática de tamaños equilibrados para títulos (H1-H6), "
+#~ "párrafos y variables CSS nativas para WordPress."
+
+#~ msgid "Glosario Tipográfico"
+#~ msgstr "Glosario Tipográfico"
+
+#~ msgid "Glosario de Conceptos Tipográficos"
+#~ msgstr "Glosario de Conceptos Tipográficos"
+
+#~ msgid "Guía & Presets"
+#~ msgstr "Guía & Presets"
+
+#~ msgid "H1: Calculando..."
+#~ msgstr "H1: Počítám..."
+
+#~ msgid "H2: Calculando..."
+#~ msgstr "H2: Počítám..."
+
+#~ msgid "H3: Calculando..."
+#~ msgstr "H3: Počítám..."
+
+#~ msgid "H4: Calculando..."
+#~ msgstr "H4: Počítám..."
+
+#~ msgid "H5: Calculando..."
+#~ msgstr "H5: Počítám..."
+
+#~ msgid "H6: Calculando..."
+#~ msgstr "H6: Počítám..."
+
+#~ msgid ""
+#~ "La relación matemática clásica presente en la naturaleza y el arte. "
+#~ "Produce un contraste muy marcado entre titulares gigantes y texto pequeño."
+#~ msgstr ""
+#~ "La relación matemática clásica presente en la naturaleza y el arte. "
+#~ "Produce un contraste muy marcado entre titulares gigantes y texto pequeño."
+
+#~ msgid "Mathematisch harmonische Skala aktiv"
+#~ msgstr "Mathematisch harmonische Skala aktiv"
+
+#~ msgid "Moderno y Dinámico (1.333 - Perfect Fourth)"
+#~ msgstr "Moderno y Dinámico (1.333 - Perfect Fourth)"
+
+#~ msgid "Modular Scale (Tipografía)"
+#~ msgstr "Modular Scale (Tipografía)"
+
+#~ msgid "Navegación del Plugin"
+#~ msgstr "Navegación del Plugin"
+
+#~ msgid "Nota al Pie o Epígrafe H6"
+#~ msgstr "Nota al Pie o Epígrafe H6"
+
+#~ msgid ""
+#~ "Número de decimales a redondear en el archivo CSS (2 es el estándar)."
+#~ msgstr ""
+#~ "Número de decimales a redondear en el archivo CSS (2 es el estándar)."
+
+#~ msgid ""
+#~ "Observa cómo cambiarán los tamaños de tus titulares y textos en tiempo "
+#~ "real antes de guardar."
+#~ msgstr ""
+#~ "Observa cómo cambiarán los tamaños de tus titulares y textos en tiempo "
+#~ "real antes de guardar."
+
+#~ msgid "Opciones de Configuración"
+#~ msgstr "Opciones de Configuración"
+
+#~ msgid "Precisión (Decimales)"
+#~ msgstr "Precisión (Decimales)"
+
+#~ msgid "Previsualizador en Vivo (Sandbox)"
+#~ msgstr "Živý náhled (Sandbox)"
+
+#~ msgid "Proporción / Ratio"
+#~ msgstr "Proporción / Ratio"
+
+#~ msgid "Proporción de Escala (Ratio)"
+#~ msgstr "Proporción de Escala (Ratio)"
+
+#~ msgid "Proporción Áurea (Golden Ratio - 1.618)"
+#~ msgstr "Proporción Áurea (Golden Ratio - 1.618)"
+
+#~ msgid "Párrafo: Calculando..."
+#~ msgstr "Párrafo: Calculando..."
+
+#~ msgid "Sandbox en Vivo"
+#~ msgstr "Živé pískoviště"
+
+#~ msgid "Subtítulo de Sección H2"
+#~ msgstr "Subtítulo de Sección H2"
+
+#~ msgid "Tamaño Base (Base Size)"
+#~ msgstr "Tamaño Base (Base Size)"
+
+#~ msgid "Tamaño Base (Texto normal / Párrafo)"
+#~ msgstr "Tamaño Base (Texto normal / Párrafo)"
+
+#~ msgid "Tipografía Modular Proporcional & Armónica"
+#~ msgstr "Tipografía Modular Proporcional & Armónica"
+
+#~ msgid "Titular Principal H1"
+#~ msgstr "Hlavní držák H1"
+
+#~ msgid "Título de Tarjeta o Característica H4"
+#~ msgstr "Título de Tarjeta o Característica H4"
+
+#~ msgid "Unidad de Medida"
+#~ msgstr ""
+#~ "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please "
+#~ "try again later.That’s all we know."
+
+#~ msgid "Unidades REM"
+#~ msgstr "REM jednotky"
+
+#~ msgid ""
+#~ "Unidades relativas a la configuración del navegador del usuario. "
+#~ "Facilitan que usuarios con problemas de visión puedan agrandar el texto "
+#~ "sin romper el diseño."
+#~ msgstr ""
+#~ "Unidades relativas a la configuración del navegador del usuario. "
+#~ "Facilitan que usuarios con problemas de visión puedan agrandar el texto "
+#~ "sin romper el diseño."
+
+#~ msgid "Variables CSS Generadas"
+#~ msgstr "Generované proměnné CSS"
+
+#~ msgid "Variables CSS Nativas Generadas"
+#~ msgstr "Generované nativní proměnné CSS"
+
+#~ msgid "WM Modular Scale — Calculadora y Escala Tipográfica"
+#~ msgstr "WM Modular Scale — Calculadora y Escala Tipográfica"
+
+#~ msgid "em (Relativo al contenedor)"
+#~ msgstr "v (vzhledem ke kontejneru)"
+
+#~ msgid "px (Píxeles - Más predecible y directo)"
+#~ msgstr "px (Píxeles - Más predecible y directo)"
+
+#~ msgid "rem (Recomendado para accesibilidad responsive)"
+#~ msgstr "rem (doporučeno pro citlivou dostupnost)"
+
+#~ msgid "¿Qué es la escala modular y para qué sirve?"
+#~ msgstr "¿Qué es la escala modular y para qué sirve?"
+
+#~ msgid "⚙️ Typografie & Skalen"
+#~ msgstr "⚙️ Typografie & Skalen"
+
+#~ msgid "💾 Guardar Cambios de Tipografía"
+#~ msgstr "💾 Guardar Cambios de Tipografía"
+
+#~ msgid "📐 WM Modular Scale — Harmonische Typografie & CSS Variablen"
+#~ msgstr "📐 WM Modular Scale — Harmonische Typografie & CSS Variablen"

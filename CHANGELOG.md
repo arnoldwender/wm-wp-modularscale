@@ -4,6 +4,15 @@ All notable changes to **WM Modular Scale** are documented in this file in adher
 
 ---
 
+## [1.2.2] - 2026-09-20
+
+- **118 of the 123 translatable strings had no entry in the `.pot`.** A string the code wraps in `__()` but that the catalog does not carry cannot be translated by anyone, to any language, ever — the translator never sees it and nothing reports an error. The catalog was regenerated from the code with `wp i18n make-pot`, every `.po` merged with `msgmerge --no-fuzzy-matching` and every `.mo` rebuilt.
+- **The coverage figure in the README was measuring dead work.** It reported `ar` at 70 of 70 translated; 69 of those 70 translate strings of the *Spanish* settings page this plugin no longer has (`-- Seleccionar proporción o escribir valor --`), so they had already stopped appearing. Verified independently against the strings the code extracts, not inferred from the merge. The honest count is now 4 translated entries across 28 locales.
+- **Nothing was deleted.** The 2,007 entries that no longer match a string are kept as obsolete `#~` entries where a translator can reuse them; all 28 `.mo` files read back with `msgunfmt`.
+- `tests/test-pot-freshness.php` and two CI steps stop it drifting again. It takes its definition of "fresh" from `wp i18n make-pot` rather than a regex of its own, reads the text domain from the plugin header instead of holding a second copy, treats 0 extracted strings as a failure, ignores the plugin header (nobody translates an author name or a URL), requires wp-cli instead of skipping itself, and runs its own self-test first.
+- **The README badge still said the opposite of the paragraph below it.** While Known issues spelled out "4 translated entries across the 28 locales", the badge row carried **`Translations — 24 EU Languages` in green**, which a reader takes as the plugin being translated into 24 languages. A badge is read before the prose, so an honest paragraph does not cancel a misleading badge. It now reads `Translated READMEs — 24 (headings only)` in grey — the label three other plugins of the fleet already use — and links to the same section, which now states plainly that the translated READMEs are a translated table of contents over an English body, not 24 translated manuals. The 24 translated READMEs were regenerated from this change with `wp-plugin-fleet-translations-sync.py`.
+- The fleet carries a check for the same defect (self-test 11/11). It only fires when a badge claims the *plugin* is translated, is dressed in a success colour, and the catalogs hold under 50 % real translations — counting a `msgstr` that repeats its `msgid` as untranslated, which is what it is.
+
 ## [Unreleased]
 
 ### Family sheets (2026-09-16)

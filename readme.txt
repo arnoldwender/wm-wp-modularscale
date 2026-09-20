@@ -4,7 +4,7 @@ Tags: typography, modular scale, design tokens, css clamp, tailwindcss, gutenber
 Requires at least: 6.4
 Tested up to: 7.1
 Requires PHP: 8.1
-Stable tag: 1.2.1
+Stable tag: 1.2.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -50,6 +50,7 @@ No. It loads pure CSS without external CDN calls or runtime JavaScript execution
 == Changelog ==
 
 = Unreleased =
+* 118 of the 123 translatable strings had no entry in the .pot, so no translator could see them in any language. The catalog is regenerated from the code; every .po is merged and every .mo rebuilt, and the 2,007 entries that no longer match a string are kept as obsolete instead of discarded. The `ar` catalog that measured 70 of 70 translated was translating the Spanish settings page this plugin no longer has: 69 of those 70 had already stopped appearing. tests/test-pot-freshness.php and a CI step keep it from drifting again.
 * Saving the settings page no longer writes 0 into the viewport and maximum base size options, which turned every fluid step into an inverted clamp().
 * Settings page in German; its sandbox shows the CSS variables the plugin really prints.
 * APCA badge: Lc as apca-w3 0.1.9 computes it and a usage hint instead of a BFSG conformity label. Ratio visualizer: nodes at the real step sizes, H1 at the top step.
