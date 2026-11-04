@@ -49,8 +49,12 @@ No. It loads pure CSS without external CDN calls or runtime JavaScript execution
 
 == Changelog ==
 
-= Unreleased =
+= 1.2.2 =
+* Fix: the SBOM the plugin reports to the WM Suite Hub declared it proprietary and named version 1.2.0. It now declares GPL-2.0-or-later, as an SPDX id alone, and reads the version from the plugin header. The notes of the 1.2.1 release announced the licence fix, but that package did not contain it.
+* Fix: Plugin::VERSION, which versions the token stylesheet, said 1.2.0, so browsers kept serving the old sheet after an update.
 * 118 of the 123 translatable strings had no entry in the .pot, so no translator could see them in any language. The catalog is regenerated from the code; every .po is merged and every .mo rebuilt, and the 2,007 entries that no longer match a string are kept as obsolete instead of discarded. The `ar` catalog that measured 70 of 70 translated was translating the Spanish settings page this plugin no longer has: 69 of those 70 had already stopped appearing. tests/test-pot-freshness.php and a CI step keep it from drifting again.
+
+= Also in the 1.2.0 and 1.2.1 releases (2026-09-19) =
 * Saving the settings page no longer writes 0 into the viewport and maximum base size options, which turned every fluid step into an inverted clamp().
 * Settings page in German; its sandbox shows the CSS variables the plugin really prints.
 * APCA badge: Lc as apca-w3 0.1.9 computes it and a usage hint instead of a BFSG conformity label. Ratio visualizer: nodes at the real step sizes, H1 at the top step.

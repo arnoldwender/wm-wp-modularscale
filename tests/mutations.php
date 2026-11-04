@@ -104,9 +104,13 @@ return [
 	[
 		'the SBOM declares a Proprietary licence again',
 		[
-			[ 'includes/class-modularscale-spoke-adapter.php', '\'id\'   => \'GPL-2.0-or-later\',
-						\'name\' => \'GNU General Public License v2.0 or later\',', '\'id\'   => \'Proprietary\',
-						\'name\' => \'Proprietary Wender Media Commercial License\',' ],
+			[ 'includes/class-modularscale-spoke-adapter.php', "'id' => 'GPL-2.0-or-later',", "'id'   => 'Proprietary',\n\t\t\t\t\t\t'name' => 'Proprietary Wender Media Commercial License'," ],
+		],
+	],
+	[
+		'the SBOM licence carries an id and a name at once again',
+		[
+			[ 'includes/class-modularscale-spoke-adapter.php', "'id' => 'GPL-2.0-or-later',", "'id'   => 'GPL-2.0-or-later',\n\t\t\t\t\t\t'name' => 'GNU General Public License v2.0 or later'," ],
 		],
 	],
 	[

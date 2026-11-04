@@ -572,9 +572,11 @@ $t->assert(
 	'Plugin::VERSION (the token stylesheet cache-buster) equals the version in the plugin header',
 	json_encode( [ 'header' => $header_version[1] ?? null, 'const' => \WenderMedia\ModularScale\Plugin::VERSION ] )
 );
+// The licence block holds the SPDX id and nothing else: CycloneDX 1.6 takes an id or a name, not both.
+// Until 2026-11-05 it carried both, and this check only looked for the id.
 $t->assert(
-	false !== strpos( $adapter_src, "'id'   => 'GPL-2.0-or-later'" ) && false === strpos( $adapter_src, "'Proprietary'" ),
-	'The SBOM the adapter reports declares the licence the plugin ships under (GPL-2.0-or-later), not Proprietary',
+	1 === preg_match( "/'license'\s*=>\s*\[\s*'id'\s*=>\s*'GPL-2\.0-or-later',\s*\]/", $adapter_src ) && false === strpos( $adapter_src, "'Proprietary'" ),
+	'The SBOM the adapter reports declares the licence the plugin ships under as the SPDX id GPL-2.0-or-later, alone, not Proprietary',
 	json_encode( [ 'proprietary present' => false !== strpos( $adapter_src, "'Proprietary'" ) ] )
 );
 

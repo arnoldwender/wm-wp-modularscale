@@ -4,7 +4,11 @@ All notable changes to **WM Modular Scale** are documented in this file in adher
 
 ---
 
-## [1.2.2] - 2026-09-20
+## [Unreleased]
+
+## [1.2.2] - 2026-11-05
+
+The version fields have said 1.2.2 since 2026-09-20 and the public repository has shown that code since the same day; this is the first package and the first tag of it.
 
 - **118 of the 123 translatable strings had no entry in the `.pot`.** A string the code wraps in `__()` but that the catalog does not carry cannot be translated by anyone, to any language, ever — the translator never sees it and nothing reports an error. The catalog was regenerated from the code with `wp i18n make-pot`, every `.po` merged with `msgmerge --no-fuzzy-matching` and every `.mo` rebuilt.
 - **The coverage figure in the README was measuring dead work.** It reported `ar` at 70 of 70 translated; 69 of those 70 translate strings of the *Spanish* settings page this plugin no longer has (`-- Seleccionar proporción o escribir valor --`), so they had already stopped appearing. Verified independently against the strings the code extracts, not inferred from the merge. The honest count is now 4 translated entries across 28 locales.
@@ -19,14 +23,19 @@ All notable changes to **WM Modular Scale** are documented in this file in adher
   **The entry for 1.2.1 below claimed this was already fixed. It was not**: `git log` on `includes/class-modularscale-spoke-adapter.php` shows the file untouched since `a3ab49b`, before that release. The claim is corrected in place rather than deleted, because the record is that it was written.
 - **The adapter reported version `1.2.0` for a 1.2.2 plugin**, so the SBOM identified the package as `pkg:wordpress/wm-modularscale@1.2.0`. It reads the `Version:` header through `get_file_data()` now — the one source WordPress itself uses — instead of holding a second copy of the number.
 - **`Plugin::VERSION` said `1.2.0` too, and it is the cache-buster of the token stylesheet** (`wp_register_style( …, self::VERSION )`). An update therefore shipped new tokens under the old version and browsers kept serving the old sheet. A `const` cannot call `get_file_data()`, so the header stays the single source and a test pins the constant against it.
+- **The licence carried an `id` and a `name` at once (corrected 2026-11-05).** CycloneDX 1.6 takes one or the other — its `license` object is `oneOf` an id or a name — so the block did not validate. It carries the SPDX id alone; the assertion, which only looked for the id, now requires it to stand alone, and a mutation that puts the name back proves it.
 - Three assertions and three mutations defend all of it: remove any one fix and the suite turns red (29 mutations, 0 survivors, control green at 108).
 
-## [Unreleased]
+## Shipped in the v1.2.0 and v1.2.1 Releases (2026-09-19)
+
+Written between 2026-09-14 and 2026-09-16 under `[Unreleased]` and left there when the v1.2.0 and v1.2.1 Releases were cut on 2026-09-19, although both packages contain it (measured on 2026-11-05 against the two tags of the public repository). Kept as written; only the heading changed.
 
 ### Family sheets (2026-09-16)
+
 - Re-synced from the hub: the badge variants carry the state tokens on body surfaces, where the command-banner inks measured 1.49:1 to 2.21:1 against the composed background (hub PR #19), and the canonical sheet dropped five classes that belonged to a single plugin (hub PR #21). `tests/test-ui-family.php` re-pins both md5s.
 
 ### Design family (hackaton phase 3, 2026-09-14)
+
 - The settings page and the dashboard widget render from the two Wender Media family sheets (`assets/css/wm-admin-tokens.css`, `assets/css/wm-admin-ui.css`, byte-identical copies of the hub's canonical files, pinned by `tests/test-ui-family.php`) plus a 130-line plugin layer in `assets/css/modularscale-admin.css` (family tokens only). Before this the page carried 270 lines of inline `<style>` with 49 hex colours, an inline `<script>` with `onclick`/`oninput` handlers and 22 emoji; the script now ships from `assets/js/modularscale-admin.js` with data attributes, versioned by file time.
 - Family header with the hub/standalone badge, family menu icon, native `.wrap.wm-admin`, jump navigation, quick guide and preset pills on the family classes, dashicons instead of emoji, `aria-describedby` on every field, an accessible name for the numeric ratio input. The dashboard widget's banner reports whether the scale is applied to the site; it always read "Skala aktiv" and named `--fs-*` variables the plugin never emits.
 - **Broken admin enqueue fixed:** `Settings_Controller` enqueued the frontend typography sheet from `src/wm-modularscale.css`, a 404 on every settings page load (measured on a local WordPress install). It now enqueues the family sheets, the layer and the script on the plugin's own screens (standalone, Settings submenu and hub-dispatched hooks) and the sheets on `index.php` for the widget.
@@ -34,18 +43,20 @@ All notable changes to **WM Modular Scale** are documented in this file in adher
 - `.gitignore` carries the `assets/` negation: the README banner in `assets/images/` was never committed (global ignore rule of the development machine). Captures before/after in `docs/screenshots/design-family/`.
 
 ### Documentation (2026-09-14)
+
 - `README.md`, `README.de.md`, `README.es.md`, the 24 translated READMEs, `DEVELOPERS.md`, `docs/ARCHITECTURE.md`, `docs/API.md` and `docs/DEPLOYMENT.md` describe what the plugin ships. Until now they promised WP-CLI commands (`wp modular status|verify|export`), a REST namespace `/wp-json/wm-modular/v1`, a `[wm_modular_scale_grid]` shortcode, a `wp_wm_modularscale_presets` table, GoBD audit exports with an HMAC-SHA256 chain and a `wm_modularscale_ratios` filter; none exist in this repository (measured: no `WP_CLI::add_command`, `register_rest_route`, `add_shortcode`, `hash_hmac`, `dbDelta` or `apply_filters` call). The three `docs/*.md` were Astro/Vite/Vercel project templates. `scripts/strip-unshipped-claims-from-translations.py --check` fails while any translation still carries those claims.
 - The entries **[1.0.0]** and **[1.1.0]** below list "WP-CLI management commands under `wp modular`", a "GoBD cryptographic ledger", a "Decoupled REST API Controller" and a "Zero-CDN Frontend Shortcode". Those features never shipped; the entries are kept as the record of what was written at the time.
 - Known drift documented in `DEVELOPERS.md` §7: two `register_setting()` groups with different `wmmsp_apply_typography` defaults, options without UI, the unenqueued root `wm-modularscale.js`, Spanish settings-page strings.
 
 ### Fixed
+
 - **Blocks print measured values instead of claims (2026-09-15).** The APCA Contrast Badge printed "BFSG 2025 Konform" for every colour pair from Lc 75 on; one colour pair says nothing about a site's accessibility. It now prints the usage hint of APCA's own readability criterion (Lc 75 body text, 60 other text, 45 large headlines, below that too little contrast for text), and its title no longer says "WCAG 3.0": APCA was removed from the WCAG 3 working draft in 2023. `Scale_Engine::calculate_apca_lc()` clamped near-black luminance hard at 0.0005 instead of the reference soft clamp and had no deltaYmin check: black on white scored Lc 109.8 instead of 106.0, the badge's default colours −105.0 instead of −103.3, up to 4 Lc too high near black. It now matches apca-w3 0.1.9 (tests on four reference pairs).
   The Ratio Visualizer drew a fixed Bézier curve with its nodes on a straight line by index, the same picture for every ratio, and labelled step +1 "H1" and +6 "H6" although the tokens map +1 to H6. The nodes now sit at the step sizes and the labels follow the token mapping. Its "Multi-Strand Engine" badge (the block does not use the multi-strand matrix), the Theme.json Exporter's "Living Standard 2026" badge and the two emoji in their headers are gone.
 - **Settings page in German, and naming what the plugin prints (2026-09-15).** On a German install the settings page was Spanish: the 28 catalogs in `languages/` repeat the Spanish source string as their translation (de_DE: 0 of 132 entries translated). The page now uses German source strings; the catalogs do not cover them yet, so every locale shows German. The page strings that were really translated fall back to German too: 61 in `ar` (the only complete catalog, Arabic), 14 each in bg_BG, cs_CZ and da_DK, 2 in `el` (measured against the catalogs; the `.po` files are not edited by hand). The copy says what the page does instead of claims: the invented "95 % of modern websites" is gone, the apply toggle names both the fluid tokens and the legacy sheet, the presets say they also set base 16 and px.
   The sandbox's "generated CSS" listed `--wm-ms-base`, `--wm-ms-ratio`, `--wm-ms-h1` …, variables nothing emits; it now shows the `--wmmsp-*` variables `wmmsp_force_styles()` prints, rounded the same way (`tests/sandbox.test.ts` runs the script in jsdom; red on the previous script). The dashboard widget called the off state "CSS Only" although nothing is printed then; it reads "Aus".
   The seven block descriptions were Spanish and partly claims ("BFSG 2025 compliance live", "baseline grid"); they are English and say what each render does. "Typographic Grid (Vertical Rhythm)" is "Typographic Grid (WM Scale)": the block is a CSS grid with a gap.
 - **Dead files.** `wm-modularscale.js` at the root registered a `wm-modularscale/block` whose saved content was a `[modularscale]` shortcode that does not exist; no hook enqueued it since `9d39845` (2025-02-12), and no post on a local WordPress install contains the block. Removed, with `package.json` `main` (which pointed at it) and the description that named a `modularscale-js` dependency the plugin never had; `package.json` is `private` and at 1.2.0. `tests/example.test.ts` (a template asserting `true === true`) is gone.
-- **Saving the settings page broke the fluid tokens (2026-09-15).** The page posts `wmmsp_settings_group`, and that group also carried `wmmsp_base_size_max`, both viewports, `wmmsp_ratio_name` and `wmmsp_font_override_preset`, which have no field on the page. `options.php` stores every option of the posted group and writes null for a missing field, so one save turned the viewports and the maximum base size into 0 and the preset names into `''`. Measured on a local WordPress install afterwards: `--wm-min-viewport: 0px; --wm-step-0: clamp(1rem, 1rem - 1600vw, 0rem)`, every step with a maximum below its minimum, nothing fluid. The group now holds exactly the page's five fields (registered once, in `Settings_Controller`; the duplicate registration in the main file with other defaults is gone); the fieldless options sit in `wmmsp_scale_advanced_group`, which no page posts. `Plugin::scale_options()` is the one reader for the token sheet, the theme.json bridge and the Ratio Visualizer and Theme.json Exporter blocks: a zero or empty number falls back to its default, a ratio below 1 becomes 1, viewports in the wrong order become 360/1440, a maximum base size below the minimum keeps the default proportion. Installs that were already saved keep the zeros in the database and render correctly through that fallback. `tests/test-settings-save-runtime.php` (`wp eval-file`, read-only) compares the group core writes with the rendered form and checks the printed sheet: on the previous code on a local WordPress install it reports 5 options written as null and 9 inverted steps, on this code 2 of 2 pass; served on http://localhost:8080/ with the zeros still stored: `--wm-min-viewport: 360px; --wm-step-0: clamp(1rem, 0.9583rem + 0.1852vw, 1.125rem)`.
+- **Saving the settings page broke the fluid tokens (2026-09-15).** The page posts `wmmsp_settings_group`, and that group also carried `wmmsp_base_size_max`, both viewports, `wmmsp_ratio_name` and `wmmsp_font_override_preset`, which have no field on the page. `options.php` stores every option of the posted group and writes null for a missing field, so one save turned the viewports and the maximum base size into 0 and the preset names into `''`. Measured on a local WordPress install afterwards: `--wm-min-viewport: 0px; --wm-step-0: clamp(1rem, 1rem - 1600vw, 0rem)`, every step with a maximum below its minimum, nothing fluid. The group now holds exactly the page's five fields (registered once, in `Settings_Controller`; the duplicate registration in the main file with other defaults is gone); the fieldless options sit in `wmmsp_scale_advanced_group`, which no page posts. `Plugin::scale_options()` is the one reader for the token sheet, the theme.json bridge and the Ratio Visualizer and Theme.json Exporter blocks: a zero or empty number falls back to its default, a ratio below 1 becomes 1, viewports in the wrong order become 360/1440, a maximum base size below the minimum keeps the default proportion. Installs that were already saved keep the zeros in the database and render correctly through that fallback. `tests/test-settings-save-runtime.php` (`wp eval-file`, read-only) compares the group core writes with the rendered form and checks the printed sheet: on the previous code on a local WordPress install it reports 5 options written as null and 9 inverted steps, on this code 2 of 2 pass; served on <http://localhost:8080/> with the zeros still stored: `--wm-min-viewport: 360px; --wm-step-0: clamp(1rem, 0.9583rem + 0.1852vw, 1.125rem)`.
   The hand-off of 2026-09-14 recorded the symptom as "unticking the apply toggle does not persist". Core `options.php` (WP 7.1) does store an unticked checkbox (null, read as off); the defect was the fieldless options.
 - **The apply toggle showed "off" while the tokens printed.** Settings page and dashboard widget read `wmmsp_apply_typography` with default 0 / `false`, the hub telemetry with 0, the token output with 1: on a fresh install the widget reported the scale as not applied while `wp_head` carried it, and saving the page unchanged stored 0 and silently stopped the tokens. All four now read default 1. The legacy sheet (`wmmsp_force_styles()`, sizes `body` and `h1`–`h6`) keeps default 0, so a fresh install that was never saved prints the tokens without the legacy sheet although the toggle shows ticked; saving applies both, as the toggle's description says.
 - **CI ran one of the three test files.** `php tests/test-*.php` executes only the first file of the glob and passes the others as arguments; `tests/test-ui-family.php` never ran. The workflow calls each file and runs `tests/run-mutations.sh`, which undoes each correction listed in `tests/mutations.php` (15 for the settings fix) and requires the suite to fail.
@@ -68,10 +79,11 @@ All notable changes to **WM Modular Scale** are documented in this file in adher
 Reconstructed on 2026-09-15: the plugin header went from 1.1.2 to 1.2.0 in `093fb86` (2026-08-27) and no entry was written; `readme.txt` got its `= 1.2.0 =` notes in `5a248ae` (2026-08-29). The list below is what the commits between them changed, read from their diffs.
 
 ### Added
+
 - `093fb86` (2026-08-27): settings page with a live sandbox and ratio presets, frontend sheet `wm-modularscale.css`, `.pot` plus 28 `.po` / `.mo` files in `languages/`. Their entries repeat the source string as translation (measured 2026-09-15: de_DE 0 of 132 translated), so "24 EU language localization packages compiled" in `readme.txt` means files, not translations.
 - `fe0140d`, `e9e5b46` (2026-08-27): WM Suite Hub spoke adapter, text domain loaded on `init`, top-level admin menu and plugin action link. `f7e8cfc`, `a7a60c7`: dashboard widget.
 - `42a87c2` (2026-08-28): `Scale_Engine` (ratios, `clamp()` derivation, multi-strand matrix, APCA), `Font_Metric_Matcher`, `CSS_Token_Generator`, `Plugin`, `Settings_Controller`, the seven blocks, theme.json / GeneratePress / GenerateBlocks bridges, `tests/test-modularscale.php` and `tests/scale-engine.test.ts`.
-- `e49737f` (2026-08-28): `ABSPATH` guards. In five block templates the guard landed after the closing PHP tag and printed as text (fixed 2026-09-14, see [Unreleased]).
+- `e49737f` (2026-08-28): `ABSPATH` guards. In five block templates the guard landed after the closing PHP tag and printed as text (fixed 2026-09-14, see «Shipped in the v1.2.0 and v1.2.1 Releases»).
 - `5df4e93` … `edb55a0` (2026-08-29): documentation suite in English, German and Spanish, describing WP-CLI commands, REST routes, a shortcode and GoBD exports that do not exist (replaced 2026-09-14).
 - `5a248ae` (2026-08-29): `readme.txt`. Its note "Enhanced WordPress 6.7 and PHP 8.3 compatibility" was not measured then; the first recorded Plugin Check and runtime passes are from 2026-09-14.
 
@@ -82,6 +94,7 @@ Reconstructed on 2026-09-15: the plugin header went from 1.1.2 to 1.2.0 in `093f
 ## [1.1.0] — 2026-08-29
 
 ### Added
+
 - **24 Official European Union Languages:** Full binary `.mo` and source `.po` translation packages in `languages/` (`bg_BG`, `cs_CZ`, `da_DK`, `de_DE`, `el_GR`, `en_GB`, `es_ES`, `et_EE`, `fi_FI`, `fr_FR`, `ga_IE`, `hr_HR`, `hu_HU`, `it_IT`, `lt_LT`, `lv_LV`, `mt_MT`, `nl_NL`, `pl_PL`, `pt_PT`, `ro_RO`, `sk_SK`, `sl_SI`, `sv_SE`).
 - **Developer Documentation Suite:** Created `DEVELOPERS.md` with complete architecture diagrams, hook references, database schema, and REST API guides.
 - **Decoupled REST API Controller:** Registered namespace `/wp-json/wm-modular/v1` with strict nonce and permission validation.
@@ -91,11 +104,13 @@ Reconstructed on 2026-09-15: the plugin header went from 1.1.2 to 1.2.0 in `093f
 - **Clean Uninstallation Lifecycle:** Comprehensive `uninstall.php` handler for clean database and transient cache purging.
 
 ### Security
+
 - **CWE-1236 Mitigation:** Active sanitization against formula injection attacks on all CSV exports and dynamic text inputs.
 - **Constant-Time Cryptography:** Enforced `hash_equals()` verification on all HMAC-SHA256 signature chains.
 - **SQL Parameterization:** Refactored all queries to use strict `$wpdb->prepare()` with parameterized placeholders.
 
 ### Quality & Tests
+
 - Expanded standalone deterministic test suite (`tests/test-suite.php`) with 100% green pass rate and zero external dependencies.
 
 ---
@@ -103,6 +118,7 @@ Reconstructed on 2026-09-15: the plugin header went from 1.1.2 to 1.2.0 in `093f
 ## [1.0.0] — 2026-08-25
 
 ### Initial Enterprise Release
+
 - Core architectural implementation for Design Systems & Typography.
 - WP-CLI management commands under `wp modular`.
 - Revisionssicheres GoBD cryptographic ledger and telemetry hooks.

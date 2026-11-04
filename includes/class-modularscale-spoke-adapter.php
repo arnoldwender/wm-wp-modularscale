@@ -71,11 +71,11 @@ class ModularScale_Spoke_Adapter implements WM_Plugin_Module_Interface {
 			// serves the SBOM without authentication, so the one machine-readable statement of this
 			// plugin's licence was the wrong one. `GPL-2.0-or-later` is a real SPDX id; `Proprietary`
 			// never was. The CHANGELOG entry for 1.2.1 claimed this was already fixed — it was not.
+			// The id goes alone: CycloneDX 1.6 takes an id or a name, not both (`license.oneOf`).
 			'licenses'    => [
 				[
 					'license' => [
-						'id'   => 'GPL-2.0-or-later',
-						'name' => 'GNU General Public License v2.0 or later',
+						'id' => 'GPL-2.0-or-later',
 					],
 				],
 			],
