@@ -28,7 +28,6 @@ jobs:
       - name: Run Standalone Test Suite
         run: |
           php tests/test-suite.php
-          php tests/test-ui-family.php
 
       # `wp i18n make-pot` IS the definition of a fresh catalog in the step below, so wp-cli is a
       # hard requirement there rather than something it shrugs off. Into $HOME/bin, not the

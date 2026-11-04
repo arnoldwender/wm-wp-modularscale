@@ -44,7 +44,6 @@ Opciones, hooks, clases y desviaciones conocidas: **[README.md](README.md)** (re
 ```bash
 php tests/test-suite.php        # 98 comprobaciones standalone, sin WordPress
 bash tests/run-mutations.sh     # cada corrección deshecha tiene que poner la suite en rojo
-php tests/test-ui-family.php    # hojas de la familia byte-idénticas al hub
 npm test                        # vitest: script de la página de ajustes en jsdom
 ```
 

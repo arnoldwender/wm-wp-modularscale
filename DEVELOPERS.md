@@ -142,7 +142,6 @@ Registered with `register_block_type_from_metadata()` on `init`; the category `w
 
 ```bash
 php tests/test-suite.php        # 98 assertions: engine, clamp, APCA, blocks, bridges, adapter, admin surface (12), stored options (13), page language and sandbox names (14), block renders (15)
-php tests/test-ui-family.php    # family sheets byte-identical to the hub, no outline: none, no stray hex in admin sheets
 bash tests/run-mutations.sh     # undoes each correction in tests/mutations.php on a copy; the suite must fail for every one
 # in a WordPress install, read-only: the group a settings save writes vs the form, and the printed token sheet
 wp eval-file wp-content/plugins/wm-modularscale/tests/test-settings-save-runtime.php --user=<admin id>

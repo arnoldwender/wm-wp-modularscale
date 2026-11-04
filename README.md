@@ -80,7 +80,6 @@ Hooks, classes, tokens and the hub adapter: **[DEVELOPERS.md](DEVELOPERS.md)**. 
 ```bash
 php tests/test-suite.php        # 98 standalone assertions, no WordPress needed
 bash tests/run-mutations.sh     # each correction in tests/mutations.php undone must turn the suite red
-php tests/test-ui-family.php    # admin family sheets byte-identical to the hub
 php tests/test-pot-freshness.php # every string the code translates has an entry in the .pot (needs wp-cli)
 npm test                        # vitest: the settings-page script in jsdom, plus a TypeScript copy of the engine formulas
 ```
