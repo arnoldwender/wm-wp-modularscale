@@ -1,0 +1,294 @@
+{
+  "translation-revision-date": "2026-11-21T15:04:18+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-modularscale",
+        "lang": "ar",
+        "plural-forms": "nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);"
+      },
+      "Fluid Heading Settings": [
+        "إعدادات العنوان الانسيابي"
+      ],
+      "Heading level (H1–H6)": [
+        "مستوى العنوان (H1–H6)"
+      ],
+      "Modular scale step (-2 to +6)": [
+        "درجة السلم المعياري (-2 إلى +6)"
+      ],
+      "Text alignment": [
+        "محاذاة النص"
+      ],
+      "Left": [
+        "يسار"
+      ],
+      "Center": [
+        "وسط"
+      ],
+      "Right": [
+        "يمين"
+      ],
+      "Custom CSS clamp() override": [
+        "تخصيص CSS clamp() يدوي"
+      ],
+      "Optional full CSS clamp() expression overriding the scale step.": [
+        "تعبير CSS clamp() كامل اختياري يتجاوز درجة السلم."
+      ],
+      "Write fluid heading…": [
+        "اكتب عنواناً انسيابياً…"
+      ],
+      "Fluid Lead Settings": [
+        "إعدادات المقدمة الانسيابية"
+      ],
+      "Maximum line length (characters)": [
+        "الحد الأقصى لطول السطر (أحرف)"
+      ],
+      "Write lead paragraph…": [
+        "اكتب فقرة تمهيدية…"
+      ],
+      "Container Query Context": [
+        "سياق Container Query"
+      ],
+      "Container name": [
+        "اسم الحاوية"
+      ],
+      "Container type": [
+        "نوع الحاوية"
+      ],
+      "Inline size (cqi / cqw)": [
+        "الحجم السطري (cqi / cqw)"
+      ],
+      "Size (width & height)": [
+        "الحجم (العرض والارتفاع)"
+      ],
+      "Normal": [
+        "عادي"
+      ],
+      "Typographic Grid Settings": [
+        "إعدادات الشبكة الطباعية"
+      ],
+      "Columns (1–6)": [
+        "الأعمدة (1–6)"
+      ],
+      "Scale gap token": [
+        "رمز التباعد من السلم"
+      ],
+      "Step 0 (Body base)": [
+        "الدرجة 0 (أساس النص)"
+      ],
+      "Step 1 (Compact)": [
+        "الدرجة 1 (مضغوط)"
+      ],
+      "Step 2 (Default)": [
+        "الدرجة 2 (افتراضي)"
+      ],
+      "Step 3 (Spacious)": [
+        "الدرجة 3 (رحب)"
+      ],
+      "Step 4 (Wide)": [
+        "الدرجة 4 (واسع)"
+      ],
+      "Ratio Visualizer Settings": [
+        "إعدادات عارض النسبة"
+      ],
+      "Show step labels on SVG axis": [
+        "إظهار تسميات الدرجات على محور SVG"
+      ],
+      "Show step min/max cards": [
+        "إظهار بطاقات الحد الأدنى/الأقصى للدرجات"
+      ],
+      "Color theme": [
+        "سمة الألوان"
+      ],
+      "Dark": [
+        "داكن"
+      ],
+      "Light": [
+        "فاتح"
+      ],
+      "Ratio Visualizer (SVG Curve)": [
+        "عارض النسبة (منحنى SVG)"
+      ],
+      "APCA Contrast Settings": [
+        "إعدادات تباين APCA"
+      ],
+      "Foreground hex color": [
+        "لون النص السداسي (Hex)"
+      ],
+      "Background hex color": [
+        "لون الخلفية السداسي (Hex)"
+      ],
+      "Target text role": [
+        "الدور المستهدف للنص"
+      ],
+      "Body copy (target Lc 75)": [
+        "نص أساسي (الهدف Lc 75)"
+      ],
+      "UI / secondary text (target Lc 60)": [
+        "نص ثانوي / واجهة (الهدف Lc 60)"
+      ],
+      "Large headline (target Lc 45)": [
+        "عنوان كبير (الهدف Lc 45)"
+      ],
+      "APCA Contrast Badge (WM Scale)": [
+        "شارة تباين APCA (WM Scale)"
+      ],
+      "Exporter Output Settings": [
+        "إعدادات التصدير"
+      ],
+      "Displayed export format": [
+        "تنسيق التصدير المعروض"
+      ],
+      "Both (theme.json v3 + Tailwind v4)": [
+        "كلاهما (theme.json v3 + Tailwind v4)"
+      ],
+      "theme.json v3 only": [
+        "theme.json v3 فقط"
+      ],
+      "Tailwind CSS v4 @theme only": [
+        "Tailwind CSS v4 @theme فقط"
+      ],
+      "Theme.json Exporter (WM Scale)": [
+        "مصدّر Theme.json (WM Scale)"
+      ],
+      "block title\u0004APCA Contrast Badge (WM Scale)": [
+        "شارة تباين APCA (WM Scale)"
+      ],
+      "block description\u0004Badge with the APCA lightness contrast (Lc) of a text and background colour pair and a usage hint for that value.": [
+        "شارة تعرض تباين الإضاءة APCA (Lc) لزوج ألوان النص والخلفية مع إرشاد الاستخدام."
+      ],
+      "block keyword\u0004contrast": [
+        "تباين"
+      ],
+      "block keyword\u0004apca": [
+        "apca"
+      ],
+      "block keyword\u0004a11y": [
+        "a11y"
+      ],
+      "block keyword\u0004accessibility": [
+        "إمكانية الوصول"
+      ],
+      "block title\u0004Fluid Container (@container)": [
+        "حاوية انسيابية (@container)"
+      ],
+      "block description\u0004Container for inner blocks that sets container-type (default inline-size) and container-name (default wm-typographic-context) for container queries.": [
+        "حاوية للكتل الداخلية تضبط container-type (inline-size) و container-name (wm-typographic-context)."
+      ],
+      "block keyword\u0004container": [
+        "حاوية"
+      ],
+      "block keyword\u0004queries": [
+        "استعلامات"
+      ],
+      "block keyword\u0004cqw": [
+        "cqw"
+      ],
+      "block keyword\u0004cqi": [
+        "cqi"
+      ],
+      "block keyword\u0004fluid": [
+        "انسيابي"
+      ],
+      "block keyword\u0004layout": [
+        "تخطيط"
+      ],
+      "block title\u0004Fluid Heading (WM Scale)": [
+        "عنوان انسيابي (WM Scale)"
+      ],
+      "block description\u0004Heading (H1–H6) with the fluid font-size class of its level, balanced line wrapping and an optional custom clamp() value.": [
+        "عنوان (H1–H6) بفئة حجم خط انسيابي لمستواه والتفاف متوازن للأسطر وقيمة clamp() اختيارية."
+      ],
+      "block keyword\u0004heading": [
+        "عنوان"
+      ],
+      "block keyword\u0004typography": [
+        "طباعة"
+      ],
+      "block keyword\u0004scale": [
+        "سلم"
+      ],
+      "block keyword\u0004modular": [
+        "معياري"
+      ],
+      "block title\u0004Fluid Lead Text (WM Scale)": [
+        "نص تمهيدي انسيابي (WM Scale)"
+      ],
+      "block description\u0004Paragraph with the fluid body font size, a maximum line length of 35–85 characters (default 65) and pretty line wrapping.": [
+        "فقرة بحجم خط أساسي انسيابي وطول سطر بين 35 و85 حرفاً (افتراضياً 65) والتفاف أنيق."
+      ],
+      "block keyword\u0004lead": [
+        "مقدمة"
+      ],
+      "block keyword\u0004paragraph": [
+        "فقرة"
+      ],
+      "block keyword\u0004reading": [
+        "قراءة"
+      ],
+      "block title\u0004Ratio Visualizer (SVG Curve)": [
+        "عارض النسبة (منحنى SVG)"
+      ],
+      "block description\u0004Shows the nine scale steps with their minimum and maximum size in px, calculated from the stored base sizes and ratio.": [
+        "يعرض درجات السلم التسع مع الحجم الأدنى والأقصى بالبكسل محسوباً من الإعدادات المحفوظة."
+      ],
+      "block keyword\u0004visualizer": [
+        "عارض"
+      ],
+      "block keyword\u0004ratio": [
+        "نسبة"
+      ],
+      "block keyword\u0004svg": [
+        "svg"
+      ],
+      "block keyword\u0004curve": [
+        "منحنى"
+      ],
+      "block keyword\u0004preview": [
+        "معاينة"
+      ],
+      "block title\u0004Theme.json Exporter (WM Scale)": [
+        "مصدّر Theme.json (WM Scale)"
+      ],
+      "block description\u0004Shows the theme.json fontSizes and the Tailwind CSS v4 @theme block generated from the stored scale.": [
+        "يعرض قيم fontSizes لملف theme.json وكتلة @theme لـ Tailwind CSS v4 المولّدة من السلم المحفوظ."
+      ],
+      "block keyword\u0004theme.json": [
+        "theme.json"
+      ],
+      "block keyword\u0004exporter": [
+        "مصدّر"
+      ],
+      "block keyword\u0004tokens": [
+        "رموز"
+      ],
+      "block keyword\u0004json": [
+        "json"
+      ],
+      "block keyword\u0004tailwind": [
+        "tailwind"
+      ],
+      "block title\u0004Typographic Grid (WM Scale)": [
+        "شبكة طباعية (WM Scale)"
+      ],
+      "block description\u0004Grid of 1–6 equal columns for inner blocks, with a gap from the scale (default var(--wm-step-2)).": [
+        "شبكة من 1 إلى 6 أعمدة متساوية للكتل الداخلية بفاصل مستمد من السلم."
+      ],
+      "block keyword\u0004grid": [
+        "شبكة"
+      ],
+      "block keyword\u0004columns": [
+        "أعمدة"
+      ],
+      "block keyword\u0004rhythm": [
+        "إيقاع"
+      ],
+      "block keyword\u0004baseline": [
+        "خط الأساس"
+      ]
+    }
+  }
+}

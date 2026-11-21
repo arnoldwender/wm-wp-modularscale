@@ -1,0 +1,975 @@
+# Translation of WM Modular Scale in fr_FR
+# Copyright (C) 2026 Arnold Wender
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: wm-modularscale 1.4.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wm-modularscale\n"
+"POT-Creation-Date: 2026-11-21T14:04:16+00:00\n"
+"PO-Revision-Date: 2026-11-21 15:04+0100\n"
+"Last-Translator: WM Suite <https://github.com/arnoldwender/wm-wp-"
+"modularscale/issues>\n"
+"Language-Team: WM Suite <https://github.com/arnoldwender/wm-wp-modularscale/"
+"issues>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: WM Suite i18n Compiler 2026\n"
+"X-Domain: wm-modularscale\n"
+
+#. Plugin Name of the plugin
+#: wm-modularscale.php src/Integration/Ecosystem_Bridge.php:199
+#: wm-modularscale.php:113 wm-modularscale.php:134
+msgid "WM Modular Scale"
+msgstr "WM Modular Scale"
+
+#. Plugin URI of the plugin
+#: wm-modularscale.php
+msgid "https://arnoldwender.com/wordpress-plugins/wm-modularscale/"
+msgstr "https://arnoldwender.com/wordpress-plugins/wm-modularscale/"
+
+#. Description of the plugin
+#: wm-modularscale.php
+msgid ""
+"Generates harmonious, responsive typography ratios and modular scales with a "
+"visual live preview sandbox for non-technical users."
+msgstr ""
+"Génère des rapports typographiques harmonieux et des échelles modulaires "
+"adaptatives avec aperçu interactif en direct."
+
+#. Author of the plugin
+#: wm-modularscale.php
+msgid "Arnold Wender"
+msgstr "Arnold Wender"
+
+#. Author URI of the plugin
+#: wm-modularscale.php
+msgid "https://arnoldwender.com"
+msgstr "https://arnoldwender.com"
+
+#: src/Gutenberg/Block_Manager.php:134
+msgid "WM Modular Scale — Typografie Enterprise"
+msgstr "WM Modular Scale — Typographie Entreprise"
+
+#: src/Integration/Ecosystem_Bridge.php:56
+msgid "WM Modular Scale Tokens"
+msgstr "Jetons WM Modular Scale"
+
+#: src/Integration/Ecosystem_Bridge.php:133
+msgid "WM Modular Scale Token"
+msgstr "Jeton WM Modular Scale"
+
+#: src/Integration/Ecosystem_Bridge.php:137
+msgid ""
+"Outputs a computed fluid clamp() token or px range from WM Modular Scale."
+msgstr ""
+"Renvoie un jeton fluide clamp() ou une plage en px calculée par WM Modular "
+"Scale."
+
+#: src/Integration/Ecosystem_Bridge.php:141
+msgid "Scale step (-2 to 6)"
+msgstr "Palier d’échelle (-2 à 6)"
+
+#: src/Integration/Ecosystem_Bridge.php:146
+msgid "Output format"
+msgstr "Format de sortie"
+
+#: src/Integration/Ecosystem_Bridge.php:151
+msgid "CSS clamp() expression"
+msgstr "Expression CSS clamp()"
+
+#: src/Integration/Ecosystem_Bridge.php:155
+msgid "Min–Max px range"
+msgstr "Plage min–max en px"
+
+#: src/Integration/Ecosystem_Bridge.php:159
+msgid "Maximum px size"
+msgstr "Taille maximale en px"
+
+#: src/Integration/Ecosystem_Bridge.php:207
+msgid "Fluid Typographic Hero & Lead"
+msgstr "Titre et chapô typographiques fluides"
+
+#: src/Integration/Ecosystem_Bridge.php:208
+msgid ""
+"Container-query section pairing a Fluid Heading with an ergonomic Fluid Lead "
+"paragraph."
+msgstr ""
+"Section container-query associant un titre fluide à un paragraphe "
+"d’introduction ergonomique."
+
+#: src/Integration/Ecosystem_Bridge.php:211
+msgid "Harmonische Typografie im Browser"
+msgstr "Typographie harmonieuse dans le navigateur"
+
+#: src/Integration/Ecosystem_Bridge.php:212
+msgid ""
+"Fließende Schriftgrößen zwischen Mobilgerät und Desktop, berechnet aus "
+"Basisgröße und musikalischem Intervall."
+msgstr ""
+"Tailles de police fluides du mobile au bureau, calculées à partir de la "
+"taille de base et d’un intervalle musical."
+
+#: src/Integration/Ecosystem_Bridge.php:221
+msgid "GenerateBlocks Fluid Scale Section"
+msgstr "Section d’échelle fluide GenerateBlocks"
+
+#: src/Integration/Ecosystem_Bridge.php:222
+msgid ""
+"Two-layer GenerateBlocks section (gbp-section + gbp-section__inner) "
+"consuming --ms-* and --wm-step-* fluid tokens."
+msgstr ""
+"Section GenerateBlocks à deux niveaux (gbp-section + gbp-section__inner) "
+"utilisant les jetons fluides --ms-* et --wm-step-*."
+
+#: src/Integration/Ecosystem_Bridge.php:229
+msgid "Modulare Skala mit GenerateBlocks"
+msgstr "Échelle modulaire avec GenerateBlocks"
+
+#: src/Integration/Ecosystem_Bridge.php:232
+msgid "Direkte Nutzung der berechneten CSS-Variablen ohne Media-Query-Stufen."
+msgstr ""
+"Utilisation directe des variables CSS calculées sans points de rupture."
+
+#: src/Integration/Ecosystem_Bridge.php:254
+msgid "Compute Modular Typography Scale"
+msgstr "Calculer l’échelle typographique modulaire"
+
+#: src/Integration/Ecosystem_Bridge.php:255
+msgid ""
+"Calculates the nine fluid clamp() steps (-2 to +6), line heights and WCAG "
+"1.4.4 zoom-safety flags for a base size and ratio."
+msgstr ""
+"Calcule les neuf paliers fluides clamp() (-2 à +6), les hauteurs de ligne et "
+"l’indicateur de zoom WCAG 1.4.4."
+
+#: wm-modularscale.php:114
+msgid "Modular Scale"
+msgstr "Échelle modulaire"
+
+#: wm-modularscale.php:125
+msgid "WM Modular Scale — Einstellungen & Vorschau"
+msgstr "WM Modular Scale — Réglages et aperçu"
+
+#: wm-modularscale.php:126
+msgid "Typografie & Skalen"
+msgstr "Typographie et échelles"
+
+#: wm-modularscale.php:135
+msgid "Modular Scale (Typografie)"
+msgstr "Modular Scale (Typographie)"
+
+#: wm-modularscale.php:153
+msgid "WM Modular Scale — Harmonische Typografie & CSS Variablen"
+msgstr "WM Modular Scale — Typographie harmonieuse et variables CSS"
+
+#: wm-modularscale.php:178
+msgid "Skala auf der Website angewendet"
+msgstr "Échelle appliquée sur le site"
+
+#: wm-modularscale.php:180
+msgid "Skala berechnet, noch nicht auf die Website angewendet"
+msgstr "Échelle calculée, pas encore appliquée sur le site"
+
+#: wm-modularscale.php:184
+msgid "Fluid-Tokens (--wm-step-*) und Stylesheet (--wmmsp-*)"
+msgstr "Jetons fluides (--wm-step-*) et feuille de style (--wmmsp-*)"
+
+#: wm-modularscale.php:191 wm-modularscale.php:301
+msgid "Basisgröße"
+msgstr "Taille de base"
+
+#: wm-modularscale.php:195
+msgid "Verhältnis"
+msgstr "Rapport"
+
+#: wm-modularscale.php:198
+msgid "Aktiv"
+msgstr "Actif"
+
+#: wm-modularscale.php:198
+msgid "Aus"
+msgstr "Inactif"
+
+#: wm-modularscale.php:199
+msgid "Auf der Website"
+msgstr "Sur le site"
+
+#: wm-modularscale.php:205
+msgid "Typografie-Cockpit öffnen"
+msgstr "Ouvrir le cockpit typographique"
+
+#: wm-modularscale.php:220 wm-modularscale.php:319 wm-modularscale.php:347
+msgid "Einstellungen"
+msgstr "Réglages"
+
+#: wm-modularscale.php:245
+msgid "Part of the WM Suite plugin family"
+msgstr "Membre de la famille d’extensions WM Suite"
+
+#: wm-modularscale.php:247
+msgid "WM Suite"
+msgstr "WM Suite"
+
+#: wm-modularscale.php:248
+msgid "Hub"
+msgstr "Hub"
+
+#: wm-modularscale.php:248
+msgid "Standalone"
+msgstr "Autonome"
+
+#: wm-modularscale.php:262
+msgid "wird berechnet …"
+msgstr "calcul en cours …"
+
+#: wm-modularscale.php:283
+msgid "Kleine Terz 1.200 – Blog"
+msgstr "Tierce mineure 1.200 – Blog"
+
+#: wm-modularscale.php:284
+msgid "Große Terz 1.250 – Voreinstellung"
+msgstr "Tierce majeure 1.250 – Par défaut"
+
+#: wm-modularscale.php:285
+msgid "Quarte 1.333 – markante Überschriften"
+msgstr "Quarte juste 1.333 – Titres affirmés"
+
+#: wm-modularscale.php:286
+msgid "Goldener Schnitt 1.618 – Magazin, große Titel"
+msgstr "Nombre d’or 1.618 – Magazine, grands titres"
+
+#: wm-modularscale.php:290
+msgid "1.125 — Große Sekunde (kompakt, Anwendungen)"
+msgstr "1.125 — Seconde majeure (compact, applications)"
+
+#: wm-modularscale.php:291
+msgid "1.200 — Kleine Terz (Blog)"
+msgstr "1.200 — Tierce mineure (blog)"
+
+#: wm-modularscale.php:292
+msgid "1.250 — Große Terz (Voreinstellung)"
+msgstr "1.250 — Tierce majeure (par défaut)"
+
+#: wm-modularscale.php:293
+msgid "1.333 — Quarte (markante Überschriften)"
+msgstr "1.333 — Quarte juste (titres affirmés)"
+
+#: wm-modularscale.php:294
+msgid "1.414 — Übermäßige Quarte (Editorial)"
+msgstr "1.414 — Quarte augmentée (éditorial)"
+
+#: wm-modularscale.php:295
+msgid "1.500 — Quinte (kreative Layouts)"
+msgstr "1.500 — Quinte juste (mises en page créatives)"
+
+#: wm-modularscale.php:296
+msgid "1.618 — Goldener Schnitt (sehr große Titel)"
+msgstr "1.618 — Nombre d’or (très grands titres)"
+
+#: wm-modularscale.php:300 wm-modularscale.php:361
+msgid "Verhältnis (Ratio)"
+msgstr "Rapport (Ratio)"
+
+#: wm-modularscale.php:300
+msgid ""
+"Der feste Faktor zwischen zwei Stufen der Skala. Bei 1.25 ist jede Stufe 25 "
+"% größer als die vorherige."
+msgstr ""
+"Le facteur fixe entre deux paliers de l’échelle. À 1.25, chaque palier est "
+"25 % plus grand que le précédent."
+
+#: wm-modularscale.php:301
+msgid ""
+"Die Schriftgröße des Fließtexts (<p>). Aus ihr werden alle Überschriften "
+"berechnet. Browser verwenden ohne eigene Einstellung 16 px."
+msgstr ""
+"La taille de police du corps de texte (<p>) servant à calculer tous les "
+"titres. Les navigateurs utilisent 16 px par défaut."
+
+#: wm-modularscale.php:302
+msgid "rem-Einheiten"
+msgstr "Unités rem"
+
+#: wm-modularscale.php:302
+msgid ""
+"Relativ zur Schriftgröße, die im Browser eingestellt ist. Wer dort eine "
+"größere Schrift wählt, bekommt alle Stufen entsprechend größer."
+msgstr ""
+"Relatives à la taille de police réglée dans le navigateur. Un visiteur "
+"agrandissant sa police obtient tous les paliers agrandis."
+
+#: wm-modularscale.php:303
+msgid "Goldener Schnitt (1.618)"
+msgstr "Nombre d’or (1.618)"
+
+#: wm-modularscale.php:303
+msgid ""
+"Das Verhältnis (1 + √5) / 2. Als Skala ergibt es einen starken "
+"Größenunterschied zwischen Überschriften und Fließtext."
+msgstr ""
+"Le rapport (1 + √5) / 2. En typographie, il crée un fort contraste entre les "
+"titres et le texte courant."
+
+#: wm-modularscale.php:310
+msgid "Modulare Typografie"
+msgstr "Typographie modulaire"
+
+#: wm-modularscale.php:311
+msgid "WM Modular Scale — Typografische Skala"
+msgstr "WM Modular Scale — Échelle typographique"
+
+#: wm-modularscale.php:312
+msgid ""
+"Berechnet die Schriftgrößen für Überschriften (H1–H6) und Fließtext aus "
+"einer Basisgröße und einem Verhältnis und gibt sie als CSS-Variablen aus."
+msgstr ""
+"Calcule les tailles des titres (H1–H6) et du corps de texte à partir d’une "
+"base et d’un rapport, puis les exporte en variables CSS."
+
+#: wm-modularscale.php:316
+msgid "Seitennavigation"
+msgstr "Navigation de la page"
+
+#: wm-modularscale.php:317
+msgid "Springen zu:"
+msgstr "Aller à :"
+
+#: wm-modularscale.php:318
+msgid "Anleitung & Vorlagen"
+msgstr "Guide et modèles"
+
+#: wm-modularscale.php:320 wm-modularscale.php:417
+msgid "Live-Vorschau"
+msgstr "Aperçu en direct"
+
+#: wm-modularscale.php:321 wm-modularscale.php:438
+msgid "CSS-Variablen"
+msgstr "Variables CSS"
+
+#: wm-modularscale.php:322 wm-modularscale.php:447
+msgid "Glossar"
+msgstr "Glossaire"
+
+#: wm-modularscale.php:328
+msgid "Was ist eine modulare Skala?"
+msgstr "Qu’est-ce qu’une échelle modulaire ?"
+
+#: wm-modularscale.php:331
+msgid ""
+"Eine modulare Skala nimmt eine Basisgröße (zum Beispiel 16 px) und "
+"multipliziert sie Stufe für Stufe mit einem festen Verhältnis, wie die "
+"Intervalle in der Musik. So stehen Überschriften (H1 bis H6) und Fließtext "
+"in einem gleichbleibenden Größenverhältnis, statt einzeln festgelegt zu "
+"werden."
+msgstr ""
+"Une échelle modulaire multiplie une taille de base (par ex. 16 px) palier "
+"par palier selon un rapport fixe, comme les intervalles en musique, afin "
+"d’harmoniser les titres (H1 à H6) et le texte."
+
+#: wm-modularscale.php:334
+msgid "Vorlage übernehmen (setzt auch Basisgröße 16 und Einheit px):"
+msgstr "Appliquer un modèle (définit aussi base 16 et unité px) :"
+
+#: wm-modularscale.php:355
+msgid "Basisgröße (Fließtext)"
+msgstr "Taille de base (corps de texte)"
+
+#: wm-modularscale.php:357
+msgid ""
+"Die Größe des Fließtexts, aus der die Überschriften berechnet werden. "
+"Browser verwenden ohne eigene Einstellung 16 px."
+msgstr ""
+"Taille du texte courant servant de référence aux titres. Les navigateurs "
+"utilisent 16 px par défaut."
+
+#: wm-modularscale.php:363
+msgid "Vorlage wählen oder Wert eingeben"
+msgstr "Choisir un modèle ou saisir une valeur"
+
+#: wm-modularscale.php:368
+msgid "Verhältnis als Zahl"
+msgstr "Rapport numérique"
+
+#: wm-modularscale.php:370
+msgid "Je größer der Wert, desto größer der Abstand zwischen H1 und H3."
+msgstr "Plus la valeur est élevée, plus l’écart entre H1 et H3 est marqué."
+
+#: wm-modularscale.php:374
+msgid "Einheit"
+msgstr "Unité"
+
+#: wm-modularscale.php:376
+msgid "px (Pixel, feste Größe)"
+msgstr "px (pixels, taille fixe)"
+
+#: wm-modularscale.php:377
+msgid "rem (relativ zur Schriftgröße des Browsers)"
+msgstr "rem (relatif à la taille du navigateur)"
+
+#: wm-modularscale.php:378
+msgid "em (relativ zum übergeordneten Element)"
+msgstr "em (relatif à l’élément parent)"
+
+#: wm-modularscale.php:380
+msgid ""
+"Einheit der Variablen --wmmsp-* im Stylesheet. Die Fluid-Tokens --wm-step-* "
+"verwenden immer rem."
+msgstr ""
+"Unité des variables --wmmsp-* dans la feuille de style. Les jetons fluides --"
+"wm-step-* utilisent toujours rem."
+
+#: wm-modularscale.php:384
+msgid "Nachkommastellen"
+msgstr "Décimales"
+
+#: wm-modularscale.php:386
+msgid ""
+"Auf so viele Nachkommastellen rundet das Stylesheet die Werte "
+"(Voreinstellung 2)."
+msgstr "Nombre de décimales retenues par la feuille de style (2 par défaut)."
+
+#: wm-modularscale.php:393
+msgid "Skala auf der Website anwenden"
+msgstr "Appliquer l’échelle sur le site"
+
+#: wm-modularscale.php:394
+msgid ""
+"Gibt die Fluid-Tokens --wm-step-* im Seitenkopf aus und lädt das Stylesheet, "
+"das body, h1–h6, Absätze, Listen, Zitate und Code aus diesen Werten setzt."
+msgstr ""
+"Injecte les jetons fluides --wm-step-* dans l’en-tête et charge la feuille "
+"dimensionnant body, h1–h6, paragraphes, listes, citations et code."
+
+#: wm-modularscale.php:403
+msgid "Einstellungen beim Entfernen des Plugins löschen"
+msgstr "Supprimer les réglages lors de la désinstallation"
+
+#: wm-modularscale.php:404
+msgid ""
+"Standardmäßig bleiben Basisgröße, Verhältnis und Skalen-Optionen erhalten, "
+"falls das Plugin später erneut installiert wird."
+msgstr ""
+"Par défaut, la taille de base, le rapport et les options sont conservés si "
+"l’extension est réinstallée ultérieurement."
+
+#: wm-modularscale.php:410
+msgid "Typografie speichern"
+msgstr "Enregistrer la typographie"
+
+#: wm-modularscale.php:419
+msgid ""
+"Zeigt die Größen des Stylesheets (--wmmsp-*) für die aktuellen Felder, bevor "
+"Sie speichern."
+msgstr ""
+"Affiche les tailles de la feuille de style (--wmmsp-*) pour les champs "
+"actuels avant l’enregistrement."
+
+#: wm-modularscale.php:424
+msgid "Hauptüberschrift H1"
+msgstr "Titre principal H1"
+
+#: wm-modularscale.php:425
+msgid "Abschnittsüberschrift H2"
+msgstr "Titre de section H2"
+
+#: wm-modularscale.php:426
+msgid "Überschrift eines Inhaltsblocks H3"
+msgstr "Titre de bloc H3"
+
+#: wm-modularscale.php:427
+msgid "Titel einer Karte H4"
+msgstr "Titre de carte H4"
+
+#: wm-modularscale.php:428
+msgid "Kleine Überschrift H5"
+msgstr "Petit titre H5"
+
+#: wm-modularscale.php:429
+msgid "Fußnote H6"
+msgstr "Note de bas de page H6"
+
+#: wm-modularscale.php:430
+msgid "Fließtext"
+msgstr "Corps de texte"
+
+#: wm-modularscale.php:430
+msgid ""
+"Das ist ein Absatz im Fließtext. Seine Größe ist die Basisgröße; die "
+"Überschriften darüber sind daraus berechnet."
+msgstr ""
+"Ceci est un paragraphe courant. Sa taille correspond à la taille de base "
+"dont découlent les titres."
+
+#: wm-modularscale.php:440
+msgid ""
+"Diese Variablen setzt das Stylesheet, wenn die Skala angewendet wird. Die "
+"fließenden Stufen --wm-step-neg-2 bis --wm-step-6 berechnet das Plugin "
+"zusätzlich aus Basisgröße, maximaler Basisgröße und den Viewport-Breiten."
+msgstr ""
+"Ces variables sont définies lorsque l’échelle est activée. Les paliers "
+"fluides --wm-step-neg-2 à --wm-step-6 sont calculés en complément selon la "
+"base et la fenêtre."
+
+#: wm-modularscale.php:442
+msgid "Variablen werden berechnet …"
+msgstr "Calcul des variables …"
+
+#: wm-modularscale.php:449
+msgid "Die Begriffe dieser Seite kurz erklärt."
+msgstr "Explication concise des termes utilisés sur cette page."
+
+#: blocks-src/index.js:66
+msgid "Fluid Heading Settings"
+msgstr "Réglages du titre fluide"
+
+#: blocks-src/index.js:68
+msgid "Heading level (H1–H6)"
+msgstr "Niveau de titre (H1–H6)"
+
+#: blocks-src/index.js:78
+msgid "Modular scale step (-2 to +6)"
+msgstr "Palier de l’échelle modulaire (-2 à +6)"
+
+#: blocks-src/index.js:85 blocks-src/index.js:153
+msgid "Text alignment"
+msgstr "Alignement du texte"
+
+#: blocks-src/index.js:88 blocks-src/index.js:156
+msgid "Left"
+msgstr "Gauche"
+
+#: blocks-src/index.js:89 blocks-src/index.js:157
+msgid "Center"
+msgstr "Centre"
+
+#: blocks-src/index.js:90 blocks-src/index.js:158
+msgid "Right"
+msgstr "Droite"
+
+#: blocks-src/index.js:95
+msgid "Custom CSS clamp() override"
+msgstr "Surcharge CSS clamp() personnalisée"
+
+#: blocks-src/index.js:96
+msgid "Optional full CSS clamp() expression overriding the scale step."
+msgstr "Expression CSS clamp() complète remplaçant le palier de l’échelle."
+
+#: blocks-src/index.js:107
+msgid "Write fluid heading…"
+msgstr "Saisir un titre fluide…"
+
+#: blocks-src/index.js:144
+msgid "Fluid Lead Settings"
+msgstr "Réglages du chapô fluide"
+
+#: blocks-src/index.js:146
+msgid "Maximum line length (characters)"
+msgstr "Longueur maximale de ligne (caractères)"
+
+#: blocks-src/index.js:168
+msgid "Write lead paragraph…"
+msgstr "Saisir le paragraphe d’introduction…"
+
+#: blocks-src/index.js:198
+msgid "Container Query Context"
+msgstr "Contexte Container Query"
+
+#: blocks-src/index.js:200
+msgid "Container name"
+msgstr "Nom du conteneur"
+
+#: blocks-src/index.js:205
+msgid "Container type"
+msgstr "Type de conteneur"
+
+#: blocks-src/index.js:208
+msgid "Inline size (cqi / cqw)"
+msgstr "Taille en ligne (cqi / cqw)"
+
+#: blocks-src/index.js:209
+msgid "Size (width & height)"
+msgstr "Taille (largeur et hauteur)"
+
+#: blocks-src/index.js:210
+msgid "Normal"
+msgstr "Normal"
+
+#: blocks-src/index.js:247
+msgid "Typographic Grid Settings"
+msgstr "Réglages de la grille typographique"
+
+#: blocks-src/index.js:249
+msgid "Columns (1–6)"
+msgstr "Colonnes (1–6)"
+
+#: blocks-src/index.js:256
+msgid "Scale gap token"
+msgstr "Jeton d’espacement de l’échelle"
+
+#: blocks-src/index.js:259
+msgid "Step 0 (Body base)"
+msgstr "Palier 0 (Corps de base)"
+
+#: blocks-src/index.js:260
+msgid "Step 1 (Compact)"
+msgstr "Palier 1 (Compact)"
+
+#: blocks-src/index.js:261
+msgid "Step 2 (Default)"
+msgstr "Palier 2 (Par défaut)"
+
+#: blocks-src/index.js:262
+msgid "Step 3 (Spacious)"
+msgstr "Palier 3 (Aéré)"
+
+#: blocks-src/index.js:263
+msgid "Step 4 (Wide)"
+msgstr "Palier 4 (Large)"
+
+#: blocks-src/index.js:291
+msgid "Ratio Visualizer Settings"
+msgstr "Réglages du visualiseur de rapport"
+
+#: blocks-src/index.js:293
+msgid "Show step labels on SVG axis"
+msgstr "Afficher les libellés sur l’axe SVG"
+
+#: blocks-src/index.js:298
+msgid "Show step min/max cards"
+msgstr "Afficher les cartes min/max des paliers"
+
+#: blocks-src/index.js:303
+msgid "Color theme"
+msgstr "Thème de couleur"
+
+#: blocks-src/index.js:306
+msgid "Dark"
+msgstr "Sombre"
+
+#: blocks-src/index.js:307
+msgid "Light"
+msgstr "Clair"
+
+#: blocks-src/index.js:313
+msgid "Ratio Visualizer (SVG Curve)"
+msgstr "Visualiseur de rapport (courbe SVG)"
+
+#: blocks-src/index.js:335
+msgid "APCA Contrast Settings"
+msgstr "Réglages de contraste APCA"
+
+#: blocks-src/index.js:337
+msgid "Foreground hex color"
+msgstr "Couleur hexadécimale du texte"
+
+#: blocks-src/index.js:342
+msgid "Background hex color"
+msgstr "Couleur hexadécimale de l’arrière-plan"
+
+#: blocks-src/index.js:347
+msgid "Target text role"
+msgstr "Rôle visé du texte"
+
+#: blocks-src/index.js:350
+msgid "Body copy (target Lc 75)"
+msgstr "Corps de texte (cible Lc 75)"
+
+#: blocks-src/index.js:351
+msgid "UI / secondary text (target Lc 60)"
+msgstr "Texte secondaire / interface (cible Lc 60)"
+
+#: blocks-src/index.js:352
+msgid "Large headline (target Lc 45)"
+msgstr "Grand titre (cible Lc 45)"
+
+#: blocks-src/index.js:358
+msgid "APCA Contrast Badge (WM Scale)"
+msgstr "Badge de contraste APCA (WM Scale)"
+
+#: blocks-src/index.js:380
+msgid "Exporter Output Settings"
+msgstr "Réglages d’exportation"
+
+#: blocks-src/index.js:382
+msgid "Displayed export format"
+msgstr "Format d’export affiché"
+
+#: blocks-src/index.js:385
+msgid "Both (theme.json v3 + Tailwind v4)"
+msgstr "Les deux (theme.json v3 + Tailwind v4)"
+
+#: blocks-src/index.js:386
+msgid "theme.json v3 only"
+msgstr "theme.json v3 uniquement"
+
+#: blocks-src/index.js:387
+msgid "Tailwind CSS v4 @theme only"
+msgstr "Tailwind CSS v4 @theme uniquement"
+
+#: blocks-src/index.js:393
+msgid "Theme.json Exporter (WM Scale)"
+msgstr "Exportateur Theme.json (WM Scale)"
+
+#: src/Gutenberg/Blocks/contrast-matrix-badge/block.json
+msgctxt "block title"
+msgid "APCA Contrast Badge (WM Scale)"
+msgstr "Badge de contraste APCA (WM Scale)"
+
+#: src/Gutenberg/Blocks/contrast-matrix-badge/block.json
+msgctxt "block description"
+msgid ""
+"Badge with the APCA lightness contrast (Lc) of a text and background colour "
+"pair and a usage hint for that value."
+msgstr ""
+"Badge indiquant le contraste de luminance APCA (Lc) d’une paire de couleurs "
+"texte/fond et son usage conseillé."
+
+#: src/Gutenberg/Blocks/contrast-matrix-badge/block.json
+msgctxt "block keyword"
+msgid "contrast"
+msgstr "contraste"
+
+#: src/Gutenberg/Blocks/contrast-matrix-badge/block.json
+msgctxt "block keyword"
+msgid "apca"
+msgstr "apca"
+
+#: src/Gutenberg/Blocks/contrast-matrix-badge/block.json
+msgctxt "block keyword"
+msgid "a11y"
+msgstr "a11y"
+
+#: src/Gutenberg/Blocks/contrast-matrix-badge/block.json
+msgctxt "block keyword"
+msgid "accessibility"
+msgstr "accessibilité"
+
+#: src/Gutenberg/Blocks/fluid-container/block.json
+msgctxt "block title"
+msgid "Fluid Container (@container)"
+msgstr "Conteneur fluide (@container)"
+
+#: src/Gutenberg/Blocks/fluid-container/block.json
+msgctxt "block description"
+msgid ""
+"Container for inner blocks that sets container-type (default inline-size) "
+"and container-name (default wm-typographic-context) for container queries."
+msgstr ""
+"Conteneur pour blocs internes définissant container-type (inline-size par "
+"défaut) et container-name (wm-typographic-context)."
+
+#: src/Gutenberg/Blocks/fluid-container/block.json
+msgctxt "block keyword"
+msgid "container"
+msgstr "conteneur"
+
+#: src/Gutenberg/Blocks/fluid-container/block.json
+msgctxt "block keyword"
+msgid "queries"
+msgstr "requêtes"
+
+#: src/Gutenberg/Blocks/fluid-container/block.json
+msgctxt "block keyword"
+msgid "cqw"
+msgstr "cqw"
+
+#: src/Gutenberg/Blocks/fluid-container/block.json
+msgctxt "block keyword"
+msgid "cqi"
+msgstr "cqi"
+
+#: src/Gutenberg/Blocks/fluid-container/block.json
+#: src/Gutenberg/Blocks/fluid-heading/block.json
+#: src/Gutenberg/Blocks/fluid-lead/block.json
+msgctxt "block keyword"
+msgid "fluid"
+msgstr "fluide"
+
+#: src/Gutenberg/Blocks/fluid-container/block.json
+msgctxt "block keyword"
+msgid "layout"
+msgstr "mise en page"
+
+#: src/Gutenberg/Blocks/fluid-heading/block.json
+msgctxt "block title"
+msgid "Fluid Heading (WM Scale)"
+msgstr "Titre fluide (WM Scale)"
+
+#: src/Gutenberg/Blocks/fluid-heading/block.json
+msgctxt "block description"
+msgid ""
+"Heading (H1–H6) with the fluid font-size class of its level, balanced line "
+"wrapping and an optional custom clamp() value."
+msgstr ""
+"Titre (H1–H6) doté de la classe fluide de son niveau, d’un équilibrage des "
+"lignes et d’un clamp() optionnel."
+
+#: src/Gutenberg/Blocks/fluid-heading/block.json
+msgctxt "block keyword"
+msgid "heading"
+msgstr "titre"
+
+#: src/Gutenberg/Blocks/fluid-heading/block.json
+#: src/Gutenberg/Blocks/fluid-lead/block.json
+#: src/Gutenberg/Blocks/typographic-grid/block.json
+msgctxt "block keyword"
+msgid "typography"
+msgstr "typographie"
+
+#: src/Gutenberg/Blocks/fluid-heading/block.json
+#: src/Gutenberg/Blocks/ratio-visualizer/block.json
+msgctxt "block keyword"
+msgid "scale"
+msgstr "échelle"
+
+#: src/Gutenberg/Blocks/fluid-heading/block.json
+msgctxt "block keyword"
+msgid "modular"
+msgstr "modulaire"
+
+#: src/Gutenberg/Blocks/fluid-lead/block.json
+msgctxt "block title"
+msgid "Fluid Lead Text (WM Scale)"
+msgstr "Chapô fluide (WM Scale)"
+
+#: src/Gutenberg/Blocks/fluid-lead/block.json
+msgctxt "block description"
+msgid ""
+"Paragraph with the fluid body font size, a maximum line length of 35–85 "
+"characters (default 65) and pretty line wrapping."
+msgstr ""
+"Paragraphe à taille fluide, longueur maximale de 35 à 85 caractères (65 par "
+"défaut) et césure harmonieuse."
+
+#: src/Gutenberg/Blocks/fluid-lead/block.json
+msgctxt "block keyword"
+msgid "lead"
+msgstr "chapô"
+
+#: src/Gutenberg/Blocks/fluid-lead/block.json
+msgctxt "block keyword"
+msgid "paragraph"
+msgstr "paragraphe"
+
+#: src/Gutenberg/Blocks/fluid-lead/block.json
+msgctxt "block keyword"
+msgid "reading"
+msgstr "lecture"
+
+#: src/Gutenberg/Blocks/ratio-visualizer/block.json
+msgctxt "block title"
+msgid "Ratio Visualizer (SVG Curve)"
+msgstr "Visualiseur de rapport (courbe SVG)"
+
+#: src/Gutenberg/Blocks/ratio-visualizer/block.json
+msgctxt "block description"
+msgid ""
+"Shows the nine scale steps with their minimum and maximum size in px, "
+"calculated from the stored base sizes and ratio."
+msgstr ""
+"Affiche les neuf paliers de l’échelle avec leurs tailles minimale et "
+"maximale en px calculées selon les réglages."
+
+#: src/Gutenberg/Blocks/ratio-visualizer/block.json
+msgctxt "block keyword"
+msgid "visualizer"
+msgstr "visualiseur"
+
+#: src/Gutenberg/Blocks/ratio-visualizer/block.json
+msgctxt "block keyword"
+msgid "ratio"
+msgstr "rapport"
+
+#: src/Gutenberg/Blocks/ratio-visualizer/block.json
+msgctxt "block keyword"
+msgid "svg"
+msgstr "svg"
+
+#: src/Gutenberg/Blocks/ratio-visualizer/block.json
+msgctxt "block keyword"
+msgid "curve"
+msgstr "courbe"
+
+#: src/Gutenberg/Blocks/ratio-visualizer/block.json
+msgctxt "block keyword"
+msgid "preview"
+msgstr "aperçu"
+
+#: src/Gutenberg/Blocks/theme-json-exporter/block.json
+msgctxt "block title"
+msgid "Theme.json Exporter (WM Scale)"
+msgstr "Exportateur Theme.json (WM Scale)"
+
+#: src/Gutenberg/Blocks/theme-json-exporter/block.json
+msgctxt "block description"
+msgid ""
+"Shows the theme.json fontSizes and the Tailwind CSS v4 @theme block "
+"generated from the stored scale."
+msgstr ""
+"Affiche les fontSizes de theme.json et le bloc @theme de Tailwind CSS v4 "
+"générés à partir de l’échelle."
+
+#: src/Gutenberg/Blocks/theme-json-exporter/block.json
+msgctxt "block keyword"
+msgid "theme.json"
+msgstr "theme.json"
+
+#: src/Gutenberg/Blocks/theme-json-exporter/block.json
+msgctxt "block keyword"
+msgid "exporter"
+msgstr "exportateur"
+
+#: src/Gutenberg/Blocks/theme-json-exporter/block.json
+msgctxt "block keyword"
+msgid "tokens"
+msgstr "jetons"
+
+#: src/Gutenberg/Blocks/theme-json-exporter/block.json
+msgctxt "block keyword"
+msgid "json"
+msgstr "json"
+
+#: src/Gutenberg/Blocks/theme-json-exporter/block.json
+msgctxt "block keyword"
+msgid "tailwind"
+msgstr "tailwind"
+
+#: src/Gutenberg/Blocks/typographic-grid/block.json
+msgctxt "block title"
+msgid "Typographic Grid (WM Scale)"
+msgstr "Grille typographique (WM Scale)"
+
+#: src/Gutenberg/Blocks/typographic-grid/block.json
+msgctxt "block description"
+msgid ""
+"Grid of 1–6 equal columns for inner blocks, with a gap from the scale "
+"(default var(--wm-step-2))."
+msgstr ""
+"Grille de 1 à 6 colonnes égales pour blocs internes avec espacement issu de "
+"l’échelle."
+
+#: src/Gutenberg/Blocks/typographic-grid/block.json
+msgctxt "block keyword"
+msgid "grid"
+msgstr "grille"
+
+#: src/Gutenberg/Blocks/typographic-grid/block.json
+msgctxt "block keyword"
+msgid "columns"
+msgstr "colonnes"
+
+#: src/Gutenberg/Blocks/typographic-grid/block.json
+msgctxt "block keyword"
+msgid "rhythm"
+msgstr "rythme"
+
+#: src/Gutenberg/Blocks/typographic-grid/block.json
+msgctxt "block keyword"
+msgid "baseline"
+msgstr "ligne de base"
+
+#~ msgid "https://www.arnoldwender.com"
+#~ msgstr "https://www.arnoldwender.com"

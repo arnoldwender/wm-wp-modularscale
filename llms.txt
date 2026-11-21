@@ -1,0 +1,17 @@
+# WM Modular Scale
+
+> Typographic scale calculator, fluid `clamp()` CSS token generator, and Gutenberg / GeneratePress / GenerateBlocks typography bridge for WordPress.
+
+## Facts
+
+- Version 1.4.1. Requires WordPress 6.4+ and PHP 8.1+.
+- Computes nine fluid steps (`--wm-step-neg-2`..`--wm-step-6` and `--ms-neg-2`..`--ms-6`), `theme.json` `fontSizes` presets, GeneratePress dynamic typography hooks, GenerateBlocks 1.x/2.x styles and `{{wm_scale_token}}`, WP 6.5+ Block Bindings (`wm-modularscale/tokens`), and WP 6.9 Ability (`wm-modularscale/compute-scale`).
+- Seven compiled Gutenberg blocks (`wm-scale/*` via `build/index.js`): Fluid Heading, Fluid Lead Text, Fluid Container, Typographic Grid, Ratio Visualizer, APCA Contrast Badge, and Theme.json Exporter.
+- Checks fluid steps against WCAG 1.4.4 zoom bounds (`max <= 2.5 x min`) and computes APCA `Lc` per `apca-w3 0.1.9`; no legal conformity is claimed.
+- Zero-CDN invariant (self-hosted assets in `/assets/`, Google Fonts dequeued by GeneratePress bridge), opt-in uninstall (`wmmsp_delete_data_on_uninstall`, default `0`), and 28 complete `.po`/`.mo`/JED `.json` translation catalogs.
+
+## Official Links
+
+- Plugin Page: https://arnoldwender.com/wordpress-plugins/wm-modularscale/
+- GitHub Repository: https://github.com/arnoldwender/wm-wp-modularscale
+- Support & Liability: Zero support — reproducible bugs on https://github.com/arnoldwender/wm-wp-modularscale/issues only · no private support · AS IS / no liability (SUPPORT.md)

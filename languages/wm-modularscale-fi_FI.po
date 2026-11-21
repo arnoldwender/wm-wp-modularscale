@@ -1,0 +1,972 @@
+# Translation of WM Modular Scale in fi_FI
+# Copyright (C) 2026 Arnold Wender
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: wm-modularscale 1.4.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wm-modularscale\n"
+"POT-Creation-Date: 2026-11-21T14:04:16+00:00\n"
+"PO-Revision-Date: 2026-11-21 15:04+0100\n"
+"Last-Translator: WM Suite <https://github.com/arnoldwender/wm-wp-"
+"modularscale/issues>\n"
+"Language-Team: WM Suite <https://github.com/arnoldwender/wm-wp-modularscale/"
+"issues>\n"
+"Language: fi_FI\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: WM Suite i18n Compiler 2026\n"
+"X-Domain: wm-modularscale\n"
+
+#. Plugin Name of the plugin
+#: wm-modularscale.php src/Integration/Ecosystem_Bridge.php:199
+#: wm-modularscale.php:113 wm-modularscale.php:134
+msgid "WM Modular Scale"
+msgstr "WM Modular Scale"
+
+#. Plugin URI of the plugin
+#: wm-modularscale.php
+msgid "https://arnoldwender.com/wordpress-plugins/wm-modularscale/"
+msgstr "https://arnoldwender.com/wordpress-plugins/wm-modularscale/"
+
+#. Description of the plugin
+#: wm-modularscale.php
+msgid ""
+"Generates harmonious, responsive typography ratios and modular scales with a "
+"visual live preview sandbox for non-technical users."
+msgstr ""
+"Luo harmonisia, responsiivisia typografisia mittasuhteita ja modulaarisia "
+"asteikkoja reaaliaikaisella esikatselulla."
+
+#. Author of the plugin
+#: wm-modularscale.php
+msgid "Arnold Wender"
+msgstr "Arnold Wender"
+
+#. Author URI of the plugin
+#: wm-modularscale.php
+msgid "https://arnoldwender.com"
+msgstr "https://arnoldwender.com"
+
+#: src/Gutenberg/Block_Manager.php:134
+msgid "WM Modular Scale — Typografie Enterprise"
+msgstr "WM Modular Scale — Yritystypografia"
+
+#: src/Integration/Ecosystem_Bridge.php:56
+msgid "WM Modular Scale Tokens"
+msgstr "WM Modular Scale -tokenit"
+
+#: src/Integration/Ecosystem_Bridge.php:133
+msgid "WM Modular Scale Token"
+msgstr "WM Modular Scale -token"
+
+#: src/Integration/Ecosystem_Bridge.php:137
+msgid ""
+"Outputs a computed fluid clamp() token or px range from WM Modular Scale."
+msgstr ""
+"Palauttaa lasketun joustavan clamp()-tokenin tai px-vaihteluvälin WM Modular "
+"Scalesta."
+
+#: src/Integration/Ecosystem_Bridge.php:141
+msgid "Scale step (-2 to 6)"
+msgstr "Asteikon askel (-2 … 6)"
+
+#: src/Integration/Ecosystem_Bridge.php:146
+msgid "Output format"
+msgstr "Tulostusmuoto"
+
+#: src/Integration/Ecosystem_Bridge.php:151
+msgid "CSS clamp() expression"
+msgstr "CSS clamp() -lauseke"
+
+#: src/Integration/Ecosystem_Bridge.php:155
+msgid "Min–Max px range"
+msgstr "Min–maks px-väli"
+
+#: src/Integration/Ecosystem_Bridge.php:159
+msgid "Maximum px size"
+msgstr "Enimmäiskoko (px)"
+
+#: src/Integration/Ecosystem_Bridge.php:207
+msgid "Fluid Typographic Hero & Lead"
+msgstr "Joustava typografinen Hero ja ingressi"
+
+#: src/Integration/Ecosystem_Bridge.php:208
+msgid ""
+"Container-query section pairing a Fluid Heading with an ergonomic Fluid Lead "
+"paragraph."
+msgstr ""
+"Container-query-osio, joka yhdistää joustavan otsikon ja ergonomisen "
+"johdantokappaleen."
+
+#: src/Integration/Ecosystem_Bridge.php:211
+msgid "Harmonische Typografie im Browser"
+msgstr "Harmoninen typografia selaimessa"
+
+#: src/Integration/Ecosystem_Bridge.php:212
+msgid ""
+"Fließende Schriftgrößen zwischen Mobilgerät und Desktop, berechnet aus "
+"Basisgröße und musikalischem Intervall."
+msgstr ""
+"Joustavat kirjasinkoot mobiilin ja työpöydän välillä peruskoosta ja "
+"musiikillisesta intervallista laskettuna."
+
+#: src/Integration/Ecosystem_Bridge.php:221
+msgid "GenerateBlocks Fluid Scale Section"
+msgstr "GenerateBlocksin joustava asteikko-osio"
+
+#: src/Integration/Ecosystem_Bridge.php:222
+msgid ""
+"Two-layer GenerateBlocks section (gbp-section + gbp-section__inner) "
+"consuming --ms-* and --wm-step-* fluid tokens."
+msgstr ""
+"Kaksikerroksinen GenerateBlocks-osio (gbp-section + gbp-section__inner), "
+"joka käyttää --ms-* ja --wm-step-* tokeneita."
+
+#: src/Integration/Ecosystem_Bridge.php:229
+msgid "Modulare Skala mit GenerateBlocks"
+msgstr "Modulaarinen asteikko GenerateBlocksilla"
+
+#: src/Integration/Ecosystem_Bridge.php:232
+msgid "Direkte Nutzung der berechneten CSS-Variablen ohne Media-Query-Stufen."
+msgstr "Laskettujen CSS-muuttujien suora käyttö ilman media-query-taitekohtia."
+
+#: src/Integration/Ecosystem_Bridge.php:254
+msgid "Compute Modular Typography Scale"
+msgstr "Laske modulaarinen typografia-asteikko"
+
+#: src/Integration/Ecosystem_Bridge.php:255
+msgid ""
+"Calculates the nine fluid clamp() steps (-2 to +6), line heights and WCAG "
+"1.4.4 zoom-safety flags for a base size and ratio."
+msgstr ""
+"Laskee yhdeksän joustavaa clamp()-askelta (-2 … +6), rivikorkeudet ja WCAG "
+"1.4.4 -zoomaustarkistuksen."
+
+#: wm-modularscale.php:114
+msgid "Modular Scale"
+msgstr "Modulaarinen asteikko"
+
+#: wm-modularscale.php:125
+msgid "WM Modular Scale — Einstellungen & Vorschau"
+msgstr "WM Modular Scale — Asetukset ja esikatselu"
+
+#: wm-modularscale.php:126
+msgid "Typografie & Skalen"
+msgstr "Typografia ja asteikot"
+
+#: wm-modularscale.php:135
+msgid "Modular Scale (Typografie)"
+msgstr "Modular Scale (Typografia)"
+
+#: wm-modularscale.php:153
+msgid "WM Modular Scale — Harmonische Typografie & CSS Variablen"
+msgstr "WM Modular Scale — Harmoninen typografia ja CSS-muuttujat"
+
+#: wm-modularscale.php:178
+msgid "Skala auf der Website angewendet"
+msgstr "Asteikko on käytössä sivustolla"
+
+#: wm-modularscale.php:180
+msgid "Skala berechnet, noch nicht auf die Website angewendet"
+msgstr "Asteikko on laskettu, ei vielä käytössä sivustolla"
+
+#: wm-modularscale.php:184
+msgid "Fluid-Tokens (--wm-step-*) und Stylesheet (--wmmsp-*)"
+msgstr "Joustavat tokenit (--wm-step-*) ja tyylitiedosto (--wmmsp-*)"
+
+#: wm-modularscale.php:191 wm-modularscale.php:301
+msgid "Basisgröße"
+msgstr "Peruskoko"
+
+#: wm-modularscale.php:195
+msgid "Verhältnis"
+msgstr "Suhde"
+
+#: wm-modularscale.php:198
+msgid "Aktiv"
+msgstr "Käytössä"
+
+#: wm-modularscale.php:198
+msgid "Aus"
+msgstr "Pois"
+
+#: wm-modularscale.php:199
+msgid "Auf der Website"
+msgstr "Sivustolla"
+
+#: wm-modularscale.php:205
+msgid "Typografie-Cockpit öffnen"
+msgstr "Avaa typografian hallintapaneeli"
+
+#: wm-modularscale.php:220 wm-modularscale.php:319 wm-modularscale.php:347
+msgid "Einstellungen"
+msgstr "Asetukset"
+
+#: wm-modularscale.php:245
+msgid "Part of the WM Suite plugin family"
+msgstr "Osa WM Suiten lisäosaperhettä"
+
+#: wm-modularscale.php:247
+msgid "WM Suite"
+msgstr "WM Suite"
+
+#: wm-modularscale.php:248
+msgid "Hub"
+msgstr "Hub"
+
+#: wm-modularscale.php:248
+msgid "Standalone"
+msgstr "Itsenäinen"
+
+#: wm-modularscale.php:262
+msgid "wird berechnet …"
+msgstr "lasketaan …"
+
+#: wm-modularscale.php:283
+msgid "Kleine Terz 1.200 – Blog"
+msgstr "Pieni terssi 1.200 – Blogi"
+
+#: wm-modularscale.php:284
+msgid "Große Terz 1.250 – Voreinstellung"
+msgstr "Suuri terssi 1.250 – Oletus"
+
+#: wm-modularscale.php:285
+msgid "Quarte 1.333 – markante Überschriften"
+msgstr "Puhdas kvartti 1.333 – Selkeät otsikot"
+
+#: wm-modularscale.php:286
+msgid "Goldener Schnitt 1.618 – Magazin, große Titel"
+msgstr "Kultainen leikkaus 1.618 – Aikakauslehti, isot otsikot"
+
+#: wm-modularscale.php:290
+msgid "1.125 — Große Sekunde (kompakt, Anwendungen)"
+msgstr "1.125 — Suuri sekunti (tiivis, sovellukset)"
+
+#: wm-modularscale.php:291
+msgid "1.200 — Kleine Terz (Blog)"
+msgstr "1.200 — Pieni terssi (blogi)"
+
+#: wm-modularscale.php:292
+msgid "1.250 — Große Terz (Voreinstellung)"
+msgstr "1.250 — Suuri terssi (oletus)"
+
+#: wm-modularscale.php:293
+msgid "1.333 — Quarte (markante Überschriften)"
+msgstr "1.333 — Puhdas kvartti (selkeät otsikot)"
+
+#: wm-modularscale.php:294
+msgid "1.414 — Übermäßige Quarte (Editorial)"
+msgstr "1.414 — Ylinouseva kvartti (toimituksellinen)"
+
+#: wm-modularscale.php:295
+msgid "1.500 — Quinte (kreative Layouts)"
+msgstr "1.500 — Puhdas kvintti (luovat taitot)"
+
+#: wm-modularscale.php:296
+msgid "1.618 — Goldener Schnitt (sehr große Titel)"
+msgstr "1.618 — Kultainen leikkaus (erittäin suuret otsikot)"
+
+#: wm-modularscale.php:300 wm-modularscale.php:361
+msgid "Verhältnis (Ratio)"
+msgstr "Suhde (Ratio)"
+
+#: wm-modularscale.php:300
+msgid ""
+"Der feste Faktor zwischen zwei Stufen der Skala. Bei 1.25 ist jede Stufe 25 "
+"% größer als die vorherige."
+msgstr ""
+"Kiinteä kerroin asteikon kahden askeleen välillä. Arvolla 1.25 jokainen "
+"askel on 25 % edellistä suurempi."
+
+#: wm-modularscale.php:301
+msgid ""
+"Die Schriftgröße des Fließtexts (<p>). Aus ihr werden alle Überschriften "
+"berechnet. Browser verwenden ohne eigene Einstellung 16 px."
+msgstr ""
+"Leipätekstin (<p>) kirjasinkoko, josta kaikki otsikot lasketaan. Selaimet "
+"käyttävät oletuksena 16 px."
+
+#: wm-modularscale.php:302
+msgid "rem-Einheiten"
+msgstr "rem-yksiköt"
+
+#: wm-modularscale.php:302
+msgid ""
+"Relativ zur Schriftgröße, die im Browser eingestellt ist. Wer dort eine "
+"größere Schrift wählt, bekommt alle Stufen entsprechend größer."
+msgstr ""
+"Suhteessa selaimen oletuskirjasinkokoon. Suuremman tekstin valitseva "
+"käyttäjä saa kaikki askeleet suhteessa suurempina."
+
+#: wm-modularscale.php:303
+msgid "Goldener Schnitt (1.618)"
+msgstr "Kultainen leikkaus (1.618)"
+
+#: wm-modularscale.php:303
+msgid ""
+"Das Verhältnis (1 + √5) / 2. Als Skala ergibt es einen starken "
+"Größenunterschied zwischen Überschriften und Fließtext."
+msgstr ""
+"Suhde (1 + √5) / 2. Asteikkona se luo vahvan kokoeron otsikoiden ja "
+"leipätekstin välille."
+
+#: wm-modularscale.php:310
+msgid "Modulare Typografie"
+msgstr "Modulaarinen typografia"
+
+#: wm-modularscale.php:311
+msgid "WM Modular Scale — Typografische Skala"
+msgstr "WM Modular Scale — Typografinen asteikko"
+
+#: wm-modularscale.php:312
+msgid ""
+"Berechnet die Schriftgrößen für Überschriften (H1–H6) und Fließtext aus "
+"einer Basisgröße und einem Verhältnis und gibt sie als CSS-Variablen aus."
+msgstr ""
+"Laskee otsikoiden (H1–H6) ja leipätekstin kirjasinkoot peruskoosta ja "
+"suhteesta sekä tulostaa ne CSS-muuttujina."
+
+#: wm-modularscale.php:316
+msgid "Seitennavigation"
+msgstr "Sivunavigaatio"
+
+#: wm-modularscale.php:317
+msgid "Springen zu:"
+msgstr "Siirry kohtaan:"
+
+#: wm-modularscale.php:318
+msgid "Anleitung & Vorlagen"
+msgstr "Opas ja mallit"
+
+#: wm-modularscale.php:320 wm-modularscale.php:417
+msgid "Live-Vorschau"
+msgstr "Reaaliaikainen esikatselu"
+
+#: wm-modularscale.php:321 wm-modularscale.php:438
+msgid "CSS-Variablen"
+msgstr "CSS-muuttujat"
+
+#: wm-modularscale.php:322 wm-modularscale.php:447
+msgid "Glossar"
+msgstr "Sanasto"
+
+#: wm-modularscale.php:328
+msgid "Was ist eine modulare Skala?"
+msgstr "Mikä on modulaarinen asteikko?"
+
+#: wm-modularscale.php:331
+msgid ""
+"Eine modulare Skala nimmt eine Basisgröße (zum Beispiel 16 px) und "
+"multipliziert sie Stufe für Stufe mit einem festen Verhältnis, wie die "
+"Intervalle in der Musik. So stehen Überschriften (H1 bis H6) und Fließtext "
+"in einem gleichbleibenden Größenverhältnis, statt einzeln festgelegt zu "
+"werden."
+msgstr ""
+"Modulaarinen asteikko kertoo peruskoon (esim. 16 px) askel askeleelta "
+"kiinteällä suhteella musiikillisten intervallien tapaan, jolloin H1–H6 ja "
+"leipäteksti pysyvät sopusoinnussa."
+
+#: wm-modularscale.php:334
+msgid "Vorlage übernehmen (setzt auch Basisgröße 16 und Einheit px):"
+msgstr "Käytä mallia (asettaa myös peruskoon 16 ja yksikön px):"
+
+#: wm-modularscale.php:355
+msgid "Basisgröße (Fließtext)"
+msgstr "Peruskoko (leipäteksti)"
+
+#: wm-modularscale.php:357
+msgid ""
+"Die Größe des Fließtexts, aus der die Überschriften berechnet werden. "
+"Browser verwenden ohne eigene Einstellung 16 px."
+msgstr ""
+"Leipätekstin koko, josta otsikot lasketaan. Selainten oletusarvo on 16 px."
+
+#: wm-modularscale.php:363
+msgid "Vorlage wählen oder Wert eingeben"
+msgstr "Valitse malli tai syötä arvo"
+
+#: wm-modularscale.php:368
+msgid "Verhältnis als Zahl"
+msgstr "Numeerinen suhde"
+
+#: wm-modularscale.php:370
+msgid "Je größer der Wert, desto größer der Abstand zwischen H1 und H3."
+msgstr "Mitä suurempi arvo, sitä suurempi ero H1- ja H3-tasojen välillä."
+
+#: wm-modularscale.php:374
+msgid "Einheit"
+msgstr "Yksikkö"
+
+#: wm-modularscale.php:376
+msgid "px (Pixel, feste Größe)"
+msgstr "px (pikselit, kiinteä koko)"
+
+#: wm-modularscale.php:377
+msgid "rem (relativ zur Schriftgröße des Browsers)"
+msgstr "rem (suhteessa selaimen kirjasinkokoon)"
+
+#: wm-modularscale.php:378
+msgid "em (relativ zum übergeordneten Element)"
+msgstr "em (suhteessa ylempään elementtiin)"
+
+#: wm-modularscale.php:380
+msgid ""
+"Einheit der Variablen --wmmsp-* im Stylesheet. Die Fluid-Tokens --wm-step-* "
+"verwenden immer rem."
+msgstr ""
+"Tyylitiedoston --wmmsp-*-muuttujien yksikkö. Joustavat --wm-step-*-tokenit "
+"käyttävät aina rem-yksikköä."
+
+#: wm-modularscale.php:384
+msgid "Nachkommastellen"
+msgstr "Desimaalit"
+
+#: wm-modularscale.php:386
+msgid ""
+"Auf so viele Nachkommastellen rundet das Stylesheet die Werte "
+"(Voreinstellung 2)."
+msgstr "Desimaalien määrä, johon tyylitiedosto pyöristää arvot (oletus 2)."
+
+#: wm-modularscale.php:393
+msgid "Skala auf der Website anwenden"
+msgstr "Ota asteikko käyttöön sivustolla"
+
+#: wm-modularscale.php:394
+msgid ""
+"Gibt die Fluid-Tokens --wm-step-* im Seitenkopf aus und lädt das Stylesheet, "
+"das body, h1–h6, Absätze, Listen, Zitate und Code aus diesen Werten setzt."
+msgstr ""
+"Tulostaa joustavat --wm-step-*-tokenit sivun otsakkeeseen ja lataa body-, h1–"
+"h6-, kappale-, lista-, lainaus- ja koodityylit."
+
+#: wm-modularscale.php:403
+msgid "Einstellungen beim Entfernen des Plugins löschen"
+msgstr "Poista asetukset lisäosan poiston yhteydessä"
+
+#: wm-modularscale.php:404
+msgid ""
+"Standardmäßig bleiben Basisgröße, Verhältnis und Skalen-Optionen erhalten, "
+"falls das Plugin später erneut installiert wird."
+msgstr ""
+"Oletuksena peruskoko, suhde ja asteikkoasetukset säilytetään mahdollista "
+"uudelleenasennusta varten."
+
+#: wm-modularscale.php:410
+msgid "Typografie speichern"
+msgstr "Tallenna typografia"
+
+#: wm-modularscale.php:419
+msgid ""
+"Zeigt die Größen des Stylesheets (--wmmsp-*) für die aktuellen Felder, bevor "
+"Sie speichern."
+msgstr ""
+"Näyttää tyylitiedoston koot (--wmmsp-*) nykyisillä arvoilla ennen "
+"tallennusta."
+
+#: wm-modularscale.php:424
+msgid "Hauptüberschrift H1"
+msgstr "Pääotsikko H1"
+
+#: wm-modularscale.php:425
+msgid "Abschnittsüberschrift H2"
+msgstr "Osio-otsikko H2"
+
+#: wm-modularscale.php:426
+msgid "Überschrift eines Inhaltsblocks H3"
+msgstr "Sisältölohkon otsikko H3"
+
+#: wm-modularscale.php:427
+msgid "Titel einer Karte H4"
+msgstr "Kortin otsikko H4"
+
+#: wm-modularscale.php:428
+msgid "Kleine Überschrift H5"
+msgstr "Pieni otsikko H5"
+
+#: wm-modularscale.php:429
+msgid "Fußnote H6"
+msgstr "Alaviite H6"
+
+#: wm-modularscale.php:430
+msgid "Fließtext"
+msgstr "Leipäteksti"
+
+#: wm-modularscale.php:430
+msgid ""
+"Das ist ein Absatz im Fließtext. Seine Größe ist die Basisgröße; die "
+"Überschriften darüber sind daraus berechnet."
+msgstr ""
+"Tämä on leipätekstikappale. Sen koko vastaa peruskokoa, josta ylemmät "
+"otsikot on laskettu."
+
+#: wm-modularscale.php:440
+msgid ""
+"Diese Variablen setzt das Stylesheet, wenn die Skala angewendet wird. Die "
+"fließenden Stufen --wm-step-neg-2 bis --wm-step-6 berechnet das Plugin "
+"zusätzlich aus Basisgröße, maximaler Basisgröße und den Viewport-Breiten."
+msgstr ""
+"Tyylitiedosto asettaa nämä muuttujat kun asteikko on käytössä. Lisäksi "
+"lisäosa laskee joustavat askeleet --wm-step-neg-2 … --wm-step-6."
+
+#: wm-modularscale.php:442
+msgid "Variablen werden berechnet …"
+msgstr "Muuttujia lasketaan …"
+
+#: wm-modularscale.php:449
+msgid "Die Begriffe dieser Seite kurz erklärt."
+msgstr "Tällä sivulla esiintyvien käsitteiden lyhyt selitys."
+
+#: blocks-src/index.js:66
+msgid "Fluid Heading Settings"
+msgstr "Joustavan otsikon asetukset"
+
+#: blocks-src/index.js:68
+msgid "Heading level (H1–H6)"
+msgstr "Otsikkotaso (H1–H6)"
+
+#: blocks-src/index.js:78
+msgid "Modular scale step (-2 to +6)"
+msgstr "Modulaarisen asteikon askel (-2 … +6)"
+
+#: blocks-src/index.js:85 blocks-src/index.js:153
+msgid "Text alignment"
+msgstr "Tekstin tasaus"
+
+#: blocks-src/index.js:88 blocks-src/index.js:156
+msgid "Left"
+msgstr "Vasen"
+
+#: blocks-src/index.js:89 blocks-src/index.js:157
+msgid "Center"
+msgstr "Keskitetty"
+
+#: blocks-src/index.js:90 blocks-src/index.js:158
+msgid "Right"
+msgstr "Oikea"
+
+#: blocks-src/index.js:95
+msgid "Custom CSS clamp() override"
+msgstr "Mukautettu CSS clamp() -arvo"
+
+#: blocks-src/index.js:96
+msgid "Optional full CSS clamp() expression overriding the scale step."
+msgstr ""
+"Valinnainen täydellinen CSS clamp() -lauseke, joka korvaa asteikon askeleen."
+
+#: blocks-src/index.js:107
+msgid "Write fluid heading…"
+msgstr "Kirjoita joustava otsikko…"
+
+#: blocks-src/index.js:144
+msgid "Fluid Lead Settings"
+msgstr "Joustavan ingressin asetukset"
+
+#: blocks-src/index.js:146
+msgid "Maximum line length (characters)"
+msgstr "Rivin enimmäispituus (merkkiä)"
+
+#: blocks-src/index.js:168
+msgid "Write lead paragraph…"
+msgstr "Kirjoita johdantokappale…"
+
+#: blocks-src/index.js:198
+msgid "Container Query Context"
+msgstr "Container Query -konteksti"
+
+#: blocks-src/index.js:200
+msgid "Container name"
+msgstr "Säiliön nimi"
+
+#: blocks-src/index.js:205
+msgid "Container type"
+msgstr "Säiliön tyyppi"
+
+#: blocks-src/index.js:208
+msgid "Inline size (cqi / cqw)"
+msgstr "Rivisuuntainen koko (cqi / cqw)"
+
+#: blocks-src/index.js:209
+msgid "Size (width & height)"
+msgstr "Koko (leveys ja korkeus)"
+
+#: blocks-src/index.js:210
+msgid "Normal"
+msgstr "Normaali"
+
+#: blocks-src/index.js:247
+msgid "Typographic Grid Settings"
+msgstr "Typografisen ruudukon asetukset"
+
+#: blocks-src/index.js:249
+msgid "Columns (1–6)"
+msgstr "Sarakkeet (1–6)"
+
+#: blocks-src/index.js:256
+msgid "Scale gap token"
+msgstr "Asteikon välitoken"
+
+#: blocks-src/index.js:259
+msgid "Step 0 (Body base)"
+msgstr "Askel 0 (Leipäteksti)"
+
+#: blocks-src/index.js:260
+msgid "Step 1 (Compact)"
+msgstr "Askel 1 (Tiivis)"
+
+#: blocks-src/index.js:261
+msgid "Step 2 (Default)"
+msgstr "Askel 2 (Oletus)"
+
+#: blocks-src/index.js:262
+msgid "Step 3 (Spacious)"
+msgstr "Askel 3 (Väljä)"
+
+#: blocks-src/index.js:263
+msgid "Step 4 (Wide)"
+msgstr "Askel 4 (Leveä)"
+
+#: blocks-src/index.js:291
+msgid "Ratio Visualizer Settings"
+msgstr "Suhteen visualisoijan asetukset"
+
+#: blocks-src/index.js:293
+msgid "Show step labels on SVG axis"
+msgstr "Näytä askelnimet SVG-akselilla"
+
+#: blocks-src/index.js:298
+msgid "Show step min/max cards"
+msgstr "Näytä askelten min/maks-kortit"
+
+#: blocks-src/index.js:303
+msgid "Color theme"
+msgstr "Väriteema"
+
+#: blocks-src/index.js:306
+msgid "Dark"
+msgstr "Tumma"
+
+#: blocks-src/index.js:307
+msgid "Light"
+msgstr "Vaalea"
+
+#: blocks-src/index.js:313
+msgid "Ratio Visualizer (SVG Curve)"
+msgstr "Suhteen visualisoija (SVG-käyrä)"
+
+#: blocks-src/index.js:335
+msgid "APCA Contrast Settings"
+msgstr "APCA-kontrastin asetukset"
+
+#: blocks-src/index.js:337
+msgid "Foreground hex color"
+msgstr "Tekstin heksaväri"
+
+#: blocks-src/index.js:342
+msgid "Background hex color"
+msgstr "Taustan heksaväri"
+
+#: blocks-src/index.js:347
+msgid "Target text role"
+msgstr "Tekstin käyttötarkoitus"
+
+#: blocks-src/index.js:350
+msgid "Body copy (target Lc 75)"
+msgstr "Leipäteksti (tavoite Lc 75)"
+
+#: blocks-src/index.js:351
+msgid "UI / secondary text (target Lc 60)"
+msgstr "Toissijainen / UI-teksti (tavoite Lc 60)"
+
+#: blocks-src/index.js:352
+msgid "Large headline (target Lc 45)"
+msgstr "Suuri otsikko (tavoite Lc 45)"
+
+#: blocks-src/index.js:358
+msgid "APCA Contrast Badge (WM Scale)"
+msgstr "APCA-kontrastimerkki (WM Scale)"
+
+#: blocks-src/index.js:380
+msgid "Exporter Output Settings"
+msgstr "Viennin asetukset"
+
+#: blocks-src/index.js:382
+msgid "Displayed export format"
+msgstr "Näytettävä vientimuoto"
+
+#: blocks-src/index.js:385
+msgid "Both (theme.json v3 + Tailwind v4)"
+msgstr "Molemmat (theme.json v3 + Tailwind v4)"
+
+#: blocks-src/index.js:386
+msgid "theme.json v3 only"
+msgstr "Vain theme.json v3"
+
+#: blocks-src/index.js:387
+msgid "Tailwind CSS v4 @theme only"
+msgstr "Vain Tailwind CSS v4 @theme"
+
+#: blocks-src/index.js:393
+msgid "Theme.json Exporter (WM Scale)"
+msgstr "Theme.json-viejä (WM Scale)"
+
+#: src/Gutenberg/Blocks/contrast-matrix-badge/block.json
+msgctxt "block title"
+msgid "APCA Contrast Badge (WM Scale)"
+msgstr "APCA-kontrastimerkki (WM Scale)"
+
+#: src/Gutenberg/Blocks/contrast-matrix-badge/block.json
+msgctxt "block description"
+msgid ""
+"Badge with the APCA lightness contrast (Lc) of a text and background colour "
+"pair and a usage hint for that value."
+msgstr ""
+"Merkki, joka näyttää teksti- ja taustaväriparin APCA-kirkkauskontrastin (Lc) "
+"sekä käyttöohjeen."
+
+#: src/Gutenberg/Blocks/contrast-matrix-badge/block.json
+msgctxt "block keyword"
+msgid "contrast"
+msgstr "kontrasti"
+
+#: src/Gutenberg/Blocks/contrast-matrix-badge/block.json
+msgctxt "block keyword"
+msgid "apca"
+msgstr "apca"
+
+#: src/Gutenberg/Blocks/contrast-matrix-badge/block.json
+msgctxt "block keyword"
+msgid "a11y"
+msgstr "a11y"
+
+#: src/Gutenberg/Blocks/contrast-matrix-badge/block.json
+msgctxt "block keyword"
+msgid "accessibility"
+msgstr "saavutettavuus"
+
+#: src/Gutenberg/Blocks/fluid-container/block.json
+msgctxt "block title"
+msgid "Fluid Container (@container)"
+msgstr "Joustava säiliö (@container)"
+
+#: src/Gutenberg/Blocks/fluid-container/block.json
+msgctxt "block description"
+msgid ""
+"Container for inner blocks that sets container-type (default inline-size) "
+"and container-name (default wm-typographic-context) for container queries."
+msgstr ""
+"Sisälohkojen säiliö, joka asettaa container-type (inline-size) ja container-"
+"name (wm-typographic-context)."
+
+#: src/Gutenberg/Blocks/fluid-container/block.json
+msgctxt "block keyword"
+msgid "container"
+msgstr "säiliö"
+
+#: src/Gutenberg/Blocks/fluid-container/block.json
+msgctxt "block keyword"
+msgid "queries"
+msgstr "kyselyt"
+
+#: src/Gutenberg/Blocks/fluid-container/block.json
+msgctxt "block keyword"
+msgid "cqw"
+msgstr "cqw"
+
+#: src/Gutenberg/Blocks/fluid-container/block.json
+msgctxt "block keyword"
+msgid "cqi"
+msgstr "cqi"
+
+#: src/Gutenberg/Blocks/fluid-container/block.json
+#: src/Gutenberg/Blocks/fluid-heading/block.json
+#: src/Gutenberg/Blocks/fluid-lead/block.json
+msgctxt "block keyword"
+msgid "fluid"
+msgstr "joustava"
+
+#: src/Gutenberg/Blocks/fluid-container/block.json
+msgctxt "block keyword"
+msgid "layout"
+msgstr "asettelu"
+
+#: src/Gutenberg/Blocks/fluid-heading/block.json
+msgctxt "block title"
+msgid "Fluid Heading (WM Scale)"
+msgstr "Joustava otsikko (WM Scale)"
+
+#: src/Gutenberg/Blocks/fluid-heading/block.json
+msgctxt "block description"
+msgid ""
+"Heading (H1–H6) with the fluid font-size class of its level, balanced line "
+"wrapping and an optional custom clamp() value."
+msgstr ""
+"Otsikko (H1–H6) tasonsa joustavalla kokoluokalla, tasapainotetulla "
+"rivityksellä ja valinnaisella clamp()-arvolla."
+
+#: src/Gutenberg/Blocks/fluid-heading/block.json
+msgctxt "block keyword"
+msgid "heading"
+msgstr "otsikko"
+
+#: src/Gutenberg/Blocks/fluid-heading/block.json
+#: src/Gutenberg/Blocks/fluid-lead/block.json
+#: src/Gutenberg/Blocks/typographic-grid/block.json
+msgctxt "block keyword"
+msgid "typography"
+msgstr "typografia"
+
+#: src/Gutenberg/Blocks/fluid-heading/block.json
+#: src/Gutenberg/Blocks/ratio-visualizer/block.json
+msgctxt "block keyword"
+msgid "scale"
+msgstr "asteikko"
+
+#: src/Gutenberg/Blocks/fluid-heading/block.json
+msgctxt "block keyword"
+msgid "modular"
+msgstr "modulaarinen"
+
+#: src/Gutenberg/Blocks/fluid-lead/block.json
+msgctxt "block title"
+msgid "Fluid Lead Text (WM Scale)"
+msgstr "Joustava ingressiteksti (WM Scale)"
+
+#: src/Gutenberg/Blocks/fluid-lead/block.json
+msgctxt "block description"
+msgid ""
+"Paragraph with the fluid body font size, a maximum line length of 35–85 "
+"characters (default 65) and pretty line wrapping."
+msgstr ""
+"Kappale joustavalla leipätekstikoolla, 35–85 merkin rivipituudella (oletus "
+"65) ja siistillä rivityksellä."
+
+#: src/Gutenberg/Blocks/fluid-lead/block.json
+msgctxt "block keyword"
+msgid "lead"
+msgstr "ingressi"
+
+#: src/Gutenberg/Blocks/fluid-lead/block.json
+msgctxt "block keyword"
+msgid "paragraph"
+msgstr "kappale"
+
+#: src/Gutenberg/Blocks/fluid-lead/block.json
+msgctxt "block keyword"
+msgid "reading"
+msgstr "lukeminen"
+
+#: src/Gutenberg/Blocks/ratio-visualizer/block.json
+msgctxt "block title"
+msgid "Ratio Visualizer (SVG Curve)"
+msgstr "Suhteen visualisoija (SVG-käyrä)"
+
+#: src/Gutenberg/Blocks/ratio-visualizer/block.json
+msgctxt "block description"
+msgid ""
+"Shows the nine scale steps with their minimum and maximum size in px, "
+"calculated from the stored base sizes and ratio."
+msgstr ""
+"Näyttää asteikon yhdeksän askelta minimi- ja maksimikokoineen (px) "
+"tallennettujen arvojen pohjalta."
+
+#: src/Gutenberg/Blocks/ratio-visualizer/block.json
+msgctxt "block keyword"
+msgid "visualizer"
+msgstr "visualisoija"
+
+#: src/Gutenberg/Blocks/ratio-visualizer/block.json
+msgctxt "block keyword"
+msgid "ratio"
+msgstr "suhde"
+
+#: src/Gutenberg/Blocks/ratio-visualizer/block.json
+msgctxt "block keyword"
+msgid "svg"
+msgstr "svg"
+
+#: src/Gutenberg/Blocks/ratio-visualizer/block.json
+msgctxt "block keyword"
+msgid "curve"
+msgstr "käyrä"
+
+#: src/Gutenberg/Blocks/ratio-visualizer/block.json
+msgctxt "block keyword"
+msgid "preview"
+msgstr "esikatselu"
+
+#: src/Gutenberg/Blocks/theme-json-exporter/block.json
+msgctxt "block title"
+msgid "Theme.json Exporter (WM Scale)"
+msgstr "Theme.json-viejä (WM Scale)"
+
+#: src/Gutenberg/Blocks/theme-json-exporter/block.json
+msgctxt "block description"
+msgid ""
+"Shows the theme.json fontSizes and the Tailwind CSS v4 @theme block "
+"generated from the stored scale."
+msgstr ""
+"Näyttää tallennetusta asteikosta luodut theme.json fontSizes -määritykset ja "
+"Tailwind CSS v4 @theme -lohkon."
+
+#: src/Gutenberg/Blocks/theme-json-exporter/block.json
+msgctxt "block keyword"
+msgid "theme.json"
+msgstr "theme.json"
+
+#: src/Gutenberg/Blocks/theme-json-exporter/block.json
+msgctxt "block keyword"
+msgid "exporter"
+msgstr "viejä"
+
+#: src/Gutenberg/Blocks/theme-json-exporter/block.json
+msgctxt "block keyword"
+msgid "tokens"
+msgstr "tokenit"
+
+#: src/Gutenberg/Blocks/theme-json-exporter/block.json
+msgctxt "block keyword"
+msgid "json"
+msgstr "json"
+
+#: src/Gutenberg/Blocks/theme-json-exporter/block.json
+msgctxt "block keyword"
+msgid "tailwind"
+msgstr "tailwind"
+
+#: src/Gutenberg/Blocks/typographic-grid/block.json
+msgctxt "block title"
+msgid "Typographic Grid (WM Scale)"
+msgstr "Typografinen ruudukko (WM Scale)"
+
+#: src/Gutenberg/Blocks/typographic-grid/block.json
+msgctxt "block description"
+msgid ""
+"Grid of 1–6 equal columns for inner blocks, with a gap from the scale "
+"(default var(--wm-step-2))."
+msgstr ""
+"1–6 tasalevyisen sarakkeen ruudukko sisälohkoille asteikon välistyksellä."
+
+#: src/Gutenberg/Blocks/typographic-grid/block.json
+msgctxt "block keyword"
+msgid "grid"
+msgstr "ruudukko"
+
+#: src/Gutenberg/Blocks/typographic-grid/block.json
+msgctxt "block keyword"
+msgid "columns"
+msgstr "sarakkeet"
+
+#: src/Gutenberg/Blocks/typographic-grid/block.json
+msgctxt "block keyword"
+msgid "rhythm"
+msgstr "rytmi"
+
+#: src/Gutenberg/Blocks/typographic-grid/block.json
+msgctxt "block keyword"
+msgid "baseline"
+msgstr "perusviiva"
+
+#~ msgid "https://www.arnoldwender.com"
+#~ msgstr "https://www.arnoldwender.com"

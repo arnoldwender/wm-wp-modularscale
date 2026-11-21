@@ -1,0 +1,971 @@
+# Translation of WM Modular Scale in cs_CZ
+# Copyright (C) 2026 Arnold Wender
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: wm-modularscale 1.4.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wm-modularscale\n"
+"POT-Creation-Date: 2026-11-21T14:04:16+00:00\n"
+"PO-Revision-Date: 2026-11-21 15:04+0100\n"
+"Last-Translator: WM Suite <https://github.com/arnoldwender/wm-wp-"
+"modularscale/issues>\n"
+"Language-Team: WM Suite <https://github.com/arnoldwender/wm-wp-modularscale/"
+"issues>\n"
+"Language: cs_CZ\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: WM Suite i18n Compiler 2026\n"
+"X-Domain: wm-modularscale\n"
+
+#. Plugin Name of the plugin
+#: wm-modularscale.php src/Integration/Ecosystem_Bridge.php:199
+#: wm-modularscale.php:113 wm-modularscale.php:134
+msgid "WM Modular Scale"
+msgstr "WM Modular Scale"
+
+#. Plugin URI of the plugin
+#: wm-modularscale.php
+msgid "https://arnoldwender.com/wordpress-plugins/wm-modularscale/"
+msgstr "https://arnoldwender.com/wordpress-plugins/wm-modularscale/"
+
+#. Description of the plugin
+#: wm-modularscale.php
+msgid ""
+"Generates harmonious, responsive typography ratios and modular scales with a "
+"visual live preview sandbox for non-technical users."
+msgstr ""
+"Generuje harmonické, responzivní typografické poměry a modulární stupnice s "
+"živým interaktivním náhledem."
+
+#. Author of the plugin
+#: wm-modularscale.php
+msgid "Arnold Wender"
+msgstr "Arnold Wender"
+
+#. Author URI of the plugin
+#: wm-modularscale.php
+msgid "https://arnoldwender.com"
+msgstr "https://arnoldwender.com"
+
+#: src/Gutenberg/Block_Manager.php:134
+msgid "WM Modular Scale — Typografie Enterprise"
+msgstr "WM Modular Scale — Podniková typografie"
+
+#: src/Integration/Ecosystem_Bridge.php:56
+msgid "WM Modular Scale Tokens"
+msgstr "Tokeny WM Modular Scale"
+
+#: src/Integration/Ecosystem_Bridge.php:133
+msgid "WM Modular Scale Token"
+msgstr "Token WM Modular Scale"
+
+#: src/Integration/Ecosystem_Bridge.php:137
+msgid ""
+"Outputs a computed fluid clamp() token or px range from WM Modular Scale."
+msgstr ""
+"Vrací vypočtený plynulý token clamp() nebo rozsah v px z WM Modular Scale."
+
+#: src/Integration/Ecosystem_Bridge.php:141
+msgid "Scale step (-2 to 6)"
+msgstr "Stupeň škály (-2 až 6)"
+
+#: src/Integration/Ecosystem_Bridge.php:146
+msgid "Output format"
+msgstr "Výstupní formát"
+
+#: src/Integration/Ecosystem_Bridge.php:151
+msgid "CSS clamp() expression"
+msgstr "Výraz CSS clamp()"
+
+#: src/Integration/Ecosystem_Bridge.php:155
+msgid "Min–Max px range"
+msgstr "Rozsah min–max v px"
+
+#: src/Integration/Ecosystem_Bridge.php:159
+msgid "Maximum px size"
+msgstr "Maximální velikost v px"
+
+#: src/Integration/Ecosystem_Bridge.php:207
+msgid "Fluid Typographic Hero & Lead"
+msgstr "Plynulý typografický Hero a perex"
+
+#: src/Integration/Ecosystem_Bridge.php:208
+msgid ""
+"Container-query section pairing a Fluid Heading with an ergonomic Fluid Lead "
+"paragraph."
+msgstr ""
+"Sekce container-query spojující plynulý nadpis s ergonomickým úvodním "
+"odstavcem."
+
+#: src/Integration/Ecosystem_Bridge.php:211
+msgid "Harmonische Typografie im Browser"
+msgstr "Harmonická typografie v prohlížeči"
+
+#: src/Integration/Ecosystem_Bridge.php:212
+msgid ""
+"Fließende Schriftgrößen zwischen Mobilgerät und Desktop, berechnet aus "
+"Basisgröße und musikalischem Intervall."
+msgstr ""
+"Plynulé velikosti písma mezi mobilem a počítačem vypočtené ze základní "
+"velikosti a hudebního intervalu."
+
+#: src/Integration/Ecosystem_Bridge.php:221
+msgid "GenerateBlocks Fluid Scale Section"
+msgstr "Sekce plynulé škály GenerateBlocks"
+
+#: src/Integration/Ecosystem_Bridge.php:222
+msgid ""
+"Two-layer GenerateBlocks section (gbp-section + gbp-section__inner) "
+"consuming --ms-* and --wm-step-* fluid tokens."
+msgstr ""
+"Dvouvrstvá sekce GenerateBlocks (gbp-section + gbp-section__inner) "
+"využívající tokeny --ms-* a --wm-step-*."
+
+#: src/Integration/Ecosystem_Bridge.php:229
+msgid "Modulare Skala mit GenerateBlocks"
+msgstr "Modulární škála s GenerateBlocks"
+
+#: src/Integration/Ecosystem_Bridge.php:232
+msgid "Direkte Nutzung der berechneten CSS-Variablen ohne Media-Query-Stufen."
+msgstr ""
+"Přímé využití vypočtených proměnných CSS bez zlomových bodů media query."
+
+#: src/Integration/Ecosystem_Bridge.php:254
+msgid "Compute Modular Typography Scale"
+msgstr "Vypočítat modulární typografickou škálu"
+
+#: src/Integration/Ecosystem_Bridge.php:255
+msgid ""
+"Calculates the nine fluid clamp() steps (-2 to +6), line heights and WCAG "
+"1.4.4 zoom-safety flags for a base size and ratio."
+msgstr ""
+"Vypočítá devět plynulých stupňů clamp() (-2 až +6), výšky řádků a kontrolu "
+"zvětšení podle WCAG 1.4.4."
+
+#: wm-modularscale.php:114
+msgid "Modular Scale"
+msgstr "Modulární škála"
+
+#: wm-modularscale.php:125
+msgid "WM Modular Scale — Einstellungen & Vorschau"
+msgstr "WM Modular Scale — Nastavení a náhled"
+
+#: wm-modularscale.php:126
+msgid "Typografie & Skalen"
+msgstr "Typografie a škály"
+
+#: wm-modularscale.php:135
+msgid "Modular Scale (Typografie)"
+msgstr "Modular Scale (Typografie)"
+
+#: wm-modularscale.php:153
+msgid "WM Modular Scale — Harmonische Typografie & CSS Variablen"
+msgstr "WM Modular Scale — Harmonická typografie a proměnné CSS"
+
+#: wm-modularscale.php:178
+msgid "Skala auf der Website angewendet"
+msgstr "Škála je použita na webu"
+
+#: wm-modularscale.php:180
+msgid "Skala berechnet, noch nicht auf die Website angewendet"
+msgstr "Škála je vypočtena, zatím není použita na webu"
+
+#: wm-modularscale.php:184
+msgid "Fluid-Tokens (--wm-step-*) und Stylesheet (--wmmsp-*)"
+msgstr "Plynulé tokeny (--wm-step-*) a stylopis (--wmmsp-*)"
+
+#: wm-modularscale.php:191 wm-modularscale.php:301
+msgid "Basisgröße"
+msgstr "Základní velikost"
+
+#: wm-modularscale.php:195
+msgid "Verhältnis"
+msgstr "Poměr"
+
+#: wm-modularscale.php:198
+msgid "Aktiv"
+msgstr "Aktivní"
+
+#: wm-modularscale.php:198
+msgid "Aus"
+msgstr "Vypnuto"
+
+#: wm-modularscale.php:199
+msgid "Auf der Website"
+msgstr "Na webu"
+
+#: wm-modularscale.php:205
+msgid "Typografie-Cockpit öffnen"
+msgstr "Otevřít typografický panel"
+
+#: wm-modularscale.php:220 wm-modularscale.php:319 wm-modularscale.php:347
+msgid "Einstellungen"
+msgstr "Nastavení"
+
+#: wm-modularscale.php:245
+msgid "Part of the WM Suite plugin family"
+msgstr "Součást rodiny pluginů WM Suite"
+
+#: wm-modularscale.php:247
+msgid "WM Suite"
+msgstr "WM Suite"
+
+#: wm-modularscale.php:248
+msgid "Hub"
+msgstr "Hub"
+
+#: wm-modularscale.php:248
+msgid "Standalone"
+msgstr "Samostatný"
+
+#: wm-modularscale.php:262
+msgid "wird berechnet …"
+msgstr "počítá se …"
+
+#: wm-modularscale.php:283
+msgid "Kleine Terz 1.200 – Blog"
+msgstr "Malá tercie 1.200 – Blog"
+
+#: wm-modularscale.php:284
+msgid "Große Terz 1.250 – Voreinstellung"
+msgstr "Velká tercie 1.250 – Výchozí"
+
+#: wm-modularscale.php:285
+msgid "Quarte 1.333 – markante Überschriften"
+msgstr "Čistá kvarta 1.333 – Výrazné nadpisy"
+
+#: wm-modularscale.php:286
+msgid "Goldener Schnitt 1.618 – Magazin, große Titel"
+msgstr "Zlatý řez 1.618 – Magazín, velké titulky"
+
+#: wm-modularscale.php:290
+msgid "1.125 — Große Sekunde (kompakt, Anwendungen)"
+msgstr "1.125 — Velká sekunda (kompaktní, aplikace)"
+
+#: wm-modularscale.php:291
+msgid "1.200 — Kleine Terz (Blog)"
+msgstr "1.200 — Malá tercie (blog)"
+
+#: wm-modularscale.php:292
+msgid "1.250 — Große Terz (Voreinstellung)"
+msgstr "1.250 — Velká tercie (výchozí)"
+
+#: wm-modularscale.php:293
+msgid "1.333 — Quarte (markante Überschriften)"
+msgstr "1.333 — Čistá kvarta (výrazné nadpisy)"
+
+#: wm-modularscale.php:294
+msgid "1.414 — Übermäßige Quarte (Editorial)"
+msgstr "1.414 — Zvětšená kvarta (redakční)"
+
+#: wm-modularscale.php:295
+msgid "1.500 — Quinte (kreative Layouts)"
+msgstr "1.500 — Čistá kvinta (kreativní rozvržení)"
+
+#: wm-modularscale.php:296
+msgid "1.618 — Goldener Schnitt (sehr große Titel)"
+msgstr "1.618 — Zlatý řez (velmi velké titulky)"
+
+#: wm-modularscale.php:300 wm-modularscale.php:361
+msgid "Verhältnis (Ratio)"
+msgstr "Poměr (Ratio)"
+
+#: wm-modularscale.php:300
+msgid ""
+"Der feste Faktor zwischen zwei Stufen der Skala. Bei 1.25 ist jede Stufe 25 "
+"% größer als die vorherige."
+msgstr ""
+"Pevný násobitel mezi dvěma stupni škály. Při 1.25 je každý stupeň o 25 % "
+"větší než předchozí."
+
+#: wm-modularscale.php:301
+msgid ""
+"Die Schriftgröße des Fließtexts (<p>). Aus ihr werden alle Überschriften "
+"berechnet. Browser verwenden ohne eigene Einstellung 16 px."
+msgstr ""
+"Velikost písma základního textu (<p>), ze které se počítají všechny nadpisy. "
+"Prohlížeče standardně používají 16 px."
+
+#: wm-modularscale.php:302
+msgid "rem-Einheiten"
+msgstr "Jednotky rem"
+
+#: wm-modularscale.php:302
+msgid ""
+"Relativ zur Schriftgröße, die im Browser eingestellt ist. Wer dort eine "
+"größere Schrift wählt, bekommt alle Stufen entsprechend größer."
+msgstr ""
+"Relativní k velikosti písma v prohlížeči. Kdo si zvolí větší písmo, uvidí "
+"úměrně větší všechny stupně."
+
+#: wm-modularscale.php:303
+msgid "Goldener Schnitt (1.618)"
+msgstr "Zlatý řez (1.618)"
+
+#: wm-modularscale.php:303
+msgid ""
+"Das Verhältnis (1 + √5) / 2. Als Skala ergibt es einen starken "
+"Größenunterschied zwischen Überschriften und Fließtext."
+msgstr ""
+"Poměr (1 + √5) / 2. Jako škála vytváří výrazný rozdíl mezi nadpisy a běžným "
+"textem."
+
+#: wm-modularscale.php:310
+msgid "Modulare Typografie"
+msgstr "Modulární typografie"
+
+#: wm-modularscale.php:311
+msgid "WM Modular Scale — Typografische Skala"
+msgstr "WM Modular Scale — Typografická škála"
+
+#: wm-modularscale.php:312
+msgid ""
+"Berechnet die Schriftgrößen für Überschriften (H1–H6) und Fließtext aus "
+"einer Basisgröße und einem Verhältnis und gibt sie als CSS-Variablen aus."
+msgstr ""
+"Vypočítá velikosti písma nadpisů (H1–H6) a běžného textu ze základu a poměru "
+"a vypíše je jako proměnné CSS."
+
+#: wm-modularscale.php:316
+msgid "Seitennavigation"
+msgstr "Navigace na stránce"
+
+#: wm-modularscale.php:317
+msgid "Springen zu:"
+msgstr "Přejít na:"
+
+#: wm-modularscale.php:318
+msgid "Anleitung & Vorlagen"
+msgstr "Návod a předvolby"
+
+#: wm-modularscale.php:320 wm-modularscale.php:417
+msgid "Live-Vorschau"
+msgstr "Živý náhled"
+
+#: wm-modularscale.php:321 wm-modularscale.php:438
+msgid "CSS-Variablen"
+msgstr "Proměnné CSS"
+
+#: wm-modularscale.php:322 wm-modularscale.php:447
+msgid "Glossar"
+msgstr "Slovníček"
+
+#: wm-modularscale.php:328
+msgid "Was ist eine modulare Skala?"
+msgstr "Co je modulární škála?"
+
+#: wm-modularscale.php:331
+msgid ""
+"Eine modulare Skala nimmt eine Basisgröße (zum Beispiel 16 px) und "
+"multipliziert sie Stufe für Stufe mit einem festen Verhältnis, wie die "
+"Intervalle in der Musik. So stehen Überschriften (H1 bis H6) und Fließtext "
+"in einem gleichbleibenden Größenverhältnis, statt einzeln festgelegt zu "
+"werden."
+msgstr ""
+"Modulární škála násobí základní velikost (např. 16 px) krok za krokem pevným "
+"poměrem podobně jako hudební intervaly, takže nadpisy H1–H6 a text drží "
+"jednotný soulad."
+
+#: wm-modularscale.php:334
+msgid "Vorlage übernehmen (setzt auch Basisgröße 16 und Einheit px):"
+msgstr "Použít předvolbu (nastaví také základ 16 a jednotku px):"
+
+#: wm-modularscale.php:355
+msgid "Basisgröße (Fließtext)"
+msgstr "Základní velikost (běžný text)"
+
+#: wm-modularscale.php:357
+msgid ""
+"Die Größe des Fließtexts, aus der die Überschriften berechnet werden. "
+"Browser verwenden ohne eigene Einstellung 16 px."
+msgstr ""
+"Velikost běžného textu, z níž se počítají nadpisy. Výchozí hodnota "
+"prohlížečů je 16 px."
+
+#: wm-modularscale.php:363
+msgid "Vorlage wählen oder Wert eingeben"
+msgstr "Vyberte předvolbu nebo zadejte hodnotu"
+
+#: wm-modularscale.php:368
+msgid "Verhältnis als Zahl"
+msgstr "Číselný poměr"
+
+#: wm-modularscale.php:370
+msgid "Je größer der Wert, desto größer der Abstand zwischen H1 und H3."
+msgstr "Čím vyšší hodnota, tím větší rozestup mezi H1 a H3."
+
+#: wm-modularscale.php:374
+msgid "Einheit"
+msgstr "Jednotka"
+
+#: wm-modularscale.php:376
+msgid "px (Pixel, feste Größe)"
+msgstr "px (pixely, pevná velikost)"
+
+#: wm-modularscale.php:377
+msgid "rem (relativ zur Schriftgröße des Browsers)"
+msgstr "rem (relativně k velikosti písma prohlížeče)"
+
+#: wm-modularscale.php:378
+msgid "em (relativ zum übergeordneten Element)"
+msgstr "em (relativně k nadřazenému prvku)"
+
+#: wm-modularscale.php:380
+msgid ""
+"Einheit der Variablen --wmmsp-* im Stylesheet. Die Fluid-Tokens --wm-step-* "
+"verwenden immer rem."
+msgstr ""
+"Jednotka proměnných --wmmsp-* ve stylopisu. Plynulé tokeny --wm-step-* "
+"používají vždy rem."
+
+#: wm-modularscale.php:384
+msgid "Nachkommastellen"
+msgstr "Desetinná místa"
+
+#: wm-modularscale.php:386
+msgid ""
+"Auf so viele Nachkommastellen rundet das Stylesheet die Werte "
+"(Voreinstellung 2)."
+msgstr "Počet desetinných míst pro zaokrouhlení ve stylopisu (výchozí 2)."
+
+#: wm-modularscale.php:393
+msgid "Skala auf der Website anwenden"
+msgstr "Použít škálu na webu"
+
+#: wm-modularscale.php:394
+msgid ""
+"Gibt die Fluid-Tokens --wm-step-* im Seitenkopf aus und lädt das Stylesheet, "
+"das body, h1–h6, Absätze, Listen, Zitate und Code aus diesen Werten setzt."
+msgstr ""
+"Vypíše plynulé tokeny --wm-step-* do hlavičky a načte stylopis pro body, h1–"
+"h6, odstavce, seznamy, citace a kód."
+
+#: wm-modularscale.php:403
+msgid "Einstellungen beim Entfernen des Plugins löschen"
+msgstr "Smazat nastavení při odinstalaci pluginu"
+
+#: wm-modularscale.php:404
+msgid ""
+"Standardmäßig bleiben Basisgröße, Verhältnis und Skalen-Optionen erhalten, "
+"falls das Plugin später erneut installiert wird."
+msgstr ""
+"Ve výchozím stavu zůstávají základní velikost, poměr a volby zachovány pro "
+"případ pozdější reinstalace."
+
+#: wm-modularscale.php:410
+msgid "Typografie speichern"
+msgstr "Uložit typografii"
+
+#: wm-modularscale.php:419
+msgid ""
+"Zeigt die Größen des Stylesheets (--wmmsp-*) für die aktuellen Felder, bevor "
+"Sie speichern."
+msgstr ""
+"Zobrazuje velikosti stylopisu (--wmmsp-*) pro aktuální pole ještě před "
+"uložením."
+
+#: wm-modularscale.php:424
+msgid "Hauptüberschrift H1"
+msgstr "Hlavní nadpis H1"
+
+#: wm-modularscale.php:425
+msgid "Abschnittsüberschrift H2"
+msgstr "Nadpis sekce H2"
+
+#: wm-modularscale.php:426
+msgid "Überschrift eines Inhaltsblocks H3"
+msgstr "Nadpis obsahového bloku H3"
+
+#: wm-modularscale.php:427
+msgid "Titel einer Karte H4"
+msgstr "Titulek karty H4"
+
+#: wm-modularscale.php:428
+msgid "Kleine Überschrift H5"
+msgstr "Malý nadpis H5"
+
+#: wm-modularscale.php:429
+msgid "Fußnote H6"
+msgstr "Poznámka pod čarou H6"
+
+#: wm-modularscale.php:430
+msgid "Fließtext"
+msgstr "Běžný text"
+
+#: wm-modularscale.php:430
+msgid ""
+"Das ist ein Absatz im Fließtext. Seine Größe ist die Basisgröße; die "
+"Überschriften darüber sind daraus berechnet."
+msgstr ""
+"Toto je odstavec běžného textu. Jeho velikost odpovídá základní velikosti, "
+"ze které jsou odvozeny nadpisy."
+
+#: wm-modularscale.php:440
+msgid ""
+"Diese Variablen setzt das Stylesheet, wenn die Skala angewendet wird. Die "
+"fließenden Stufen --wm-step-neg-2 bis --wm-step-6 berechnet das Plugin "
+"zusätzlich aus Basisgröße, maximaler Basisgröße und den Viewport-Breiten."
+msgstr ""
+"Tyto proměnné nastavuje stylopis při zapnuté škále. Plugin navíc počítá "
+"plynulé stupně --wm-step-neg-2 až --wm-step-6."
+
+#: wm-modularscale.php:442
+msgid "Variablen werden berechnet …"
+msgstr "Proměnné se počítají …"
+
+#: wm-modularscale.php:449
+msgid "Die Begriffe dieser Seite kurz erklärt."
+msgstr "Stručné vysvětlení pojmů na této stránce."
+
+#: blocks-src/index.js:66
+msgid "Fluid Heading Settings"
+msgstr "Nastavení plynulého nadpisu"
+
+#: blocks-src/index.js:68
+msgid "Heading level (H1–H6)"
+msgstr "Úroveň nadpisu (H1–H6)"
+
+#: blocks-src/index.js:78
+msgid "Modular scale step (-2 to +6)"
+msgstr "Stupeň modulární škály (-2 až +6)"
+
+#: blocks-src/index.js:85 blocks-src/index.js:153
+msgid "Text alignment"
+msgstr "Zarovnání textu"
+
+#: blocks-src/index.js:88 blocks-src/index.js:156
+msgid "Left"
+msgstr "Vlevo"
+
+#: blocks-src/index.js:89 blocks-src/index.js:157
+msgid "Center"
+msgstr "Na střed"
+
+#: blocks-src/index.js:90 blocks-src/index.js:158
+msgid "Right"
+msgstr "Vpravo"
+
+#: blocks-src/index.js:95
+msgid "Custom CSS clamp() override"
+msgstr "Vlastní přepis CSS clamp()"
+
+#: blocks-src/index.js:96
+msgid "Optional full CSS clamp() expression overriding the scale step."
+msgstr "Volitelný úplný výraz CSS clamp() nahrazující stupeň škály."
+
+#: blocks-src/index.js:107
+msgid "Write fluid heading…"
+msgstr "Napište plynulý nadpis…"
+
+#: blocks-src/index.js:144
+msgid "Fluid Lead Settings"
+msgstr "Nastavení plynulého perexu"
+
+#: blocks-src/index.js:146
+msgid "Maximum line length (characters)"
+msgstr "Maximální délka řádku (znaky)"
+
+#: blocks-src/index.js:168
+msgid "Write lead paragraph…"
+msgstr "Napište úvodní odstavec…"
+
+#: blocks-src/index.js:198
+msgid "Container Query Context"
+msgstr "Kontext Container Query"
+
+#: blocks-src/index.js:200
+msgid "Container name"
+msgstr "Název kontejneru"
+
+#: blocks-src/index.js:205
+msgid "Container type"
+msgstr "Typ kontejneru"
+
+#: blocks-src/index.js:208
+msgid "Inline size (cqi / cqw)"
+msgstr "Řádková velikost (cqi / cqw)"
+
+#: blocks-src/index.js:209
+msgid "Size (width & height)"
+msgstr "Velikost (šířka a výška)"
+
+#: blocks-src/index.js:210
+msgid "Normal"
+msgstr "Normální"
+
+#: blocks-src/index.js:247
+msgid "Typographic Grid Settings"
+msgstr "Nastavení typografické mřížky"
+
+#: blocks-src/index.js:249
+msgid "Columns (1–6)"
+msgstr "Sloupce (1–6)"
+
+#: blocks-src/index.js:256
+msgid "Scale gap token"
+msgstr "Token rozestupu škály"
+
+#: blocks-src/index.js:259
+msgid "Step 0 (Body base)"
+msgstr "Stupeň 0 (Základ textu)"
+
+#: blocks-src/index.js:260
+msgid "Step 1 (Compact)"
+msgstr "Stupeň 1 (Kompaktní)"
+
+#: blocks-src/index.js:261
+msgid "Step 2 (Default)"
+msgstr "Stupeň 2 (Výchozí)"
+
+#: blocks-src/index.js:262
+msgid "Step 3 (Spacious)"
+msgstr "Stupeň 3 (Vzdušný)"
+
+#: blocks-src/index.js:263
+msgid "Step 4 (Wide)"
+msgstr "Stupeň 4 (Široký)"
+
+#: blocks-src/index.js:291
+msgid "Ratio Visualizer Settings"
+msgstr "Nastavení vizualizéru poměru"
+
+#: blocks-src/index.js:293
+msgid "Show step labels on SVG axis"
+msgstr "Zobrazit popisky stupňů na ose SVG"
+
+#: blocks-src/index.js:298
+msgid "Show step min/max cards"
+msgstr "Zobrazit karty min/max stupňů"
+
+#: blocks-src/index.js:303
+msgid "Color theme"
+msgstr "Barevný motiv"
+
+#: blocks-src/index.js:306
+msgid "Dark"
+msgstr "Tmavý"
+
+#: blocks-src/index.js:307
+msgid "Light"
+msgstr "Světlý"
+
+#: blocks-src/index.js:313
+msgid "Ratio Visualizer (SVG Curve)"
+msgstr "Vizualizér poměru (křivka SVG)"
+
+#: blocks-src/index.js:335
+msgid "APCA Contrast Settings"
+msgstr "Nastavení kontrastu APCA"
+
+#: blocks-src/index.js:337
+msgid "Foreground hex color"
+msgstr "Hex barva popředí"
+
+#: blocks-src/index.js:342
+msgid "Background hex color"
+msgstr "Hex barva pozadí"
+
+#: blocks-src/index.js:347
+msgid "Target text role"
+msgstr "Cílová role textu"
+
+#: blocks-src/index.js:350
+msgid "Body copy (target Lc 75)"
+msgstr "Běžný text (cíl Lc 75)"
+
+#: blocks-src/index.js:351
+msgid "UI / secondary text (target Lc 60)"
+msgstr "Sekundární / UI text (cíl Lc 60)"
+
+#: blocks-src/index.js:352
+msgid "Large headline (target Lc 45)"
+msgstr "Velký titulek (cíl Lc 45)"
+
+#: blocks-src/index.js:358
+msgid "APCA Contrast Badge (WM Scale)"
+msgstr "Štítek kontrastu APCA (WM Scale)"
+
+#: blocks-src/index.js:380
+msgid "Exporter Output Settings"
+msgstr "Nastavení exportu"
+
+#: blocks-src/index.js:382
+msgid "Displayed export format"
+msgstr "Zobrazený formát exportu"
+
+#: blocks-src/index.js:385
+msgid "Both (theme.json v3 + Tailwind v4)"
+msgstr "Obojí (theme.json v3 + Tailwind v4)"
+
+#: blocks-src/index.js:386
+msgid "theme.json v3 only"
+msgstr "Pouze theme.json v3"
+
+#: blocks-src/index.js:387
+msgid "Tailwind CSS v4 @theme only"
+msgstr "Pouze Tailwind CSS v4 @theme"
+
+#: blocks-src/index.js:393
+msgid "Theme.json Exporter (WM Scale)"
+msgstr "Exportér Theme.json (WM Scale)"
+
+#: src/Gutenberg/Blocks/contrast-matrix-badge/block.json
+msgctxt "block title"
+msgid "APCA Contrast Badge (WM Scale)"
+msgstr "Štítek kontrastu APCA (WM Scale)"
+
+#: src/Gutenberg/Blocks/contrast-matrix-badge/block.json
+msgctxt "block description"
+msgid ""
+"Badge with the APCA lightness contrast (Lc) of a text and background colour "
+"pair and a usage hint for that value."
+msgstr ""
+"Štítek se světlostním kontrastem APCA (Lc) dvojice barev textu a pozadí a "
+"doporučením použití."
+
+#: src/Gutenberg/Blocks/contrast-matrix-badge/block.json
+msgctxt "block keyword"
+msgid "contrast"
+msgstr "kontrast"
+
+#: src/Gutenberg/Blocks/contrast-matrix-badge/block.json
+msgctxt "block keyword"
+msgid "apca"
+msgstr "apca"
+
+#: src/Gutenberg/Blocks/contrast-matrix-badge/block.json
+msgctxt "block keyword"
+msgid "a11y"
+msgstr "a11y"
+
+#: src/Gutenberg/Blocks/contrast-matrix-badge/block.json
+msgctxt "block keyword"
+msgid "accessibility"
+msgstr "přístupnost"
+
+#: src/Gutenberg/Blocks/fluid-container/block.json
+msgctxt "block title"
+msgid "Fluid Container (@container)"
+msgstr "Plynulý kontejner (@container)"
+
+#: src/Gutenberg/Blocks/fluid-container/block.json
+msgctxt "block description"
+msgid ""
+"Container for inner blocks that sets container-type (default inline-size) "
+"and container-name (default wm-typographic-context) for container queries."
+msgstr ""
+"Kontejner pro vnitřní bloky nastavující container-type (inline-size) a "
+"container-name (wm-typographic-context)."
+
+#: src/Gutenberg/Blocks/fluid-container/block.json
+msgctxt "block keyword"
+msgid "container"
+msgstr "kontejner"
+
+#: src/Gutenberg/Blocks/fluid-container/block.json
+msgctxt "block keyword"
+msgid "queries"
+msgstr "dotazy"
+
+#: src/Gutenberg/Blocks/fluid-container/block.json
+msgctxt "block keyword"
+msgid "cqw"
+msgstr "cqw"
+
+#: src/Gutenberg/Blocks/fluid-container/block.json
+msgctxt "block keyword"
+msgid "cqi"
+msgstr "cqi"
+
+#: src/Gutenberg/Blocks/fluid-container/block.json
+#: src/Gutenberg/Blocks/fluid-heading/block.json
+#: src/Gutenberg/Blocks/fluid-lead/block.json
+msgctxt "block keyword"
+msgid "fluid"
+msgstr "plynulý"
+
+#: src/Gutenberg/Blocks/fluid-container/block.json
+msgctxt "block keyword"
+msgid "layout"
+msgstr "rozvržení"
+
+#: src/Gutenberg/Blocks/fluid-heading/block.json
+msgctxt "block title"
+msgid "Fluid Heading (WM Scale)"
+msgstr "Plynulý nadpis (WM Scale)"
+
+#: src/Gutenberg/Blocks/fluid-heading/block.json
+msgctxt "block description"
+msgid ""
+"Heading (H1–H6) with the fluid font-size class of its level, balanced line "
+"wrapping and an optional custom clamp() value."
+msgstr ""
+"Nadpis (H1–H6) s plynulou třídou velikosti své úrovně, vyváženým zalamováním "
+"a volitelným clamp()."
+
+#: src/Gutenberg/Blocks/fluid-heading/block.json
+msgctxt "block keyword"
+msgid "heading"
+msgstr "nadpis"
+
+#: src/Gutenberg/Blocks/fluid-heading/block.json
+#: src/Gutenberg/Blocks/fluid-lead/block.json
+#: src/Gutenberg/Blocks/typographic-grid/block.json
+msgctxt "block keyword"
+msgid "typography"
+msgstr "typografie"
+
+#: src/Gutenberg/Blocks/fluid-heading/block.json
+#: src/Gutenberg/Blocks/ratio-visualizer/block.json
+msgctxt "block keyword"
+msgid "scale"
+msgstr "škála"
+
+#: src/Gutenberg/Blocks/fluid-heading/block.json
+msgctxt "block keyword"
+msgid "modular"
+msgstr "modulární"
+
+#: src/Gutenberg/Blocks/fluid-lead/block.json
+msgctxt "block title"
+msgid "Fluid Lead Text (WM Scale)"
+msgstr "Plynulý perex (WM Scale)"
+
+#: src/Gutenberg/Blocks/fluid-lead/block.json
+msgctxt "block description"
+msgid ""
+"Paragraph with the fluid body font size, a maximum line length of 35–85 "
+"characters (default 65) and pretty line wrapping."
+msgstr ""
+"Odstavec s plynulou velikostí písma, maximální délkou 35–85 znaků (výchozí "
+"65) a plynulým zalamováním."
+
+#: src/Gutenberg/Blocks/fluid-lead/block.json
+msgctxt "block keyword"
+msgid "lead"
+msgstr "perex"
+
+#: src/Gutenberg/Blocks/fluid-lead/block.json
+msgctxt "block keyword"
+msgid "paragraph"
+msgstr "odstavec"
+
+#: src/Gutenberg/Blocks/fluid-lead/block.json
+msgctxt "block keyword"
+msgid "reading"
+msgstr "čtení"
+
+#: src/Gutenberg/Blocks/ratio-visualizer/block.json
+msgctxt "block title"
+msgid "Ratio Visualizer (SVG Curve)"
+msgstr "Vizualizér poměru (křivka SVG)"
+
+#: src/Gutenberg/Blocks/ratio-visualizer/block.json
+msgctxt "block description"
+msgid ""
+"Shows the nine scale steps with their minimum and maximum size in px, "
+"calculated from the stored base sizes and ratio."
+msgstr ""
+"Zobrazuje devět stupňů škály s minimální a maximální velikostí v px podle "
+"uloženého nastavení."
+
+#: src/Gutenberg/Blocks/ratio-visualizer/block.json
+msgctxt "block keyword"
+msgid "visualizer"
+msgstr "vizualizér"
+
+#: src/Gutenberg/Blocks/ratio-visualizer/block.json
+msgctxt "block keyword"
+msgid "ratio"
+msgstr "poměr"
+
+#: src/Gutenberg/Blocks/ratio-visualizer/block.json
+msgctxt "block keyword"
+msgid "svg"
+msgstr "svg"
+
+#: src/Gutenberg/Blocks/ratio-visualizer/block.json
+msgctxt "block keyword"
+msgid "curve"
+msgstr "křivka"
+
+#: src/Gutenberg/Blocks/ratio-visualizer/block.json
+msgctxt "block keyword"
+msgid "preview"
+msgstr "náhled"
+
+#: src/Gutenberg/Blocks/theme-json-exporter/block.json
+msgctxt "block title"
+msgid "Theme.json Exporter (WM Scale)"
+msgstr "Exportér Theme.json (WM Scale)"
+
+#: src/Gutenberg/Blocks/theme-json-exporter/block.json
+msgctxt "block description"
+msgid ""
+"Shows the theme.json fontSizes and the Tailwind CSS v4 @theme block "
+"generated from the stored scale."
+msgstr ""
+"Zobrazuje fontSizes pro theme.json a blok @theme pro Tailwind CSS v4 "
+"vygenerované z uložené škály."
+
+#: src/Gutenberg/Blocks/theme-json-exporter/block.json
+msgctxt "block keyword"
+msgid "theme.json"
+msgstr "theme.json"
+
+#: src/Gutenberg/Blocks/theme-json-exporter/block.json
+msgctxt "block keyword"
+msgid "exporter"
+msgstr "exportér"
+
+#: src/Gutenberg/Blocks/theme-json-exporter/block.json
+msgctxt "block keyword"
+msgid "tokens"
+msgstr "tokeny"
+
+#: src/Gutenberg/Blocks/theme-json-exporter/block.json
+msgctxt "block keyword"
+msgid "json"
+msgstr "json"
+
+#: src/Gutenberg/Blocks/theme-json-exporter/block.json
+msgctxt "block keyword"
+msgid "tailwind"
+msgstr "tailwind"
+
+#: src/Gutenberg/Blocks/typographic-grid/block.json
+msgctxt "block title"
+msgid "Typographic Grid (WM Scale)"
+msgstr "Typografická mřížka (WM Scale)"
+
+#: src/Gutenberg/Blocks/typographic-grid/block.json
+msgctxt "block description"
+msgid ""
+"Grid of 1–6 equal columns for inner blocks, with a gap from the scale "
+"(default var(--wm-step-2))."
+msgstr "Mřížka 1–6 stejných sloupců pro vnitřní bloky s mezerou ze škály."
+
+#: src/Gutenberg/Blocks/typographic-grid/block.json
+msgctxt "block keyword"
+msgid "grid"
+msgstr "mřížka"
+
+#: src/Gutenberg/Blocks/typographic-grid/block.json
+msgctxt "block keyword"
+msgid "columns"
+msgstr "sloupce"
+
+#: src/Gutenberg/Blocks/typographic-grid/block.json
+msgctxt "block keyword"
+msgid "rhythm"
+msgstr "rytmus"
+
+#: src/Gutenberg/Blocks/typographic-grid/block.json
+msgctxt "block keyword"
+msgid "baseline"
+msgstr "účaří"
+
+#~ msgid "https://www.arnoldwender.com"
+#~ msgstr "https://www.arnoldwender.com"

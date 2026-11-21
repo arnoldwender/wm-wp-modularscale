@@ -1,0 +1,971 @@
+# Translation of WM Modular Scale in hu_HU
+# Copyright (C) 2026 Arnold Wender
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: wm-modularscale 1.4.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wm-modularscale\n"
+"POT-Creation-Date: 2026-11-21T14:04:16+00:00\n"
+"PO-Revision-Date: 2026-11-21 15:04+0100\n"
+"Last-Translator: WM Suite <https://github.com/arnoldwender/wm-wp-"
+"modularscale/issues>\n"
+"Language-Team: WM Suite <https://github.com/arnoldwender/wm-wp-modularscale/"
+"issues>\n"
+"Language: hu_HU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: WM Suite i18n Compiler 2026\n"
+"X-Domain: wm-modularscale\n"
+
+#. Plugin Name of the plugin
+#: wm-modularscale.php src/Integration/Ecosystem_Bridge.php:199
+#: wm-modularscale.php:113 wm-modularscale.php:134
+msgid "WM Modular Scale"
+msgstr "WM Modular Scale"
+
+#. Plugin URI of the plugin
+#: wm-modularscale.php
+msgid "https://arnoldwender.com/wordpress-plugins/wm-modularscale/"
+msgstr "https://arnoldwender.com/wordpress-plugins/wm-modularscale/"
+
+#. Description of the plugin
+#: wm-modularscale.php
+msgid ""
+"Generates harmonious, responsive typography ratios and modular scales with a "
+"visual live preview sandbox for non-technical users."
+msgstr ""
+"Harmonikus, reszponzív tipográfiai arányokat és moduláris skálákat állít elő "
+"interaktív élő előnézettel."
+
+#. Author of the plugin
+#: wm-modularscale.php
+msgid "Arnold Wender"
+msgstr "Arnold Wender"
+
+#. Author URI of the plugin
+#: wm-modularscale.php
+msgid "https://arnoldwender.com"
+msgstr "https://arnoldwender.com"
+
+#: src/Gutenberg/Block_Manager.php:134
+msgid "WM Modular Scale — Typografie Enterprise"
+msgstr "WM Modular Scale — Vállalati tipográfia"
+
+#: src/Integration/Ecosystem_Bridge.php:56
+msgid "WM Modular Scale Tokens"
+msgstr "WM Modular Scale tokenek"
+
+#: src/Integration/Ecosystem_Bridge.php:133
+msgid "WM Modular Scale Token"
+msgstr "WM Modular Scale token"
+
+#: src/Integration/Ecosystem_Bridge.php:137
+msgid ""
+"Outputs a computed fluid clamp() token or px range from WM Modular Scale."
+msgstr ""
+"Kiszámított folyamatos clamp() tokent vagy px-tartományt ad vissza a WM "
+"Modular Scale-ből."
+
+#: src/Integration/Ecosystem_Bridge.php:141
+msgid "Scale step (-2 to 6)"
+msgstr "Skálafokozat (-2-től 6-ig)"
+
+#: src/Integration/Ecosystem_Bridge.php:146
+msgid "Output format"
+msgstr "Kimeneti formátum"
+
+#: src/Integration/Ecosystem_Bridge.php:151
+msgid "CSS clamp() expression"
+msgstr "CSS clamp() kifejezés"
+
+#: src/Integration/Ecosystem_Bridge.php:155
+msgid "Min–Max px range"
+msgstr "Min–max px-tartomány"
+
+#: src/Integration/Ecosystem_Bridge.php:159
+msgid "Maximum px size"
+msgstr "Maximális px-méret"
+
+#: src/Integration/Ecosystem_Bridge.php:207
+msgid "Fluid Typographic Hero & Lead"
+msgstr "Folyamatos tipográfiai Hero és bevezető"
+
+#: src/Integration/Ecosystem_Bridge.php:208
+msgid ""
+"Container-query section pairing a Fluid Heading with an ergonomic Fluid Lead "
+"paragraph."
+msgstr ""
+"Container-query szakasz folyamatos címsorral és ergonomikus bevezető "
+"bekezdéssel."
+
+#: src/Integration/Ecosystem_Bridge.php:211
+msgid "Harmonische Typografie im Browser"
+msgstr "Harmonikus tipográfia a böngészőben"
+
+#: src/Integration/Ecosystem_Bridge.php:212
+msgid ""
+"Fließende Schriftgrößen zwischen Mobilgerät und Desktop, berechnet aus "
+"Basisgröße und musikalischem Intervall."
+msgstr ""
+"Folyamatosan skálázódó betűméretek mobil és asztali nézet között, "
+"alapméretből és zenei hangközből számítva."
+
+#: src/Integration/Ecosystem_Bridge.php:221
+msgid "GenerateBlocks Fluid Scale Section"
+msgstr "GenerateBlocks folyamatos skálaszakasz"
+
+#: src/Integration/Ecosystem_Bridge.php:222
+msgid ""
+"Two-layer GenerateBlocks section (gbp-section + gbp-section__inner) "
+"consuming --ms-* and --wm-step-* fluid tokens."
+msgstr ""
+"Kétrétegű GenerateBlocks szakasz (gbp-section + gbp-section__inner) --ms-* "
+"és --wm-step-* tokenekkel."
+
+#: src/Integration/Ecosystem_Bridge.php:229
+msgid "Modulare Skala mit GenerateBlocks"
+msgstr "Moduláris skála GenerateBlocks-szal"
+
+#: src/Integration/Ecosystem_Bridge.php:232
+msgid "Direkte Nutzung der berechneten CSS-Variablen ohne Media-Query-Stufen."
+msgstr "A számított CSS-változók közvetlen használata töréspontok nélkül."
+
+#: src/Integration/Ecosystem_Bridge.php:254
+msgid "Compute Modular Typography Scale"
+msgstr "Moduláris tipográfiai skála számítása"
+
+#: src/Integration/Ecosystem_Bridge.php:255
+msgid ""
+"Calculates the nine fluid clamp() steps (-2 to +6), line heights and WCAG "
+"1.4.4 zoom-safety flags for a base size and ratio."
+msgstr ""
+"Kiszámítja a kilenc folyamatos clamp() fokozatot (-2-től +6-ig), a "
+"sormagasságokat és a WCAG 1.4.4 nagyítási mutatót."
+
+#: wm-modularscale.php:114
+msgid "Modular Scale"
+msgstr "Moduláris skála"
+
+#: wm-modularscale.php:125
+msgid "WM Modular Scale — Einstellungen & Vorschau"
+msgstr "WM Modular Scale — Beállítások és előnézet"
+
+#: wm-modularscale.php:126
+msgid "Typografie & Skalen"
+msgstr "Tipográfia és skálák"
+
+#: wm-modularscale.php:135
+msgid "Modular Scale (Typografie)"
+msgstr "Modular Scale (Tipográfia)"
+
+#: wm-modularscale.php:153
+msgid "WM Modular Scale — Harmonische Typografie & CSS Variablen"
+msgstr "WM Modular Scale — Harmonikus tipográfia és CSS-változók"
+
+#: wm-modularscale.php:178
+msgid "Skala auf der Website angewendet"
+msgstr "A skála alkalmazva van a webhelyen"
+
+#: wm-modularscale.php:180
+msgid "Skala berechnet, noch nicht auf die Website angewendet"
+msgstr "A skála kiszámítva, még nincs alkalmazva a webhelyen"
+
+#: wm-modularscale.php:184
+msgid "Fluid-Tokens (--wm-step-*) und Stylesheet (--wmmsp-*)"
+msgstr "Folyamatos tokenek (--wm-step-*) és stíluslap (--wmmsp-*)"
+
+#: wm-modularscale.php:191 wm-modularscale.php:301
+msgid "Basisgröße"
+msgstr "Alapméret"
+
+#: wm-modularscale.php:195
+msgid "Verhältnis"
+msgstr "Arány"
+
+#: wm-modularscale.php:198
+msgid "Aktiv"
+msgstr "Aktív"
+
+#: wm-modularscale.php:198
+msgid "Aus"
+msgstr "Ki"
+
+#: wm-modularscale.php:199
+msgid "Auf der Website"
+msgstr "A webhelyen"
+
+#: wm-modularscale.php:205
+msgid "Typografie-Cockpit öffnen"
+msgstr "Tipográfiai vezérlőpult megnyitása"
+
+#: wm-modularscale.php:220 wm-modularscale.php:319 wm-modularscale.php:347
+msgid "Einstellungen"
+msgstr "Beállítások"
+
+#: wm-modularscale.php:245
+msgid "Part of the WM Suite plugin family"
+msgstr "A WM Suite bővítménycsalád része"
+
+#: wm-modularscale.php:247
+msgid "WM Suite"
+msgstr "WM Suite"
+
+#: wm-modularscale.php:248
+msgid "Hub"
+msgstr "Hub"
+
+#: wm-modularscale.php:248
+msgid "Standalone"
+msgstr "Önálló"
+
+#: wm-modularscale.php:262
+msgid "wird berechnet …"
+msgstr "számítás …"
+
+#: wm-modularscale.php:283
+msgid "Kleine Terz 1.200 – Blog"
+msgstr "Kisterc 1.200 – Blog"
+
+#: wm-modularscale.php:284
+msgid "Große Terz 1.250 – Voreinstellung"
+msgstr "Nagyterc 1.250 – Alapértelmezett"
+
+#: wm-modularscale.php:285
+msgid "Quarte 1.333 – markante Überschriften"
+msgstr "Tiszta kvart 1.333 – Karakteres címsorok"
+
+#: wm-modularscale.php:286
+msgid "Goldener Schnitt 1.618 – Magazin, große Titel"
+msgstr "Aranymetszés 1.618 – Magazin, nagy címek"
+
+#: wm-modularscale.php:290
+msgid "1.125 — Große Sekunde (kompakt, Anwendungen)"
+msgstr "1.125 — Nagyszekund (kompakt, alkalmazások)"
+
+#: wm-modularscale.php:291
+msgid "1.200 — Kleine Terz (Blog)"
+msgstr "1.200 — Kisterc (blog)"
+
+#: wm-modularscale.php:292
+msgid "1.250 — Große Terz (Voreinstellung)"
+msgstr "1.250 — Nagyterc (alapértelmezett)"
+
+#: wm-modularscale.php:293
+msgid "1.333 — Quarte (markante Überschriften)"
+msgstr "1.333 — Tiszta kvart (karakteres címsorok)"
+
+#: wm-modularscale.php:294
+msgid "1.414 — Übermäßige Quarte (Editorial)"
+msgstr "1.414 — Bővített kvart (szerkesztőségi)"
+
+#: wm-modularscale.php:295
+msgid "1.500 — Quinte (kreative Layouts)"
+msgstr "1.500 — Tiszta kvint (kreatív elrendezések)"
+
+#: wm-modularscale.php:296
+msgid "1.618 — Goldener Schnitt (sehr große Titel)"
+msgstr "1.618 — Aranymetszés (nagyon nagy címek)"
+
+#: wm-modularscale.php:300 wm-modularscale.php:361
+msgid "Verhältnis (Ratio)"
+msgstr "Arány (Ratio)"
+
+#: wm-modularscale.php:300
+msgid ""
+"Der feste Faktor zwischen zwei Stufen der Skala. Bei 1.25 ist jede Stufe 25 "
+"% größer als die vorherige."
+msgstr ""
+"Állandó szorzó a skála két fokozata között. 1.25 esetén minden fokozat 25%-"
+"kal nagyobb az előzőnél."
+
+#: wm-modularscale.php:301
+msgid ""
+"Die Schriftgröße des Fließtexts (<p>). Aus ihr werden alle Überschriften "
+"berechnet. Browser verwenden ohne eigene Einstellung 16 px."
+msgstr ""
+"A kenyérszöveg (<p>) betűmérete, amelyből minden címsor kiszámításra kerül. "
+"A böngészők alapértelmezése 16 px."
+
+#: wm-modularscale.php:302
+msgid "rem-Einheiten"
+msgstr "rem egységek"
+
+#: wm-modularscale.php:302
+msgid ""
+"Relativ zur Schriftgröße, die im Browser eingestellt ist. Wer dort eine "
+"größere Schrift wählt, bekommt alle Stufen entsprechend größer."
+msgstr ""
+"A böngészőben beállított betűmérethez viszonyítva. Aki nagyobb betűt "
+"választ, arányosan nagyobb fokozatokat kap."
+
+#: wm-modularscale.php:303
+msgid "Goldener Schnitt (1.618)"
+msgstr "Aranymetszés (1.618)"
+
+#: wm-modularscale.php:303
+msgid ""
+"Das Verhältnis (1 + √5) / 2. Als Skala ergibt es einen starken "
+"Größenunterschied zwischen Überschriften und Fließtext."
+msgstr ""
+"Az (1 + √5) / 2 arány. Skálaként erős méretkontrasztot ad a címsorok és a "
+"törzsszöveg között."
+
+#: wm-modularscale.php:310
+msgid "Modulare Typografie"
+msgstr "Moduláris tipográfia"
+
+#: wm-modularscale.php:311
+msgid "WM Modular Scale — Typografische Skala"
+msgstr "WM Modular Scale — Tipográfiai skála"
+
+#: wm-modularscale.php:312
+msgid ""
+"Berechnet die Schriftgrößen für Überschriften (H1–H6) und Fließtext aus "
+"einer Basisgröße und einem Verhältnis und gibt sie als CSS-Variablen aus."
+msgstr ""
+"Kiszámítja a címsorok (H1–H6) és a törzsszöveg betűméreteit alapméretből és "
+"arányból, majd CSS-változóként adja ki őket."
+
+#: wm-modularscale.php:316
+msgid "Seitennavigation"
+msgstr "Oldalnavigáció"
+
+#: wm-modularscale.php:317
+msgid "Springen zu:"
+msgstr "Ugrás ide:"
+
+#: wm-modularscale.php:318
+msgid "Anleitung & Vorlagen"
+msgstr "Útmutató és sablonok"
+
+#: wm-modularscale.php:320 wm-modularscale.php:417
+msgid "Live-Vorschau"
+msgstr "Élő előnézet"
+
+#: wm-modularscale.php:321 wm-modularscale.php:438
+msgid "CSS-Variablen"
+msgstr "CSS-változók"
+
+#: wm-modularscale.php:322 wm-modularscale.php:447
+msgid "Glossar"
+msgstr "Fogalomtár"
+
+#: wm-modularscale.php:328
+msgid "Was ist eine modulare Skala?"
+msgstr "Mi az a moduláris skála?"
+
+#: wm-modularscale.php:331
+msgid ""
+"Eine modulare Skala nimmt eine Basisgröße (zum Beispiel 16 px) und "
+"multipliziert sie Stufe für Stufe mit einem festen Verhältnis, wie die "
+"Intervalle in der Musik. So stehen Überschriften (H1 bis H6) und Fließtext "
+"in einem gleichbleibenden Größenverhältnis, statt einzeln festgelegt zu "
+"werden."
+msgstr ""
+"A moduláris skála egy alapméretet (pl. 16 px) lépésről lépésre állandó "
+"aránnyal szoroz, mint a zenei hangközök, így a H1–H6 címsorok és a szöveg "
+"harmonikus arányban maradnak."
+
+#: wm-modularscale.php:334
+msgid "Vorlage übernehmen (setzt auch Basisgröße 16 und Einheit px):"
+msgstr "Sablon alkalmazása (alapméret: 16, egység: px):"
+
+#: wm-modularscale.php:355
+msgid "Basisgröße (Fließtext)"
+msgstr "Alapméret (törzsszöveg)"
+
+#: wm-modularscale.php:357
+msgid ""
+"Die Größe des Fließtexts, aus der die Überschriften berechnet werden. "
+"Browser verwenden ohne eigene Einstellung 16 px."
+msgstr ""
+"A törzsszöveg mérete, amelyből a címsorok számítódnak. A böngészők "
+"alapértelmezése 16 px."
+
+#: wm-modularscale.php:363
+msgid "Vorlage wählen oder Wert eingeben"
+msgstr "Válasszon sablont vagy adjon meg értéket"
+
+#: wm-modularscale.php:368
+msgid "Verhältnis als Zahl"
+msgstr "Arány számként"
+
+#: wm-modularscale.php:370
+msgid "Je größer der Wert, desto größer der Abstand zwischen H1 und H3."
+msgstr "Minél nagyobb az érték, annál nagyobb a különbség a H1 és H3 között."
+
+#: wm-modularscale.php:374
+msgid "Einheit"
+msgstr "Mértékegység"
+
+#: wm-modularscale.php:376
+msgid "px (Pixel, feste Größe)"
+msgstr "px (pixel, rögzített méret)"
+
+#: wm-modularscale.php:377
+msgid "rem (relativ zur Schriftgröße des Browsers)"
+msgstr "rem (a böngésző betűméretéhez viszonyított)"
+
+#: wm-modularscale.php:378
+msgid "em (relativ zum übergeordneten Element)"
+msgstr "em (a szülőelemhez viszonyított)"
+
+#: wm-modularscale.php:380
+msgid ""
+"Einheit der Variablen --wmmsp-* im Stylesheet. Die Fluid-Tokens --wm-step-* "
+"verwenden immer rem."
+msgstr ""
+"A --wmmsp-* változók egysége a stíluslapban. A folyamatos --wm-step-* "
+"tokenek mindig rem-et használnak."
+
+#: wm-modularscale.php:384
+msgid "Nachkommastellen"
+msgstr "Tizedesjegyek"
+
+#: wm-modularscale.php:386
+msgid ""
+"Auf so viele Nachkommastellen rundet das Stylesheet die Werte "
+"(Voreinstellung 2)."
+msgstr "Ennyi tizedesjegyre kerekít a stíluslap (alapértelmezés: 2)."
+
+#: wm-modularscale.php:393
+msgid "Skala auf der Website anwenden"
+msgstr "Skála alkalmazása a webhelyen"
+
+#: wm-modularscale.php:394
+msgid ""
+"Gibt die Fluid-Tokens --wm-step-* im Seitenkopf aus und lädt das Stylesheet, "
+"das body, h1–h6, Absätze, Listen, Zitate und Code aus diesen Werten setzt."
+msgstr ""
+"Kiírja a folyamatos --wm-step-* tokeneket a fejlécbe, és betölti a body, h1–"
+"h6, bekezdés, lista, idézet és kód stíluslapját."
+
+#: wm-modularscale.php:403
+msgid "Einstellungen beim Entfernen des Plugins löschen"
+msgstr "Beállítások törlése a bővítmény eltávolításakor"
+
+#: wm-modularscale.php:404
+msgid ""
+"Standardmäßig bleiben Basisgröße, Verhältnis und Skalen-Optionen erhalten, "
+"falls das Plugin später erneut installiert wird."
+msgstr ""
+"Alapértelmezés szerint az alapméret, az arány és a skálabeállítások "
+"megmaradnak egy későbbi újratelepítés esetére."
+
+#: wm-modularscale.php:410
+msgid "Typografie speichern"
+msgstr "Tipográfia mentése"
+
+#: wm-modularscale.php:419
+msgid ""
+"Zeigt die Größen des Stylesheets (--wmmsp-*) für die aktuellen Felder, bevor "
+"Sie speichern."
+msgstr ""
+"Megjeleníti a stíluslap (--wmmsp-*) méreteit az aktuális mezőkhöz mentés "
+"előtt."
+
+#: wm-modularscale.php:424
+msgid "Hauptüberschrift H1"
+msgstr "Főcímsor H1"
+
+#: wm-modularscale.php:425
+msgid "Abschnittsüberschrift H2"
+msgstr "Szakaszcímsor H2"
+
+#: wm-modularscale.php:426
+msgid "Überschrift eines Inhaltsblocks H3"
+msgstr "Tartalomblokk-címsor H3"
+
+#: wm-modularscale.php:427
+msgid "Titel einer Karte H4"
+msgstr "Kártyacím H4"
+
+#: wm-modularscale.php:428
+msgid "Kleine Überschrift H5"
+msgstr "Kis címsor H5"
+
+#: wm-modularscale.php:429
+msgid "Fußnote H6"
+msgstr "Lábjegyzet H6"
+
+#: wm-modularscale.php:430
+msgid "Fließtext"
+msgstr "Törzsszöveg"
+
+#: wm-modularscale.php:430
+msgid ""
+"Das ist ein Absatz im Fließtext. Seine Größe ist die Basisgröße; die "
+"Überschriften darüber sind daraus berechnet."
+msgstr ""
+"Ez egy törzsszöveg-bekezdés. Mérete megegyezik az alapmérettel, amelyből a "
+"címsorok számítódnak."
+
+#: wm-modularscale.php:440
+msgid ""
+"Diese Variablen setzt das Stylesheet, wenn die Skala angewendet wird. Die "
+"fließenden Stufen --wm-step-neg-2 bis --wm-step-6 berechnet das Plugin "
+"zusätzlich aus Basisgröße, maximaler Basisgröße und den Viewport-Breiten."
+msgstr ""
+"Ezeket a változókat állítja be a stíluslap a skála alkalmazásakor. Emellett "
+"a bővítmény kiszámítja a --wm-step-neg-2 … --wm-step-6 fokozatokat."
+
+#: wm-modularscale.php:442
+msgid "Variablen werden berechnet …"
+msgstr "Változók számítása …"
+
+#: wm-modularscale.php:449
+msgid "Die Begriffe dieser Seite kurz erklärt."
+msgstr "Az oldalon szereplő fogalmak rövid magyarázata."
+
+#: blocks-src/index.js:66
+msgid "Fluid Heading Settings"
+msgstr "Folyamatos címsor beállításai"
+
+#: blocks-src/index.js:68
+msgid "Heading level (H1–H6)"
+msgstr "Címsorszint (H1–H6)"
+
+#: blocks-src/index.js:78
+msgid "Modular scale step (-2 to +6)"
+msgstr "Moduláris skálafokozat (-2-től +6-ig)"
+
+#: blocks-src/index.js:85 blocks-src/index.js:153
+msgid "Text alignment"
+msgstr "Szövegigazítás"
+
+#: blocks-src/index.js:88 blocks-src/index.js:156
+msgid "Left"
+msgstr "Balra"
+
+#: blocks-src/index.js:89 blocks-src/index.js:157
+msgid "Center"
+msgstr "Középre"
+
+#: blocks-src/index.js:90 blocks-src/index.js:158
+msgid "Right"
+msgstr "Jobbra"
+
+#: blocks-src/index.js:95
+msgid "Custom CSS clamp() override"
+msgstr "Egyéni CSS clamp() felülbírálás"
+
+#: blocks-src/index.js:96
+msgid "Optional full CSS clamp() expression overriding the scale step."
+msgstr "Opcionális teljes CSS clamp() kifejezés a skálafokozat helyett."
+
+#: blocks-src/index.js:107
+msgid "Write fluid heading…"
+msgstr "Írjon folyamatos címsort…"
+
+#: blocks-src/index.js:144
+msgid "Fluid Lead Settings"
+msgstr "Folyamatos bevezető beállításai"
+
+#: blocks-src/index.js:146
+msgid "Maximum line length (characters)"
+msgstr "Maximális sorhossz (karakter)"
+
+#: blocks-src/index.js:168
+msgid "Write lead paragraph…"
+msgstr "Írjon bevezető bekezdést…"
+
+#: blocks-src/index.js:198
+msgid "Container Query Context"
+msgstr "Container Query környezet"
+
+#: blocks-src/index.js:200
+msgid "Container name"
+msgstr "Konténer neve"
+
+#: blocks-src/index.js:205
+msgid "Container type"
+msgstr "Konténer típusa"
+
+#: blocks-src/index.js:208
+msgid "Inline size (cqi / cqw)"
+msgstr "Sorirányú méret (cqi / cqw)"
+
+#: blocks-src/index.js:209
+msgid "Size (width & height)"
+msgstr "Méret (szélesség és magasság)"
+
+#: blocks-src/index.js:210
+msgid "Normal"
+msgstr "Normál"
+
+#: blocks-src/index.js:247
+msgid "Typographic Grid Settings"
+msgstr "Tipográfiai rács beállításai"
+
+#: blocks-src/index.js:249
+msgid "Columns (1–6)"
+msgstr "Oszlopok (1–6)"
+
+#: blocks-src/index.js:256
+msgid "Scale gap token"
+msgstr "Skálaköz token"
+
+#: blocks-src/index.js:259
+msgid "Step 0 (Body base)"
+msgstr "0. fokozat (Alapszöveg)"
+
+#: blocks-src/index.js:260
+msgid "Step 1 (Compact)"
+msgstr "1. fokozat (Tömör)"
+
+#: blocks-src/index.js:261
+msgid "Step 2 (Default)"
+msgstr "2. fokozat (Alapértelmezett)"
+
+#: blocks-src/index.js:262
+msgid "Step 3 (Spacious)"
+msgstr "3. fokozat (Szellős)"
+
+#: blocks-src/index.js:263
+msgid "Step 4 (Wide)"
+msgstr "4. fokozat (Széles)"
+
+#: blocks-src/index.js:291
+msgid "Ratio Visualizer Settings"
+msgstr "Arányvizualizáló beállításai"
+
+#: blocks-src/index.js:293
+msgid "Show step labels on SVG axis"
+msgstr "Fokozatcímkék megjelenítése az SVG-tengelyen"
+
+#: blocks-src/index.js:298
+msgid "Show step min/max cards"
+msgstr "Min/max kártyák megjelenítése"
+
+#: blocks-src/index.js:303
+msgid "Color theme"
+msgstr "Színséma"
+
+#: blocks-src/index.js:306
+msgid "Dark"
+msgstr "Sötét"
+
+#: blocks-src/index.js:307
+msgid "Light"
+msgstr "Világos"
+
+#: blocks-src/index.js:313
+msgid "Ratio Visualizer (SVG Curve)"
+msgstr "Arányvizualizáló (SVG-görbe)"
+
+#: blocks-src/index.js:335
+msgid "APCA Contrast Settings"
+msgstr "APCA-kontraszt beállításai"
+
+#: blocks-src/index.js:337
+msgid "Foreground hex color"
+msgstr "Előtérszín (hex)"
+
+#: blocks-src/index.js:342
+msgid "Background hex color"
+msgstr "Háttérszín (hex)"
+
+#: blocks-src/index.js:347
+msgid "Target text role"
+msgstr "Célzott szövegszerep"
+
+#: blocks-src/index.js:350
+msgid "Body copy (target Lc 75)"
+msgstr "Törzsszöveg (cél Lc 75)"
+
+#: blocks-src/index.js:351
+msgid "UI / secondary text (target Lc 60)"
+msgstr "Másodlagos / UI-szöveg (cél Lc 60)"
+
+#: blocks-src/index.js:352
+msgid "Large headline (target Lc 45)"
+msgstr "Nagy címsor (cél Lc 45)"
+
+#: blocks-src/index.js:358
+msgid "APCA Contrast Badge (WM Scale)"
+msgstr "APCA-kontrasztjelvény (WM Scale)"
+
+#: blocks-src/index.js:380
+msgid "Exporter Output Settings"
+msgstr "Exportálási beállítások"
+
+#: blocks-src/index.js:382
+msgid "Displayed export format"
+msgstr "Megjelenített exportformátum"
+
+#: blocks-src/index.js:385
+msgid "Both (theme.json v3 + Tailwind v4)"
+msgstr "Mindkettő (theme.json v3 + Tailwind v4)"
+
+#: blocks-src/index.js:386
+msgid "theme.json v3 only"
+msgstr "Csak theme.json v3"
+
+#: blocks-src/index.js:387
+msgid "Tailwind CSS v4 @theme only"
+msgstr "Csak Tailwind CSS v4 @theme"
+
+#: blocks-src/index.js:393
+msgid "Theme.json Exporter (WM Scale)"
+msgstr "Theme.json exportáló (WM Scale)"
+
+#: src/Gutenberg/Blocks/contrast-matrix-badge/block.json
+msgctxt "block title"
+msgid "APCA Contrast Badge (WM Scale)"
+msgstr "APCA-kontrasztjelvény (WM Scale)"
+
+#: src/Gutenberg/Blocks/contrast-matrix-badge/block.json
+msgctxt "block description"
+msgid ""
+"Badge with the APCA lightness contrast (Lc) of a text and background colour "
+"pair and a usage hint for that value."
+msgstr ""
+"Jelvény a szöveg- és háttérszín APCA világossági kontrasztjával (Lc) és "
+"használati útmutatóval."
+
+#: src/Gutenberg/Blocks/contrast-matrix-badge/block.json
+msgctxt "block keyword"
+msgid "contrast"
+msgstr "kontraszt"
+
+#: src/Gutenberg/Blocks/contrast-matrix-badge/block.json
+msgctxt "block keyword"
+msgid "apca"
+msgstr "apca"
+
+#: src/Gutenberg/Blocks/contrast-matrix-badge/block.json
+msgctxt "block keyword"
+msgid "a11y"
+msgstr "a11y"
+
+#: src/Gutenberg/Blocks/contrast-matrix-badge/block.json
+msgctxt "block keyword"
+msgid "accessibility"
+msgstr "akadálymentesség"
+
+#: src/Gutenberg/Blocks/fluid-container/block.json
+msgctxt "block title"
+msgid "Fluid Container (@container)"
+msgstr "Folyamatos konténer (@container)"
+
+#: src/Gutenberg/Blocks/fluid-container/block.json
+msgctxt "block description"
+msgid ""
+"Container for inner blocks that sets container-type (default inline-size) "
+"and container-name (default wm-typographic-context) for container queries."
+msgstr ""
+"Belső blokkok konténere container-type (inline-size) és container-name (wm-"
+"typographic-context) beállítással."
+
+#: src/Gutenberg/Blocks/fluid-container/block.json
+msgctxt "block keyword"
+msgid "container"
+msgstr "konténer"
+
+#: src/Gutenberg/Blocks/fluid-container/block.json
+msgctxt "block keyword"
+msgid "queries"
+msgstr "lekérdezések"
+
+#: src/Gutenberg/Blocks/fluid-container/block.json
+msgctxt "block keyword"
+msgid "cqw"
+msgstr "cqw"
+
+#: src/Gutenberg/Blocks/fluid-container/block.json
+msgctxt "block keyword"
+msgid "cqi"
+msgstr "cqi"
+
+#: src/Gutenberg/Blocks/fluid-container/block.json
+#: src/Gutenberg/Blocks/fluid-heading/block.json
+#: src/Gutenberg/Blocks/fluid-lead/block.json
+msgctxt "block keyword"
+msgid "fluid"
+msgstr "folyamatos"
+
+#: src/Gutenberg/Blocks/fluid-container/block.json
+msgctxt "block keyword"
+msgid "layout"
+msgstr "elrendezés"
+
+#: src/Gutenberg/Blocks/fluid-heading/block.json
+msgctxt "block title"
+msgid "Fluid Heading (WM Scale)"
+msgstr "Folyamatos címsor (WM Scale)"
+
+#: src/Gutenberg/Blocks/fluid-heading/block.json
+msgctxt "block description"
+msgid ""
+"Heading (H1–H6) with the fluid font-size class of its level, balanced line "
+"wrapping and an optional custom clamp() value."
+msgstr ""
+"Címsor (H1–H6) a szintjéhez tartozó folyamatos betűméret-osztállyal, "
+"kiegyensúlyozott tördeléssel és opcionális clamp() értékkel."
+
+#: src/Gutenberg/Blocks/fluid-heading/block.json
+msgctxt "block keyword"
+msgid "heading"
+msgstr "címsor"
+
+#: src/Gutenberg/Blocks/fluid-heading/block.json
+#: src/Gutenberg/Blocks/fluid-lead/block.json
+#: src/Gutenberg/Blocks/typographic-grid/block.json
+msgctxt "block keyword"
+msgid "typography"
+msgstr "tipográfia"
+
+#: src/Gutenberg/Blocks/fluid-heading/block.json
+#: src/Gutenberg/Blocks/ratio-visualizer/block.json
+msgctxt "block keyword"
+msgid "scale"
+msgstr "skála"
+
+#: src/Gutenberg/Blocks/fluid-heading/block.json
+msgctxt "block keyword"
+msgid "modular"
+msgstr "moduláris"
+
+#: src/Gutenberg/Blocks/fluid-lead/block.json
+msgctxt "block title"
+msgid "Fluid Lead Text (WM Scale)"
+msgstr "Folyamatos bevezető szöveg (WM Scale)"
+
+#: src/Gutenberg/Blocks/fluid-lead/block.json
+msgctxt "block description"
+msgid ""
+"Paragraph with the fluid body font size, a maximum line length of 35–85 "
+"characters (default 65) and pretty line wrapping."
+msgstr ""
+"Bekezdés folyamatos törzsmérettel, 35–85 karakteres sorhosszal "
+"(alapértelmezett 65) és esztétikus tördeléssel."
+
+#: src/Gutenberg/Blocks/fluid-lead/block.json
+msgctxt "block keyword"
+msgid "lead"
+msgstr "bevezető"
+
+#: src/Gutenberg/Blocks/fluid-lead/block.json
+msgctxt "block keyword"
+msgid "paragraph"
+msgstr "bekezdés"
+
+#: src/Gutenberg/Blocks/fluid-lead/block.json
+msgctxt "block keyword"
+msgid "reading"
+msgstr "olvasás"
+
+#: src/Gutenberg/Blocks/ratio-visualizer/block.json
+msgctxt "block title"
+msgid "Ratio Visualizer (SVG Curve)"
+msgstr "Arányvizualizáló (SVG-görbe)"
+
+#: src/Gutenberg/Blocks/ratio-visualizer/block.json
+msgctxt "block description"
+msgid ""
+"Shows the nine scale steps with their minimum and maximum size in px, "
+"calculated from the stored base sizes and ratio."
+msgstr ""
+"Megjeleníti a kilenc skálafokozatot minimális és maximális px-méretükkel a "
+"mentett beállítások alapján."
+
+#: src/Gutenberg/Blocks/ratio-visualizer/block.json
+msgctxt "block keyword"
+msgid "visualizer"
+msgstr "vizualizáló"
+
+#: src/Gutenberg/Blocks/ratio-visualizer/block.json
+msgctxt "block keyword"
+msgid "ratio"
+msgstr "arány"
+
+#: src/Gutenberg/Blocks/ratio-visualizer/block.json
+msgctxt "block keyword"
+msgid "svg"
+msgstr "svg"
+
+#: src/Gutenberg/Blocks/ratio-visualizer/block.json
+msgctxt "block keyword"
+msgid "curve"
+msgstr "görbe"
+
+#: src/Gutenberg/Blocks/ratio-visualizer/block.json
+msgctxt "block keyword"
+msgid "preview"
+msgstr "előnézet"
+
+#: src/Gutenberg/Blocks/theme-json-exporter/block.json
+msgctxt "block title"
+msgid "Theme.json Exporter (WM Scale)"
+msgstr "Theme.json exportáló (WM Scale)"
+
+#: src/Gutenberg/Blocks/theme-json-exporter/block.json
+msgctxt "block description"
+msgid ""
+"Shows the theme.json fontSizes and the Tailwind CSS v4 @theme block "
+"generated from the stored scale."
+msgstr ""
+"Megjeleníti a mentett skálából generált theme.json fontSizes tömböt és "
+"Tailwind CSS v4 @theme blokkot."
+
+#: src/Gutenberg/Blocks/theme-json-exporter/block.json
+msgctxt "block keyword"
+msgid "theme.json"
+msgstr "theme.json"
+
+#: src/Gutenberg/Blocks/theme-json-exporter/block.json
+msgctxt "block keyword"
+msgid "exporter"
+msgstr "exportáló"
+
+#: src/Gutenberg/Blocks/theme-json-exporter/block.json
+msgctxt "block keyword"
+msgid "tokens"
+msgstr "tokenek"
+
+#: src/Gutenberg/Blocks/theme-json-exporter/block.json
+msgctxt "block keyword"
+msgid "json"
+msgstr "json"
+
+#: src/Gutenberg/Blocks/theme-json-exporter/block.json
+msgctxt "block keyword"
+msgid "tailwind"
+msgstr "tailwind"
+
+#: src/Gutenberg/Blocks/typographic-grid/block.json
+msgctxt "block title"
+msgid "Typographic Grid (WM Scale)"
+msgstr "Tipográfiai rács (WM Scale)"
+
+#: src/Gutenberg/Blocks/typographic-grid/block.json
+msgctxt "block description"
+msgid ""
+"Grid of 1–6 equal columns for inner blocks, with a gap from the scale "
+"(default var(--wm-step-2))."
+msgstr "1–6 egyenlő oszlopos rács belső blokkokhoz, skálából vett térközzel."
+
+#: src/Gutenberg/Blocks/typographic-grid/block.json
+msgctxt "block keyword"
+msgid "grid"
+msgstr "rács"
+
+#: src/Gutenberg/Blocks/typographic-grid/block.json
+msgctxt "block keyword"
+msgid "columns"
+msgstr "oszlopok"
+
+#: src/Gutenberg/Blocks/typographic-grid/block.json
+msgctxt "block keyword"
+msgid "rhythm"
+msgstr "ritmus"
+
+#: src/Gutenberg/Blocks/typographic-grid/block.json
+msgctxt "block keyword"
+msgid "baseline"
+msgstr "alapvonal"
+
+#~ msgid "https://www.arnoldwender.com"
+#~ msgstr "https://www.arnoldwender.com"

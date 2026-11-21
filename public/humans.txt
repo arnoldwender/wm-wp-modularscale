@@ -1,0 +1,47 @@
+/* humanstxt.org */
+/* The humans responsible & technology colophon */
+
+# TEAM
+
+    Author: Arnold Wender
+
+    Built with: an agentic workflow (AI coding agents)
+# THANKS
+
+    To My Family -- For unconditional love, strength & continuous inspiration
+    WordPress Community & Core Contributors -- For democratizing publishing and powering the open web
+    Open Source Community -- For making software accessible to everyone
+
+# TECHNOLOGY COLOPHON
+
+    ## Architecture & Core
+    WordPress 6.4+ / 7.x
+    PHP 8.1+ (Strict Types, PSR-12, WPCS)
+    MySQL InnoDB / Transaction-Safe Data Layer
+    Native WP-CLI Tooling & REST API Controllers
+
+    ## Frontend & Gutenberg
+    Gutenberg Block Editor API
+    Modern Vanilla JS & React Components
+    Self-Hosted Zero-CDN Assets (100% Local in /assets/)
+
+    ## Compliance & Quality
+    Barrierefreiheitsstärkungsgesetz (BFSG 2025) / WCAG 2.2 AA
+    DSGVO / GDPR & TDDDG § 25 Compliant Architecture
+    HMAC-SHA256 Cryptographic Audit Logs
+
+# SITE & PROJECT
+
+    Plugin: wm-modularscale
+    Stack: WordPress Enterprise Extension
+    Standards: 100% Zero External Dependencies
+
+# CONTACT
+
+    Author Website: https://arnoldwender.com
+    Repository: https://github.com/arnoldwender/wm-wp-modularscale
+    Support: Zero support — reproducible bugs on GitHub Issues only (SUPPORT.md)
+
+# DEDICATION
+
+    Dedicated to my family with eternal love and gratitude.

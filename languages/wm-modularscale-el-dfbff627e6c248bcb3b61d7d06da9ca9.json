@@ -1,0 +1,294 @@
+{
+  "translation-revision-date": "2026-11-21T15:04:18+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-modularscale",
+        "lang": "el",
+        "plural-forms": "nplurals=2; plural=(n != 1);"
+      },
+      "Fluid Heading Settings": [
+        "Ρυθμίσεις ρευστής επικεφαλίδας"
+      ],
+      "Heading level (H1–H6)": [
+        "Επίπεδο επικεφαλίδας (H1–H6)"
+      ],
+      "Modular scale step (-2 to +6)": [
+        "Βήμα αρθρωτής κλίμακας (-2 έως +6)"
+      ],
+      "Text alignment": [
+        "Στοίχιση κειμένου"
+      ],
+      "Left": [
+        "Αριστερά"
+      ],
+      "Center": [
+        "Κέντρο"
+      ],
+      "Right": [
+        "Δεξιά"
+      ],
+      "Custom CSS clamp() override": [
+        "Προσαρμοσμένη τιμή CSS clamp()"
+      ],
+      "Optional full CSS clamp() expression overriding the scale step.": [
+        "Προαιρετική πλήρης έκφραση CSS clamp() που αντικαθιστά το βήμα της κλίμακας."
+      ],
+      "Write fluid heading…": [
+        "Γράψτε ρευστή επικεφαλίδα…"
+      ],
+      "Fluid Lead Settings": [
+        "Ρυθμίσεις ρευστής εισαγωγής"
+      ],
+      "Maximum line length (characters)": [
+        "Μέγιστο μήκος γραμμής (χαρακτήρες)"
+      ],
+      "Write lead paragraph…": [
+        "Γράψτε εισαγωγική παράγραφο…"
+      ],
+      "Container Query Context": [
+        "Πλαίσιο Container Query"
+      ],
+      "Container name": [
+        "Όνομα περιέκτη"
+      ],
+      "Container type": [
+        "Τύπος περιέκτη"
+      ],
+      "Inline size (cqi / cqw)": [
+        "Ενδογραμμικό μέγεθος (cqi / cqw)"
+      ],
+      "Size (width & height)": [
+        "Μέγεθος (πλάτος & ύψος)"
+      ],
+      "Normal": [
+        "Κανονικό"
+      ],
+      "Typographic Grid Settings": [
+        "Ρυθμίσεις τυπογραφικού πλέγματος"
+      ],
+      "Columns (1–6)": [
+        "Στήλες (1–6)"
+      ],
+      "Scale gap token": [
+        "Διακριτικό διάκενου κλίμακας"
+      ],
+      "Step 0 (Body base)": [
+        "Βήμα 0 (Βάση κειμένου)"
+      ],
+      "Step 1 (Compact)": [
+        "Βήμα 1 (Συμπαγές)"
+      ],
+      "Step 2 (Default)": [
+        "Βήμα 2 (Προεπιλογή)"
+      ],
+      "Step 3 (Spacious)": [
+        "Βήμα 3 (Άνετο)"
+      ],
+      "Step 4 (Wide)": [
+        "Βήμα 4 (Ευρύ)"
+      ],
+      "Ratio Visualizer Settings": [
+        "Ρυθμίσεις οπτικοποίησης αναλογίας"
+      ],
+      "Show step labels on SVG axis": [
+        "Εμφάνιση ετικετών βημάτων στον άξονα SVG"
+      ],
+      "Show step min/max cards": [
+        "Εμφάνιση καρτών ελάχ./μέγ. βημάτων"
+      ],
+      "Color theme": [
+        "Θέμα χρωμάτων"
+      ],
+      "Dark": [
+        "Σκούρο"
+      ],
+      "Light": [
+        "Ανοιχτό"
+      ],
+      "Ratio Visualizer (SVG Curve)": [
+        "Οπτικοποίηση αναλογίας (καμπύλη SVG)"
+      ],
+      "APCA Contrast Settings": [
+        "Ρυθμίσεις αντίθεσης APCA"
+      ],
+      "Foreground hex color": [
+        "Δεκαεξαδικό χρώμα κειμένου"
+      ],
+      "Background hex color": [
+        "Δεκαεξαδικό χρώμα φόντου"
+      ],
+      "Target text role": [
+        "Προβλεπόμενος ρόλος κειμένου"
+      ],
+      "Body copy (target Lc 75)": [
+        "Κυρίως κείμενο (στόχος Lc 75)"
+      ],
+      "UI / secondary text (target Lc 60)": [
+        "Δευτερεύον / UI κείμενο (στόχος Lc 60)"
+      ],
+      "Large headline (target Lc 45)": [
+        "Μεγάλος τίτλος (στόχος Lc 45)"
+      ],
+      "APCA Contrast Badge (WM Scale)": [
+        "Έμβλημα αντίθεσης APCA (WM Scale)"
+      ],
+      "Exporter Output Settings": [
+        "Ρυθμίσεις εξαγωγής"
+      ],
+      "Displayed export format": [
+        "Εμφανιζόμενη μορφή εξαγωγής"
+      ],
+      "Both (theme.json v3 + Tailwind v4)": [
+        "Και τα δύο (theme.json v3 + Tailwind v4)"
+      ],
+      "theme.json v3 only": [
+        "Μόνο theme.json v3"
+      ],
+      "Tailwind CSS v4 @theme only": [
+        "Μόνο Tailwind CSS v4 @theme"
+      ],
+      "Theme.json Exporter (WM Scale)": [
+        "Εξαγωγέας Theme.json (WM Scale)"
+      ],
+      "block title\u0004APCA Contrast Badge (WM Scale)": [
+        "Έμβλημα αντίθεσης APCA (WM Scale)"
+      ],
+      "block description\u0004Badge with the APCA lightness contrast (Lc) of a text and background colour pair and a usage hint for that value.": [
+        "Έμβλημα με την αντίθεση φωτεινότητας APCA (Lc) ζεύγους χρωμάτων κειμένου/φόντου και υπόδειξη χρήσης."
+      ],
+      "block keyword\u0004contrast": [
+        "αντίθεση"
+      ],
+      "block keyword\u0004apca": [
+        "apca"
+      ],
+      "block keyword\u0004a11y": [
+        "a11y"
+      ],
+      "block keyword\u0004accessibility": [
+        "προσβασιμότητα"
+      ],
+      "block title\u0004Fluid Container (@container)": [
+        "Ρευστός περιέκτης (@container)"
+      ],
+      "block description\u0004Container for inner blocks that sets container-type (default inline-size) and container-name (default wm-typographic-context) for container queries.": [
+        "Περιέκτης εσωτερικών μπλοκ που ορίζει container-type (inline-size) και container-name (wm-typographic-context)."
+      ],
+      "block keyword\u0004container": [
+        "περιέκτης"
+      ],
+      "block keyword\u0004queries": [
+        "ερωτήματα"
+      ],
+      "block keyword\u0004cqw": [
+        "cqw"
+      ],
+      "block keyword\u0004cqi": [
+        "cqi"
+      ],
+      "block keyword\u0004fluid": [
+        "ρευστό"
+      ],
+      "block keyword\u0004layout": [
+        "διάταξη"
+      ],
+      "block title\u0004Fluid Heading (WM Scale)": [
+        "Ρευστή επικεφαλίδα (WM Scale)"
+      ],
+      "block description\u0004Heading (H1–H6) with the fluid font-size class of its level, balanced line wrapping and an optional custom clamp() value.": [
+        "Επικεφαλίδα (H1–H6) με ρευστή κλάση μεγέθους, ισορροπημένη αναδίπλωση και προαιρετική τιμή clamp()."
+      ],
+      "block keyword\u0004heading": [
+        "επικεφαλίδα"
+      ],
+      "block keyword\u0004typography": [
+        "τυπογραφία"
+      ],
+      "block keyword\u0004scale": [
+        "κλίμακα"
+      ],
+      "block keyword\u0004modular": [
+        "αρθρωτή"
+      ],
+      "block title\u0004Fluid Lead Text (WM Scale)": [
+        "Ρευστό εισαγωγικό κείμενο (WM Scale)"
+      ],
+      "block description\u0004Paragraph with the fluid body font size, a maximum line length of 35–85 characters (default 65) and pretty line wrapping.": [
+        "Παράγραφος με ρευστό μέγεθος σώματος, μήκος γραμμής 35–85 χαρακτήρων (προεπιλογή 65) και ομαλή αναδίπλωση."
+      ],
+      "block keyword\u0004lead": [
+        "εισαγωγή"
+      ],
+      "block keyword\u0004paragraph": [
+        "παράγραφος"
+      ],
+      "block keyword\u0004reading": [
+        "ανάγνωση"
+      ],
+      "block title\u0004Ratio Visualizer (SVG Curve)": [
+        "Οπτικοποίηση αναλογίας (καμπύλη SVG)"
+      ],
+      "block description\u0004Shows the nine scale steps with their minimum and maximum size in px, calculated from the stored base sizes and ratio.": [
+        "Εμφανίζει τα εννέα βήματα της κλίμακας με ελάχιστο και μέγιστο μέγεθος σε px βάσει των αποθηκευμένων ρυθμίσεων."
+      ],
+      "block keyword\u0004visualizer": [
+        "οπτικοποίηση"
+      ],
+      "block keyword\u0004ratio": [
+        "αναλογία"
+      ],
+      "block keyword\u0004svg": [
+        "svg"
+      ],
+      "block keyword\u0004curve": [
+        "καμπύλη"
+      ],
+      "block keyword\u0004preview": [
+        "προεπισκόπηση"
+      ],
+      "block title\u0004Theme.json Exporter (WM Scale)": [
+        "Εξαγωγέας Theme.json (WM Scale)"
+      ],
+      "block description\u0004Shows the theme.json fontSizes and the Tailwind CSS v4 @theme block generated from the stored scale.": [
+        "Εμφανίζει τα fontSizes του theme.json και το μπλοκ @theme του Tailwind CSS v4 από την αποθηκευμένη κλίμακα."
+      ],
+      "block keyword\u0004theme.json": [
+        "theme.json"
+      ],
+      "block keyword\u0004exporter": [
+        "εξαγωγέας"
+      ],
+      "block keyword\u0004tokens": [
+        "διακριτικά"
+      ],
+      "block keyword\u0004json": [
+        "json"
+      ],
+      "block keyword\u0004tailwind": [
+        "tailwind"
+      ],
+      "block title\u0004Typographic Grid (WM Scale)": [
+        "Τυπογραφικό πλέγμα (WM Scale)"
+      ],
+      "block description\u0004Grid of 1–6 equal columns for inner blocks, with a gap from the scale (default var(--wm-step-2)).": [
+        "Πλέγμα 1–6 ίσων στηλών για εσωτερικά μπλοκ με διάκενο από την κλίμακα."
+      ],
+      "block keyword\u0004grid": [
+        "πλέγμα"
+      ],
+      "block keyword\u0004columns": [
+        "στήλες"
+      ],
+      "block keyword\u0004rhythm": [
+        "ρυθμός"
+      ],
+      "block keyword\u0004baseline": [
+        "γραμμή βάσης"
+      ]
+    }
+  }
+}

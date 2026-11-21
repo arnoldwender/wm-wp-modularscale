@@ -1,0 +1,974 @@
+# Translation of WM Modular Scale in lt_LT
+# Copyright (C) 2026 Arnold Wender
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: wm-modularscale 1.4.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wm-modularscale\n"
+"POT-Creation-Date: 2026-11-21T14:04:16+00:00\n"
+"PO-Revision-Date: 2026-11-21 15:04+0100\n"
+"Last-Translator: WM Suite <https://github.com/arnoldwender/wm-wp-"
+"modularscale/issues>\n"
+"Language-Team: WM Suite <https://github.com/arnoldwender/wm-wp-modularscale/"
+"issues>\n"
+"Language: lt_LT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && (n%100<11 || n%100>19) ? 0 : "
+"n%10>=2 && n%10<=9 && (n%100<11 || n%100>19) ? 1 : 2);\n"
+"X-Generator: WM Suite i18n Compiler 2026\n"
+"X-Domain: wm-modularscale\n"
+
+#. Plugin Name of the plugin
+#: wm-modularscale.php src/Integration/Ecosystem_Bridge.php:199
+#: wm-modularscale.php:113 wm-modularscale.php:134
+msgid "WM Modular Scale"
+msgstr "WM Modular Scale"
+
+#. Plugin URI of the plugin
+#: wm-modularscale.php
+msgid "https://arnoldwender.com/wordpress-plugins/wm-modularscale/"
+msgstr "https://arnoldwender.com/wordpress-plugins/wm-modularscale/"
+
+#. Description of the plugin
+#: wm-modularscale.php
+msgid ""
+"Generates harmonious, responsive typography ratios and modular scales with a "
+"visual live preview sandbox for non-technical users."
+msgstr ""
+"Generuoja darnius, prisitaikančius tipografinius santykius ir modulines "
+"skales su interaktyvia peržiūra realiuoju laiku."
+
+#. Author of the plugin
+#: wm-modularscale.php
+msgid "Arnold Wender"
+msgstr "Arnold Wender"
+
+#. Author URI of the plugin
+#: wm-modularscale.php
+msgid "https://arnoldwender.com"
+msgstr "https://arnoldwender.com"
+
+#: src/Gutenberg/Block_Manager.php:134
+msgid "WM Modular Scale — Typografie Enterprise"
+msgstr "WM Modular Scale — Verslo tipografija"
+
+#: src/Integration/Ecosystem_Bridge.php:56
+msgid "WM Modular Scale Tokens"
+msgstr "WM Modular Scale žetonai"
+
+#: src/Integration/Ecosystem_Bridge.php:133
+msgid "WM Modular Scale Token"
+msgstr "WM Modular Scale žetonas"
+
+#: src/Integration/Ecosystem_Bridge.php:137
+msgid ""
+"Outputs a computed fluid clamp() token or px range from WM Modular Scale."
+msgstr ""
+"Grąžina apskaičiuotą sklandų clamp() žetoną arba px intervalą iš WM Modular "
+"Scale."
+
+#: src/Integration/Ecosystem_Bridge.php:141
+msgid "Scale step (-2 to 6)"
+msgstr "Skalės pakopa (nuo -2 iki 6)"
+
+#: src/Integration/Ecosystem_Bridge.php:146
+msgid "Output format"
+msgstr "Išvesties formatas"
+
+#: src/Integration/Ecosystem_Bridge.php:151
+msgid "CSS clamp() expression"
+msgstr "CSS clamp() išraiška"
+
+#: src/Integration/Ecosystem_Bridge.php:155
+msgid "Min–Max px range"
+msgstr "Min.–maks. px intervalas"
+
+#: src/Integration/Ecosystem_Bridge.php:159
+msgid "Maximum px size"
+msgstr "Didžiausias px dydis"
+
+#: src/Integration/Ecosystem_Bridge.php:207
+msgid "Fluid Typographic Hero & Lead"
+msgstr "Sklandi tipografinė Hero antraštė ir įžanga"
+
+#: src/Integration/Ecosystem_Bridge.php:208
+msgid ""
+"Container-query section pairing a Fluid Heading with an ergonomic Fluid Lead "
+"paragraph."
+msgstr ""
+"Container-query sekcija, sujungianti sklandžią antraštę ir ergonomišką "
+"įžanginę pastraipą."
+
+#: src/Integration/Ecosystem_Bridge.php:211
+msgid "Harmonische Typografie im Browser"
+msgstr "Darni tipografija naršyklėje"
+
+#: src/Integration/Ecosystem_Bridge.php:212
+msgid ""
+"Fließende Schriftgrößen zwischen Mobilgerät und Desktop, berechnet aus "
+"Basisgröße und musikalischem Intervall."
+msgstr ""
+"Sklandūs šrifto dydžiai tarp mobiliojo ir darbalaukio, apskaičiuoti iš "
+"bazinio dydžio ir muzikinio intervalo."
+
+#: src/Integration/Ecosystem_Bridge.php:221
+msgid "GenerateBlocks Fluid Scale Section"
+msgstr "GenerateBlocks sklandžios skalės sekcija"
+
+#: src/Integration/Ecosystem_Bridge.php:222
+msgid ""
+"Two-layer GenerateBlocks section (gbp-section + gbp-section__inner) "
+"consuming --ms-* and --wm-step-* fluid tokens."
+msgstr ""
+"Dvisluoksnė GenerateBlocks sekcija (gbp-section + gbp-section__inner), "
+"naudojanti --ms-* ir --wm-step-* žetonus."
+
+#: src/Integration/Ecosystem_Bridge.php:229
+msgid "Modulare Skala mit GenerateBlocks"
+msgstr "Modulinė skalė su GenerateBlocks"
+
+#: src/Integration/Ecosystem_Bridge.php:232
+msgid "Direkte Nutzung der berechneten CSS-Variablen ohne Media-Query-Stufen."
+msgstr ""
+"Tiesioginis apskaičiuotų CSS kintamųjų naudojimas be media query lūžio taškų."
+
+#: src/Integration/Ecosystem_Bridge.php:254
+msgid "Compute Modular Typography Scale"
+msgstr "Apskaičiuoti modulinę tipografijos skalę"
+
+#: src/Integration/Ecosystem_Bridge.php:255
+msgid ""
+"Calculates the nine fluid clamp() steps (-2 to +6), line heights and WCAG "
+"1.4.4 zoom-safety flags for a base size and ratio."
+msgstr ""
+"Apskaičiuoja devynias sklandžias clamp() pakopas (-2 iki +6), eilučių "
+"aukščius ir WCAG 1.4.4 mastelio patikrą."
+
+#: wm-modularscale.php:114
+msgid "Modular Scale"
+msgstr "Modulinė skalė"
+
+#: wm-modularscale.php:125
+msgid "WM Modular Scale — Einstellungen & Vorschau"
+msgstr "WM Modular Scale — Nuostatos ir peržiūra"
+
+#: wm-modularscale.php:126
+msgid "Typografie & Skalen"
+msgstr "Tipografija ir skalės"
+
+#: wm-modularscale.php:135
+msgid "Modular Scale (Typografie)"
+msgstr "Modular Scale (Tipografija)"
+
+#: wm-modularscale.php:153
+msgid "WM Modular Scale — Harmonische Typografie & CSS Variablen"
+msgstr "WM Modular Scale — Darni tipografija ir CSS kintamieji"
+
+#: wm-modularscale.php:178
+msgid "Skala auf der Website angewendet"
+msgstr "Skalė pritaikyta svetainėje"
+
+#: wm-modularscale.php:180
+msgid "Skala berechnet, noch nicht auf die Website angewendet"
+msgstr "Skalė apskaičiuota, dar nepritaikyta svetainėje"
+
+#: wm-modularscale.php:184
+msgid "Fluid-Tokens (--wm-step-*) und Stylesheet (--wmmsp-*)"
+msgstr "Sklandūs žetonai (--wm-step-*) ir stilių lentelė (--wmmsp-*)"
+
+#: wm-modularscale.php:191 wm-modularscale.php:301
+msgid "Basisgröße"
+msgstr "Bazinis dydis"
+
+#: wm-modularscale.php:195
+msgid "Verhältnis"
+msgstr "Santykis"
+
+#: wm-modularscale.php:198
+msgid "Aktiv"
+msgstr "Aktyvu"
+
+#: wm-modularscale.php:198
+msgid "Aus"
+msgstr "Išjungta"
+
+#: wm-modularscale.php:199
+msgid "Auf der Website"
+msgstr "Svetainėje"
+
+#: wm-modularscale.php:205
+msgid "Typografie-Cockpit öffnen"
+msgstr "Atidaryti tipografijos skydelį"
+
+#: wm-modularscale.php:220 wm-modularscale.php:319 wm-modularscale.php:347
+msgid "Einstellungen"
+msgstr "Nuostatos"
+
+#: wm-modularscale.php:245
+msgid "Part of the WM Suite plugin family"
+msgstr "WM Suite įskiepių šeimos dalis"
+
+#: wm-modularscale.php:247
+msgid "WM Suite"
+msgstr "WM Suite"
+
+#: wm-modularscale.php:248
+msgid "Hub"
+msgstr "Hub"
+
+#: wm-modularscale.php:248
+msgid "Standalone"
+msgstr "Savarankiškas"
+
+#: wm-modularscale.php:262
+msgid "wird berechnet …"
+msgstr "skaičiuojama …"
+
+#: wm-modularscale.php:283
+msgid "Kleine Terz 1.200 – Blog"
+msgstr "Mažoji tercija 1.200 – Tinklaraštis"
+
+#: wm-modularscale.php:284
+msgid "Große Terz 1.250 – Voreinstellung"
+msgstr "Didžioji tercija 1.250 – Numatytoji"
+
+#: wm-modularscale.php:285
+msgid "Quarte 1.333 – markante Überschriften"
+msgstr "Grynoji kvarta 1.333 – Ryškios antraštės"
+
+#: wm-modularscale.php:286
+msgid "Goldener Schnitt 1.618 – Magazin, große Titel"
+msgstr "Aukso pjūvis 1.618 – Žurnalas, didelės antraštės"
+
+#: wm-modularscale.php:290
+msgid "1.125 — Große Sekunde (kompakt, Anwendungen)"
+msgstr "1.125 — Didžioji sekunda (kompaktiška, programos)"
+
+#: wm-modularscale.php:291
+msgid "1.200 — Kleine Terz (Blog)"
+msgstr "1.200 — Mažoji tercija (tinklaraštis)"
+
+#: wm-modularscale.php:292
+msgid "1.250 — Große Terz (Voreinstellung)"
+msgstr "1.250 — Didžioji tercija (numatytoji)"
+
+#: wm-modularscale.php:293
+msgid "1.333 — Quarte (markante Überschriften)"
+msgstr "1.333 — Grynoji kvarta (ryškios antraštės)"
+
+#: wm-modularscale.php:294
+msgid "1.414 — Übermäßige Quarte (Editorial)"
+msgstr "1.414 — Padidintoji kvarta (redakcinė)"
+
+#: wm-modularscale.php:295
+msgid "1.500 — Quinte (kreative Layouts)"
+msgstr "1.500 — Grynoji kvinta (kūrybiški maketai)"
+
+#: wm-modularscale.php:296
+msgid "1.618 — Goldener Schnitt (sehr große Titel)"
+msgstr "1.618 — Aukso pjūvis (labai didelės antraštės)"
+
+#: wm-modularscale.php:300 wm-modularscale.php:361
+msgid "Verhältnis (Ratio)"
+msgstr "Santykis (Ratio)"
+
+#: wm-modularscale.php:300
+msgid ""
+"Der feste Faktor zwischen zwei Stufen der Skala. Bei 1.25 ist jede Stufe 25 "
+"% größer als die vorherige."
+msgstr ""
+"Pastovus daugiklis tarp dviejų skalės pakopų. Kai 1.25, kiekviena pakopa yra "
+"25 % didesnė už ankstesnę."
+
+#: wm-modularscale.php:301
+msgid ""
+"Die Schriftgröße des Fließtexts (<p>). Aus ihr werden alle Überschriften "
+"berechnet. Browser verwenden ohne eigene Einstellung 16 px."
+msgstr ""
+"Pagrindinio teksto (<p>) šrifto dydis, iš kurio apskaičiuojamos visos "
+"antraštės. Naršyklės pagal numatymą naudoja 16 px."
+
+#: wm-modularscale.php:302
+msgid "rem-Einheiten"
+msgstr "rem vienetai"
+
+#: wm-modularscale.php:302
+msgid ""
+"Relativ zur Schriftgröße, die im Browser eingestellt ist. Wer dort eine "
+"größere Schrift wählt, bekommt alle Stufen entsprechend größer."
+msgstr ""
+"Santykiniai su naršyklėje nustatytu šrifto dydžiu. Pasirinkus didesnį "
+"šriftą, proporcingai padidėja visos pakopos."
+
+#: wm-modularscale.php:303
+msgid "Goldener Schnitt (1.618)"
+msgstr "Aukso pjūvis (1.618)"
+
+#: wm-modularscale.php:303
+msgid ""
+"Das Verhältnis (1 + √5) / 2. Als Skala ergibt es einen starken "
+"Größenunterschied zwischen Überschriften und Fließtext."
+msgstr ""
+"Santykis (1 + √5) / 2. Kaip skalė jis sukuria ryškų dydžio kontrastą tarp "
+"antraščių ir teksto."
+
+#: wm-modularscale.php:310
+msgid "Modulare Typografie"
+msgstr "Modulinė tipografija"
+
+#: wm-modularscale.php:311
+msgid "WM Modular Scale — Typografische Skala"
+msgstr "WM Modular Scale — Tipografinė skalė"
+
+#: wm-modularscale.php:312
+msgid ""
+"Berechnet die Schriftgrößen für Überschriften (H1–H6) und Fließtext aus "
+"einer Basisgröße und einem Verhältnis und gibt sie als CSS-Variablen aus."
+msgstr ""
+"Apskaičiuoja antraščių (H1–H6) ir pagrindinio teksto dydžius pagal bazinį "
+"dydį bei santykį ir išveda juos kaip CSS kintamuosius."
+
+#: wm-modularscale.php:316
+msgid "Seitennavigation"
+msgstr "Puslapio naršymas"
+
+#: wm-modularscale.php:317
+msgid "Springen zu:"
+msgstr "Pereiti į:"
+
+#: wm-modularscale.php:318
+msgid "Anleitung & Vorlagen"
+msgstr "Vadovas ir šablonai"
+
+#: wm-modularscale.php:320 wm-modularscale.php:417
+msgid "Live-Vorschau"
+msgstr "Tiesioginė peržiūra"
+
+#: wm-modularscale.php:321 wm-modularscale.php:438
+msgid "CSS-Variablen"
+msgstr "CSS kintamieji"
+
+#: wm-modularscale.php:322 wm-modularscale.php:447
+msgid "Glossar"
+msgstr "Žodynėlis"
+
+#: wm-modularscale.php:328
+msgid "Was ist eine modulare Skala?"
+msgstr "Kas yra modulinė skalė?"
+
+#: wm-modularscale.php:331
+msgid ""
+"Eine modulare Skala nimmt eine Basisgröße (zum Beispiel 16 px) und "
+"multipliziert sie Stufe für Stufe mit einem festen Verhältnis, wie die "
+"Intervalle in der Musik. So stehen Überschriften (H1 bis H6) und Fließtext "
+"in einem gleichbleibenden Größenverhältnis, statt einzeln festgelegt zu "
+"werden."
+msgstr ""
+"Modulinė skalė daugina bazinį dydį (pvz., 16 px) pakopa po pakopos iš "
+"pastovaus santykio kaip muzikiniai intervalai, todėl H1–H6 ir tekstas "
+"išlaiko darnias proporcijas."
+
+#: wm-modularscale.php:334
+msgid "Vorlage übernehmen (setzt auch Basisgröße 16 und Einheit px):"
+msgstr "Taikyti šabloną (taip pat nustato bazę 16 ir vienetą px):"
+
+#: wm-modularscale.php:355
+msgid "Basisgröße (Fließtext)"
+msgstr "Bazinis dydis (pagrindinis tekstas)"
+
+#: wm-modularscale.php:357
+msgid ""
+"Die Größe des Fließtexts, aus der die Überschriften berechnet werden. "
+"Browser verwenden ohne eigene Einstellung 16 px."
+msgstr ""
+"Pagrindinio teksto dydis, iš kurio skaičiuojamos antraštės. Naršyklės "
+"numatytasis dydis – 16 px."
+
+#: wm-modularscale.php:363
+msgid "Vorlage wählen oder Wert eingeben"
+msgstr "Pasirinkite šabloną arba įveskite reikšmę"
+
+#: wm-modularscale.php:368
+msgid "Verhältnis als Zahl"
+msgstr "Skaitinis santykis"
+
+#: wm-modularscale.php:370
+msgid "Je größer der Wert, desto größer der Abstand zwischen H1 und H3."
+msgstr "Kuo didesnė reikšmė, tuo didesnis skirtumas tarp H1 ir H3."
+
+#: wm-modularscale.php:374
+msgid "Einheit"
+msgstr "Matavimo vienetas"
+
+#: wm-modularscale.php:376
+msgid "px (Pixel, feste Größe)"
+msgstr "px (pikseliai, fiksuotas dydis)"
+
+#: wm-modularscale.php:377
+msgid "rem (relativ zur Schriftgröße des Browsers)"
+msgstr "rem (santykinis su naršyklės šriftu)"
+
+#: wm-modularscale.php:378
+msgid "em (relativ zum übergeordneten Element)"
+msgstr "em (santykinis su tėviniu elementu)"
+
+#: wm-modularscale.php:380
+msgid ""
+"Einheit der Variablen --wmmsp-* im Stylesheet. Die Fluid-Tokens --wm-step-* "
+"verwenden immer rem."
+msgstr ""
+"Stilių lentelės --wmmsp-* kintamųjų vienetas. Sklandūs --wm-step-* žetonai "
+"visada naudoja rem."
+
+#: wm-modularscale.php:384
+msgid "Nachkommastellen"
+msgstr "Skaičiai po kablelio"
+
+#: wm-modularscale.php:386
+msgid ""
+"Auf so viele Nachkommastellen rundet das Stylesheet die Werte "
+"(Voreinstellung 2)."
+msgstr ""
+"Skaitmenų po kablelio skaičius apvalinant stilių lentelėje (numatyta 2)."
+
+#: wm-modularscale.php:393
+msgid "Skala auf der Website anwenden"
+msgstr "Taikyti skalę svetainėje"
+
+#: wm-modularscale.php:394
+msgid ""
+"Gibt die Fluid-Tokens --wm-step-* im Seitenkopf aus und lädt das Stylesheet, "
+"das body, h1–h6, Absätze, Listen, Zitate und Code aus diesen Werten setzt."
+msgstr ""
+"Išveda sklandžius --wm-step-* žetonus puslapio antraštėje ir įkelia body, h1–"
+"h6, pastraipų, sąrašų, citatų bei kodo stilius."
+
+#: wm-modularscale.php:403
+msgid "Einstellungen beim Entfernen des Plugins löschen"
+msgstr "Ištrinti nuostatas šalinant įskiepį"
+
+#: wm-modularscale.php:404
+msgid ""
+"Standardmäßig bleiben Basisgröße, Verhältnis und Skalen-Optionen erhalten, "
+"falls das Plugin später erneut installiert wird."
+msgstr ""
+"Pagal numatymą bazinis dydis, santykis ir skalės parinktys išsaugomos "
+"vėlesniam įdiegimui."
+
+#: wm-modularscale.php:410
+msgid "Typografie speichern"
+msgstr "Išsaugoti tipografiją"
+
+#: wm-modularscale.php:419
+msgid ""
+"Zeigt die Größen des Stylesheets (--wmmsp-*) für die aktuellen Felder, bevor "
+"Sie speichern."
+msgstr ""
+"Parodo stilių lentelės dydžius (--wmmsp-*) dabartiniams laukams prieš "
+"išsaugant."
+
+#: wm-modularscale.php:424
+msgid "Hauptüberschrift H1"
+msgstr "Pagrindinė antraštė H1"
+
+#: wm-modularscale.php:425
+msgid "Abschnittsüberschrift H2"
+msgstr "Skyriaus antraštė H2"
+
+#: wm-modularscale.php:426
+msgid "Überschrift eines Inhaltsblocks H3"
+msgstr "Turinio bloko antraštė H3"
+
+#: wm-modularscale.php:427
+msgid "Titel einer Karte H4"
+msgstr "Kortelės pavadinimas H4"
+
+#: wm-modularscale.php:428
+msgid "Kleine Überschrift H5"
+msgstr "Maža antraštė H5"
+
+#: wm-modularscale.php:429
+msgid "Fußnote H6"
+msgstr "Išnaša H6"
+
+#: wm-modularscale.php:430
+msgid "Fließtext"
+msgstr "Pagrindinis tekstas"
+
+#: wm-modularscale.php:430
+msgid ""
+"Das ist ein Absatz im Fließtext. Seine Größe ist die Basisgröße; die "
+"Überschriften darüber sind daraus berechnet."
+msgstr ""
+"Tai pagrindinio teksto pastraipa. Jos dydis lygus baziniam dydžiui, iš kurio "
+"apskaičiuotos antraštės."
+
+#: wm-modularscale.php:440
+msgid ""
+"Diese Variablen setzt das Stylesheet, wenn die Skala angewendet wird. Die "
+"fließenden Stufen --wm-step-neg-2 bis --wm-step-6 berechnet das Plugin "
+"zusätzlich aus Basisgröße, maximaler Basisgröße und den Viewport-Breiten."
+msgstr ""
+"Stilių lentelė nustato šiuos kintamuosius pritaikius skalę. Papildomai "
+"įskiepis apskaičiuoja sklandžias pakopas nuo --wm-step-neg-2 iki --wm-step-6."
+
+#: wm-modularscale.php:442
+msgid "Variablen werden berechnet …"
+msgstr "Skaičiuojami kintamieji …"
+
+#: wm-modularscale.php:449
+msgid "Die Begriffe dieser Seite kurz erklärt."
+msgstr "Trumpas šiame puslapyje vartojamų sąvokų paaiškinimas."
+
+#: blocks-src/index.js:66
+msgid "Fluid Heading Settings"
+msgstr "Sklandžios antraštės nuostatos"
+
+#: blocks-src/index.js:68
+msgid "Heading level (H1–H6)"
+msgstr "Antraštės lygis (H1–H6)"
+
+#: blocks-src/index.js:78
+msgid "Modular scale step (-2 to +6)"
+msgstr "Modulinės skalės pakopa (-2 iki +6)"
+
+#: blocks-src/index.js:85 blocks-src/index.js:153
+msgid "Text alignment"
+msgstr "Teksto lygiavimas"
+
+#: blocks-src/index.js:88 blocks-src/index.js:156
+msgid "Left"
+msgstr "Kairėje"
+
+#: blocks-src/index.js:89 blocks-src/index.js:157
+msgid "Center"
+msgstr "Centre"
+
+#: blocks-src/index.js:90 blocks-src/index.js:158
+msgid "Right"
+msgstr "Dešinėje"
+
+#: blocks-src/index.js:95
+msgid "Custom CSS clamp() override"
+msgstr "Pasirinktinė CSS clamp() reikšmė"
+
+#: blocks-src/index.js:96
+msgid "Optional full CSS clamp() expression overriding the scale step."
+msgstr "Pasirenkama pilna CSS clamp() išraiška, pakeičianti skalės pakopą."
+
+#: blocks-src/index.js:107
+msgid "Write fluid heading…"
+msgstr "Įveskite sklandžią antraštę…"
+
+#: blocks-src/index.js:144
+msgid "Fluid Lead Settings"
+msgstr "Sklandžios įžangos nuostatos"
+
+#: blocks-src/index.js:146
+msgid "Maximum line length (characters)"
+msgstr "Didžiausias eilutės ilgis (simboliai)"
+
+#: blocks-src/index.js:168
+msgid "Write lead paragraph…"
+msgstr "Įveskite įžanginę pastraipą…"
+
+#: blocks-src/index.js:198
+msgid "Container Query Context"
+msgstr "Container Query kontekstas"
+
+#: blocks-src/index.js:200
+msgid "Container name"
+msgstr "Konteinerio pavadinimas"
+
+#: blocks-src/index.js:205
+msgid "Container type"
+msgstr "Konteinerio tipas"
+
+#: blocks-src/index.js:208
+msgid "Inline size (cqi / cqw)"
+msgstr "Eilutės dydis (cqi / cqw)"
+
+#: blocks-src/index.js:209
+msgid "Size (width & height)"
+msgstr "Dydis (plotis ir aukštis)"
+
+#: blocks-src/index.js:210
+msgid "Normal"
+msgstr "Įprastas"
+
+#: blocks-src/index.js:247
+msgid "Typographic Grid Settings"
+msgstr "Tipografinio tinklelio nuostatos"
+
+#: blocks-src/index.js:249
+msgid "Columns (1–6)"
+msgstr "Stulpeliai (1–6)"
+
+#: blocks-src/index.js:256
+msgid "Scale gap token"
+msgstr "Skalės tarpo žetonas"
+
+#: blocks-src/index.js:259
+msgid "Step 0 (Body base)"
+msgstr "0 pakopa (Pagrindinis tekstas)"
+
+#: blocks-src/index.js:260
+msgid "Step 1 (Compact)"
+msgstr "1 pakopa (Kompaktiškas)"
+
+#: blocks-src/index.js:261
+msgid "Step 2 (Default)"
+msgstr "2 pakopa (Numatytasis)"
+
+#: blocks-src/index.js:262
+msgid "Step 3 (Spacious)"
+msgstr "3 pakopa (Erdvus)"
+
+#: blocks-src/index.js:263
+msgid "Step 4 (Wide)"
+msgstr "4 pakopa (Platus)"
+
+#: blocks-src/index.js:291
+msgid "Ratio Visualizer Settings"
+msgstr "Santykio vizualizatoriaus nuostatos"
+
+#: blocks-src/index.js:293
+msgid "Show step labels on SVG axis"
+msgstr "Rodyti pakopų žymas SVG ašyje"
+
+#: blocks-src/index.js:298
+msgid "Show step min/max cards"
+msgstr "Rodyti pakopų min./maks. korteles"
+
+#: blocks-src/index.js:303
+msgid "Color theme"
+msgstr "Spalvų tema"
+
+#: blocks-src/index.js:306
+msgid "Dark"
+msgstr "Tamsi"
+
+#: blocks-src/index.js:307
+msgid "Light"
+msgstr "Šviesi"
+
+#: blocks-src/index.js:313
+msgid "Ratio Visualizer (SVG Curve)"
+msgstr "Santykio vizualizatorius (SVG kreivė)"
+
+#: blocks-src/index.js:335
+msgid "APCA Contrast Settings"
+msgstr "APCA kontrasto nuostatos"
+
+#: blocks-src/index.js:337
+msgid "Foreground hex color"
+msgstr "Teksto hex spalva"
+
+#: blocks-src/index.js:342
+msgid "Background hex color"
+msgstr "Fono hex spalva"
+
+#: blocks-src/index.js:347
+msgid "Target text role"
+msgstr "Numatyta teksto paskirtis"
+
+#: blocks-src/index.js:350
+msgid "Body copy (target Lc 75)"
+msgstr "Pagrindinis tekstas (tikslas Lc 75)"
+
+#: blocks-src/index.js:351
+msgid "UI / secondary text (target Lc 60)"
+msgstr "Antrinis / UI tekstas (tikslas Lc 60)"
+
+#: blocks-src/index.js:352
+msgid "Large headline (target Lc 45)"
+msgstr "Didelė antraštė (tikslas Lc 45)"
+
+#: blocks-src/index.js:358
+msgid "APCA Contrast Badge (WM Scale)"
+msgstr "APCA kontrasto ženklelis (WM Scale)"
+
+#: blocks-src/index.js:380
+msgid "Exporter Output Settings"
+msgstr "Eksporto nuostatos"
+
+#: blocks-src/index.js:382
+msgid "Displayed export format"
+msgstr "Rodomas eksporto formatas"
+
+#: blocks-src/index.js:385
+msgid "Both (theme.json v3 + Tailwind v4)"
+msgstr "Abu (theme.json v3 + Tailwind v4)"
+
+#: blocks-src/index.js:386
+msgid "theme.json v3 only"
+msgstr "Tik theme.json v3"
+
+#: blocks-src/index.js:387
+msgid "Tailwind CSS v4 @theme only"
+msgstr "Tik Tailwind CSS v4 @theme"
+
+#: blocks-src/index.js:393
+msgid "Theme.json Exporter (WM Scale)"
+msgstr "Theme.json eksportuotojas (WM Scale)"
+
+#: src/Gutenberg/Blocks/contrast-matrix-badge/block.json
+msgctxt "block title"
+msgid "APCA Contrast Badge (WM Scale)"
+msgstr "APCA kontrasto ženklelis (WM Scale)"
+
+#: src/Gutenberg/Blocks/contrast-matrix-badge/block.json
+msgctxt "block description"
+msgid ""
+"Badge with the APCA lightness contrast (Lc) of a text and background colour "
+"pair and a usage hint for that value."
+msgstr ""
+"Ženklelis su teksto ir fono spalvų poros APCA šviesumo kontrastu (Lc) bei "
+"naudojimo patarimu."
+
+#: src/Gutenberg/Blocks/contrast-matrix-badge/block.json
+msgctxt "block keyword"
+msgid "contrast"
+msgstr "kontrastas"
+
+#: src/Gutenberg/Blocks/contrast-matrix-badge/block.json
+msgctxt "block keyword"
+msgid "apca"
+msgstr "apca"
+
+#: src/Gutenberg/Blocks/contrast-matrix-badge/block.json
+msgctxt "block keyword"
+msgid "a11y"
+msgstr "a11y"
+
+#: src/Gutenberg/Blocks/contrast-matrix-badge/block.json
+msgctxt "block keyword"
+msgid "accessibility"
+msgstr "prieinamumas"
+
+#: src/Gutenberg/Blocks/fluid-container/block.json
+msgctxt "block title"
+msgid "Fluid Container (@container)"
+msgstr "Sklandus konteineris (@container)"
+
+#: src/Gutenberg/Blocks/fluid-container/block.json
+msgctxt "block description"
+msgid ""
+"Container for inner blocks that sets container-type (default inline-size) "
+"and container-name (default wm-typographic-context) for container queries."
+msgstr ""
+"Vidinių blokų konteineris, nustatantis container-type (inline-size) ir "
+"container-name (wm-typographic-context)."
+
+#: src/Gutenberg/Blocks/fluid-container/block.json
+msgctxt "block keyword"
+msgid "container"
+msgstr "konteineris"
+
+#: src/Gutenberg/Blocks/fluid-container/block.json
+msgctxt "block keyword"
+msgid "queries"
+msgstr "užklausos"
+
+#: src/Gutenberg/Blocks/fluid-container/block.json
+msgctxt "block keyword"
+msgid "cqw"
+msgstr "cqw"
+
+#: src/Gutenberg/Blocks/fluid-container/block.json
+msgctxt "block keyword"
+msgid "cqi"
+msgstr "cqi"
+
+#: src/Gutenberg/Blocks/fluid-container/block.json
+#: src/Gutenberg/Blocks/fluid-heading/block.json
+#: src/Gutenberg/Blocks/fluid-lead/block.json
+msgctxt "block keyword"
+msgid "fluid"
+msgstr "sklandus"
+
+#: src/Gutenberg/Blocks/fluid-container/block.json
+msgctxt "block keyword"
+msgid "layout"
+msgstr "išdėstymas"
+
+#: src/Gutenberg/Blocks/fluid-heading/block.json
+msgctxt "block title"
+msgid "Fluid Heading (WM Scale)"
+msgstr "Sklandi antraštė (WM Scale)"
+
+#: src/Gutenberg/Blocks/fluid-heading/block.json
+msgctxt "block description"
+msgid ""
+"Heading (H1–H6) with the fluid font-size class of its level, balanced line "
+"wrapping and an optional custom clamp() value."
+msgstr ""
+"Antraštė (H1–H6) su savo lygio sklandžia šrifto dydžio klase, subalansuotu "
+"eilučių laužymu ir pasirenkama clamp() reikšme."
+
+#: src/Gutenberg/Blocks/fluid-heading/block.json
+msgctxt "block keyword"
+msgid "heading"
+msgstr "antraštė"
+
+#: src/Gutenberg/Blocks/fluid-heading/block.json
+#: src/Gutenberg/Blocks/fluid-lead/block.json
+#: src/Gutenberg/Blocks/typographic-grid/block.json
+msgctxt "block keyword"
+msgid "typography"
+msgstr "tipografija"
+
+#: src/Gutenberg/Blocks/fluid-heading/block.json
+#: src/Gutenberg/Blocks/ratio-visualizer/block.json
+msgctxt "block keyword"
+msgid "scale"
+msgstr "skalė"
+
+#: src/Gutenberg/Blocks/fluid-heading/block.json
+msgctxt "block keyword"
+msgid "modular"
+msgstr "modulinis"
+
+#: src/Gutenberg/Blocks/fluid-lead/block.json
+msgctxt "block title"
+msgid "Fluid Lead Text (WM Scale)"
+msgstr "Sklandus įžanginis tekstas (WM Scale)"
+
+#: src/Gutenberg/Blocks/fluid-lead/block.json
+msgctxt "block description"
+msgid ""
+"Paragraph with the fluid body font size, a maximum line length of 35–85 "
+"characters (default 65) and pretty line wrapping."
+msgstr ""
+"Pastraipa su sklandžiu pagrindinio šrifto dydžiu, 35–85 simbolių eilutės "
+"ilgiu (numatyta 65) ir tvarkingu laužymu."
+
+#: src/Gutenberg/Blocks/fluid-lead/block.json
+msgctxt "block keyword"
+msgid "lead"
+msgstr "įžanga"
+
+#: src/Gutenberg/Blocks/fluid-lead/block.json
+msgctxt "block keyword"
+msgid "paragraph"
+msgstr "pastraipa"
+
+#: src/Gutenberg/Blocks/fluid-lead/block.json
+msgctxt "block keyword"
+msgid "reading"
+msgstr "skaitymas"
+
+#: src/Gutenberg/Blocks/ratio-visualizer/block.json
+msgctxt "block title"
+msgid "Ratio Visualizer (SVG Curve)"
+msgstr "Santykio vizualizatorius (SVG kreivė)"
+
+#: src/Gutenberg/Blocks/ratio-visualizer/block.json
+msgctxt "block description"
+msgid ""
+"Shows the nine scale steps with their minimum and maximum size in px, "
+"calculated from the stored base sizes and ratio."
+msgstr ""
+"Rodo devynias skalės pakopas su mažiausiu ir didžiausiu px dydžiu pagal "
+"išsaugotas reikšmes."
+
+#: src/Gutenberg/Blocks/ratio-visualizer/block.json
+msgctxt "block keyword"
+msgid "visualizer"
+msgstr "vizualizatorius"
+
+#: src/Gutenberg/Blocks/ratio-visualizer/block.json
+msgctxt "block keyword"
+msgid "ratio"
+msgstr "santykis"
+
+#: src/Gutenberg/Blocks/ratio-visualizer/block.json
+msgctxt "block keyword"
+msgid "svg"
+msgstr "svg"
+
+#: src/Gutenberg/Blocks/ratio-visualizer/block.json
+msgctxt "block keyword"
+msgid "curve"
+msgstr "kreivė"
+
+#: src/Gutenberg/Blocks/ratio-visualizer/block.json
+msgctxt "block keyword"
+msgid "preview"
+msgstr "peržiūra"
+
+#: src/Gutenberg/Blocks/theme-json-exporter/block.json
+msgctxt "block title"
+msgid "Theme.json Exporter (WM Scale)"
+msgstr "Theme.json eksportuotojas (WM Scale)"
+
+#: src/Gutenberg/Blocks/theme-json-exporter/block.json
+msgctxt "block description"
+msgid ""
+"Shows the theme.json fontSizes and the Tailwind CSS v4 @theme block "
+"generated from the stored scale."
+msgstr ""
+"Rodo iš išsaugotos skalės sugeneruotus theme.json fontSizes ir Tailwind CSS "
+"v4 @theme bloką."
+
+#: src/Gutenberg/Blocks/theme-json-exporter/block.json
+msgctxt "block keyword"
+msgid "theme.json"
+msgstr "theme.json"
+
+#: src/Gutenberg/Blocks/theme-json-exporter/block.json
+msgctxt "block keyword"
+msgid "exporter"
+msgstr "eksportuotojas"
+
+#: src/Gutenberg/Blocks/theme-json-exporter/block.json
+msgctxt "block keyword"
+msgid "tokens"
+msgstr "žetonai"
+
+#: src/Gutenberg/Blocks/theme-json-exporter/block.json
+msgctxt "block keyword"
+msgid "json"
+msgstr "json"
+
+#: src/Gutenberg/Blocks/theme-json-exporter/block.json
+msgctxt "block keyword"
+msgid "tailwind"
+msgstr "tailwind"
+
+#: src/Gutenberg/Blocks/typographic-grid/block.json
+msgctxt "block title"
+msgid "Typographic Grid (WM Scale)"
+msgstr "Tipografinis tinklelis (WM Scale)"
+
+#: src/Gutenberg/Blocks/typographic-grid/block.json
+msgctxt "block description"
+msgid ""
+"Grid of 1–6 equal columns for inner blocks, with a gap from the scale "
+"(default var(--wm-step-2))."
+msgstr "1–6 lygių stulpelių tinklelis vidiniams blokams su tarpu iš skalės."
+
+#: src/Gutenberg/Blocks/typographic-grid/block.json
+msgctxt "block keyword"
+msgid "grid"
+msgstr "tinklelis"
+
+#: src/Gutenberg/Blocks/typographic-grid/block.json
+msgctxt "block keyword"
+msgid "columns"
+msgstr "stulpeliai"
+
+#: src/Gutenberg/Blocks/typographic-grid/block.json
+msgctxt "block keyword"
+msgid "rhythm"
+msgstr "ritmas"
+
+#: src/Gutenberg/Blocks/typographic-grid/block.json
+msgctxt "block keyword"
+msgid "baseline"
+msgstr "bazinė linija"
+
+#~ msgid "https://www.arnoldwender.com"
+#~ msgstr "https://www.arnoldwender.com"

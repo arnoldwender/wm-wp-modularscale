@@ -1,0 +1,294 @@
+{
+  "translation-revision-date": "2026-11-21T15:04:18+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-modularscale",
+        "lang": "sv_SE",
+        "plural-forms": "nplurals=2; plural=(n != 1);"
+      },
+      "Fluid Heading Settings": [
+        "Inställningar för flytande rubrik"
+      ],
+      "Heading level (H1–H6)": [
+        "Rubriknivå (H1–H6)"
+      ],
+      "Modular scale step (-2 to +6)": [
+        "Modulärt skalsteg (-2 till +6)"
+      ],
+      "Text alignment": [
+        "Textjustering"
+      ],
+      "Left": [
+        "Vänster"
+      ],
+      "Center": [
+        "Centrerad"
+      ],
+      "Right": [
+        "Höger"
+      ],
+      "Custom CSS clamp() override": [
+        "Anpassat CSS clamp()-värde"
+      ],
+      "Optional full CSS clamp() expression overriding the scale step.": [
+        "Valfritt fullständigt CSS clamp()-uttryck som åsidosätter skalsteget."
+      ],
+      "Write fluid heading…": [
+        "Skriv flytande rubrik…"
+      ],
+      "Fluid Lead Settings": [
+        "Inställningar för flytande ingress"
+      ],
+      "Maximum line length (characters)": [
+        "Maximal radlängd (tecken)"
+      ],
+      "Write lead paragraph…": [
+        "Skriv ingress…"
+      ],
+      "Container Query Context": [
+        "Container Query-kontext"
+      ],
+      "Container name": [
+        "Containernamn"
+      ],
+      "Container type": [
+        "Containertyp"
+      ],
+      "Inline size (cqi / cqw)": [
+        "Inline-storlek (cqi / cqw)"
+      ],
+      "Size (width & height)": [
+        "Storlek (bredd & höjd)"
+      ],
+      "Normal": [
+        "Normal"
+      ],
+      "Typographic Grid Settings": [
+        "Inställningar för typografiskt rutnät"
+      ],
+      "Columns (1–6)": [
+        "Kolumner (1–6)"
+      ],
+      "Scale gap token": [
+        "Skalavståndstoken"
+      ],
+      "Step 0 (Body base)": [
+        "Steg 0 (Brödtextbas)"
+      ],
+      "Step 1 (Compact)": [
+        "Steg 1 (Kompakt)"
+      ],
+      "Step 2 (Default)": [
+        "Steg 2 (Standard)"
+      ],
+      "Step 3 (Spacious)": [
+        "Steg 3 (Luftig)"
+      ],
+      "Step 4 (Wide)": [
+        "Steg 4 (Bred)"
+      ],
+      "Ratio Visualizer Settings": [
+        "Inställningar för proportionsvisualisering"
+      ],
+      "Show step labels on SVG axis": [
+        "Visa stegetiketter på SVG-axeln"
+      ],
+      "Show step min/max cards": [
+        "Visa min/max-kort för steg"
+      ],
+      "Color theme": [
+        "Färgtema"
+      ],
+      "Dark": [
+        "Mörkt"
+      ],
+      "Light": [
+        "Ljust"
+      ],
+      "Ratio Visualizer (SVG Curve)": [
+        "Proportionsvisualisering (SVG-kurva)"
+      ],
+      "APCA Contrast Settings": [
+        "APCA-kontrastinställningar"
+      ],
+      "Foreground hex color": [
+        "Förgrundsfärg (hex)"
+      ],
+      "Background hex color": [
+        "Bakgrundsfärg (hex)"
+      ],
+      "Target text role": [
+        "Avsedd textroll"
+      ],
+      "Body copy (target Lc 75)": [
+        "Brödtext (mål Lc 75)"
+      ],
+      "UI / secondary text (target Lc 60)": [
+        "Sekundär / UI-text (mål Lc 60)"
+      ],
+      "Large headline (target Lc 45)": [
+        "Stor rubrik (mål Lc 45)"
+      ],
+      "APCA Contrast Badge (WM Scale)": [
+        "APCA-kontrastbricka (WM Scale)"
+      ],
+      "Exporter Output Settings": [
+        "Exportinställningar"
+      ],
+      "Displayed export format": [
+        "Visat exportformat"
+      ],
+      "Both (theme.json v3 + Tailwind v4)": [
+        "Båda (theme.json v3 + Tailwind v4)"
+      ],
+      "theme.json v3 only": [
+        "Endast theme.json v3"
+      ],
+      "Tailwind CSS v4 @theme only": [
+        "Endast Tailwind CSS v4 @theme"
+      ],
+      "Theme.json Exporter (WM Scale)": [
+        "Theme.json-exportör (WM Scale)"
+      ],
+      "block title\u0004APCA Contrast Badge (WM Scale)": [
+        "APCA-kontrastbricka (WM Scale)"
+      ],
+      "block description\u0004Badge with the APCA lightness contrast (Lc) of a text and background colour pair and a usage hint for that value.": [
+        "Bricka med APCA-ljuskontrasten (Lc) för ett text- och bakgrundsfärgpar samt användningsråd."
+      ],
+      "block keyword\u0004contrast": [
+        "kontrast"
+      ],
+      "block keyword\u0004apca": [
+        "apca"
+      ],
+      "block keyword\u0004a11y": [
+        "a11y"
+      ],
+      "block keyword\u0004accessibility": [
+        "tillgänglighet"
+      ],
+      "block title\u0004Fluid Container (@container)": [
+        "Flytande behållare (@container)"
+      ],
+      "block description\u0004Container for inner blocks that sets container-type (default inline-size) and container-name (default wm-typographic-context) for container queries.": [
+        "Behållare för inre block som anger container-type (inline-size) och container-name (wm-typographic-context)."
+      ],
+      "block keyword\u0004container": [
+        "behållare"
+      ],
+      "block keyword\u0004queries": [
+        "frågor"
+      ],
+      "block keyword\u0004cqw": [
+        "cqw"
+      ],
+      "block keyword\u0004cqi": [
+        "cqi"
+      ],
+      "block keyword\u0004fluid": [
+        "flytande"
+      ],
+      "block keyword\u0004layout": [
+        "layout"
+      ],
+      "block title\u0004Fluid Heading (WM Scale)": [
+        "Flytande rubrik (WM Scale)"
+      ],
+      "block description\u0004Heading (H1–H6) with the fluid font-size class of its level, balanced line wrapping and an optional custom clamp() value.": [
+        "Rubrik (H1–H6) med flytande storleksklass för sin nivå, balanserad radbrytning och valfritt clamp()-värde."
+      ],
+      "block keyword\u0004heading": [
+        "rubrik"
+      ],
+      "block keyword\u0004typography": [
+        "typografi"
+      ],
+      "block keyword\u0004scale": [
+        "skala"
+      ],
+      "block keyword\u0004modular": [
+        "modulär"
+      ],
+      "block title\u0004Fluid Lead Text (WM Scale)": [
+        "Flytande ingresstext (WM Scale)"
+      ],
+      "block description\u0004Paragraph with the fluid body font size, a maximum line length of 35–85 characters (default 65) and pretty line wrapping.": [
+        "Stycke med flytande brödtextstorlek, radlängd på 35–85 tecken (standard 65) och snygg radbrytning."
+      ],
+      "block keyword\u0004lead": [
+        "ingress"
+      ],
+      "block keyword\u0004paragraph": [
+        "stycke"
+      ],
+      "block keyword\u0004reading": [
+        "läsning"
+      ],
+      "block title\u0004Ratio Visualizer (SVG Curve)": [
+        "Proportionsvisualisering (SVG-kurva)"
+      ],
+      "block description\u0004Shows the nine scale steps with their minimum and maximum size in px, calculated from the stored base sizes and ratio.": [
+        "Visar de nio skalstegen med minsta och största px-storlek utifrån sparade värden."
+      ],
+      "block keyword\u0004visualizer": [
+        "visualiserare"
+      ],
+      "block keyword\u0004ratio": [
+        "proportion"
+      ],
+      "block keyword\u0004svg": [
+        "svg"
+      ],
+      "block keyword\u0004curve": [
+        "kurva"
+      ],
+      "block keyword\u0004preview": [
+        "förhandsgranskning"
+      ],
+      "block title\u0004Theme.json Exporter (WM Scale)": [
+        "Theme.json-exportör (WM Scale)"
+      ],
+      "block description\u0004Shows the theme.json fontSizes and the Tailwind CSS v4 @theme block generated from the stored scale.": [
+        "Visar theme.json fontSizes och Tailwind CSS v4 @theme-blocket genererade ur den sparade skalan."
+      ],
+      "block keyword\u0004theme.json": [
+        "theme.json"
+      ],
+      "block keyword\u0004exporter": [
+        "exportör"
+      ],
+      "block keyword\u0004tokens": [
+        "tokens"
+      ],
+      "block keyword\u0004json": [
+        "json"
+      ],
+      "block keyword\u0004tailwind": [
+        "tailwind"
+      ],
+      "block title\u0004Typographic Grid (WM Scale)": [
+        "Typografiskt rutnät (WM Scale)"
+      ],
+      "block description\u0004Grid of 1–6 equal columns for inner blocks, with a gap from the scale (default var(--wm-step-2)).": [
+        "Rutnät med 1–6 lika breda kolumner för inre block och mellanrum från skalan."
+      ],
+      "block keyword\u0004grid": [
+        "rutnät"
+      ],
+      "block keyword\u0004columns": [
+        "kolumner"
+      ],
+      "block keyword\u0004rhythm": [
+        "rytm"
+      ],
+      "block keyword\u0004baseline": [
+        "baslinje"
+      ]
+    }
+  }
+}

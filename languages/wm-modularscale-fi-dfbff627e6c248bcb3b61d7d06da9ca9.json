@@ -1,0 +1,294 @@
+{
+  "translation-revision-date": "2026-11-21T15:04:18+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-modularscale",
+        "lang": "fi",
+        "plural-forms": "nplurals=2; plural=(n != 1);"
+      },
+      "Fluid Heading Settings": [
+        "Joustavan otsikon asetukset"
+      ],
+      "Heading level (H1–H6)": [
+        "Otsikkotaso (H1–H6)"
+      ],
+      "Modular scale step (-2 to +6)": [
+        "Modulaarisen asteikon askel (-2 … +6)"
+      ],
+      "Text alignment": [
+        "Tekstin tasaus"
+      ],
+      "Left": [
+        "Vasen"
+      ],
+      "Center": [
+        "Keskitetty"
+      ],
+      "Right": [
+        "Oikea"
+      ],
+      "Custom CSS clamp() override": [
+        "Mukautettu CSS clamp() -arvo"
+      ],
+      "Optional full CSS clamp() expression overriding the scale step.": [
+        "Valinnainen täydellinen CSS clamp() -lauseke, joka korvaa asteikon askeleen."
+      ],
+      "Write fluid heading…": [
+        "Kirjoita joustava otsikko…"
+      ],
+      "Fluid Lead Settings": [
+        "Joustavan ingressin asetukset"
+      ],
+      "Maximum line length (characters)": [
+        "Rivin enimmäispituus (merkkiä)"
+      ],
+      "Write lead paragraph…": [
+        "Kirjoita johdantokappale…"
+      ],
+      "Container Query Context": [
+        "Container Query -konteksti"
+      ],
+      "Container name": [
+        "Säiliön nimi"
+      ],
+      "Container type": [
+        "Säiliön tyyppi"
+      ],
+      "Inline size (cqi / cqw)": [
+        "Rivisuuntainen koko (cqi / cqw)"
+      ],
+      "Size (width & height)": [
+        "Koko (leveys ja korkeus)"
+      ],
+      "Normal": [
+        "Normaali"
+      ],
+      "Typographic Grid Settings": [
+        "Typografisen ruudukon asetukset"
+      ],
+      "Columns (1–6)": [
+        "Sarakkeet (1–6)"
+      ],
+      "Scale gap token": [
+        "Asteikon välitoken"
+      ],
+      "Step 0 (Body base)": [
+        "Askel 0 (Leipäteksti)"
+      ],
+      "Step 1 (Compact)": [
+        "Askel 1 (Tiivis)"
+      ],
+      "Step 2 (Default)": [
+        "Askel 2 (Oletus)"
+      ],
+      "Step 3 (Spacious)": [
+        "Askel 3 (Väljä)"
+      ],
+      "Step 4 (Wide)": [
+        "Askel 4 (Leveä)"
+      ],
+      "Ratio Visualizer Settings": [
+        "Suhteen visualisoijan asetukset"
+      ],
+      "Show step labels on SVG axis": [
+        "Näytä askelnimet SVG-akselilla"
+      ],
+      "Show step min/max cards": [
+        "Näytä askelten min/maks-kortit"
+      ],
+      "Color theme": [
+        "Väriteema"
+      ],
+      "Dark": [
+        "Tumma"
+      ],
+      "Light": [
+        "Vaalea"
+      ],
+      "Ratio Visualizer (SVG Curve)": [
+        "Suhteen visualisoija (SVG-käyrä)"
+      ],
+      "APCA Contrast Settings": [
+        "APCA-kontrastin asetukset"
+      ],
+      "Foreground hex color": [
+        "Tekstin heksaväri"
+      ],
+      "Background hex color": [
+        "Taustan heksaväri"
+      ],
+      "Target text role": [
+        "Tekstin käyttötarkoitus"
+      ],
+      "Body copy (target Lc 75)": [
+        "Leipäteksti (tavoite Lc 75)"
+      ],
+      "UI / secondary text (target Lc 60)": [
+        "Toissijainen / UI-teksti (tavoite Lc 60)"
+      ],
+      "Large headline (target Lc 45)": [
+        "Suuri otsikko (tavoite Lc 45)"
+      ],
+      "APCA Contrast Badge (WM Scale)": [
+        "APCA-kontrastimerkki (WM Scale)"
+      ],
+      "Exporter Output Settings": [
+        "Viennin asetukset"
+      ],
+      "Displayed export format": [
+        "Näytettävä vientimuoto"
+      ],
+      "Both (theme.json v3 + Tailwind v4)": [
+        "Molemmat (theme.json v3 + Tailwind v4)"
+      ],
+      "theme.json v3 only": [
+        "Vain theme.json v3"
+      ],
+      "Tailwind CSS v4 @theme only": [
+        "Vain Tailwind CSS v4 @theme"
+      ],
+      "Theme.json Exporter (WM Scale)": [
+        "Theme.json-viejä (WM Scale)"
+      ],
+      "block title\u0004APCA Contrast Badge (WM Scale)": [
+        "APCA-kontrastimerkki (WM Scale)"
+      ],
+      "block description\u0004Badge with the APCA lightness contrast (Lc) of a text and background colour pair and a usage hint for that value.": [
+        "Merkki, joka näyttää teksti- ja taustaväriparin APCA-kirkkauskontrastin (Lc) sekä käyttöohjeen."
+      ],
+      "block keyword\u0004contrast": [
+        "kontrasti"
+      ],
+      "block keyword\u0004apca": [
+        "apca"
+      ],
+      "block keyword\u0004a11y": [
+        "a11y"
+      ],
+      "block keyword\u0004accessibility": [
+        "saavutettavuus"
+      ],
+      "block title\u0004Fluid Container (@container)": [
+        "Joustava säiliö (@container)"
+      ],
+      "block description\u0004Container for inner blocks that sets container-type (default inline-size) and container-name (default wm-typographic-context) for container queries.": [
+        "Sisälohkojen säiliö, joka asettaa container-type (inline-size) ja container-name (wm-typographic-context)."
+      ],
+      "block keyword\u0004container": [
+        "säiliö"
+      ],
+      "block keyword\u0004queries": [
+        "kyselyt"
+      ],
+      "block keyword\u0004cqw": [
+        "cqw"
+      ],
+      "block keyword\u0004cqi": [
+        "cqi"
+      ],
+      "block keyword\u0004fluid": [
+        "joustava"
+      ],
+      "block keyword\u0004layout": [
+        "asettelu"
+      ],
+      "block title\u0004Fluid Heading (WM Scale)": [
+        "Joustava otsikko (WM Scale)"
+      ],
+      "block description\u0004Heading (H1–H6) with the fluid font-size class of its level, balanced line wrapping and an optional custom clamp() value.": [
+        "Otsikko (H1–H6) tasonsa joustavalla kokoluokalla, tasapainotetulla rivityksellä ja valinnaisella clamp()-arvolla."
+      ],
+      "block keyword\u0004heading": [
+        "otsikko"
+      ],
+      "block keyword\u0004typography": [
+        "typografia"
+      ],
+      "block keyword\u0004scale": [
+        "asteikko"
+      ],
+      "block keyword\u0004modular": [
+        "modulaarinen"
+      ],
+      "block title\u0004Fluid Lead Text (WM Scale)": [
+        "Joustava ingressiteksti (WM Scale)"
+      ],
+      "block description\u0004Paragraph with the fluid body font size, a maximum line length of 35–85 characters (default 65) and pretty line wrapping.": [
+        "Kappale joustavalla leipätekstikoolla, 35–85 merkin rivipituudella (oletus 65) ja siistillä rivityksellä."
+      ],
+      "block keyword\u0004lead": [
+        "ingressi"
+      ],
+      "block keyword\u0004paragraph": [
+        "kappale"
+      ],
+      "block keyword\u0004reading": [
+        "lukeminen"
+      ],
+      "block title\u0004Ratio Visualizer (SVG Curve)": [
+        "Suhteen visualisoija (SVG-käyrä)"
+      ],
+      "block description\u0004Shows the nine scale steps with their minimum and maximum size in px, calculated from the stored base sizes and ratio.": [
+        "Näyttää asteikon yhdeksän askelta minimi- ja maksimikokoineen (px) tallennettujen arvojen pohjalta."
+      ],
+      "block keyword\u0004visualizer": [
+        "visualisoija"
+      ],
+      "block keyword\u0004ratio": [
+        "suhde"
+      ],
+      "block keyword\u0004svg": [
+        "svg"
+      ],
+      "block keyword\u0004curve": [
+        "käyrä"
+      ],
+      "block keyword\u0004preview": [
+        "esikatselu"
+      ],
+      "block title\u0004Theme.json Exporter (WM Scale)": [
+        "Theme.json-viejä (WM Scale)"
+      ],
+      "block description\u0004Shows the theme.json fontSizes and the Tailwind CSS v4 @theme block generated from the stored scale.": [
+        "Näyttää tallennetusta asteikosta luodut theme.json fontSizes -määritykset ja Tailwind CSS v4 @theme -lohkon."
+      ],
+      "block keyword\u0004theme.json": [
+        "theme.json"
+      ],
+      "block keyword\u0004exporter": [
+        "viejä"
+      ],
+      "block keyword\u0004tokens": [
+        "tokenit"
+      ],
+      "block keyword\u0004json": [
+        "json"
+      ],
+      "block keyword\u0004tailwind": [
+        "tailwind"
+      ],
+      "block title\u0004Typographic Grid (WM Scale)": [
+        "Typografinen ruudukko (WM Scale)"
+      ],
+      "block description\u0004Grid of 1–6 equal columns for inner blocks, with a gap from the scale (default var(--wm-step-2)).": [
+        "1–6 tasalevyisen sarakkeen ruudukko sisälohkoille asteikon välistyksellä."
+      ],
+      "block keyword\u0004grid": [
+        "ruudukko"
+      ],
+      "block keyword\u0004columns": [
+        "sarakkeet"
+      ],
+      "block keyword\u0004rhythm": [
+        "rytmi"
+      ],
+      "block keyword\u0004baseline": [
+        "perusviiva"
+      ]
+    }
+  }
+}

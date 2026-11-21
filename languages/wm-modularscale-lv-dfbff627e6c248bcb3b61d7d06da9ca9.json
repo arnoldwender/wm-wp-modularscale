@@ -1,0 +1,294 @@
+{
+  "translation-revision-date": "2026-11-21T15:04:18+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-modularscale",
+        "lang": "lv",
+        "plural-forms": "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);"
+      },
+      "Fluid Heading Settings": [
+        "Plūstošā virsraksta iestatījumi"
+      ],
+      "Heading level (H1–H6)": [
+        "Virsraksta līmenis (H1–H6)"
+      ],
+      "Modular scale step (-2 to +6)": [
+        "Modulārās skalas pakāpe (-2 līdz +6)"
+      ],
+      "Text alignment": [
+        "Teksta līdzināšana"
+      ],
+      "Left": [
+        "Pa kreisi"
+      ],
+      "Center": [
+        "Centrēti"
+      ],
+      "Right": [
+        "Pa labi"
+      ],
+      "Custom CSS clamp() override": [
+        "Pielāgota CSS clamp() vērtība"
+      ],
+      "Optional full CSS clamp() expression overriding the scale step.": [
+        "Neobligāta pilna CSS clamp() izteiksme, kas aizstāj skalas pakāpi."
+      ],
+      "Write fluid heading…": [
+        "Rakstiet plūstošu virsrakstu…"
+      ],
+      "Fluid Lead Settings": [
+        "Plūstošā ievada iestatījumi"
+      ],
+      "Maximum line length (characters)": [
+        "Maksimālais rindas garums (rakstzīmes)"
+      ],
+      "Write lead paragraph…": [
+        "Rakstiet ievadrindkopu…"
+      ],
+      "Container Query Context": [
+        "Container Query konteksts"
+      ],
+      "Container name": [
+        "Konteinera nosaukums"
+      ],
+      "Container type": [
+        "Konteinera tips"
+      ],
+      "Inline size (cqi / cqw)": [
+        "Rindas izmērs (cqi / cqw)"
+      ],
+      "Size (width & height)": [
+        "Izmērs (platums un augstums)"
+      ],
+      "Normal": [
+        "Normāls"
+      ],
+      "Typographic Grid Settings": [
+        "Tipogrāfiskā režģa iestatījumi"
+      ],
+      "Columns (1–6)": [
+        "Kolonnas (1–6)"
+      ],
+      "Scale gap token": [
+        "Skalas atstarpes marķieris"
+      ],
+      "Step 0 (Body base)": [
+        "0. pakāpe (Pamatteksts)"
+      ],
+      "Step 1 (Compact)": [
+        "1. pakāpe (Kompakts)"
+      ],
+      "Step 2 (Default)": [
+        "2. pakāpe (Noklusējums)"
+      ],
+      "Step 3 (Spacious)": [
+        "3. pakāpe (Plašs)"
+      ],
+      "Step 4 (Wide)": [
+        "4. pakāpe (Plats)"
+      ],
+      "Ratio Visualizer Settings": [
+        "Attiecības vizualizētāja iestatījumi"
+      ],
+      "Show step labels on SVG axis": [
+        "Rādīt pakāpju iezīmes uz SVG ass"
+      ],
+      "Show step min/max cards": [
+        "Rādīt pakāpju min/maks kartītes"
+      ],
+      "Color theme": [
+        "Krāsu motīvs"
+      ],
+      "Dark": [
+        "Tumšs"
+      ],
+      "Light": [
+        "Gaišs"
+      ],
+      "Ratio Visualizer (SVG Curve)": [
+        "Attiecības vizualizētājs (SVG līkne)"
+      ],
+      "APCA Contrast Settings": [
+        "APCA kontrasta iestatījumi"
+      ],
+      "Foreground hex color": [
+        "Priekšplāna hex krāsa"
+      ],
+      "Background hex color": [
+        "Fona hex krāsa"
+      ],
+      "Target text role": [
+        "Teksta mērķa loma"
+      ],
+      "Body copy (target Lc 75)": [
+        "Pamatteksts (mērķis Lc 75)"
+      ],
+      "UI / secondary text (target Lc 60)": [
+        "Sekundārais / UI teksts (mērķis Lc 60)"
+      ],
+      "Large headline (target Lc 45)": [
+        "Liels virsraksts (mērķis Lc 45)"
+      ],
+      "APCA Contrast Badge (WM Scale)": [
+        "APCA kontrasta žetons (WM Scale)"
+      ],
+      "Exporter Output Settings": [
+        "Eksporta iestatījumi"
+      ],
+      "Displayed export format": [
+        "Rādāmais eksporta formāts"
+      ],
+      "Both (theme.json v3 + Tailwind v4)": [
+        "Abi (theme.json v3 + Tailwind v4)"
+      ],
+      "theme.json v3 only": [
+        "Tikai theme.json v3"
+      ],
+      "Tailwind CSS v4 @theme only": [
+        "Tikai Tailwind CSS v4 @theme"
+      ],
+      "Theme.json Exporter (WM Scale)": [
+        "Theme.json eksportētājs (WM Scale)"
+      ],
+      "block title\u0004APCA Contrast Badge (WM Scale)": [
+        "APCA kontrasta žetons (WM Scale)"
+      ],
+      "block description\u0004Badge with the APCA lightness contrast (Lc) of a text and background colour pair and a usage hint for that value.": [
+        "Žetons ar teksta un fona krāsu pāra APCA gaišuma kontrastu (Lc) un lietošanas norādi."
+      ],
+      "block keyword\u0004contrast": [
+        "kontrasts"
+      ],
+      "block keyword\u0004apca": [
+        "apca"
+      ],
+      "block keyword\u0004a11y": [
+        "a11y"
+      ],
+      "block keyword\u0004accessibility": [
+        "piekļūstamība"
+      ],
+      "block title\u0004Fluid Container (@container)": [
+        "Plūstošs konteiners (@container)"
+      ],
+      "block description\u0004Container for inner blocks that sets container-type (default inline-size) and container-name (default wm-typographic-context) for container queries.": [
+        "Iekšējo bloku konteiners, kas iestata container-type (inline-size) un container-name (wm-typographic-context)."
+      ],
+      "block keyword\u0004container": [
+        "konteiners"
+      ],
+      "block keyword\u0004queries": [
+        "vaicājumi"
+      ],
+      "block keyword\u0004cqw": [
+        "cqw"
+      ],
+      "block keyword\u0004cqi": [
+        "cqi"
+      ],
+      "block keyword\u0004fluid": [
+        "plūstošs"
+      ],
+      "block keyword\u0004layout": [
+        "izkārtojums"
+      ],
+      "block title\u0004Fluid Heading (WM Scale)": [
+        "Plūstošs virsraksts (WM Scale)"
+      ],
+      "block description\u0004Heading (H1–H6) with the fluid font-size class of its level, balanced line wrapping and an optional custom clamp() value.": [
+        "Virsraksts (H1–H6) ar sava līmeņa plūstošo izmēra klasi, līdzsvarotu aplaušanu un neobligātu clamp() vērtību."
+      ],
+      "block keyword\u0004heading": [
+        "virsraksts"
+      ],
+      "block keyword\u0004typography": [
+        "tipogrāfija"
+      ],
+      "block keyword\u0004scale": [
+        "skala"
+      ],
+      "block keyword\u0004modular": [
+        "modulārs"
+      ],
+      "block title\u0004Fluid Lead Text (WM Scale)": [
+        "Plūstošs ievadteksts (WM Scale)"
+      ],
+      "block description\u0004Paragraph with the fluid body font size, a maximum line length of 35–85 characters (default 65) and pretty line wrapping.": [
+        "Rindkopa ar plūstošu pamatteksta izmēru, 35–85 rakstzīmju rindas garumu (noklusējums 65) un glītu aplaušanu."
+      ],
+      "block keyword\u0004lead": [
+        "ievads"
+      ],
+      "block keyword\u0004paragraph": [
+        "rindkopa"
+      ],
+      "block keyword\u0004reading": [
+        "lasīšana"
+      ],
+      "block title\u0004Ratio Visualizer (SVG Curve)": [
+        "Attiecības vizualizētājs (SVG līkne)"
+      ],
+      "block description\u0004Shows the nine scale steps with their minimum and maximum size in px, calculated from the stored base sizes and ratio.": [
+        "Parāda deviņas skalas pakāpes ar minimālo un maksimālo px izmēru no saglabātajiem iestatījumiem."
+      ],
+      "block keyword\u0004visualizer": [
+        "vizualizētājs"
+      ],
+      "block keyword\u0004ratio": [
+        "attiecība"
+      ],
+      "block keyword\u0004svg": [
+        "svg"
+      ],
+      "block keyword\u0004curve": [
+        "līkne"
+      ],
+      "block keyword\u0004preview": [
+        "priekšskatījums"
+      ],
+      "block title\u0004Theme.json Exporter (WM Scale)": [
+        "Theme.json eksportētājs (WM Scale)"
+      ],
+      "block description\u0004Shows the theme.json fontSizes and the Tailwind CSS v4 @theme block generated from the stored scale.": [
+        "Parāda no saglabātās skalas ģenerētos theme.json fontSizes un Tailwind CSS v4 @theme bloku."
+      ],
+      "block keyword\u0004theme.json": [
+        "theme.json"
+      ],
+      "block keyword\u0004exporter": [
+        "eksportētājs"
+      ],
+      "block keyword\u0004tokens": [
+        "marķieri"
+      ],
+      "block keyword\u0004json": [
+        "json"
+      ],
+      "block keyword\u0004tailwind": [
+        "tailwind"
+      ],
+      "block title\u0004Typographic Grid (WM Scale)": [
+        "Tipogrāfiskais režģis (WM Scale)"
+      ],
+      "block description\u0004Grid of 1–6 equal columns for inner blocks, with a gap from the scale (default var(--wm-step-2)).": [
+        "Režģis ar 1–6 vienādām kolonnām iekšējiem blokiem un atstarpi no skalas."
+      ],
+      "block keyword\u0004grid": [
+        "režģis"
+      ],
+      "block keyword\u0004columns": [
+        "kolonnas"
+      ],
+      "block keyword\u0004rhythm": [
+        "ritms"
+      ],
+      "block keyword\u0004baseline": [
+        "bāzes līnija"
+      ]
+    }
+  }
+}

@@ -1,0 +1,294 @@
+{
+  "translation-revision-date": "2026-11-21T15:04:18+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-modularscale",
+        "lang": "fr_FR",
+        "plural-forms": "nplurals=2; plural=(n > 1);"
+      },
+      "Fluid Heading Settings": [
+        "Réglages du titre fluide"
+      ],
+      "Heading level (H1–H6)": [
+        "Niveau de titre (H1–H6)"
+      ],
+      "Modular scale step (-2 to +6)": [
+        "Palier de l’échelle modulaire (-2 à +6)"
+      ],
+      "Text alignment": [
+        "Alignement du texte"
+      ],
+      "Left": [
+        "Gauche"
+      ],
+      "Center": [
+        "Centre"
+      ],
+      "Right": [
+        "Droite"
+      ],
+      "Custom CSS clamp() override": [
+        "Surcharge CSS clamp() personnalisée"
+      ],
+      "Optional full CSS clamp() expression overriding the scale step.": [
+        "Expression CSS clamp() complète remplaçant le palier de l’échelle."
+      ],
+      "Write fluid heading…": [
+        "Saisir un titre fluide…"
+      ],
+      "Fluid Lead Settings": [
+        "Réglages du chapô fluide"
+      ],
+      "Maximum line length (characters)": [
+        "Longueur maximale de ligne (caractères)"
+      ],
+      "Write lead paragraph…": [
+        "Saisir le paragraphe d’introduction…"
+      ],
+      "Container Query Context": [
+        "Contexte Container Query"
+      ],
+      "Container name": [
+        "Nom du conteneur"
+      ],
+      "Container type": [
+        "Type de conteneur"
+      ],
+      "Inline size (cqi / cqw)": [
+        "Taille en ligne (cqi / cqw)"
+      ],
+      "Size (width & height)": [
+        "Taille (largeur et hauteur)"
+      ],
+      "Normal": [
+        "Normal"
+      ],
+      "Typographic Grid Settings": [
+        "Réglages de la grille typographique"
+      ],
+      "Columns (1–6)": [
+        "Colonnes (1–6)"
+      ],
+      "Scale gap token": [
+        "Jeton d’espacement de l’échelle"
+      ],
+      "Step 0 (Body base)": [
+        "Palier 0 (Corps de base)"
+      ],
+      "Step 1 (Compact)": [
+        "Palier 1 (Compact)"
+      ],
+      "Step 2 (Default)": [
+        "Palier 2 (Par défaut)"
+      ],
+      "Step 3 (Spacious)": [
+        "Palier 3 (Aéré)"
+      ],
+      "Step 4 (Wide)": [
+        "Palier 4 (Large)"
+      ],
+      "Ratio Visualizer Settings": [
+        "Réglages du visualiseur de rapport"
+      ],
+      "Show step labels on SVG axis": [
+        "Afficher les libellés sur l’axe SVG"
+      ],
+      "Show step min/max cards": [
+        "Afficher les cartes min/max des paliers"
+      ],
+      "Color theme": [
+        "Thème de couleur"
+      ],
+      "Dark": [
+        "Sombre"
+      ],
+      "Light": [
+        "Clair"
+      ],
+      "Ratio Visualizer (SVG Curve)": [
+        "Visualiseur de rapport (courbe SVG)"
+      ],
+      "APCA Contrast Settings": [
+        "Réglages de contraste APCA"
+      ],
+      "Foreground hex color": [
+        "Couleur hexadécimale du texte"
+      ],
+      "Background hex color": [
+        "Couleur hexadécimale de l’arrière-plan"
+      ],
+      "Target text role": [
+        "Rôle visé du texte"
+      ],
+      "Body copy (target Lc 75)": [
+        "Corps de texte (cible Lc 75)"
+      ],
+      "UI / secondary text (target Lc 60)": [
+        "Texte secondaire / interface (cible Lc 60)"
+      ],
+      "Large headline (target Lc 45)": [
+        "Grand titre (cible Lc 45)"
+      ],
+      "APCA Contrast Badge (WM Scale)": [
+        "Badge de contraste APCA (WM Scale)"
+      ],
+      "Exporter Output Settings": [
+        "Réglages d’exportation"
+      ],
+      "Displayed export format": [
+        "Format d’export affiché"
+      ],
+      "Both (theme.json v3 + Tailwind v4)": [
+        "Les deux (theme.json v3 + Tailwind v4)"
+      ],
+      "theme.json v3 only": [
+        "theme.json v3 uniquement"
+      ],
+      "Tailwind CSS v4 @theme only": [
+        "Tailwind CSS v4 @theme uniquement"
+      ],
+      "Theme.json Exporter (WM Scale)": [
+        "Exportateur Theme.json (WM Scale)"
+      ],
+      "block title\u0004APCA Contrast Badge (WM Scale)": [
+        "Badge de contraste APCA (WM Scale)"
+      ],
+      "block description\u0004Badge with the APCA lightness contrast (Lc) of a text and background colour pair and a usage hint for that value.": [
+        "Badge indiquant le contraste de luminance APCA (Lc) d’une paire de couleurs texte/fond et son usage conseillé."
+      ],
+      "block keyword\u0004contrast": [
+        "contraste"
+      ],
+      "block keyword\u0004apca": [
+        "apca"
+      ],
+      "block keyword\u0004a11y": [
+        "a11y"
+      ],
+      "block keyword\u0004accessibility": [
+        "accessibilité"
+      ],
+      "block title\u0004Fluid Container (@container)": [
+        "Conteneur fluide (@container)"
+      ],
+      "block description\u0004Container for inner blocks that sets container-type (default inline-size) and container-name (default wm-typographic-context) for container queries.": [
+        "Conteneur pour blocs internes définissant container-type (inline-size par défaut) et container-name (wm-typographic-context)."
+      ],
+      "block keyword\u0004container": [
+        "conteneur"
+      ],
+      "block keyword\u0004queries": [
+        "requêtes"
+      ],
+      "block keyword\u0004cqw": [
+        "cqw"
+      ],
+      "block keyword\u0004cqi": [
+        "cqi"
+      ],
+      "block keyword\u0004fluid": [
+        "fluide"
+      ],
+      "block keyword\u0004layout": [
+        "mise en page"
+      ],
+      "block title\u0004Fluid Heading (WM Scale)": [
+        "Titre fluide (WM Scale)"
+      ],
+      "block description\u0004Heading (H1–H6) with the fluid font-size class of its level, balanced line wrapping and an optional custom clamp() value.": [
+        "Titre (H1–H6) doté de la classe fluide de son niveau, d’un équilibrage des lignes et d’un clamp() optionnel."
+      ],
+      "block keyword\u0004heading": [
+        "titre"
+      ],
+      "block keyword\u0004typography": [
+        "typographie"
+      ],
+      "block keyword\u0004scale": [
+        "échelle"
+      ],
+      "block keyword\u0004modular": [
+        "modulaire"
+      ],
+      "block title\u0004Fluid Lead Text (WM Scale)": [
+        "Chapô fluide (WM Scale)"
+      ],
+      "block description\u0004Paragraph with the fluid body font size, a maximum line length of 35–85 characters (default 65) and pretty line wrapping.": [
+        "Paragraphe à taille fluide, longueur maximale de 35 à 85 caractères (65 par défaut) et césure harmonieuse."
+      ],
+      "block keyword\u0004lead": [
+        "chapô"
+      ],
+      "block keyword\u0004paragraph": [
+        "paragraphe"
+      ],
+      "block keyword\u0004reading": [
+        "lecture"
+      ],
+      "block title\u0004Ratio Visualizer (SVG Curve)": [
+        "Visualiseur de rapport (courbe SVG)"
+      ],
+      "block description\u0004Shows the nine scale steps with their minimum and maximum size in px, calculated from the stored base sizes and ratio.": [
+        "Affiche les neuf paliers de l’échelle avec leurs tailles minimale et maximale en px calculées selon les réglages."
+      ],
+      "block keyword\u0004visualizer": [
+        "visualiseur"
+      ],
+      "block keyword\u0004ratio": [
+        "rapport"
+      ],
+      "block keyword\u0004svg": [
+        "svg"
+      ],
+      "block keyword\u0004curve": [
+        "courbe"
+      ],
+      "block keyword\u0004preview": [
+        "aperçu"
+      ],
+      "block title\u0004Theme.json Exporter (WM Scale)": [
+        "Exportateur Theme.json (WM Scale)"
+      ],
+      "block description\u0004Shows the theme.json fontSizes and the Tailwind CSS v4 @theme block generated from the stored scale.": [
+        "Affiche les fontSizes de theme.json et le bloc @theme de Tailwind CSS v4 générés à partir de l’échelle."
+      ],
+      "block keyword\u0004theme.json": [
+        "theme.json"
+      ],
+      "block keyword\u0004exporter": [
+        "exportateur"
+      ],
+      "block keyword\u0004tokens": [
+        "jetons"
+      ],
+      "block keyword\u0004json": [
+        "json"
+      ],
+      "block keyword\u0004tailwind": [
+        "tailwind"
+      ],
+      "block title\u0004Typographic Grid (WM Scale)": [
+        "Grille typographique (WM Scale)"
+      ],
+      "block description\u0004Grid of 1–6 equal columns for inner blocks, with a gap from the scale (default var(--wm-step-2)).": [
+        "Grille de 1 à 6 colonnes égales pour blocs internes avec espacement issu de l’échelle."
+      ],
+      "block keyword\u0004grid": [
+        "grille"
+      ],
+      "block keyword\u0004columns": [
+        "colonnes"
+      ],
+      "block keyword\u0004rhythm": [
+        "rythme"
+      ],
+      "block keyword\u0004baseline": [
+        "ligne de base"
+      ]
+    }
+  }
+}

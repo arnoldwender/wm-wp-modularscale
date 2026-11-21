@@ -1,0 +1,294 @@
+{
+  "translation-revision-date": "2026-11-21T15:04:18+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-modularscale",
+        "lang": "tr_TR",
+        "plural-forms": "nplurals=2; plural=(n > 1);"
+      },
+      "Fluid Heading Settings": [
+        "Akışkan Başlık Ayarları"
+      ],
+      "Heading level (H1–H6)": [
+        "Başlık düzeyi (H1–H6)"
+      ],
+      "Modular scale step (-2 to +6)": [
+        "Modüler ölçek adımı (-2 ile +6)"
+      ],
+      "Text alignment": [
+        "Metin hizalama"
+      ],
+      "Left": [
+        "Sol"
+      ],
+      "Center": [
+        "Orta"
+      ],
+      "Right": [
+        "Sağ"
+      ],
+      "Custom CSS clamp() override": [
+        "Özel CSS clamp() geçersiz kılma"
+      ],
+      "Optional full CSS clamp() expression overriding the scale step.": [
+        "Ölçek adımını geçersiz kılan isteğe bağlı tam CSS clamp() ifadesi."
+      ],
+      "Write fluid heading…": [
+        "Akışkan başlık yazın…"
+      ],
+      "Fluid Lead Settings": [
+        "Akışkan Giriş Metni Ayarları"
+      ],
+      "Maximum line length (characters)": [
+        "Maksimum satır uzunluğu (karakter)"
+      ],
+      "Write lead paragraph…": [
+        "Giriş paragrafı yazın…"
+      ],
+      "Container Query Context": [
+        "Container Query Bağlamı"
+      ],
+      "Container name": [
+        "Kapsayıcı adı"
+      ],
+      "Container type": [
+        "Kapsayıcı türü"
+      ],
+      "Inline size (cqi / cqw)": [
+        "Satır içi boyut (cqi / cqw)"
+      ],
+      "Size (width & height)": [
+        "Boyut (genişlik ve yükseklik)"
+      ],
+      "Normal": [
+        "Normal"
+      ],
+      "Typographic Grid Settings": [
+        "Tipografik Izgara Ayarları"
+      ],
+      "Columns (1–6)": [
+        "Sütunlar (1–6)"
+      ],
+      "Scale gap token": [
+        "Ölçek boşluk belirteci"
+      ],
+      "Step 0 (Body base)": [
+        "Adım 0 (Gövde tabanı)"
+      ],
+      "Step 1 (Compact)": [
+        "Adım 1 (Sıkı)"
+      ],
+      "Step 2 (Default)": [
+        "Adım 2 (Varsayılan)"
+      ],
+      "Step 3 (Spacious)": [
+        "Adım 3 (Ferah)"
+      ],
+      "Step 4 (Wide)": [
+        "Adım 4 (Geniş)"
+      ],
+      "Ratio Visualizer Settings": [
+        "Oran Görselleştirici Ayarları"
+      ],
+      "Show step labels on SVG axis": [
+        "SVG ekseninde adım etiketlerini göster"
+      ],
+      "Show step min/max cards": [
+        "Adım min/maks kartlarını göster"
+      ],
+      "Color theme": [
+        "Renk teması"
+      ],
+      "Dark": [
+        "Koyu"
+      ],
+      "Light": [
+        "Açık"
+      ],
+      "Ratio Visualizer (SVG Curve)": [
+        "Oran Görselleştirici (SVG Eğrisi)"
+      ],
+      "APCA Contrast Settings": [
+        "APCA Kontrast Ayarları"
+      ],
+      "Foreground hex color": [
+        "Metin hex rengi"
+      ],
+      "Background hex color": [
+        "Arka plan hex rengi"
+      ],
+      "Target text role": [
+        "Hedef metin rolü"
+      ],
+      "Body copy (target Lc 75)": [
+        "Gövde metni (hedef Lc 75)"
+      ],
+      "UI / secondary text (target Lc 60)": [
+        "İkincil / arayüz metni (hedef Lc 60)"
+      ],
+      "Large headline (target Lc 45)": [
+        "Büyük başlık (hedef Lc 45)"
+      ],
+      "APCA Contrast Badge (WM Scale)": [
+        "APCA Kontrast Rozeti (WM Scale)"
+      ],
+      "Exporter Output Settings": [
+        "Dışa Aktarma Ayarları"
+      ],
+      "Displayed export format": [
+        "Gösterilen dışa aktarma biçimi"
+      ],
+      "Both (theme.json v3 + Tailwind v4)": [
+        "Her ikisi (theme.json v3 + Tailwind v4)"
+      ],
+      "theme.json v3 only": [
+        "Yalnızca theme.json v3"
+      ],
+      "Tailwind CSS v4 @theme only": [
+        "Yalnızca Tailwind CSS v4 @theme"
+      ],
+      "Theme.json Exporter (WM Scale)": [
+        "Theme.json Dışa Aktarıcı (WM Scale)"
+      ],
+      "block title\u0004APCA Contrast Badge (WM Scale)": [
+        "APCA Kontrast Rozeti (WM Scale)"
+      ],
+      "block description\u0004Badge with the APCA lightness contrast (Lc) of a text and background colour pair and a usage hint for that value.": [
+        "Metin ve arka plan renk çiftinin APCA parlaklık kontrastını (Lc) ve kullanım önerisini gösteren rozet."
+      ],
+      "block keyword\u0004contrast": [
+        "kontrast"
+      ],
+      "block keyword\u0004apca": [
+        "apca"
+      ],
+      "block keyword\u0004a11y": [
+        "a11y"
+      ],
+      "block keyword\u0004accessibility": [
+        "erişilebilirlik"
+      ],
+      "block title\u0004Fluid Container (@container)": [
+        "Akışkan Kapsayıcı (@container)"
+      ],
+      "block description\u0004Container for inner blocks that sets container-type (default inline-size) and container-name (default wm-typographic-context) for container queries.": [
+        "İç bloklar için container-type (inline-size) ve container-name (wm-typographic-context) tanımlayan kapsayıcı."
+      ],
+      "block keyword\u0004container": [
+        "kapsayıcı"
+      ],
+      "block keyword\u0004queries": [
+        "sorgular"
+      ],
+      "block keyword\u0004cqw": [
+        "cqw"
+      ],
+      "block keyword\u0004cqi": [
+        "cqi"
+      ],
+      "block keyword\u0004fluid": [
+        "akışkan"
+      ],
+      "block keyword\u0004layout": [
+        "düzen"
+      ],
+      "block title\u0004Fluid Heading (WM Scale)": [
+        "Akışkan Başlık (WM Scale)"
+      ],
+      "block description\u0004Heading (H1–H6) with the fluid font-size class of its level, balanced line wrapping and an optional custom clamp() value.": [
+        "Düzeyine uygun akışkan yazı boyutu sınıfı, dengeli satır kaydırma ve isteğe bağlı clamp() değeri içeren başlık (H1–H6)."
+      ],
+      "block keyword\u0004heading": [
+        "başlık"
+      ],
+      "block keyword\u0004typography": [
+        "tipografi"
+      ],
+      "block keyword\u0004scale": [
+        "ölçek"
+      ],
+      "block keyword\u0004modular": [
+        "modüler"
+      ],
+      "block title\u0004Fluid Lead Text (WM Scale)": [
+        "Akışkan Giriş Metni (WM Scale)"
+      ],
+      "block description\u0004Paragraph with the fluid body font size, a maximum line length of 35–85 characters (default 65) and pretty line wrapping.": [
+        "Akışkan gövde boyutuna, 35–85 karakter satır sınırına (varsayılan 65) ve dengeli satır sonlarına sahip paragraf."
+      ],
+      "block keyword\u0004lead": [
+        "giriş"
+      ],
+      "block keyword\u0004paragraph": [
+        "paragraf"
+      ],
+      "block keyword\u0004reading": [
+        "okuma"
+      ],
+      "block title\u0004Ratio Visualizer (SVG Curve)": [
+        "Oran Görselleştirici (SVG Eğrisi)"
+      ],
+      "block description\u0004Shows the nine scale steps with their minimum and maximum size in px, calculated from the stored base sizes and ratio.": [
+        "Kaydedilen temel boyut ve orandan hesaplanan dokuz ölçek adımını min/maks px değerleriyle gösterir."
+      ],
+      "block keyword\u0004visualizer": [
+        "görselleştirici"
+      ],
+      "block keyword\u0004ratio": [
+        "oran"
+      ],
+      "block keyword\u0004svg": [
+        "svg"
+      ],
+      "block keyword\u0004curve": [
+        "eğri"
+      ],
+      "block keyword\u0004preview": [
+        "önizleme"
+      ],
+      "block title\u0004Theme.json Exporter (WM Scale)": [
+        "Theme.json Dışa Aktarıcı (WM Scale)"
+      ],
+      "block description\u0004Shows the theme.json fontSizes and the Tailwind CSS v4 @theme block generated from the stored scale.": [
+        "Kaydedilen ölçekten üretilen theme.json fontSizes dizisini ve Tailwind CSS v4 @theme bloğunu gösterir."
+      ],
+      "block keyword\u0004theme.json": [
+        "theme.json"
+      ],
+      "block keyword\u0004exporter": [
+        "aktarıcı"
+      ],
+      "block keyword\u0004tokens": [
+        "belirteçler"
+      ],
+      "block keyword\u0004json": [
+        "json"
+      ],
+      "block keyword\u0004tailwind": [
+        "tailwind"
+      ],
+      "block title\u0004Typographic Grid (WM Scale)": [
+        "Tipografik Izgara (WM Scale)"
+      ],
+      "block description\u0004Grid of 1–6 equal columns for inner blocks, with a gap from the scale (default var(--wm-step-2)).": [
+        "İç bloklar için ölçekten alınan boşlukla 1–6 eşit sütunlu ızgara."
+      ],
+      "block keyword\u0004grid": [
+        "ızgara"
+      ],
+      "block keyword\u0004columns": [
+        "sütunlar"
+      ],
+      "block keyword\u0004rhythm": [
+        "ritim"
+      ],
+      "block keyword\u0004baseline": [
+        "taban çizgisi"
+      ]
+    }
+  }
+}

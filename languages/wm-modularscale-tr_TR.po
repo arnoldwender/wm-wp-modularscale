@@ -1,0 +1,973 @@
+# Translation of WM Modular Scale in tr_TR
+# Copyright (C) 2026 Arnold Wender
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: wm-modularscale 1.4.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wm-modularscale\n"
+"POT-Creation-Date: 2026-11-21T14:04:16+00:00\n"
+"PO-Revision-Date: 2026-11-21 15:04+0100\n"
+"Last-Translator: WM Suite <https://github.com/arnoldwender/wm-wp-"
+"modularscale/issues>\n"
+"Language-Team: WM Suite <https://github.com/arnoldwender/wm-wp-modularscale/"
+"issues>\n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: WM Suite i18n Compiler 2026\n"
+"X-Domain: wm-modularscale\n"
+
+#. Plugin Name of the plugin
+#: wm-modularscale.php src/Integration/Ecosystem_Bridge.php:199
+#: wm-modularscale.php:113 wm-modularscale.php:134
+msgid "WM Modular Scale"
+msgstr "WM Modular Scale"
+
+#. Plugin URI of the plugin
+#: wm-modularscale.php
+msgid "https://arnoldwender.com/wordpress-plugins/wm-modularscale/"
+msgstr "https://arnoldwender.com/wordpress-plugins/wm-modularscale/"
+
+#. Description of the plugin
+#: wm-modularscale.php
+msgid ""
+"Generates harmonious, responsive typography ratios and modular scales with a "
+"visual live preview sandbox for non-technical users."
+msgstr ""
+"Etkileşimli canlı önizleme ile uyumlu, duyarlı tipografik oranlar ve modüler "
+"ölçekler oluşturur."
+
+#. Author of the plugin
+#: wm-modularscale.php
+msgid "Arnold Wender"
+msgstr "Arnold Wender"
+
+#. Author URI of the plugin
+#: wm-modularscale.php
+msgid "https://arnoldwender.com"
+msgstr "https://arnoldwender.com"
+
+#: src/Gutenberg/Block_Manager.php:134
+msgid "WM Modular Scale — Typografie Enterprise"
+msgstr "WM Modular Scale — Kurumsal Tipografi"
+
+#: src/Integration/Ecosystem_Bridge.php:56
+msgid "WM Modular Scale Tokens"
+msgstr "WM Modular Scale Belirteçleri"
+
+#: src/Integration/Ecosystem_Bridge.php:133
+msgid "WM Modular Scale Token"
+msgstr "WM Modular Scale Belirteci"
+
+#: src/Integration/Ecosystem_Bridge.php:137
+msgid ""
+"Outputs a computed fluid clamp() token or px range from WM Modular Scale."
+msgstr ""
+"WM Modular Scale tarafından hesaplanan akışkan bir clamp() belirtecini veya "
+"px aralığını döndürür."
+
+#: src/Integration/Ecosystem_Bridge.php:141
+msgid "Scale step (-2 to 6)"
+msgstr "Ölçek adımı (-2 ile 6 arası)"
+
+#: src/Integration/Ecosystem_Bridge.php:146
+msgid "Output format"
+msgstr "Çıktı biçimi"
+
+#: src/Integration/Ecosystem_Bridge.php:151
+msgid "CSS clamp() expression"
+msgstr "CSS clamp() ifadesi"
+
+#: src/Integration/Ecosystem_Bridge.php:155
+msgid "Min–Max px range"
+msgstr "Min–Maks px aralığı"
+
+#: src/Integration/Ecosystem_Bridge.php:159
+msgid "Maximum px size"
+msgstr "Maksimum px boyutu"
+
+#: src/Integration/Ecosystem_Bridge.php:207
+msgid "Fluid Typographic Hero & Lead"
+msgstr "Akışkan Tipografik Hero ve Giriş"
+
+#: src/Integration/Ecosystem_Bridge.php:208
+msgid ""
+"Container-query section pairing a Fluid Heading with an ergonomic Fluid Lead "
+"paragraph."
+msgstr ""
+"Akışkan bir başlığı ergonomik bir giriş paragrafıyla birleştiren container-"
+"query bölümü."
+
+#: src/Integration/Ecosystem_Bridge.php:211
+msgid "Harmonische Typografie im Browser"
+msgstr "Tarayıcıda Uyumlu Tipografi"
+
+#: src/Integration/Ecosystem_Bridge.php:212
+msgid ""
+"Fließende Schriftgrößen zwischen Mobilgerät und Desktop, berechnet aus "
+"Basisgröße und musikalischem Intervall."
+msgstr ""
+"Temel boyut ve müzikal aralıktan hesaplanan, mobil ile masaüstü arasında "
+"akışkan yazı boyutları."
+
+#: src/Integration/Ecosystem_Bridge.php:221
+msgid "GenerateBlocks Fluid Scale Section"
+msgstr "GenerateBlocks Akışkan Ölçek Bölümü"
+
+#: src/Integration/Ecosystem_Bridge.php:222
+msgid ""
+"Two-layer GenerateBlocks section (gbp-section + gbp-section__inner) "
+"consuming --ms-* and --wm-step-* fluid tokens."
+msgstr ""
+"--ms-* ve --wm-step-* akışkan belirteçlerini kullanan iki katmanlı "
+"GenerateBlocks bölümü (gbp-section + gbp-section__inner)."
+
+#: src/Integration/Ecosystem_Bridge.php:229
+msgid "Modulare Skala mit GenerateBlocks"
+msgstr "GenerateBlocks ile Modüler Ölçek"
+
+#: src/Integration/Ecosystem_Bridge.php:232
+msgid "Direkte Nutzung der berechneten CSS-Variablen ohne Media-Query-Stufen."
+msgstr ""
+"Medya sorgusu kırılım noktaları olmadan hesaplanan CSS değişkenlerinin "
+"doğrudan kullanımı."
+
+#: src/Integration/Ecosystem_Bridge.php:254
+msgid "Compute Modular Typography Scale"
+msgstr "Modüler Tipografi Ölçeğini Hesapla"
+
+#: src/Integration/Ecosystem_Bridge.php:255
+msgid ""
+"Calculates the nine fluid clamp() steps (-2 to +6), line heights and WCAG "
+"1.4.4 zoom-safety flags for a base size and ratio."
+msgstr ""
+"Dokuz akışkan clamp() adımını (-2 ile +6), satır yüksekliklerini ve WCAG "
+"1.4.4 yakınlaştırma güvenliğini hesaplar."
+
+#: wm-modularscale.php:114
+msgid "Modular Scale"
+msgstr "Modüler Ölçek"
+
+#: wm-modularscale.php:125
+msgid "WM Modular Scale — Einstellungen & Vorschau"
+msgstr "WM Modular Scale — Ayarlar ve Önizleme"
+
+#: wm-modularscale.php:126
+msgid "Typografie & Skalen"
+msgstr "Tipografi ve Ölçekler"
+
+#: wm-modularscale.php:135
+msgid "Modular Scale (Typografie)"
+msgstr "Modular Scale (Tipografi)"
+
+#: wm-modularscale.php:153
+msgid "WM Modular Scale — Harmonische Typografie & CSS Variablen"
+msgstr "WM Modular Scale — Uyumlu Tipografi ve CSS Değişkenleri"
+
+#: wm-modularscale.php:178
+msgid "Skala auf der Website angewendet"
+msgstr "Ölçek sitede uygulanıyor"
+
+#: wm-modularscale.php:180
+msgid "Skala berechnet, noch nicht auf die Website angewendet"
+msgstr "Ölçek hesaplandı, henüz sitede uygulanmadı"
+
+#: wm-modularscale.php:184
+msgid "Fluid-Tokens (--wm-step-*) und Stylesheet (--wmmsp-*)"
+msgstr "Akışkan belirteçler (--wm-step-*) ve stil dosyası (--wmmsp-*)"
+
+#: wm-modularscale.php:191 wm-modularscale.php:301
+msgid "Basisgröße"
+msgstr "Temel boyut"
+
+#: wm-modularscale.php:195
+msgid "Verhältnis"
+msgstr "Oran"
+
+#: wm-modularscale.php:198
+msgid "Aktiv"
+msgstr "Etkin"
+
+#: wm-modularscale.php:198
+msgid "Aus"
+msgstr "Kapalı"
+
+#: wm-modularscale.php:199
+msgid "Auf der Website"
+msgstr "Sitede"
+
+#: wm-modularscale.php:205
+msgid "Typografie-Cockpit öffnen"
+msgstr "Tipografi kokpitini aç"
+
+#: wm-modularscale.php:220 wm-modularscale.php:319 wm-modularscale.php:347
+msgid "Einstellungen"
+msgstr "Ayarlar"
+
+#: wm-modularscale.php:245
+msgid "Part of the WM Suite plugin family"
+msgstr "WM Suite eklenti ailesinin parçası"
+
+#: wm-modularscale.php:247
+msgid "WM Suite"
+msgstr "WM Suite"
+
+#: wm-modularscale.php:248
+msgid "Hub"
+msgstr "Hub"
+
+#: wm-modularscale.php:248
+msgid "Standalone"
+msgstr "Bağımsız"
+
+#: wm-modularscale.php:262
+msgid "wird berechnet …"
+msgstr "hesaplanıyor …"
+
+#: wm-modularscale.php:283
+msgid "Kleine Terz 1.200 – Blog"
+msgstr "Küçük Üçlü 1.200 – Blog"
+
+#: wm-modularscale.php:284
+msgid "Große Terz 1.250 – Voreinstellung"
+msgstr "Büyük Üçlü 1.250 – Varsayılan"
+
+#: wm-modularscale.php:285
+msgid "Quarte 1.333 – markante Überschriften"
+msgstr "Tam Dörtlü 1.333 – Belirgin başlıklar"
+
+#: wm-modularscale.php:286
+msgid "Goldener Schnitt 1.618 – Magazin, große Titel"
+msgstr "Altın Oran 1.618 – Dergi, büyük başlıklar"
+
+#: wm-modularscale.php:290
+msgid "1.125 — Große Sekunde (kompakt, Anwendungen)"
+msgstr "1.125 — Büyük İkili (kompakt, uygulamalar)"
+
+#: wm-modularscale.php:291
+msgid "1.200 — Kleine Terz (Blog)"
+msgstr "1.200 — Küçük Üçlü (blog)"
+
+#: wm-modularscale.php:292
+msgid "1.250 — Große Terz (Voreinstellung)"
+msgstr "1.250 — Büyük Üçlü (varsayılan)"
+
+#: wm-modularscale.php:293
+msgid "1.333 — Quarte (markante Überschriften)"
+msgstr "1.333 — Tam Dörtlü (belirgin başlıklar)"
+
+#: wm-modularscale.php:294
+msgid "1.414 — Übermäßige Quarte (Editorial)"
+msgstr "1.414 — Artık Dörtlü (editoryal)"
+
+#: wm-modularscale.php:295
+msgid "1.500 — Quinte (kreative Layouts)"
+msgstr "1.500 — Tam Beşli (yaratıcı düzenler)"
+
+#: wm-modularscale.php:296
+msgid "1.618 — Goldener Schnitt (sehr große Titel)"
+msgstr "1.618 — Altın Oran (çok büyük başlıklar)"
+
+#: wm-modularscale.php:300 wm-modularscale.php:361
+msgid "Verhältnis (Ratio)"
+msgstr "Oran (Ratio)"
+
+#: wm-modularscale.php:300
+msgid ""
+"Der feste Faktor zwischen zwei Stufen der Skala. Bei 1.25 ist jede Stufe 25 "
+"% größer als die vorherige."
+msgstr ""
+"Ölçeğin iki adımı arasındaki sabit çarpan. 1.25 değerinde her adım bir "
+"öncekinden %25 daha büyüktür."
+
+#: wm-modularscale.php:301
+msgid ""
+"Die Schriftgröße des Fließtexts (<p>). Aus ihr werden alle Überschriften "
+"berechnet. Browser verwenden ohne eigene Einstellung 16 px."
+msgstr ""
+"Tüm başlıkların hesaplandığı gövde metni (<p>) yazı boyutu. Tarayıcılar "
+"varsayılan olarak 16 px kullanır."
+
+#: wm-modularscale.php:302
+msgid "rem-Einheiten"
+msgstr "rem birimleri"
+
+#: wm-modularscale.php:302
+msgid ""
+"Relativ zur Schriftgröße, die im Browser eingestellt ist. Wer dort eine "
+"größere Schrift wählt, bekommt alle Stufen entsprechend größer."
+msgstr ""
+"Tarayıcıda ayarlanan yazı boyutuna göreli birimlerdir. Daha büyük yazı seçen "
+"ziyaretçiler tüm adımları orantılı olarak büyük görür."
+
+#: wm-modularscale.php:303
+msgid "Goldener Schnitt (1.618)"
+msgstr "Altın Oran (1.618)"
+
+#: wm-modularscale.php:303
+msgid ""
+"Das Verhältnis (1 + √5) / 2. Als Skala ergibt es einen starken "
+"Größenunterschied zwischen Überschriften und Fließtext."
+msgstr ""
+"(1 + √5) / 2 oranı. Ölçek olarak başlıklar ile gövde metni arasında güçlü "
+"bir kontrast oluşturur."
+
+#: wm-modularscale.php:310
+msgid "Modulare Typografie"
+msgstr "Modüler Tipografi"
+
+#: wm-modularscale.php:311
+msgid "WM Modular Scale — Typografische Skala"
+msgstr "WM Modular Scale — Tipografik Ölçek"
+
+#: wm-modularscale.php:312
+msgid ""
+"Berechnet die Schriftgrößen für Überschriften (H1–H6) und Fließtext aus "
+"einer Basisgröße und einem Verhältnis und gibt sie als CSS-Variablen aus."
+msgstr ""
+"Başlıklar (H1–H6) ve gövde metni için yazı boyutlarını temel boyut ve "
+"orandan hesaplayıp CSS değişkenleri olarak üretir."
+
+#: wm-modularscale.php:316
+msgid "Seitennavigation"
+msgstr "Sayfa gezintisi"
+
+#: wm-modularscale.php:317
+msgid "Springen zu:"
+msgstr "Şuraya git:"
+
+#: wm-modularscale.php:318
+msgid "Anleitung & Vorlagen"
+msgstr "Rehber ve Şablonlar"
+
+#: wm-modularscale.php:320 wm-modularscale.php:417
+msgid "Live-Vorschau"
+msgstr "Canlı Önizleme"
+
+#: wm-modularscale.php:321 wm-modularscale.php:438
+msgid "CSS-Variablen"
+msgstr "CSS Değişkenleri"
+
+#: wm-modularscale.php:322 wm-modularscale.php:447
+msgid "Glossar"
+msgstr "Sözlük"
+
+#: wm-modularscale.php:328
+msgid "Was ist eine modulare Skala?"
+msgstr "Modüler ölçek nedir?"
+
+#: wm-modularscale.php:331
+msgid ""
+"Eine modulare Skala nimmt eine Basisgröße (zum Beispiel 16 px) und "
+"multipliziert sie Stufe für Stufe mit einem festen Verhältnis, wie die "
+"Intervalle in der Musik. So stehen Überschriften (H1 bis H6) und Fließtext "
+"in einem gleichbleibenden Größenverhältnis, statt einzeln festgelegt zu "
+"werden."
+msgstr ""
+"Modüler ölçek, temel bir boyutu (ör. 16 px) müzik aralıkları gibi sabit bir "
+"oranla adım adım çarpar; böylece H1–H6 başlıkları ve metin tutarlı bir "
+"oranda kalır."
+
+#: wm-modularscale.php:334
+msgid "Vorlage übernehmen (setzt auch Basisgröße 16 und Einheit px):"
+msgstr "Şablon uygula (temel boyutu 16 ve birimi px yapar):"
+
+#: wm-modularscale.php:355
+msgid "Basisgröße (Fließtext)"
+msgstr "Temel boyut (gövde metni)"
+
+#: wm-modularscale.php:357
+msgid ""
+"Die Größe des Fließtexts, aus der die Überschriften berechnet werden. "
+"Browser verwenden ohne eigene Einstellung 16 px."
+msgstr ""
+"Başlıkların hesaplandığı gövde metni boyutu. Tarayıcı varsayılanı 16 px’tir."
+
+#: wm-modularscale.php:363
+msgid "Vorlage wählen oder Wert eingeben"
+msgstr "Şablon seçin veya değer girin"
+
+#: wm-modularscale.php:368
+msgid "Verhältnis als Zahl"
+msgstr "Sayısal oran"
+
+#: wm-modularscale.php:370
+msgid "Je größer der Wert, desto größer der Abstand zwischen H1 und H3."
+msgstr "Değer büyüdükçe H1 ile H3 arasındaki fark artar."
+
+#: wm-modularscale.php:374
+msgid "Einheit"
+msgstr "Birim"
+
+#: wm-modularscale.php:376
+msgid "px (Pixel, feste Größe)"
+msgstr "px (piksel, sabit boyut)"
+
+#: wm-modularscale.php:377
+msgid "rem (relativ zur Schriftgröße des Browsers)"
+msgstr "rem (tarayıcı yazı boyutuna göreli)"
+
+#: wm-modularscale.php:378
+msgid "em (relativ zum übergeordneten Element)"
+msgstr "em (üst öğeye göreli)"
+
+#: wm-modularscale.php:380
+msgid ""
+"Einheit der Variablen --wmmsp-* im Stylesheet. Die Fluid-Tokens --wm-step-* "
+"verwenden immer rem."
+msgstr ""
+"Stil dosyasındaki --wmmsp-* değişkenlerinin birimi. Akışkan --wm-step-* "
+"belirteçleri her zaman rem kullanır."
+
+#: wm-modularscale.php:384
+msgid "Nachkommastellen"
+msgstr "Ondalık basamak"
+
+#: wm-modularscale.php:386
+msgid ""
+"Auf so viele Nachkommastellen rundet das Stylesheet die Werte "
+"(Voreinstellung 2)."
+msgstr ""
+"Stil dosyasının değerleri yuvarladığı ondalık basamak sayısı (varsayılan 2)."
+
+#: wm-modularscale.php:393
+msgid "Skala auf der Website anwenden"
+msgstr "Ölçeği sitede uygula"
+
+#: wm-modularscale.php:394
+msgid ""
+"Gibt die Fluid-Tokens --wm-step-* im Seitenkopf aus und lädt das Stylesheet, "
+"das body, h1–h6, Absätze, Listen, Zitate und Code aus diesen Werten setzt."
+msgstr ""
+"Akışkan --wm-step-* belirteçlerini üst bilgiye yazar ve body, h1–h6, "
+"paragraf, liste, alıntı ve kod stil dosyasını yükler."
+
+#: wm-modularscale.php:403
+msgid "Einstellungen beim Entfernen des Plugins löschen"
+msgstr "Eklenti kaldırıldığında ayarları sil"
+
+#: wm-modularscale.php:404
+msgid ""
+"Standardmäßig bleiben Basisgröße, Verhältnis und Skalen-Optionen erhalten, "
+"falls das Plugin später erneut installiert wird."
+msgstr ""
+"Varsayılan olarak temel boyut, oran ve ölçek seçenekleri eklentinin yeniden "
+"kurulması ihtimaline karşı korunur."
+
+#: wm-modularscale.php:410
+msgid "Typografie speichern"
+msgstr "Tipografiyi kaydet"
+
+#: wm-modularscale.php:419
+msgid ""
+"Zeigt die Größen des Stylesheets (--wmmsp-*) für die aktuellen Felder, bevor "
+"Sie speichern."
+msgstr ""
+"Kaydetmeden önce mevcut alanlar için stil dosyası boyutlarını (--wmmsp-*) "
+"gösterir."
+
+#: wm-modularscale.php:424
+msgid "Hauptüberschrift H1"
+msgstr "Ana Başlık H1"
+
+#: wm-modularscale.php:425
+msgid "Abschnittsüberschrift H2"
+msgstr "Bölüm Başlığı H2"
+
+#: wm-modularscale.php:426
+msgid "Überschrift eines Inhaltsblocks H3"
+msgstr "İçerik Bloğu Başlığı H3"
+
+#: wm-modularscale.php:427
+msgid "Titel einer Karte H4"
+msgstr "Kart Başlığı H4"
+
+#: wm-modularscale.php:428
+msgid "Kleine Überschrift H5"
+msgstr "Küçük Başlık H5"
+
+#: wm-modularscale.php:429
+msgid "Fußnote H6"
+msgstr "Dipnot H6"
+
+#: wm-modularscale.php:430
+msgid "Fließtext"
+msgstr "Gövde metni"
+
+#: wm-modularscale.php:430
+msgid ""
+"Das ist ein Absatz im Fließtext. Seine Größe ist die Basisgröße; die "
+"Überschriften darüber sind daraus berechnet."
+msgstr ""
+"Bu bir gövde metni paragrafıdır. Boyutu temel boyuttur; üstteki başlıklar "
+"bundan hesaplanır."
+
+#: wm-modularscale.php:440
+msgid ""
+"Diese Variablen setzt das Stylesheet, wenn die Skala angewendet wird. Die "
+"fließenden Stufen --wm-step-neg-2 bis --wm-step-6 berechnet das Plugin "
+"zusätzlich aus Basisgröße, maximaler Basisgröße und den Viewport-Breiten."
+msgstr ""
+"Ölçek uygulandığında stil dosyası bu değişkenleri tanımlar. Eklenti ayrıca --"
+"wm-step-neg-2 ile --wm-step-6 arasındaki akışkan adımları hesaplar."
+
+#: wm-modularscale.php:442
+msgid "Variablen werden berechnet …"
+msgstr "Değişkenler hesaplanıyor …"
+
+#: wm-modularscale.php:449
+msgid "Die Begriffe dieser Seite kurz erklärt."
+msgstr "Bu sayfadaki terimlerin kısa açıklaması."
+
+#: blocks-src/index.js:66
+msgid "Fluid Heading Settings"
+msgstr "Akışkan Başlık Ayarları"
+
+#: blocks-src/index.js:68
+msgid "Heading level (H1–H6)"
+msgstr "Başlık düzeyi (H1–H6)"
+
+#: blocks-src/index.js:78
+msgid "Modular scale step (-2 to +6)"
+msgstr "Modüler ölçek adımı (-2 ile +6)"
+
+#: blocks-src/index.js:85 blocks-src/index.js:153
+msgid "Text alignment"
+msgstr "Metin hizalama"
+
+#: blocks-src/index.js:88 blocks-src/index.js:156
+msgid "Left"
+msgstr "Sol"
+
+#: blocks-src/index.js:89 blocks-src/index.js:157
+msgid "Center"
+msgstr "Orta"
+
+#: blocks-src/index.js:90 blocks-src/index.js:158
+msgid "Right"
+msgstr "Sağ"
+
+#: blocks-src/index.js:95
+msgid "Custom CSS clamp() override"
+msgstr "Özel CSS clamp() geçersiz kılma"
+
+#: blocks-src/index.js:96
+msgid "Optional full CSS clamp() expression overriding the scale step."
+msgstr "Ölçek adımını geçersiz kılan isteğe bağlı tam CSS clamp() ifadesi."
+
+#: blocks-src/index.js:107
+msgid "Write fluid heading…"
+msgstr "Akışkan başlık yazın…"
+
+#: blocks-src/index.js:144
+msgid "Fluid Lead Settings"
+msgstr "Akışkan Giriş Metni Ayarları"
+
+#: blocks-src/index.js:146
+msgid "Maximum line length (characters)"
+msgstr "Maksimum satır uzunluğu (karakter)"
+
+#: blocks-src/index.js:168
+msgid "Write lead paragraph…"
+msgstr "Giriş paragrafı yazın…"
+
+#: blocks-src/index.js:198
+msgid "Container Query Context"
+msgstr "Container Query Bağlamı"
+
+#: blocks-src/index.js:200
+msgid "Container name"
+msgstr "Kapsayıcı adı"
+
+#: blocks-src/index.js:205
+msgid "Container type"
+msgstr "Kapsayıcı türü"
+
+#: blocks-src/index.js:208
+msgid "Inline size (cqi / cqw)"
+msgstr "Satır içi boyut (cqi / cqw)"
+
+#: blocks-src/index.js:209
+msgid "Size (width & height)"
+msgstr "Boyut (genişlik ve yükseklik)"
+
+#: blocks-src/index.js:210
+msgid "Normal"
+msgstr "Normal"
+
+#: blocks-src/index.js:247
+msgid "Typographic Grid Settings"
+msgstr "Tipografik Izgara Ayarları"
+
+#: blocks-src/index.js:249
+msgid "Columns (1–6)"
+msgstr "Sütunlar (1–6)"
+
+#: blocks-src/index.js:256
+msgid "Scale gap token"
+msgstr "Ölçek boşluk belirteci"
+
+#: blocks-src/index.js:259
+msgid "Step 0 (Body base)"
+msgstr "Adım 0 (Gövde tabanı)"
+
+#: blocks-src/index.js:260
+msgid "Step 1 (Compact)"
+msgstr "Adım 1 (Sıkı)"
+
+#: blocks-src/index.js:261
+msgid "Step 2 (Default)"
+msgstr "Adım 2 (Varsayılan)"
+
+#: blocks-src/index.js:262
+msgid "Step 3 (Spacious)"
+msgstr "Adım 3 (Ferah)"
+
+#: blocks-src/index.js:263
+msgid "Step 4 (Wide)"
+msgstr "Adım 4 (Geniş)"
+
+#: blocks-src/index.js:291
+msgid "Ratio Visualizer Settings"
+msgstr "Oran Görselleştirici Ayarları"
+
+#: blocks-src/index.js:293
+msgid "Show step labels on SVG axis"
+msgstr "SVG ekseninde adım etiketlerini göster"
+
+#: blocks-src/index.js:298
+msgid "Show step min/max cards"
+msgstr "Adım min/maks kartlarını göster"
+
+#: blocks-src/index.js:303
+msgid "Color theme"
+msgstr "Renk teması"
+
+#: blocks-src/index.js:306
+msgid "Dark"
+msgstr "Koyu"
+
+#: blocks-src/index.js:307
+msgid "Light"
+msgstr "Açık"
+
+#: blocks-src/index.js:313
+msgid "Ratio Visualizer (SVG Curve)"
+msgstr "Oran Görselleştirici (SVG Eğrisi)"
+
+#: blocks-src/index.js:335
+msgid "APCA Contrast Settings"
+msgstr "APCA Kontrast Ayarları"
+
+#: blocks-src/index.js:337
+msgid "Foreground hex color"
+msgstr "Metin hex rengi"
+
+#: blocks-src/index.js:342
+msgid "Background hex color"
+msgstr "Arka plan hex rengi"
+
+#: blocks-src/index.js:347
+msgid "Target text role"
+msgstr "Hedef metin rolü"
+
+#: blocks-src/index.js:350
+msgid "Body copy (target Lc 75)"
+msgstr "Gövde metni (hedef Lc 75)"
+
+#: blocks-src/index.js:351
+msgid "UI / secondary text (target Lc 60)"
+msgstr "İkincil / arayüz metni (hedef Lc 60)"
+
+#: blocks-src/index.js:352
+msgid "Large headline (target Lc 45)"
+msgstr "Büyük başlık (hedef Lc 45)"
+
+#: blocks-src/index.js:358
+msgid "APCA Contrast Badge (WM Scale)"
+msgstr "APCA Kontrast Rozeti (WM Scale)"
+
+#: blocks-src/index.js:380
+msgid "Exporter Output Settings"
+msgstr "Dışa Aktarma Ayarları"
+
+#: blocks-src/index.js:382
+msgid "Displayed export format"
+msgstr "Gösterilen dışa aktarma biçimi"
+
+#: blocks-src/index.js:385
+msgid "Both (theme.json v3 + Tailwind v4)"
+msgstr "Her ikisi (theme.json v3 + Tailwind v4)"
+
+#: blocks-src/index.js:386
+msgid "theme.json v3 only"
+msgstr "Yalnızca theme.json v3"
+
+#: blocks-src/index.js:387
+msgid "Tailwind CSS v4 @theme only"
+msgstr "Yalnızca Tailwind CSS v4 @theme"
+
+#: blocks-src/index.js:393
+msgid "Theme.json Exporter (WM Scale)"
+msgstr "Theme.json Dışa Aktarıcı (WM Scale)"
+
+#: src/Gutenberg/Blocks/contrast-matrix-badge/block.json
+msgctxt "block title"
+msgid "APCA Contrast Badge (WM Scale)"
+msgstr "APCA Kontrast Rozeti (WM Scale)"
+
+#: src/Gutenberg/Blocks/contrast-matrix-badge/block.json
+msgctxt "block description"
+msgid ""
+"Badge with the APCA lightness contrast (Lc) of a text and background colour "
+"pair and a usage hint for that value."
+msgstr ""
+"Metin ve arka plan renk çiftinin APCA parlaklık kontrastını (Lc) ve kullanım "
+"önerisini gösteren rozet."
+
+#: src/Gutenberg/Blocks/contrast-matrix-badge/block.json
+msgctxt "block keyword"
+msgid "contrast"
+msgstr "kontrast"
+
+#: src/Gutenberg/Blocks/contrast-matrix-badge/block.json
+msgctxt "block keyword"
+msgid "apca"
+msgstr "apca"
+
+#: src/Gutenberg/Blocks/contrast-matrix-badge/block.json
+msgctxt "block keyword"
+msgid "a11y"
+msgstr "a11y"
+
+#: src/Gutenberg/Blocks/contrast-matrix-badge/block.json
+msgctxt "block keyword"
+msgid "accessibility"
+msgstr "erişilebilirlik"
+
+#: src/Gutenberg/Blocks/fluid-container/block.json
+msgctxt "block title"
+msgid "Fluid Container (@container)"
+msgstr "Akışkan Kapsayıcı (@container)"
+
+#: src/Gutenberg/Blocks/fluid-container/block.json
+msgctxt "block description"
+msgid ""
+"Container for inner blocks that sets container-type (default inline-size) "
+"and container-name (default wm-typographic-context) for container queries."
+msgstr ""
+"İç bloklar için container-type (inline-size) ve container-name (wm-"
+"typographic-context) tanımlayan kapsayıcı."
+
+#: src/Gutenberg/Blocks/fluid-container/block.json
+msgctxt "block keyword"
+msgid "container"
+msgstr "kapsayıcı"
+
+#: src/Gutenberg/Blocks/fluid-container/block.json
+msgctxt "block keyword"
+msgid "queries"
+msgstr "sorgular"
+
+#: src/Gutenberg/Blocks/fluid-container/block.json
+msgctxt "block keyword"
+msgid "cqw"
+msgstr "cqw"
+
+#: src/Gutenberg/Blocks/fluid-container/block.json
+msgctxt "block keyword"
+msgid "cqi"
+msgstr "cqi"
+
+#: src/Gutenberg/Blocks/fluid-container/block.json
+#: src/Gutenberg/Blocks/fluid-heading/block.json
+#: src/Gutenberg/Blocks/fluid-lead/block.json
+msgctxt "block keyword"
+msgid "fluid"
+msgstr "akışkan"
+
+#: src/Gutenberg/Blocks/fluid-container/block.json
+msgctxt "block keyword"
+msgid "layout"
+msgstr "düzen"
+
+#: src/Gutenberg/Blocks/fluid-heading/block.json
+msgctxt "block title"
+msgid "Fluid Heading (WM Scale)"
+msgstr "Akışkan Başlık (WM Scale)"
+
+#: src/Gutenberg/Blocks/fluid-heading/block.json
+msgctxt "block description"
+msgid ""
+"Heading (H1–H6) with the fluid font-size class of its level, balanced line "
+"wrapping and an optional custom clamp() value."
+msgstr ""
+"Düzeyine uygun akışkan yazı boyutu sınıfı, dengeli satır kaydırma ve isteğe "
+"bağlı clamp() değeri içeren başlık (H1–H6)."
+
+#: src/Gutenberg/Blocks/fluid-heading/block.json
+msgctxt "block keyword"
+msgid "heading"
+msgstr "başlık"
+
+#: src/Gutenberg/Blocks/fluid-heading/block.json
+#: src/Gutenberg/Blocks/fluid-lead/block.json
+#: src/Gutenberg/Blocks/typographic-grid/block.json
+msgctxt "block keyword"
+msgid "typography"
+msgstr "tipografi"
+
+#: src/Gutenberg/Blocks/fluid-heading/block.json
+#: src/Gutenberg/Blocks/ratio-visualizer/block.json
+msgctxt "block keyword"
+msgid "scale"
+msgstr "ölçek"
+
+#: src/Gutenberg/Blocks/fluid-heading/block.json
+msgctxt "block keyword"
+msgid "modular"
+msgstr "modüler"
+
+#: src/Gutenberg/Blocks/fluid-lead/block.json
+msgctxt "block title"
+msgid "Fluid Lead Text (WM Scale)"
+msgstr "Akışkan Giriş Metni (WM Scale)"
+
+#: src/Gutenberg/Blocks/fluid-lead/block.json
+msgctxt "block description"
+msgid ""
+"Paragraph with the fluid body font size, a maximum line length of 35–85 "
+"characters (default 65) and pretty line wrapping."
+msgstr ""
+"Akışkan gövde boyutuna, 35–85 karakter satır sınırına (varsayılan 65) ve "
+"dengeli satır sonlarına sahip paragraf."
+
+#: src/Gutenberg/Blocks/fluid-lead/block.json
+msgctxt "block keyword"
+msgid "lead"
+msgstr "giriş"
+
+#: src/Gutenberg/Blocks/fluid-lead/block.json
+msgctxt "block keyword"
+msgid "paragraph"
+msgstr "paragraf"
+
+#: src/Gutenberg/Blocks/fluid-lead/block.json
+msgctxt "block keyword"
+msgid "reading"
+msgstr "okuma"
+
+#: src/Gutenberg/Blocks/ratio-visualizer/block.json
+msgctxt "block title"
+msgid "Ratio Visualizer (SVG Curve)"
+msgstr "Oran Görselleştirici (SVG Eğrisi)"
+
+#: src/Gutenberg/Blocks/ratio-visualizer/block.json
+msgctxt "block description"
+msgid ""
+"Shows the nine scale steps with their minimum and maximum size in px, "
+"calculated from the stored base sizes and ratio."
+msgstr ""
+"Kaydedilen temel boyut ve orandan hesaplanan dokuz ölçek adımını min/maks px "
+"değerleriyle gösterir."
+
+#: src/Gutenberg/Blocks/ratio-visualizer/block.json
+msgctxt "block keyword"
+msgid "visualizer"
+msgstr "görselleştirici"
+
+#: src/Gutenberg/Blocks/ratio-visualizer/block.json
+msgctxt "block keyword"
+msgid "ratio"
+msgstr "oran"
+
+#: src/Gutenberg/Blocks/ratio-visualizer/block.json
+msgctxt "block keyword"
+msgid "svg"
+msgstr "svg"
+
+#: src/Gutenberg/Blocks/ratio-visualizer/block.json
+msgctxt "block keyword"
+msgid "curve"
+msgstr "eğri"
+
+#: src/Gutenberg/Blocks/ratio-visualizer/block.json
+msgctxt "block keyword"
+msgid "preview"
+msgstr "önizleme"
+
+#: src/Gutenberg/Blocks/theme-json-exporter/block.json
+msgctxt "block title"
+msgid "Theme.json Exporter (WM Scale)"
+msgstr "Theme.json Dışa Aktarıcı (WM Scale)"
+
+#: src/Gutenberg/Blocks/theme-json-exporter/block.json
+msgctxt "block description"
+msgid ""
+"Shows the theme.json fontSizes and the Tailwind CSS v4 @theme block "
+"generated from the stored scale."
+msgstr ""
+"Kaydedilen ölçekten üretilen theme.json fontSizes dizisini ve Tailwind CSS "
+"v4 @theme bloğunu gösterir."
+
+#: src/Gutenberg/Blocks/theme-json-exporter/block.json
+msgctxt "block keyword"
+msgid "theme.json"
+msgstr "theme.json"
+
+#: src/Gutenberg/Blocks/theme-json-exporter/block.json
+msgctxt "block keyword"
+msgid "exporter"
+msgstr "aktarıcı"
+
+#: src/Gutenberg/Blocks/theme-json-exporter/block.json
+msgctxt "block keyword"
+msgid "tokens"
+msgstr "belirteçler"
+
+#: src/Gutenberg/Blocks/theme-json-exporter/block.json
+msgctxt "block keyword"
+msgid "json"
+msgstr "json"
+
+#: src/Gutenberg/Blocks/theme-json-exporter/block.json
+msgctxt "block keyword"
+msgid "tailwind"
+msgstr "tailwind"
+
+#: src/Gutenberg/Blocks/typographic-grid/block.json
+msgctxt "block title"
+msgid "Typographic Grid (WM Scale)"
+msgstr "Tipografik Izgara (WM Scale)"
+
+#: src/Gutenberg/Blocks/typographic-grid/block.json
+msgctxt "block description"
+msgid ""
+"Grid of 1–6 equal columns for inner blocks, with a gap from the scale "
+"(default var(--wm-step-2))."
+msgstr "İç bloklar için ölçekten alınan boşlukla 1–6 eşit sütunlu ızgara."
+
+#: src/Gutenberg/Blocks/typographic-grid/block.json
+msgctxt "block keyword"
+msgid "grid"
+msgstr "ızgara"
+
+#: src/Gutenberg/Blocks/typographic-grid/block.json
+msgctxt "block keyword"
+msgid "columns"
+msgstr "sütunlar"
+
+#: src/Gutenberg/Blocks/typographic-grid/block.json
+msgctxt "block keyword"
+msgid "rhythm"
+msgstr "ritim"
+
+#: src/Gutenberg/Blocks/typographic-grid/block.json
+msgctxt "block keyword"
+msgid "baseline"
+msgstr "taban çizgisi"
+
+#~ msgid "https://www.arnoldwender.com"
+#~ msgstr "https://www.arnoldwender.com"

@@ -1,0 +1,294 @@
+{
+  "translation-revision-date": "2026-11-21T15:04:18+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-modularscale",
+        "lang": "nl_NL",
+        "plural-forms": "nplurals=2; plural=(n != 1);"
+      },
+      "Fluid Heading Settings": [
+        "Instellingen vloeiende kop"
+      ],
+      "Heading level (H1–H6)": [
+        "Kopniveau (H1–H6)"
+      ],
+      "Modular scale step (-2 to +6)": [
+        "Modulaire schaalstap (-2 tot +6)"
+      ],
+      "Text alignment": [
+        "Tekstuitlijning"
+      ],
+      "Left": [
+        "Links"
+      ],
+      "Center": [
+        "Midden"
+      ],
+      "Right": [
+        "Rechts"
+      ],
+      "Custom CSS clamp() override": [
+        "Aangepaste CSS clamp()-waarde"
+      ],
+      "Optional full CSS clamp() expression overriding the scale step.": [
+        "Optionele volledige CSS clamp()-expressie die de schaalstap overschrijft."
+      ],
+      "Write fluid heading…": [
+        "Typ vloeiende kop…"
+      ],
+      "Fluid Lead Settings": [
+        "Instellingen vloeiende introtekst"
+      ],
+      "Maximum line length (characters)": [
+        "Maximale regellengte (tekens)"
+      ],
+      "Write lead paragraph…": [
+        "Typ introductiealinea…"
+      ],
+      "Container Query Context": [
+        "Container-query-context"
+      ],
+      "Container name": [
+        "Containernaam"
+      ],
+      "Container type": [
+        "Containertype"
+      ],
+      "Inline size (cqi / cqw)": [
+        "Inline-grootte (cqi / cqw)"
+      ],
+      "Size (width & height)": [
+        "Grootte (breedte & hoogte)"
+      ],
+      "Normal": [
+        "Normaal"
+      ],
+      "Typographic Grid Settings": [
+        "Instellingen typografisch raster"
+      ],
+      "Columns (1–6)": [
+        "Kolommen (1–6)"
+      ],
+      "Scale gap token": [
+        "Schaalafstand-token"
+      ],
+      "Step 0 (Body base)": [
+        "Stap 0 (Broodtekst)"
+      ],
+      "Step 1 (Compact)": [
+        "Stap 1 (Compact)"
+      ],
+      "Step 2 (Default)": [
+        "Stap 2 (Standaard)"
+      ],
+      "Step 3 (Spacious)": [
+        "Stap 3 (Ruim)"
+      ],
+      "Step 4 (Wide)": [
+        "Stap 4 (Breed)"
+      ],
+      "Ratio Visualizer Settings": [
+        "Instellingen verhoudingsvisualisatie"
+      ],
+      "Show step labels on SVG axis": [
+        "Staplabels op SVG-as tonen"
+      ],
+      "Show step min/max cards": [
+        "Min/max-kaarten per stap tonen"
+      ],
+      "Color theme": [
+        "Kleurthema"
+      ],
+      "Dark": [
+        "Donker"
+      ],
+      "Light": [
+        "Licht"
+      ],
+      "Ratio Visualizer (SVG Curve)": [
+        "Verhoudingsvisualisatie (SVG-curve)"
+      ],
+      "APCA Contrast Settings": [
+        "APCA-contrastinstellingen"
+      ],
+      "Foreground hex color": [
+        "Hex-tekstkleur"
+      ],
+      "Background hex color": [
+        "Hex-achtergrondkleur"
+      ],
+      "Target text role": [
+        "Beoogde tekstrol"
+      ],
+      "Body copy (target Lc 75)": [
+        "Broodtekst (doel Lc 75)"
+      ],
+      "UI / secondary text (target Lc 60)": [
+        "Secundaire / UI-tekst (doel Lc 60)"
+      ],
+      "Large headline (target Lc 45)": [
+        "Grote kop (doel Lc 45)"
+      ],
+      "APCA Contrast Badge (WM Scale)": [
+        "APCA-contrastbadge (WM Scale)"
+      ],
+      "Exporter Output Settings": [
+        "Exportinstellingen"
+      ],
+      "Displayed export format": [
+        "Weergegeven exportformaat"
+      ],
+      "Both (theme.json v3 + Tailwind v4)": [
+        "Beide (theme.json v3 + Tailwind v4)"
+      ],
+      "theme.json v3 only": [
+        "Alleen theme.json v3"
+      ],
+      "Tailwind CSS v4 @theme only": [
+        "Alleen Tailwind CSS v4 @theme"
+      ],
+      "Theme.json Exporter (WM Scale)": [
+        "Theme.json-exporter (WM Scale)"
+      ],
+      "block title\u0004APCA Contrast Badge (WM Scale)": [
+        "APCA-contrastbadge (WM Scale)"
+      ],
+      "block description\u0004Badge with the APCA lightness contrast (Lc) of a text and background colour pair and a usage hint for that value.": [
+        "Badge met het APCA-helderheidscontrast (Lc) van een tekst- en achtergrondkleur en een gebruiksadvies."
+      ],
+      "block keyword\u0004contrast": [
+        "contrast"
+      ],
+      "block keyword\u0004apca": [
+        "apca"
+      ],
+      "block keyword\u0004a11y": [
+        "a11y"
+      ],
+      "block keyword\u0004accessibility": [
+        "toegankelijkheid"
+      ],
+      "block title\u0004Fluid Container (@container)": [
+        "Vloeiende container (@container)"
+      ],
+      "block description\u0004Container for inner blocks that sets container-type (default inline-size) and container-name (default wm-typographic-context) for container queries.": [
+        "Container voor geneste blokken die container-type (inline-size) en container-name (wm-typographic-context) instelt."
+      ],
+      "block keyword\u0004container": [
+        "container"
+      ],
+      "block keyword\u0004queries": [
+        "query’s"
+      ],
+      "block keyword\u0004cqw": [
+        "cqw"
+      ],
+      "block keyword\u0004cqi": [
+        "cqi"
+      ],
+      "block keyword\u0004fluid": [
+        "vloeiend"
+      ],
+      "block keyword\u0004layout": [
+        "lay-out"
+      ],
+      "block title\u0004Fluid Heading (WM Scale)": [
+        "Vloeiende kop (WM Scale)"
+      ],
+      "block description\u0004Heading (H1–H6) with the fluid font-size class of its level, balanced line wrapping and an optional custom clamp() value.": [
+        "Kop (H1–H6) met de vloeiende lettergrootteklasse van zijn niveau, gebalanceerde regelafbreking en optionele clamp()-waarde."
+      ],
+      "block keyword\u0004heading": [
+        "kop"
+      ],
+      "block keyword\u0004typography": [
+        "typografie"
+      ],
+      "block keyword\u0004scale": [
+        "schaal"
+      ],
+      "block keyword\u0004modular": [
+        "modulair"
+      ],
+      "block title\u0004Fluid Lead Text (WM Scale)": [
+        "Vloeiende introtekst (WM Scale)"
+      ],
+      "block description\u0004Paragraph with the fluid body font size, a maximum line length of 35–85 characters (default 65) and pretty line wrapping.": [
+        "Alinea met vloeiende broodtekstgrootte, maximale regellengte van 35–85 tekens (standaard 65) en nette regelval."
+      ],
+      "block keyword\u0004lead": [
+        "intro"
+      ],
+      "block keyword\u0004paragraph": [
+        "alinea"
+      ],
+      "block keyword\u0004reading": [
+        "lezen"
+      ],
+      "block title\u0004Ratio Visualizer (SVG Curve)": [
+        "Verhoudingsvisualisatie (SVG-curve)"
+      ],
+      "block description\u0004Shows the nine scale steps with their minimum and maximum size in px, calculated from the stored base sizes and ratio.": [
+        "Toont de negen schaalstappen met minimale en maximale px-grootte op basis van de opgeslagen schaal."
+      ],
+      "block keyword\u0004visualizer": [
+        "visualisatie"
+      ],
+      "block keyword\u0004ratio": [
+        "verhouding"
+      ],
+      "block keyword\u0004svg": [
+        "svg"
+      ],
+      "block keyword\u0004curve": [
+        "curve"
+      ],
+      "block keyword\u0004preview": [
+        "voorbeeld"
+      ],
+      "block title\u0004Theme.json Exporter (WM Scale)": [
+        "Theme.json-exporter (WM Scale)"
+      ],
+      "block description\u0004Shows the theme.json fontSizes and the Tailwind CSS v4 @theme block generated from the stored scale.": [
+        "Toont de theme.json-fontSizes en het Tailwind CSS v4 @theme-blok gegenereerd uit de opgeslagen schaal."
+      ],
+      "block keyword\u0004theme.json": [
+        "theme.json"
+      ],
+      "block keyword\u0004exporter": [
+        "exporter"
+      ],
+      "block keyword\u0004tokens": [
+        "tokens"
+      ],
+      "block keyword\u0004json": [
+        "json"
+      ],
+      "block keyword\u0004tailwind": [
+        "tailwind"
+      ],
+      "block title\u0004Typographic Grid (WM Scale)": [
+        "Typografisch raster (WM Scale)"
+      ],
+      "block description\u0004Grid of 1–6 equal columns for inner blocks, with a gap from the scale (default var(--wm-step-2)).": [
+        "Raster van 1–6 gelijke kolommen voor geneste blokken met tussenruimte uit de schaal."
+      ],
+      "block keyword\u0004grid": [
+        "raster"
+      ],
+      "block keyword\u0004columns": [
+        "kolommen"
+      ],
+      "block keyword\u0004rhythm": [
+        "ritme"
+      ],
+      "block keyword\u0004baseline": [
+        "basislijn"
+      ]
+    }
+  }
+}

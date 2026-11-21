@@ -1,0 +1,294 @@
+{
+  "translation-revision-date": "2026-11-21T15:04:18+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-modularscale",
+        "lang": "et",
+        "plural-forms": "nplurals=2; plural=(n != 1);"
+      },
+      "Fluid Heading Settings": [
+        "Sujuva pealkirja seaded"
+      ],
+      "Heading level (H1–H6)": [
+        "Pealkirja tase (H1–H6)"
+      ],
+      "Modular scale step (-2 to +6)": [
+        "Modulaarse skaala aste (-2 kuni +6)"
+      ],
+      "Text alignment": [
+        "Teksti joondus"
+      ],
+      "Left": [
+        "Vasakule"
+      ],
+      "Center": [
+        "Keskele"
+      ],
+      "Right": [
+        "Paremale"
+      ],
+      "Custom CSS clamp() override": [
+        "Kohandatud CSS clamp()-väärtus"
+      ],
+      "Optional full CSS clamp() expression overriding the scale step.": [
+        "Valikuline täielik CSS clamp()-avaldis, mis asendab skaala astme."
+      ],
+      "Write fluid heading…": [
+        "Kirjuta sujuv pealkiri…"
+      ],
+      "Fluid Lead Settings": [
+        "Sujuva juhtlõigu seaded"
+      ],
+      "Maximum line length (characters)": [
+        "Maksimaalne reapikkus (tähemärki)"
+      ],
+      "Write lead paragraph…": [
+        "Kirjuta juhtlõik…"
+      ],
+      "Container Query Context": [
+        "Container Query kontekst"
+      ],
+      "Container name": [
+        "Konteineri nimi"
+      ],
+      "Container type": [
+        "Konteineri tüüp"
+      ],
+      "Inline size (cqi / cqw)": [
+        "Reasisene suurus (cqi / cqw)"
+      ],
+      "Size (width & height)": [
+        "Suurus (laius ja kõrgus)"
+      ],
+      "Normal": [
+        "Tavaline"
+      ],
+      "Typographic Grid Settings": [
+        "Tüpograafilise võrgustiku seaded"
+      ],
+      "Columns (1–6)": [
+        "Veerud (1–6)"
+      ],
+      "Scale gap token": [
+        "Skaala vahemärgis"
+      ],
+      "Step 0 (Body base)": [
+        "Aste 0 (Põhitekst)"
+      ],
+      "Step 1 (Compact)": [
+        "Aste 1 (Kompaktne)"
+      ],
+      "Step 2 (Default)": [
+        "Aste 2 (Vaikimisi)"
+      ],
+      "Step 3 (Spacious)": [
+        "Aste 3 (Õhuline)"
+      ],
+      "Step 4 (Wide)": [
+        "Aste 4 (Lai)"
+      ],
+      "Ratio Visualizer Settings": [
+        "Suhte visualiseerija seaded"
+      ],
+      "Show step labels on SVG axis": [
+        "Näita astmesilte SVG-teljel"
+      ],
+      "Show step min/max cards": [
+        "Näita astmete min/max kaarte"
+      ],
+      "Color theme": [
+        "Värviteema"
+      ],
+      "Dark": [
+        "Tume"
+      ],
+      "Light": [
+        "Hele"
+      ],
+      "Ratio Visualizer (SVG Curve)": [
+        "Suhte visualiseerija (SVG-kõver)"
+      ],
+      "APCA Contrast Settings": [
+        "APCA kontrasti seaded"
+      ],
+      "Foreground hex color": [
+        "Esiplaani hex-värv"
+      ],
+      "Background hex color": [
+        "Tausta hex-värv"
+      ],
+      "Target text role": [
+        "Teksti sihtroll"
+      ],
+      "Body copy (target Lc 75)": [
+        "Põhitekst (siht Lc 75)"
+      ],
+      "UI / secondary text (target Lc 60)": [
+        "Teisene / UI-tekst (siht Lc 60)"
+      ],
+      "Large headline (target Lc 45)": [
+        "Suur pealkiri (siht Lc 45)"
+      ],
+      "APCA Contrast Badge (WM Scale)": [
+        "APCA kontrastimärgis (WM Scale)"
+      ],
+      "Exporter Output Settings": [
+        "Ekspordi seaded"
+      ],
+      "Displayed export format": [
+        "Kuvatav ekspordivorming"
+      ],
+      "Both (theme.json v3 + Tailwind v4)": [
+        "Mõlemad (theme.json v3 + Tailwind v4)"
+      ],
+      "theme.json v3 only": [
+        "Ainult theme.json v3"
+      ],
+      "Tailwind CSS v4 @theme only": [
+        "Ainult Tailwind CSS v4 @theme"
+      ],
+      "Theme.json Exporter (WM Scale)": [
+        "Theme.json eksportija (WM Scale)"
+      ],
+      "block title\u0004APCA Contrast Badge (WM Scale)": [
+        "APCA kontrastimärgis (WM Scale)"
+      ],
+      "block description\u0004Badge with the APCA lightness contrast (Lc) of a text and background colour pair and a usage hint for that value.": [
+        "Märgis teksti- ja taustavärvi paari APCA heleduskontrasti (Lc) ning kasutusjuhisega."
+      ],
+      "block keyword\u0004contrast": [
+        "kontrast"
+      ],
+      "block keyword\u0004apca": [
+        "apca"
+      ],
+      "block keyword\u0004a11y": [
+        "a11y"
+      ],
+      "block keyword\u0004accessibility": [
+        "ligipääsetavus"
+      ],
+      "block title\u0004Fluid Container (@container)": [
+        "Sujuv konteiner (@container)"
+      ],
+      "block description\u0004Container for inner blocks that sets container-type (default inline-size) and container-name (default wm-typographic-context) for container queries.": [
+        "Siseplokkide konteiner, mis määrab container-type (inline-size) ja container-name (wm-typographic-context)."
+      ],
+      "block keyword\u0004container": [
+        "konteiner"
+      ],
+      "block keyword\u0004queries": [
+        "päringud"
+      ],
+      "block keyword\u0004cqw": [
+        "cqw"
+      ],
+      "block keyword\u0004cqi": [
+        "cqi"
+      ],
+      "block keyword\u0004fluid": [
+        "sujuv"
+      ],
+      "block keyword\u0004layout": [
+        "paigutus"
+      ],
+      "block title\u0004Fluid Heading (WM Scale)": [
+        "Sujuv pealkiri (WM Scale)"
+      ],
+      "block description\u0004Heading (H1–H6) with the fluid font-size class of its level, balanced line wrapping and an optional custom clamp() value.": [
+        "Pealkiri (H1–H6) oma taseme sujuva kirjasuuruse klassi, tasakaalustatud reamurdmise ja valikulise clamp()-väärtusega."
+      ],
+      "block keyword\u0004heading": [
+        "pealkiri"
+      ],
+      "block keyword\u0004typography": [
+        "tüpograafia"
+      ],
+      "block keyword\u0004scale": [
+        "skaala"
+      ],
+      "block keyword\u0004modular": [
+        "modulaarne"
+      ],
+      "block title\u0004Fluid Lead Text (WM Scale)": [
+        "Sujuv juhtlõik (WM Scale)"
+      ],
+      "block description\u0004Paragraph with the fluid body font size, a maximum line length of 35–85 characters (default 65) and pretty line wrapping.": [
+        "Lõik sujuva põhiteksti suuruse, 35–85 märgi reapikkuse (vaikimisi 65) ja ühtlase reamurdmisega."
+      ],
+      "block keyword\u0004lead": [
+        "juhtlõik"
+      ],
+      "block keyword\u0004paragraph": [
+        "lõik"
+      ],
+      "block keyword\u0004reading": [
+        "lugemine"
+      ],
+      "block title\u0004Ratio Visualizer (SVG Curve)": [
+        "Suhte visualiseerija (SVG-kõver)"
+      ],
+      "block description\u0004Shows the nine scale steps with their minimum and maximum size in px, calculated from the stored base sizes and ratio.": [
+        "Näitab skaala üheksat astet minimaalse ja maksimaalse px-suurusega salvestatud väärtuste põhjal."
+      ],
+      "block keyword\u0004visualizer": [
+        "visualiseerija"
+      ],
+      "block keyword\u0004ratio": [
+        "suhe"
+      ],
+      "block keyword\u0004svg": [
+        "svg"
+      ],
+      "block keyword\u0004curve": [
+        "kõver"
+      ],
+      "block keyword\u0004preview": [
+        "eelvaade"
+      ],
+      "block title\u0004Theme.json Exporter (WM Scale)": [
+        "Theme.json eksportija (WM Scale)"
+      ],
+      "block description\u0004Shows the theme.json fontSizes and the Tailwind CSS v4 @theme block generated from the stored scale.": [
+        "Näitab salvestatud skaalast loodud theme.json fontSizes väärtusi ja Tailwind CSS v4 @theme plokki."
+      ],
+      "block keyword\u0004theme.json": [
+        "theme.json"
+      ],
+      "block keyword\u0004exporter": [
+        "eksportija"
+      ],
+      "block keyword\u0004tokens": [
+        "märgised"
+      ],
+      "block keyword\u0004json": [
+        "json"
+      ],
+      "block keyword\u0004tailwind": [
+        "tailwind"
+      ],
+      "block title\u0004Typographic Grid (WM Scale)": [
+        "Tüpograafiline võrgustik (WM Scale)"
+      ],
+      "block description\u0004Grid of 1–6 equal columns for inner blocks, with a gap from the scale (default var(--wm-step-2)).": [
+        "1–6 võrdse veeruga võrgustik siseplokkidele skaalapõhise vahega."
+      ],
+      "block keyword\u0004grid": [
+        "võrgustik"
+      ],
+      "block keyword\u0004columns": [
+        "veerud"
+      ],
+      "block keyword\u0004rhythm": [
+        "rütm"
+      ],
+      "block keyword\u0004baseline": [
+        "baasjoon"
+      ]
+    }
+  }
+}

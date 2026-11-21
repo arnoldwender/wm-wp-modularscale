@@ -1,0 +1,294 @@
+{
+  "translation-revision-date": "2026-11-21T15:04:18+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-modularscale",
+        "lang": "sk_SK",
+        "plural-forms": "nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;"
+      },
+      "Fluid Heading Settings": [
+        "Nastavenia plynulého nadpisu"
+      ],
+      "Heading level (H1–H6)": [
+        "Úroveň nadpisu (H1–H6)"
+      ],
+      "Modular scale step (-2 to +6)": [
+        "Stupeň modulárnej škály (-2 až +6)"
+      ],
+      "Text alignment": [
+        "Zarovnanie textu"
+      ],
+      "Left": [
+        "Vľavo"
+      ],
+      "Center": [
+        "Na stred"
+      ],
+      "Right": [
+        "Vpravo"
+      ],
+      "Custom CSS clamp() override": [
+        "Vlastný prepis CSS clamp()"
+      ],
+      "Optional full CSS clamp() expression overriding the scale step.": [
+        "Voliteľný úplný výraz CSS clamp() nahrádzajúci stupeň škály."
+      ],
+      "Write fluid heading…": [
+        "Napíšte plynulý nadpis…"
+      ],
+      "Fluid Lead Settings": [
+        "Nastavenia plynulého perexu"
+      ],
+      "Maximum line length (characters)": [
+        "Maximálna dĺžka riadka (znaky)"
+      ],
+      "Write lead paragraph…": [
+        "Napíšte úvodný odsek…"
+      ],
+      "Container Query Context": [
+        "Kontext Container Query"
+      ],
+      "Container name": [
+        "Názov kontajnera"
+      ],
+      "Container type": [
+        "Typ kontajnera"
+      ],
+      "Inline size (cqi / cqw)": [
+        "Riadková veľkosť (cqi / cqw)"
+      ],
+      "Size (width & height)": [
+        "Veľkosť (šírka a výška)"
+      ],
+      "Normal": [
+        "Normálny"
+      ],
+      "Typographic Grid Settings": [
+        "Nastavenia typografickej mriežky"
+      ],
+      "Columns (1–6)": [
+        "Stĺpce (1–6)"
+      ],
+      "Scale gap token": [
+        "Token rozostupu škály"
+      ],
+      "Step 0 (Body base)": [
+        "Stupeň 0 (Základ textu)"
+      ],
+      "Step 1 (Compact)": [
+        "Stupeň 1 (Kompaktný)"
+      ],
+      "Step 2 (Default)": [
+        "Stupeň 2 (Predvolený)"
+      ],
+      "Step 3 (Spacious)": [
+        "Stupeň 3 (Vzdušný)"
+      ],
+      "Step 4 (Wide)": [
+        "Stupeň 4 (Široký)"
+      ],
+      "Ratio Visualizer Settings": [
+        "Nastavenia vizualizéra pomeru"
+      ],
+      "Show step labels on SVG axis": [
+        "Zobraziť popisky stupňov na osi SVG"
+      ],
+      "Show step min/max cards": [
+        "Zobraziť karty min/max stupňov"
+      ],
+      "Color theme": [
+        "Farebný motív"
+      ],
+      "Dark": [
+        "Tmavý"
+      ],
+      "Light": [
+        "Svetlý"
+      ],
+      "Ratio Visualizer (SVG Curve)": [
+        "Vizualizér pomeru (krivka SVG)"
+      ],
+      "APCA Contrast Settings": [
+        "Nastavenia kontrastu APCA"
+      ],
+      "Foreground hex color": [
+        "Hex farba popredia"
+      ],
+      "Background hex color": [
+        "Hex farba pozadia"
+      ],
+      "Target text role": [
+        "Cieľová rola textu"
+      ],
+      "Body copy (target Lc 75)": [
+        "Bežný text (cieľ Lc 75)"
+      ],
+      "UI / secondary text (target Lc 60)": [
+        "Sekundárny / UI text (cieľ Lc 60)"
+      ],
+      "Large headline (target Lc 45)": [
+        "Veľký titulok (cieľ Lc 45)"
+      ],
+      "APCA Contrast Badge (WM Scale)": [
+        "Štítok kontrastu APCA (WM Scale)"
+      ],
+      "Exporter Output Settings": [
+        "Nastavenia exportu"
+      ],
+      "Displayed export format": [
+        "Zobrazený formát exportu"
+      ],
+      "Both (theme.json v3 + Tailwind v4)": [
+        "Oboje (theme.json v3 + Tailwind v4)"
+      ],
+      "theme.json v3 only": [
+        "Iba theme.json v3"
+      ],
+      "Tailwind CSS v4 @theme only": [
+        "Iba Tailwind CSS v4 @theme"
+      ],
+      "Theme.json Exporter (WM Scale)": [
+        "Exportér Theme.json (WM Scale)"
+      ],
+      "block title\u0004APCA Contrast Badge (WM Scale)": [
+        "Štítok kontrastu APCA (WM Scale)"
+      ],
+      "block description\u0004Badge with the APCA lightness contrast (Lc) of a text and background colour pair and a usage hint for that value.": [
+        "Štítok so svetlostným kontrastom APCA (Lc) dvojice farieb textu a pozadia a odporúčaním použitia."
+      ],
+      "block keyword\u0004contrast": [
+        "kontrast"
+      ],
+      "block keyword\u0004apca": [
+        "apca"
+      ],
+      "block keyword\u0004a11y": [
+        "a11y"
+      ],
+      "block keyword\u0004accessibility": [
+        "prístupnosť"
+      ],
+      "block title\u0004Fluid Container (@container)": [
+        "Plynulý kontajner (@container)"
+      ],
+      "block description\u0004Container for inner blocks that sets container-type (default inline-size) and container-name (default wm-typographic-context) for container queries.": [
+        "Kontajner pre vnútorné bloky nastavujúci container-type (inline-size) a container-name (wm-typographic-context)."
+      ],
+      "block keyword\u0004container": [
+        "kontajner"
+      ],
+      "block keyword\u0004queries": [
+        "dopyty"
+      ],
+      "block keyword\u0004cqw": [
+        "cqw"
+      ],
+      "block keyword\u0004cqi": [
+        "cqi"
+      ],
+      "block keyword\u0004fluid": [
+        "plynulý"
+      ],
+      "block keyword\u0004layout": [
+        "rozloženie"
+      ],
+      "block title\u0004Fluid Heading (WM Scale)": [
+        "Plynulý nadpis (WM Scale)"
+      ],
+      "block description\u0004Heading (H1–H6) with the fluid font-size class of its level, balanced line wrapping and an optional custom clamp() value.": [
+        "Nadpis (H1–H6) s plynulou triedou veľkosti svojej úrovne, vyváženým zalamovaním a voliteľným clamp()."
+      ],
+      "block keyword\u0004heading": [
+        "nadpis"
+      ],
+      "block keyword\u0004typography": [
+        "typografia"
+      ],
+      "block keyword\u0004scale": [
+        "škála"
+      ],
+      "block keyword\u0004modular": [
+        "modulárna"
+      ],
+      "block title\u0004Fluid Lead Text (WM Scale)": [
+        "Plynulý perex (WM Scale)"
+      ],
+      "block description\u0004Paragraph with the fluid body font size, a maximum line length of 35–85 characters (default 65) and pretty line wrapping.": [
+        "Odsek s plynulou veľkosťou písma, maximálnou dĺžkou 35–85 znakov (predvolené 65) a estetickým zalamovaním."
+      ],
+      "block keyword\u0004lead": [
+        "perex"
+      ],
+      "block keyword\u0004paragraph": [
+        "odsek"
+      ],
+      "block keyword\u0004reading": [
+        "čítanie"
+      ],
+      "block title\u0004Ratio Visualizer (SVG Curve)": [
+        "Vizualizér pomeru (krivka SVG)"
+      ],
+      "block description\u0004Shows the nine scale steps with their minimum and maximum size in px, calculated from the stored base sizes and ratio.": [
+        "Zobrazuje deväť stupňov škály s minimálnou a maximálnou veľkosťou v px podľa uložených nastavení."
+      ],
+      "block keyword\u0004visualizer": [
+        "vizualizér"
+      ],
+      "block keyword\u0004ratio": [
+        "pomer"
+      ],
+      "block keyword\u0004svg": [
+        "svg"
+      ],
+      "block keyword\u0004curve": [
+        "krivka"
+      ],
+      "block keyword\u0004preview": [
+        "náhľad"
+      ],
+      "block title\u0004Theme.json Exporter (WM Scale)": [
+        "Exportér Theme.json (WM Scale)"
+      ],
+      "block description\u0004Shows the theme.json fontSizes and the Tailwind CSS v4 @theme block generated from the stored scale.": [
+        "Zobrazuje fontSizes pre theme.json a blok @theme pre Tailwind CSS v4 vygenerované z uloženej škály."
+      ],
+      "block keyword\u0004theme.json": [
+        "theme.json"
+      ],
+      "block keyword\u0004exporter": [
+        "exportér"
+      ],
+      "block keyword\u0004tokens": [
+        "tokeny"
+      ],
+      "block keyword\u0004json": [
+        "json"
+      ],
+      "block keyword\u0004tailwind": [
+        "tailwind"
+      ],
+      "block title\u0004Typographic Grid (WM Scale)": [
+        "Typografická mriežka (WM Scale)"
+      ],
+      "block description\u0004Grid of 1–6 equal columns for inner blocks, with a gap from the scale (default var(--wm-step-2)).": [
+        "Mriežka 1–6 rovnakých stĺpcov pre vnútorné bloky s medzerou zo škály."
+      ],
+      "block keyword\u0004grid": [
+        "mriežka"
+      ],
+      "block keyword\u0004columns": [
+        "stĺpce"
+      ],
+      "block keyword\u0004rhythm": [
+        "rytmus"
+      ],
+      "block keyword\u0004baseline": [
+        "základňa"
+      ]
+    }
+  }
+}

@@ -1,0 +1,294 @@
+{
+  "translation-revision-date": "2026-11-21T15:04:18+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-modularscale",
+        "lang": "da_DK",
+        "plural-forms": "nplurals=2; plural=(n != 1);"
+      },
+      "Fluid Heading Settings": [
+        "Indstillinger for flydende overskrift"
+      ],
+      "Heading level (H1–H6)": [
+        "Overskriftsniveau (H1–H6)"
+      ],
+      "Modular scale step (-2 to +6)": [
+        "Modulært skalatrin (-2 til +6)"
+      ],
+      "Text alignment": [
+        "Tekstjustering"
+      ],
+      "Left": [
+        "Venstre"
+      ],
+      "Center": [
+        "Centreret"
+      ],
+      "Right": [
+        "Højre"
+      ],
+      "Custom CSS clamp() override": [
+        "Brugerdefineret CSS clamp()-værdi"
+      ],
+      "Optional full CSS clamp() expression overriding the scale step.": [
+        "Valgfrit fuldt CSS clamp()-udtryk, der tilsidesætter skalatrinet."
+      ],
+      "Write fluid heading…": [
+        "Skriv flydende overskrift…"
+      ],
+      "Fluid Lead Settings": [
+        "Indstillinger for flydende manchet"
+      ],
+      "Maximum line length (characters)": [
+        "Maksimal linjelængde (tegn)"
+      ],
+      "Write lead paragraph…": [
+        "Skriv indledende afsnit…"
+      ],
+      "Container Query Context": [
+        "Container Query-kontekst"
+      ],
+      "Container name": [
+        "Containernavn"
+      ],
+      "Container type": [
+        "Containertype"
+      ],
+      "Inline size (cqi / cqw)": [
+        "Inline-størrelse (cqi / cqw)"
+      ],
+      "Size (width & height)": [
+        "Størrelse (bredde & højde)"
+      ],
+      "Normal": [
+        "Normal"
+      ],
+      "Typographic Grid Settings": [
+        "Indstillinger for typografisk gitter"
+      ],
+      "Columns (1–6)": [
+        "Kolonner (1–6)"
+      ],
+      "Scale gap token": [
+        "Skalaafstandstoken"
+      ],
+      "Step 0 (Body base)": [
+        "Trin 0 (Brødtekst)"
+      ],
+      "Step 1 (Compact)": [
+        "Trin 1 (Kompakt)"
+      ],
+      "Step 2 (Default)": [
+        "Trin 2 (Standard)"
+      ],
+      "Step 3 (Spacious)": [
+        "Trin 3 (Luftig)"
+      ],
+      "Step 4 (Wide)": [
+        "Trin 4 (Bred)"
+      ],
+      "Ratio Visualizer Settings": [
+        "Indstillinger for forholdsvisualisering"
+      ],
+      "Show step labels on SVG axis": [
+        "Vis trinetiketter på SVG-aksen"
+      ],
+      "Show step min/max cards": [
+        "Vis min/maks-kort for trin"
+      ],
+      "Color theme": [
+        "Farvetema"
+      ],
+      "Dark": [
+        "Mørkt"
+      ],
+      "Light": [
+        "Lyst"
+      ],
+      "Ratio Visualizer (SVG Curve)": [
+        "Forholdsvisualisering (SVG-kurve)"
+      ],
+      "APCA Contrast Settings": [
+        "APCA-kontrastindstillinger"
+      ],
+      "Foreground hex color": [
+        "Forgrundsfarve (hex)"
+      ],
+      "Background hex color": [
+        "Baggrundsfarve (hex)"
+      ],
+      "Target text role": [
+        "Målrettet tekstrolle"
+      ],
+      "Body copy (target Lc 75)": [
+        "Brødtekst (mål Lc 75)"
+      ],
+      "UI / secondary text (target Lc 60)": [
+        "Sekundær / UI-tekst (mål Lc 60)"
+      ],
+      "Large headline (target Lc 45)": [
+        "Stor overskrift (mål Lc 45)"
+      ],
+      "APCA Contrast Badge (WM Scale)": [
+        "APCA-kontrastmærke (WM Scale)"
+      ],
+      "Exporter Output Settings": [
+        "Eksportindstillinger"
+      ],
+      "Displayed export format": [
+        "Vist eksportformat"
+      ],
+      "Both (theme.json v3 + Tailwind v4)": [
+        "Begge (theme.json v3 + Tailwind v4)"
+      ],
+      "theme.json v3 only": [
+        "Kun theme.json v3"
+      ],
+      "Tailwind CSS v4 @theme only": [
+        "Kun Tailwind CSS v4 @theme"
+      ],
+      "Theme.json Exporter (WM Scale)": [
+        "Theme.json-eksportør (WM Scale)"
+      ],
+      "block title\u0004APCA Contrast Badge (WM Scale)": [
+        "APCA-kontrastmærke (WM Scale)"
+      ],
+      "block description\u0004Badge with the APCA lightness contrast (Lc) of a text and background colour pair and a usage hint for that value.": [
+        "Mærke med APCA-lyskontrasten (Lc) for et tekst- og baggrundsfarvepar samt anvendelsesvejledning."
+      ],
+      "block keyword\u0004contrast": [
+        "kontrast"
+      ],
+      "block keyword\u0004apca": [
+        "apca"
+      ],
+      "block keyword\u0004a11y": [
+        "a11y"
+      ],
+      "block keyword\u0004accessibility": [
+        "tilgængelighed"
+      ],
+      "block title\u0004Fluid Container (@container)": [
+        "Flydende container (@container)"
+      ],
+      "block description\u0004Container for inner blocks that sets container-type (default inline-size) and container-name (default wm-typographic-context) for container queries.": [
+        "Container til indre blokke, der sætter container-type (inline-size) og container-name (wm-typographic-context)."
+      ],
+      "block keyword\u0004container": [
+        "container"
+      ],
+      "block keyword\u0004queries": [
+        "forespørgsler"
+      ],
+      "block keyword\u0004cqw": [
+        "cqw"
+      ],
+      "block keyword\u0004cqi": [
+        "cqi"
+      ],
+      "block keyword\u0004fluid": [
+        "flydende"
+      ],
+      "block keyword\u0004layout": [
+        "layout"
+      ],
+      "block title\u0004Fluid Heading (WM Scale)": [
+        "Flydende overskrift (WM Scale)"
+      ],
+      "block description\u0004Heading (H1–H6) with the fluid font-size class of its level, balanced line wrapping and an optional custom clamp() value.": [
+        "Overskrift (H1–H6) med flydende skriftstørrelsesklasse, balanceret linjeskift og valgfri clamp()-værdi."
+      ],
+      "block keyword\u0004heading": [
+        "overskrift"
+      ],
+      "block keyword\u0004typography": [
+        "typografi"
+      ],
+      "block keyword\u0004scale": [
+        "skala"
+      ],
+      "block keyword\u0004modular": [
+        "modulær"
+      ],
+      "block title\u0004Fluid Lead Text (WM Scale)": [
+        "Flydende manchettekst (WM Scale)"
+      ],
+      "block description\u0004Paragraph with the fluid body font size, a maximum line length of 35–85 characters (default 65) and pretty line wrapping.": [
+        "Afsnit med flydende brødtekststørrelse, linjelængde på 35–85 tegn (standard 65) og harmonisk ombrydning."
+      ],
+      "block keyword\u0004lead": [
+        "manchet"
+      ],
+      "block keyword\u0004paragraph": [
+        "afsnit"
+      ],
+      "block keyword\u0004reading": [
+        "læsning"
+      ],
+      "block title\u0004Ratio Visualizer (SVG Curve)": [
+        "Forholdsvisualisering (SVG-kurve)"
+      ],
+      "block description\u0004Shows the nine scale steps with their minimum and maximum size in px, calculated from the stored base sizes and ratio.": [
+        "Viser skalaens ni trin med minimums- og maksimumsstørrelse i px beregnet ud fra de gemte værdier."
+      ],
+      "block keyword\u0004visualizer": [
+        "visualisering"
+      ],
+      "block keyword\u0004ratio": [
+        "forhold"
+      ],
+      "block keyword\u0004svg": [
+        "svg"
+      ],
+      "block keyword\u0004curve": [
+        "kurve"
+      ],
+      "block keyword\u0004preview": [
+        "forhåndsvisning"
+      ],
+      "block title\u0004Theme.json Exporter (WM Scale)": [
+        "Theme.json-eksportør (WM Scale)"
+      ],
+      "block description\u0004Shows the theme.json fontSizes and the Tailwind CSS v4 @theme block generated from the stored scale.": [
+        "Viser theme.json fontSizes og Tailwind CSS v4 @theme-blokken genereret fra den gemte skala."
+      ],
+      "block keyword\u0004theme.json": [
+        "theme.json"
+      ],
+      "block keyword\u0004exporter": [
+        "eksportør"
+      ],
+      "block keyword\u0004tokens": [
+        "tokens"
+      ],
+      "block keyword\u0004json": [
+        "json"
+      ],
+      "block keyword\u0004tailwind": [
+        "tailwind"
+      ],
+      "block title\u0004Typographic Grid (WM Scale)": [
+        "Typografisk gitter (WM Scale)"
+      ],
+      "block description\u0004Grid of 1–6 equal columns for inner blocks, with a gap from the scale (default var(--wm-step-2)).": [
+        "Gitter med 1–6 ens kolonner til indre blokke og afstand fra skalaen."
+      ],
+      "block keyword\u0004grid": [
+        "gitter"
+      ],
+      "block keyword\u0004columns": [
+        "kolonner"
+      ],
+      "block keyword\u0004rhythm": [
+        "rytme"
+      ],
+      "block keyword\u0004baseline": [
+        "grundlinje"
+      ]
+    }
+  }
+}

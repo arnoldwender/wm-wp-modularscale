@@ -1,0 +1,970 @@
+# Translation of WM Modular Scale in et
+# Copyright (C) 2026 Arnold Wender
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: wm-modularscale 1.4.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wm-modularscale\n"
+"POT-Creation-Date: 2026-11-21T14:04:16+00:00\n"
+"PO-Revision-Date: 2026-11-21 15:04+0100\n"
+"Last-Translator: WM Suite <https://github.com/arnoldwender/wm-wp-"
+"modularscale/issues>\n"
+"Language-Team: WM Suite <https://github.com/arnoldwender/wm-wp-modularscale/"
+"issues>\n"
+"Language: et\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: WM Suite i18n Compiler 2026\n"
+"X-Domain: wm-modularscale\n"
+
+#. Plugin Name of the plugin
+#: wm-modularscale.php src/Integration/Ecosystem_Bridge.php:199
+#: wm-modularscale.php:113 wm-modularscale.php:134
+msgid "WM Modular Scale"
+msgstr "WM Modular Scale"
+
+#. Plugin URI of the plugin
+#: wm-modularscale.php
+msgid "https://arnoldwender.com/wordpress-plugins/wm-modularscale/"
+msgstr "https://arnoldwender.com/wordpress-plugins/wm-modularscale/"
+
+#. Description of the plugin
+#: wm-modularscale.php
+msgid ""
+"Generates harmonious, responsive typography ratios and modular scales with a "
+"visual live preview sandbox for non-technical users."
+msgstr ""
+"Loob harmoonilisi, kohanduvaid tüpograafilisi suhteid ja modulaarseid "
+"skaalasid reaalajas eelvaatega."
+
+#. Author of the plugin
+#: wm-modularscale.php
+msgid "Arnold Wender"
+msgstr "Arnold Wender"
+
+#. Author URI of the plugin
+#: wm-modularscale.php
+msgid "https://arnoldwender.com"
+msgstr "https://arnoldwender.com"
+
+#: src/Gutenberg/Block_Manager.php:134
+msgid "WM Modular Scale — Typografie Enterprise"
+msgstr "WM Modular Scale — Ettevõtte tüpograafia"
+
+#: src/Integration/Ecosystem_Bridge.php:56
+msgid "WM Modular Scale Tokens"
+msgstr "WM Modular Scale’i märgised"
+
+#: src/Integration/Ecosystem_Bridge.php:133
+msgid "WM Modular Scale Token"
+msgstr "WM Modular Scale’i märgis"
+
+#: src/Integration/Ecosystem_Bridge.php:137
+msgid ""
+"Outputs a computed fluid clamp() token or px range from WM Modular Scale."
+msgstr ""
+"Tagastab WM Modular Scale’i arvutatud sujuva clamp()-märgise või px-vahemiku."
+
+#: src/Integration/Ecosystem_Bridge.php:141
+msgid "Scale step (-2 to 6)"
+msgstr "Skaala aste (-2 kuni 6)"
+
+#: src/Integration/Ecosystem_Bridge.php:146
+msgid "Output format"
+msgstr "Väljundvorming"
+
+#: src/Integration/Ecosystem_Bridge.php:151
+msgid "CSS clamp() expression"
+msgstr "CSS clamp()-avaldis"
+
+#: src/Integration/Ecosystem_Bridge.php:155
+msgid "Min–Max px range"
+msgstr "Min–max px-vahemik"
+
+#: src/Integration/Ecosystem_Bridge.php:159
+msgid "Maximum px size"
+msgstr "Maksimaalne px-suurus"
+
+#: src/Integration/Ecosystem_Bridge.php:207
+msgid "Fluid Typographic Hero & Lead"
+msgstr "Sujuv tüpograafiline Hero ja juhtlõik"
+
+#: src/Integration/Ecosystem_Bridge.php:208
+msgid ""
+"Container-query section pairing a Fluid Heading with an ergonomic Fluid Lead "
+"paragraph."
+msgstr ""
+"Container-query sektsioon, mis ühendab sujuva pealkirja ja ergonoomilise "
+"juhtlõigu."
+
+#: src/Integration/Ecosystem_Bridge.php:211
+msgid "Harmonische Typografie im Browser"
+msgstr "Harmooniline tüpograafia brauseris"
+
+#: src/Integration/Ecosystem_Bridge.php:212
+msgid ""
+"Fließende Schriftgrößen zwischen Mobilgerät und Desktop, berechnet aus "
+"Basisgröße und musikalischem Intervall."
+msgstr ""
+"Sujuvad kirjasuurused mobiili ja töölaua vahel, arvutatuna baassuurusest ja "
+"muusikalisest intervallist."
+
+#: src/Integration/Ecosystem_Bridge.php:221
+msgid "GenerateBlocks Fluid Scale Section"
+msgstr "GenerateBlocksi sujuva skaala sektsioon"
+
+#: src/Integration/Ecosystem_Bridge.php:222
+msgid ""
+"Two-layer GenerateBlocks section (gbp-section + gbp-section__inner) "
+"consuming --ms-* and --wm-step-* fluid tokens."
+msgstr ""
+"Kahekihiline GenerateBlocksi sektsioon (gbp-section + gbp-section__inner) "
+"märgistega --ms-* ja --wm-step-*."
+
+#: src/Integration/Ecosystem_Bridge.php:229
+msgid "Modulare Skala mit GenerateBlocks"
+msgstr "Modulaarne skaala koos GenerateBlocksiga"
+
+#: src/Integration/Ecosystem_Bridge.php:232
+msgid "Direkte Nutzung der berechneten CSS-Variablen ohne Media-Query-Stufen."
+msgstr "Arvutatud CSS-muutujate otsekasutus ilma murdepunktideta."
+
+#: src/Integration/Ecosystem_Bridge.php:254
+msgid "Compute Modular Typography Scale"
+msgstr "Arvuta modulaarne tüpograafiaskaala"
+
+#: src/Integration/Ecosystem_Bridge.php:255
+msgid ""
+"Calculates the nine fluid clamp() steps (-2 to +6), line heights and WCAG "
+"1.4.4 zoom-safety flags for a base size and ratio."
+msgstr ""
+"Arvutab üheksa sujuvat clamp()-astet (-2 kuni +6), reavahed ja WCAG 1.4.4 "
+"suumikontrolli."
+
+#: wm-modularscale.php:114
+msgid "Modular Scale"
+msgstr "Modulaarne skaala"
+
+#: wm-modularscale.php:125
+msgid "WM Modular Scale — Einstellungen & Vorschau"
+msgstr "WM Modular Scale — Seaded ja eelvaade"
+
+#: wm-modularscale.php:126
+msgid "Typografie & Skalen"
+msgstr "Tüpograafia ja skaalad"
+
+#: wm-modularscale.php:135
+msgid "Modular Scale (Typografie)"
+msgstr "Modular Scale (Tüpograafia)"
+
+#: wm-modularscale.php:153
+msgid "WM Modular Scale — Harmonische Typografie & CSS Variablen"
+msgstr "WM Modular Scale — Harmooniline tüpograafia ja CSS-muutujad"
+
+#: wm-modularscale.php:178
+msgid "Skala auf der Website angewendet"
+msgstr "Skaala on veebisaidil rakendatud"
+
+#: wm-modularscale.php:180
+msgid "Skala berechnet, noch nicht auf die Website angewendet"
+msgstr "Skaala on arvutatud, pole veel veebisaidil rakendatud"
+
+#: wm-modularscale.php:184
+msgid "Fluid-Tokens (--wm-step-*) und Stylesheet (--wmmsp-*)"
+msgstr "Sujuvad märgised (--wm-step-*) ja laadileht (--wmmsp-*)"
+
+#: wm-modularscale.php:191 wm-modularscale.php:301
+msgid "Basisgröße"
+msgstr "Baassuurus"
+
+#: wm-modularscale.php:195
+msgid "Verhältnis"
+msgstr "Suhe"
+
+#: wm-modularscale.php:198
+msgid "Aktiv"
+msgstr "Aktiivne"
+
+#: wm-modularscale.php:198
+msgid "Aus"
+msgstr "Väljas"
+
+#: wm-modularscale.php:199
+msgid "Auf der Website"
+msgstr "Veebisaidil"
+
+#: wm-modularscale.php:205
+msgid "Typografie-Cockpit öffnen"
+msgstr "Ava tüpograafia juhtpaneel"
+
+#: wm-modularscale.php:220 wm-modularscale.php:319 wm-modularscale.php:347
+msgid "Einstellungen"
+msgstr "Seaded"
+
+#: wm-modularscale.php:245
+msgid "Part of the WM Suite plugin family"
+msgstr "Osa WM Suite pluginaperekonnast"
+
+#: wm-modularscale.php:247
+msgid "WM Suite"
+msgstr "WM Suite"
+
+#: wm-modularscale.php:248
+msgid "Hub"
+msgstr "Hub"
+
+#: wm-modularscale.php:248
+msgid "Standalone"
+msgstr "Iseseisev"
+
+#: wm-modularscale.php:262
+msgid "wird berechnet …"
+msgstr "arvutamine …"
+
+#: wm-modularscale.php:283
+msgid "Kleine Terz 1.200 – Blog"
+msgstr "Väike terts 1.200 – Blogi"
+
+#: wm-modularscale.php:284
+msgid "Große Terz 1.250 – Voreinstellung"
+msgstr "Suur terts 1.250 – Vaikimisi"
+
+#: wm-modularscale.php:285
+msgid "Quarte 1.333 – markante Überschriften"
+msgstr "Puhas kvart 1.333 – Silmapaistvad pealkirjad"
+
+#: wm-modularscale.php:286
+msgid "Goldener Schnitt 1.618 – Magazin, große Titel"
+msgstr "Kuldlõige 1.618 – Ajakiri, suured pealkirjad"
+
+#: wm-modularscale.php:290
+msgid "1.125 — Große Sekunde (kompakt, Anwendungen)"
+msgstr "1.125 — Suur sekund (kompaktne, rakendused)"
+
+#: wm-modularscale.php:291
+msgid "1.200 — Kleine Terz (Blog)"
+msgstr "1.200 — Väike terts (blogi)"
+
+#: wm-modularscale.php:292
+msgid "1.250 — Große Terz (Voreinstellung)"
+msgstr "1.250 — Suur terts (vaikimisi)"
+
+#: wm-modularscale.php:293
+msgid "1.333 — Quarte (markante Überschriften)"
+msgstr "1.333 — Puhas kvart (silmapaistvad pealkirjad)"
+
+#: wm-modularscale.php:294
+msgid "1.414 — Übermäßige Quarte (Editorial)"
+msgstr "1.414 — Suurendatud kvart (toimetuslik)"
+
+#: wm-modularscale.php:295
+msgid "1.500 — Quinte (kreative Layouts)"
+msgstr "1.500 — Puhas kvint (loomingulised küljendused)"
+
+#: wm-modularscale.php:296
+msgid "1.618 — Goldener Schnitt (sehr große Titel)"
+msgstr "1.618 — Kuldlõige (väga suured pealkirjad)"
+
+#: wm-modularscale.php:300 wm-modularscale.php:361
+msgid "Verhältnis (Ratio)"
+msgstr "Suhe (Ratio)"
+
+#: wm-modularscale.php:300
+msgid ""
+"Der feste Faktor zwischen zwei Stufen der Skala. Bei 1.25 ist jede Stufe 25 "
+"% größer als die vorherige."
+msgstr ""
+"Kindel kordaja skaala kahe astme vahel. Väärtusel 1.25 on iga aste eelmisest "
+"25% suurem."
+
+#: wm-modularscale.php:301
+msgid ""
+"Die Schriftgröße des Fließtexts (<p>). Aus ihr werden alle Überschriften "
+"berechnet. Browser verwenden ohne eigene Einstellung 16 px."
+msgstr ""
+"Põhiteksti (<p>) kirjasuurus, millest arvutatakse kõik pealkirjad. Brauserid "
+"kasutavad vaikimisi 16 px."
+
+#: wm-modularscale.php:302
+msgid "rem-Einheiten"
+msgstr "rem-ühikud"
+
+#: wm-modularscale.php:302
+msgid ""
+"Relativ zur Schriftgröße, die im Browser eingestellt ist. Wer dort eine "
+"größere Schrift wählt, bekommt alle Stufen entsprechend größer."
+msgstr ""
+"Suhteline brauseris määratud kirjasuuruse suhtes. Suurema teksti valija saab "
+"kõik astmed proportsionaalselt suuremana."
+
+#: wm-modularscale.php:303
+msgid "Goldener Schnitt (1.618)"
+msgstr "Kuldlõige (1.618)"
+
+#: wm-modularscale.php:303
+msgid ""
+"Das Verhältnis (1 + √5) / 2. Als Skala ergibt es einen starken "
+"Größenunterschied zwischen Überschriften und Fließtext."
+msgstr ""
+"Suhe (1 + √5) / 2. Skaalana annab see tugeva suuruskontrasti pealkirjade ja "
+"põhiteksti vahel."
+
+#: wm-modularscale.php:310
+msgid "Modulare Typografie"
+msgstr "Modulaarne tüpograafia"
+
+#: wm-modularscale.php:311
+msgid "WM Modular Scale — Typografische Skala"
+msgstr "WM Modular Scale — Tüpograafiline skaala"
+
+#: wm-modularscale.php:312
+msgid ""
+"Berechnet die Schriftgrößen für Überschriften (H1–H6) und Fließtext aus "
+"einer Basisgröße und einem Verhältnis und gibt sie als CSS-Variablen aus."
+msgstr ""
+"Arvutab pealkirjade (H1–H6) ja põhiteksti kirjasuurused baassuurusest ning "
+"suhtest ja väljastab need CSS-muutujatena."
+
+#: wm-modularscale.php:316
+msgid "Seitennavigation"
+msgstr "Lehe navigeerimine"
+
+#: wm-modularscale.php:317
+msgid "Springen zu:"
+msgstr "Liigu kohta:"
+
+#: wm-modularscale.php:318
+msgid "Anleitung & Vorlagen"
+msgstr "Juhend ja mallid"
+
+#: wm-modularscale.php:320 wm-modularscale.php:417
+msgid "Live-Vorschau"
+msgstr "Reaalajas eelvaade"
+
+#: wm-modularscale.php:321 wm-modularscale.php:438
+msgid "CSS-Variablen"
+msgstr "CSS-muutujad"
+
+#: wm-modularscale.php:322 wm-modularscale.php:447
+msgid "Glossar"
+msgstr "Sõnastik"
+
+#: wm-modularscale.php:328
+msgid "Was ist eine modulare Skala?"
+msgstr "Mis on modulaarne skaala?"
+
+#: wm-modularscale.php:331
+msgid ""
+"Eine modulare Skala nimmt eine Basisgröße (zum Beispiel 16 px) und "
+"multipliziert sie Stufe für Stufe mit einem festen Verhältnis, wie die "
+"Intervalle in der Musik. So stehen Überschriften (H1 bis H6) und Fließtext "
+"in einem gleichbleibenden Größenverhältnis, statt einzeln festgelegt zu "
+"werden."
+msgstr ""
+"Modulaarne skaala korrutab baassuuruse (nt 16 px) aste-astmelt kindla "
+"suhtega nagu muusikalised intervallid, hoides H1–H6 ja põhiteksti ühtses "
+"proportsioonis."
+
+#: wm-modularscale.php:334
+msgid "Vorlage übernehmen (setzt auch Basisgröße 16 und Einheit px):"
+msgstr "Rakenda mall (määrab ka baassuuruse 16 ja ühiku px):"
+
+#: wm-modularscale.php:355
+msgid "Basisgröße (Fließtext)"
+msgstr "Baassuurus (põhitekst)"
+
+#: wm-modularscale.php:357
+msgid ""
+"Die Größe des Fließtexts, aus der die Überschriften berechnet werden. "
+"Browser verwenden ohne eigene Einstellung 16 px."
+msgstr ""
+"Põhiteksti suurus, millest arvutatakse pealkirjad. Brauserid kasutavad "
+"vaikimisi 16 px."
+
+#: wm-modularscale.php:363
+msgid "Vorlage wählen oder Wert eingeben"
+msgstr "Vali mall või sisesta väärtus"
+
+#: wm-modularscale.php:368
+msgid "Verhältnis als Zahl"
+msgstr "Arvuline suhe"
+
+#: wm-modularscale.php:370
+msgid "Je größer der Wert, desto größer der Abstand zwischen H1 und H3."
+msgstr "Mida suurem väärtus, seda suurem vahe H1 ja H3 vahel."
+
+#: wm-modularscale.php:374
+msgid "Einheit"
+msgstr "Ühik"
+
+#: wm-modularscale.php:376
+msgid "px (Pixel, feste Größe)"
+msgstr "px (pikslid, kindel suurus)"
+
+#: wm-modularscale.php:377
+msgid "rem (relativ zur Schriftgröße des Browsers)"
+msgstr "rem (suhteline brauseri kirjasuuruse suhtes)"
+
+#: wm-modularscale.php:378
+msgid "em (relativ zum übergeordneten Element)"
+msgstr "em (suhteline ülemelemendi suhtes)"
+
+#: wm-modularscale.php:380
+msgid ""
+"Einheit der Variablen --wmmsp-* im Stylesheet. Die Fluid-Tokens --wm-step-* "
+"verwenden immer rem."
+msgstr ""
+"Laadilehe --wmmsp-*-muutujate ühik. Sujuvad --wm-step-*-märgised kasutavad "
+"alati rem-ühikut."
+
+#: wm-modularscale.php:384
+msgid "Nachkommastellen"
+msgstr "Kümnendkohad"
+
+#: wm-modularscale.php:386
+msgid ""
+"Auf so viele Nachkommastellen rundet das Stylesheet die Werte "
+"(Voreinstellung 2)."
+msgstr "Kümnendkohtade arv, milleni laadileht väärtused ümardab (vaikimisi 2)."
+
+#: wm-modularscale.php:393
+msgid "Skala auf der Website anwenden"
+msgstr "Rakenda skaala veebisaidil"
+
+#: wm-modularscale.php:394
+msgid ""
+"Gibt die Fluid-Tokens --wm-step-* im Seitenkopf aus und lädt das Stylesheet, "
+"das body, h1–h6, Absätze, Listen, Zitate und Code aus diesen Werten setzt."
+msgstr ""
+"Väljastab sujuvad --wm-step-*-märgised päisesse ja laadib body, h1–h6, "
+"lõikude, loendite, tsitaatide ning koodi laadilehe."
+
+#: wm-modularscale.php:403
+msgid "Einstellungen beim Entfernen des Plugins löschen"
+msgstr "Kustuta seaded plugina eemaldamisel"
+
+#: wm-modularscale.php:404
+msgid ""
+"Standardmäßig bleiben Basisgröße, Verhältnis und Skalen-Optionen erhalten, "
+"falls das Plugin später erneut installiert wird."
+msgstr ""
+"Vaikimisi säilitatakse baassuurus, suhe ja skaala valikud juhuks, kui plugin "
+"hiljem uuesti paigaldatakse."
+
+#: wm-modularscale.php:410
+msgid "Typografie speichern"
+msgstr "Salvesta tüpograafia"
+
+#: wm-modularscale.php:419
+msgid ""
+"Zeigt die Größen des Stylesheets (--wmmsp-*) für die aktuellen Felder, bevor "
+"Sie speichern."
+msgstr ""
+"Näitab laadilehe suurusi (--wmmsp-*) praeguste väljade jaoks enne "
+"salvestamist."
+
+#: wm-modularscale.php:424
+msgid "Hauptüberschrift H1"
+msgstr "Peapealkiri H1"
+
+#: wm-modularscale.php:425
+msgid "Abschnittsüberschrift H2"
+msgstr "Jaotise pealkiri H2"
+
+#: wm-modularscale.php:426
+msgid "Überschrift eines Inhaltsblocks H3"
+msgstr "Sisuploki pealkiri H3"
+
+#: wm-modularscale.php:427
+msgid "Titel einer Karte H4"
+msgstr "Kaardi pealkiri H4"
+
+#: wm-modularscale.php:428
+msgid "Kleine Überschrift H5"
+msgstr "Väike pealkiri H5"
+
+#: wm-modularscale.php:429
+msgid "Fußnote H6"
+msgstr "Allmärkus H6"
+
+#: wm-modularscale.php:430
+msgid "Fließtext"
+msgstr "Põhitekst"
+
+#: wm-modularscale.php:430
+msgid ""
+"Das ist ein Absatz im Fließtext. Seine Größe ist die Basisgröße; die "
+"Überschriften darüber sind daraus berechnet."
+msgstr ""
+"See on põhiteksti lõik. Selle suurus võrdub baassuurusega, millest "
+"arvutatakse pealkirjad."
+
+#: wm-modularscale.php:440
+msgid ""
+"Diese Variablen setzt das Stylesheet, wenn die Skala angewendet wird. Die "
+"fließenden Stufen --wm-step-neg-2 bis --wm-step-6 berechnet das Plugin "
+"zusätzlich aus Basisgröße, maximaler Basisgröße und den Viewport-Breiten."
+msgstr ""
+"Laadileht määrab need muutujad skaala rakendamisel. Lisaks arvutab plugin "
+"sujuvad astmed --wm-step-neg-2 kuni --wm-step-6."
+
+#: wm-modularscale.php:442
+msgid "Variablen werden berechnet …"
+msgstr "Muutujaid arvutatakse …"
+
+#: wm-modularscale.php:449
+msgid "Die Begriffe dieser Seite kurz erklärt."
+msgstr "Selle lehe mõistete lühiselgitus."
+
+#: blocks-src/index.js:66
+msgid "Fluid Heading Settings"
+msgstr "Sujuva pealkirja seaded"
+
+#: blocks-src/index.js:68
+msgid "Heading level (H1–H6)"
+msgstr "Pealkirja tase (H1–H6)"
+
+#: blocks-src/index.js:78
+msgid "Modular scale step (-2 to +6)"
+msgstr "Modulaarse skaala aste (-2 kuni +6)"
+
+#: blocks-src/index.js:85 blocks-src/index.js:153
+msgid "Text alignment"
+msgstr "Teksti joondus"
+
+#: blocks-src/index.js:88 blocks-src/index.js:156
+msgid "Left"
+msgstr "Vasakule"
+
+#: blocks-src/index.js:89 blocks-src/index.js:157
+msgid "Center"
+msgstr "Keskele"
+
+#: blocks-src/index.js:90 blocks-src/index.js:158
+msgid "Right"
+msgstr "Paremale"
+
+#: blocks-src/index.js:95
+msgid "Custom CSS clamp() override"
+msgstr "Kohandatud CSS clamp()-väärtus"
+
+#: blocks-src/index.js:96
+msgid "Optional full CSS clamp() expression overriding the scale step."
+msgstr "Valikuline täielik CSS clamp()-avaldis, mis asendab skaala astme."
+
+#: blocks-src/index.js:107
+msgid "Write fluid heading…"
+msgstr "Kirjuta sujuv pealkiri…"
+
+#: blocks-src/index.js:144
+msgid "Fluid Lead Settings"
+msgstr "Sujuva juhtlõigu seaded"
+
+#: blocks-src/index.js:146
+msgid "Maximum line length (characters)"
+msgstr "Maksimaalne reapikkus (tähemärki)"
+
+#: blocks-src/index.js:168
+msgid "Write lead paragraph…"
+msgstr "Kirjuta juhtlõik…"
+
+#: blocks-src/index.js:198
+msgid "Container Query Context"
+msgstr "Container Query kontekst"
+
+#: blocks-src/index.js:200
+msgid "Container name"
+msgstr "Konteineri nimi"
+
+#: blocks-src/index.js:205
+msgid "Container type"
+msgstr "Konteineri tüüp"
+
+#: blocks-src/index.js:208
+msgid "Inline size (cqi / cqw)"
+msgstr "Reasisene suurus (cqi / cqw)"
+
+#: blocks-src/index.js:209
+msgid "Size (width & height)"
+msgstr "Suurus (laius ja kõrgus)"
+
+#: blocks-src/index.js:210
+msgid "Normal"
+msgstr "Tavaline"
+
+#: blocks-src/index.js:247
+msgid "Typographic Grid Settings"
+msgstr "Tüpograafilise võrgustiku seaded"
+
+#: blocks-src/index.js:249
+msgid "Columns (1–6)"
+msgstr "Veerud (1–6)"
+
+#: blocks-src/index.js:256
+msgid "Scale gap token"
+msgstr "Skaala vahemärgis"
+
+#: blocks-src/index.js:259
+msgid "Step 0 (Body base)"
+msgstr "Aste 0 (Põhitekst)"
+
+#: blocks-src/index.js:260
+msgid "Step 1 (Compact)"
+msgstr "Aste 1 (Kompaktne)"
+
+#: blocks-src/index.js:261
+msgid "Step 2 (Default)"
+msgstr "Aste 2 (Vaikimisi)"
+
+#: blocks-src/index.js:262
+msgid "Step 3 (Spacious)"
+msgstr "Aste 3 (Õhuline)"
+
+#: blocks-src/index.js:263
+msgid "Step 4 (Wide)"
+msgstr "Aste 4 (Lai)"
+
+#: blocks-src/index.js:291
+msgid "Ratio Visualizer Settings"
+msgstr "Suhte visualiseerija seaded"
+
+#: blocks-src/index.js:293
+msgid "Show step labels on SVG axis"
+msgstr "Näita astmesilte SVG-teljel"
+
+#: blocks-src/index.js:298
+msgid "Show step min/max cards"
+msgstr "Näita astmete min/max kaarte"
+
+#: blocks-src/index.js:303
+msgid "Color theme"
+msgstr "Värviteema"
+
+#: blocks-src/index.js:306
+msgid "Dark"
+msgstr "Tume"
+
+#: blocks-src/index.js:307
+msgid "Light"
+msgstr "Hele"
+
+#: blocks-src/index.js:313
+msgid "Ratio Visualizer (SVG Curve)"
+msgstr "Suhte visualiseerija (SVG-kõver)"
+
+#: blocks-src/index.js:335
+msgid "APCA Contrast Settings"
+msgstr "APCA kontrasti seaded"
+
+#: blocks-src/index.js:337
+msgid "Foreground hex color"
+msgstr "Esiplaani hex-värv"
+
+#: blocks-src/index.js:342
+msgid "Background hex color"
+msgstr "Tausta hex-värv"
+
+#: blocks-src/index.js:347
+msgid "Target text role"
+msgstr "Teksti sihtroll"
+
+#: blocks-src/index.js:350
+msgid "Body copy (target Lc 75)"
+msgstr "Põhitekst (siht Lc 75)"
+
+#: blocks-src/index.js:351
+msgid "UI / secondary text (target Lc 60)"
+msgstr "Teisene / UI-tekst (siht Lc 60)"
+
+#: blocks-src/index.js:352
+msgid "Large headline (target Lc 45)"
+msgstr "Suur pealkiri (siht Lc 45)"
+
+#: blocks-src/index.js:358
+msgid "APCA Contrast Badge (WM Scale)"
+msgstr "APCA kontrastimärgis (WM Scale)"
+
+#: blocks-src/index.js:380
+msgid "Exporter Output Settings"
+msgstr "Ekspordi seaded"
+
+#: blocks-src/index.js:382
+msgid "Displayed export format"
+msgstr "Kuvatav ekspordivorming"
+
+#: blocks-src/index.js:385
+msgid "Both (theme.json v3 + Tailwind v4)"
+msgstr "Mõlemad (theme.json v3 + Tailwind v4)"
+
+#: blocks-src/index.js:386
+msgid "theme.json v3 only"
+msgstr "Ainult theme.json v3"
+
+#: blocks-src/index.js:387
+msgid "Tailwind CSS v4 @theme only"
+msgstr "Ainult Tailwind CSS v4 @theme"
+
+#: blocks-src/index.js:393
+msgid "Theme.json Exporter (WM Scale)"
+msgstr "Theme.json eksportija (WM Scale)"
+
+#: src/Gutenberg/Blocks/contrast-matrix-badge/block.json
+msgctxt "block title"
+msgid "APCA Contrast Badge (WM Scale)"
+msgstr "APCA kontrastimärgis (WM Scale)"
+
+#: src/Gutenberg/Blocks/contrast-matrix-badge/block.json
+msgctxt "block description"
+msgid ""
+"Badge with the APCA lightness contrast (Lc) of a text and background colour "
+"pair and a usage hint for that value."
+msgstr ""
+"Märgis teksti- ja taustavärvi paari APCA heleduskontrasti (Lc) ning "
+"kasutusjuhisega."
+
+#: src/Gutenberg/Blocks/contrast-matrix-badge/block.json
+msgctxt "block keyword"
+msgid "contrast"
+msgstr "kontrast"
+
+#: src/Gutenberg/Blocks/contrast-matrix-badge/block.json
+msgctxt "block keyword"
+msgid "apca"
+msgstr "apca"
+
+#: src/Gutenberg/Blocks/contrast-matrix-badge/block.json
+msgctxt "block keyword"
+msgid "a11y"
+msgstr "a11y"
+
+#: src/Gutenberg/Blocks/contrast-matrix-badge/block.json
+msgctxt "block keyword"
+msgid "accessibility"
+msgstr "ligipääsetavus"
+
+#: src/Gutenberg/Blocks/fluid-container/block.json
+msgctxt "block title"
+msgid "Fluid Container (@container)"
+msgstr "Sujuv konteiner (@container)"
+
+#: src/Gutenberg/Blocks/fluid-container/block.json
+msgctxt "block description"
+msgid ""
+"Container for inner blocks that sets container-type (default inline-size) "
+"and container-name (default wm-typographic-context) for container queries."
+msgstr ""
+"Siseplokkide konteiner, mis määrab container-type (inline-size) ja container-"
+"name (wm-typographic-context)."
+
+#: src/Gutenberg/Blocks/fluid-container/block.json
+msgctxt "block keyword"
+msgid "container"
+msgstr "konteiner"
+
+#: src/Gutenberg/Blocks/fluid-container/block.json
+msgctxt "block keyword"
+msgid "queries"
+msgstr "päringud"
+
+#: src/Gutenberg/Blocks/fluid-container/block.json
+msgctxt "block keyword"
+msgid "cqw"
+msgstr "cqw"
+
+#: src/Gutenberg/Blocks/fluid-container/block.json
+msgctxt "block keyword"
+msgid "cqi"
+msgstr "cqi"
+
+#: src/Gutenberg/Blocks/fluid-container/block.json
+#: src/Gutenberg/Blocks/fluid-heading/block.json
+#: src/Gutenberg/Blocks/fluid-lead/block.json
+msgctxt "block keyword"
+msgid "fluid"
+msgstr "sujuv"
+
+#: src/Gutenberg/Blocks/fluid-container/block.json
+msgctxt "block keyword"
+msgid "layout"
+msgstr "paigutus"
+
+#: src/Gutenberg/Blocks/fluid-heading/block.json
+msgctxt "block title"
+msgid "Fluid Heading (WM Scale)"
+msgstr "Sujuv pealkiri (WM Scale)"
+
+#: src/Gutenberg/Blocks/fluid-heading/block.json
+msgctxt "block description"
+msgid ""
+"Heading (H1–H6) with the fluid font-size class of its level, balanced line "
+"wrapping and an optional custom clamp() value."
+msgstr ""
+"Pealkiri (H1–H6) oma taseme sujuva kirjasuuruse klassi, tasakaalustatud "
+"reamurdmise ja valikulise clamp()-väärtusega."
+
+#: src/Gutenberg/Blocks/fluid-heading/block.json
+msgctxt "block keyword"
+msgid "heading"
+msgstr "pealkiri"
+
+#: src/Gutenberg/Blocks/fluid-heading/block.json
+#: src/Gutenberg/Blocks/fluid-lead/block.json
+#: src/Gutenberg/Blocks/typographic-grid/block.json
+msgctxt "block keyword"
+msgid "typography"
+msgstr "tüpograafia"
+
+#: src/Gutenberg/Blocks/fluid-heading/block.json
+#: src/Gutenberg/Blocks/ratio-visualizer/block.json
+msgctxt "block keyword"
+msgid "scale"
+msgstr "skaala"
+
+#: src/Gutenberg/Blocks/fluid-heading/block.json
+msgctxt "block keyword"
+msgid "modular"
+msgstr "modulaarne"
+
+#: src/Gutenberg/Blocks/fluid-lead/block.json
+msgctxt "block title"
+msgid "Fluid Lead Text (WM Scale)"
+msgstr "Sujuv juhtlõik (WM Scale)"
+
+#: src/Gutenberg/Blocks/fluid-lead/block.json
+msgctxt "block description"
+msgid ""
+"Paragraph with the fluid body font size, a maximum line length of 35–85 "
+"characters (default 65) and pretty line wrapping."
+msgstr ""
+"Lõik sujuva põhiteksti suuruse, 35–85 märgi reapikkuse (vaikimisi 65) ja "
+"ühtlase reamurdmisega."
+
+#: src/Gutenberg/Blocks/fluid-lead/block.json
+msgctxt "block keyword"
+msgid "lead"
+msgstr "juhtlõik"
+
+#: src/Gutenberg/Blocks/fluid-lead/block.json
+msgctxt "block keyword"
+msgid "paragraph"
+msgstr "lõik"
+
+#: src/Gutenberg/Blocks/fluid-lead/block.json
+msgctxt "block keyword"
+msgid "reading"
+msgstr "lugemine"
+
+#: src/Gutenberg/Blocks/ratio-visualizer/block.json
+msgctxt "block title"
+msgid "Ratio Visualizer (SVG Curve)"
+msgstr "Suhte visualiseerija (SVG-kõver)"
+
+#: src/Gutenberg/Blocks/ratio-visualizer/block.json
+msgctxt "block description"
+msgid ""
+"Shows the nine scale steps with their minimum and maximum size in px, "
+"calculated from the stored base sizes and ratio."
+msgstr ""
+"Näitab skaala üheksat astet minimaalse ja maksimaalse px-suurusega "
+"salvestatud väärtuste põhjal."
+
+#: src/Gutenberg/Blocks/ratio-visualizer/block.json
+msgctxt "block keyword"
+msgid "visualizer"
+msgstr "visualiseerija"
+
+#: src/Gutenberg/Blocks/ratio-visualizer/block.json
+msgctxt "block keyword"
+msgid "ratio"
+msgstr "suhe"
+
+#: src/Gutenberg/Blocks/ratio-visualizer/block.json
+msgctxt "block keyword"
+msgid "svg"
+msgstr "svg"
+
+#: src/Gutenberg/Blocks/ratio-visualizer/block.json
+msgctxt "block keyword"
+msgid "curve"
+msgstr "kõver"
+
+#: src/Gutenberg/Blocks/ratio-visualizer/block.json
+msgctxt "block keyword"
+msgid "preview"
+msgstr "eelvaade"
+
+#: src/Gutenberg/Blocks/theme-json-exporter/block.json
+msgctxt "block title"
+msgid "Theme.json Exporter (WM Scale)"
+msgstr "Theme.json eksportija (WM Scale)"
+
+#: src/Gutenberg/Blocks/theme-json-exporter/block.json
+msgctxt "block description"
+msgid ""
+"Shows the theme.json fontSizes and the Tailwind CSS v4 @theme block "
+"generated from the stored scale."
+msgstr ""
+"Näitab salvestatud skaalast loodud theme.json fontSizes väärtusi ja Tailwind "
+"CSS v4 @theme plokki."
+
+#: src/Gutenberg/Blocks/theme-json-exporter/block.json
+msgctxt "block keyword"
+msgid "theme.json"
+msgstr "theme.json"
+
+#: src/Gutenberg/Blocks/theme-json-exporter/block.json
+msgctxt "block keyword"
+msgid "exporter"
+msgstr "eksportija"
+
+#: src/Gutenberg/Blocks/theme-json-exporter/block.json
+msgctxt "block keyword"
+msgid "tokens"
+msgstr "märgised"
+
+#: src/Gutenberg/Blocks/theme-json-exporter/block.json
+msgctxt "block keyword"
+msgid "json"
+msgstr "json"
+
+#: src/Gutenberg/Blocks/theme-json-exporter/block.json
+msgctxt "block keyword"
+msgid "tailwind"
+msgstr "tailwind"
+
+#: src/Gutenberg/Blocks/typographic-grid/block.json
+msgctxt "block title"
+msgid "Typographic Grid (WM Scale)"
+msgstr "Tüpograafiline võrgustik (WM Scale)"
+
+#: src/Gutenberg/Blocks/typographic-grid/block.json
+msgctxt "block description"
+msgid ""
+"Grid of 1–6 equal columns for inner blocks, with a gap from the scale "
+"(default var(--wm-step-2))."
+msgstr "1–6 võrdse veeruga võrgustik siseplokkidele skaalapõhise vahega."
+
+#: src/Gutenberg/Blocks/typographic-grid/block.json
+msgctxt "block keyword"
+msgid "grid"
+msgstr "võrgustik"
+
+#: src/Gutenberg/Blocks/typographic-grid/block.json
+msgctxt "block keyword"
+msgid "columns"
+msgstr "veerud"
+
+#: src/Gutenberg/Blocks/typographic-grid/block.json
+msgctxt "block keyword"
+msgid "rhythm"
+msgstr "rütm"
+
+#: src/Gutenberg/Blocks/typographic-grid/block.json
+msgctxt "block keyword"
+msgid "baseline"
+msgstr "baasjoon"
+
+#~ msgid "https://www.arnoldwender.com"
+#~ msgstr "https://www.arnoldwender.com"

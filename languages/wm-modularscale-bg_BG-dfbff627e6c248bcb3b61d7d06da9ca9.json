@@ -1,0 +1,294 @@
+{
+  "translation-revision-date": "2026-11-21T15:04:18+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-modularscale",
+        "lang": "bg_BG",
+        "plural-forms": "nplurals=2; plural=(n != 1);"
+      },
+      "Fluid Heading Settings": [
+        "Настройки на плавно заглавие"
+      ],
+      "Heading level (H1–H6)": [
+        "Ниво на заглавие (H1–H6)"
+      ],
+      "Modular scale step (-2 to +6)": [
+        "Стъпка от модулната скала (-2 до +6)"
+      ],
+      "Text alignment": [
+        "Подравняване на текста"
+      ],
+      "Left": [
+        "Вляво"
+      ],
+      "Center": [
+        "Центрирано"
+      ],
+      "Right": [
+        "Вдясно"
+      ],
+      "Custom CSS clamp() override": [
+        "Персонализиран CSS clamp()"
+      ],
+      "Optional full CSS clamp() expression overriding the scale step.": [
+        "Незадължителен пълен CSS clamp() израз, заместващ стъпката на скалата."
+      ],
+      "Write fluid heading…": [
+        "Въведете плавно заглавие…"
+      ],
+      "Fluid Lead Settings": [
+        "Настройки на плавен увод"
+      ],
+      "Maximum line length (characters)": [
+        "Максимална дължина на реда (знаци)"
+      ],
+      "Write lead paragraph…": [
+        "Въведете уводен абзац…"
+      ],
+      "Container Query Context": [
+        "Контекст на Container Query"
+      ],
+      "Container name": [
+        "Име на контейнера"
+      ],
+      "Container type": [
+        "Тип на контейнера"
+      ],
+      "Inline size (cqi / cqw)": [
+        "Линеен размер (cqi / cqw)"
+      ],
+      "Size (width & height)": [
+        "Размер (ширина и височина)"
+      ],
+      "Normal": [
+        "Нормален"
+      ],
+      "Typographic Grid Settings": [
+        "Настройки на типографската мрежа"
+      ],
+      "Columns (1–6)": [
+        "Колони (1–6)"
+      ],
+      "Scale gap token": [
+        "Токен за разстояние от скалата"
+      ],
+      "Step 0 (Body base)": [
+        "Стъпка 0 (Основен текст)"
+      ],
+      "Step 1 (Compact)": [
+        "Стъпка 1 (Компактно)"
+      ],
+      "Step 2 (Default)": [
+        "Стъпка 2 (По подразбиране)"
+      ],
+      "Step 3 (Spacious)": [
+        "Стъпка 3 (Просторно)"
+      ],
+      "Step 4 (Wide)": [
+        "Стъпка 4 (Широко)"
+      ],
+      "Ratio Visualizer Settings": [
+        "Настройки на визуализатора на съотношение"
+      ],
+      "Show step labels on SVG axis": [
+        "Показване на етикетите върху SVG оста"
+      ],
+      "Show step min/max cards": [
+        "Показване на мин./макс. карти за стъпките"
+      ],
+      "Color theme": [
+        "Цветова тема"
+      ],
+      "Dark": [
+        "Тъмна"
+      ],
+      "Light": [
+        "Светла"
+      ],
+      "Ratio Visualizer (SVG Curve)": [
+        "Визуализатор на съотношение (SVG крива)"
+      ],
+      "APCA Contrast Settings": [
+        "Настройки на APCA контраст"
+      ],
+      "Foreground hex color": [
+        "Hex цвят на текста"
+      ],
+      "Background hex color": [
+        "Hex цвят на фона"
+      ],
+      "Target text role": [
+        "Целева роля на текста"
+      ],
+      "Body copy (target Lc 75)": [
+        "Основен текст (цел Lc 75)"
+      ],
+      "UI / secondary text (target Lc 60)": [
+        "Вторичен / UI текст (цел Lc 60)"
+      ],
+      "Large headline (target Lc 45)": [
+        "Голямо заглавие (цел Lc 45)"
+      ],
+      "APCA Contrast Badge (WM Scale)": [
+        "Значка за APCA контраст (WM Scale)"
+      ],
+      "Exporter Output Settings": [
+        "Настройки на експорта"
+      ],
+      "Displayed export format": [
+        "Показван формат на експорта"
+      ],
+      "Both (theme.json v3 + Tailwind v4)": [
+        "И двете (theme.json v3 + Tailwind v4)"
+      ],
+      "theme.json v3 only": [
+        "Само theme.json v3"
+      ],
+      "Tailwind CSS v4 @theme only": [
+        "Само Tailwind CSS v4 @theme"
+      ],
+      "Theme.json Exporter (WM Scale)": [
+        "Експортер за Theme.json (WM Scale)"
+      ],
+      "block title\u0004APCA Contrast Badge (WM Scale)": [
+        "Значка за APCA контраст (WM Scale)"
+      ],
+      "block description\u0004Badge with the APCA lightness contrast (Lc) of a text and background colour pair and a usage hint for that value.": [
+        "Значка със светлинния APCA контраст (Lc) на двойка цветове текст/фон и насока за употреба."
+      ],
+      "block keyword\u0004contrast": [
+        "контраст"
+      ],
+      "block keyword\u0004apca": [
+        "apca"
+      ],
+      "block keyword\u0004a11y": [
+        "a11y"
+      ],
+      "block keyword\u0004accessibility": [
+        "достъпност"
+      ],
+      "block title\u0004Fluid Container (@container)": [
+        "Плавен контейнер (@container)"
+      ],
+      "block description\u0004Container for inner blocks that sets container-type (default inline-size) and container-name (default wm-typographic-context) for container queries.": [
+        "Контейнер за вътрешни блокове, задаващ container-type (inline-size) и container-name (wm-typographic-context)."
+      ],
+      "block keyword\u0004container": [
+        "контейнер"
+      ],
+      "block keyword\u0004queries": [
+        "заявки"
+      ],
+      "block keyword\u0004cqw": [
+        "cqw"
+      ],
+      "block keyword\u0004cqi": [
+        "cqi"
+      ],
+      "block keyword\u0004fluid": [
+        "плавен"
+      ],
+      "block keyword\u0004layout": [
+        "оформление"
+      ],
+      "block title\u0004Fluid Heading (WM Scale)": [
+        "Плавно заглавие (WM Scale)"
+      ],
+      "block description\u0004Heading (H1–H6) with the fluid font-size class of its level, balanced line wrapping and an optional custom clamp() value.": [
+        "Заглавие (H1–H6) с плавен клас за размер според нивото, балансирано пренасяне и незадължителен clamp()."
+      ],
+      "block keyword\u0004heading": [
+        "заглавие"
+      ],
+      "block keyword\u0004typography": [
+        "типография"
+      ],
+      "block keyword\u0004scale": [
+        "скала"
+      ],
+      "block keyword\u0004modular": [
+        "модулна"
+      ],
+      "block title\u0004Fluid Lead Text (WM Scale)": [
+        "Плавен уводен текст (WM Scale)"
+      ],
+      "block description\u0004Paragraph with the fluid body font size, a maximum line length of 35–85 characters (default 65) and pretty line wrapping.": [
+        "Абзац с плавен основен размер, максимална дължина 35–85 знака (по подразбиране 65) и плавно пренасяне."
+      ],
+      "block keyword\u0004lead": [
+        "увод"
+      ],
+      "block keyword\u0004paragraph": [
+        "абзац"
+      ],
+      "block keyword\u0004reading": [
+        "четене"
+      ],
+      "block title\u0004Ratio Visualizer (SVG Curve)": [
+        "Визуализатор на съотношение (SVG крива)"
+      ],
+      "block description\u0004Shows the nine scale steps with their minimum and maximum size in px, calculated from the stored base sizes and ratio.": [
+        "Показва деветте стъпки на скалата с минимален и максимален размер в px, изчислени от запазените настройки."
+      ],
+      "block keyword\u0004visualizer": [
+        "визуализатор"
+      ],
+      "block keyword\u0004ratio": [
+        "съотношение"
+      ],
+      "block keyword\u0004svg": [
+        "svg"
+      ],
+      "block keyword\u0004curve": [
+        "крива"
+      ],
+      "block keyword\u0004preview": [
+        "преглед"
+      ],
+      "block title\u0004Theme.json Exporter (WM Scale)": [
+        "Експортер за Theme.json (WM Scale)"
+      ],
+      "block description\u0004Shows the theme.json fontSizes and the Tailwind CSS v4 @theme block generated from the stored scale.": [
+        "Показва fontSizes за theme.json и блока @theme за Tailwind CSS v4, генерирани от запазената скала."
+      ],
+      "block keyword\u0004theme.json": [
+        "theme.json"
+      ],
+      "block keyword\u0004exporter": [
+        "експортер"
+      ],
+      "block keyword\u0004tokens": [
+        "токени"
+      ],
+      "block keyword\u0004json": [
+        "json"
+      ],
+      "block keyword\u0004tailwind": [
+        "tailwind"
+      ],
+      "block title\u0004Typographic Grid (WM Scale)": [
+        "Типографска мрежа (WM Scale)"
+      ],
+      "block description\u0004Grid of 1–6 equal columns for inner blocks, with a gap from the scale (default var(--wm-step-2)).": [
+        "Мрежа от 1 до 6 равни колони за вътрешни блокове с разстояние от скалата."
+      ],
+      "block keyword\u0004grid": [
+        "мрежа"
+      ],
+      "block keyword\u0004columns": [
+        "колони"
+      ],
+      "block keyword\u0004rhythm": [
+        "ритъм"
+      ],
+      "block keyword\u0004baseline": [
+        "базова линия"
+      ]
+    }
+  }
+}

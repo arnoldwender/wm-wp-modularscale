@@ -1,0 +1,294 @@
+{
+  "translation-revision-date": "2026-11-21T15:04:18+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-modularscale",
+        "lang": "sl_SI",
+        "plural-forms": "nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);"
+      },
+      "Fluid Heading Settings": [
+        "Nastavitve tekočega naslova"
+      ],
+      "Heading level (H1–H6)": [
+        "Raven naslova (H1–H6)"
+      ],
+      "Modular scale step (-2 to +6)": [
+        "Stopnja modularne lestvice (-2 do +6)"
+      ],
+      "Text alignment": [
+        "Poravnava besedila"
+      ],
+      "Left": [
+        "Levo"
+      ],
+      "Center": [
+        "Sredinsko"
+      ],
+      "Right": [
+        "Desno"
+      ],
+      "Custom CSS clamp() override": [
+        "Prilagojen izraz CSS clamp()"
+      ],
+      "Optional full CSS clamp() expression overriding the scale step.": [
+        "Izbirni polni izraz CSS clamp(), ki preglasi stopnjo lestvice."
+      ],
+      "Write fluid heading…": [
+        "Vpišite tekoči naslov…"
+      ],
+      "Fluid Lead Settings": [
+        "Nastavitve tekočega uvoda"
+      ],
+      "Maximum line length (characters)": [
+        "Največja dolžina vrstice (znaki)"
+      ],
+      "Write lead paragraph…": [
+        "Vpišite uvodni odstavek…"
+      ],
+      "Container Query Context": [
+        "Kontekst Container Query"
+      ],
+      "Container name": [
+        "Ime vsebnika"
+      ],
+      "Container type": [
+        "Vrsta vsebnika"
+      ],
+      "Inline size (cqi / cqw)": [
+        "Vrstična velikost (cqi / cqw)"
+      ],
+      "Size (width & height)": [
+        "Velikost (širina in višina)"
+      ],
+      "Normal": [
+        "Običajno"
+      ],
+      "Typographic Grid Settings": [
+        "Nastavitve tipografske mreže"
+      ],
+      "Columns (1–6)": [
+        "Stolpci (1–6)"
+      ],
+      "Scale gap token": [
+        "Žeton razmika iz lestvice"
+      ],
+      "Step 0 (Body base)": [
+        "Stopnja 0 (Osnova besedila)"
+      ],
+      "Step 1 (Compact)": [
+        "Stopnja 1 (Strnjeno)"
+      ],
+      "Step 2 (Default)": [
+        "Stopnja 2 (Privzeto)"
+      ],
+      "Step 3 (Spacious)": [
+        "Stopnja 3 (Zračno)"
+      ],
+      "Step 4 (Wide)": [
+        "Stopnja 4 (Široko)"
+      ],
+      "Ratio Visualizer Settings": [
+        "Nastavitve prikazovalnika razmerja"
+      ],
+      "Show step labels on SVG axis": [
+        "Prikaži oznake stopenj na osi SVG"
+      ],
+      "Show step min/max cards": [
+        "Prikaži kartice min/maks stopenj"
+      ],
+      "Color theme": [
+        "Barvna tema"
+      ],
+      "Dark": [
+        "Temna"
+      ],
+      "Light": [
+        "Svetla"
+      ],
+      "Ratio Visualizer (SVG Curve)": [
+        "Prikazovalnik razmerja (krivulja SVG)"
+      ],
+      "APCA Contrast Settings": [
+        "Nastavitve kontrasta APCA"
+      ],
+      "Foreground hex color": [
+        "Hex barva besedila"
+      ],
+      "Background hex color": [
+        "Hex barva ozadja"
+      ],
+      "Target text role": [
+        "Ciljna vloga besedila"
+      ],
+      "Body copy (target Lc 75)": [
+        "Tekoče besedilo (cilj Lc 75)"
+      ],
+      "UI / secondary text (target Lc 60)": [
+        "Sekundarno / UI besedilo (cilj Lc 60)"
+      ],
+      "Large headline (target Lc 45)": [
+        "Velik naslov (cilj Lc 45)"
+      ],
+      "APCA Contrast Badge (WM Scale)": [
+        "Značka kontrasta APCA (WM Scale)"
+      ],
+      "Exporter Output Settings": [
+        "Nastavitve izvoza"
+      ],
+      "Displayed export format": [
+        "Prikazani zapis izvoza"
+      ],
+      "Both (theme.json v3 + Tailwind v4)": [
+        "Oboje (theme.json v3 + Tailwind v4)"
+      ],
+      "theme.json v3 only": [
+        "Samo theme.json v3"
+      ],
+      "Tailwind CSS v4 @theme only": [
+        "Samo Tailwind CSS v4 @theme"
+      ],
+      "Theme.json Exporter (WM Scale)": [
+        "Izvoznik Theme.json (WM Scale)"
+      ],
+      "block title\u0004APCA Contrast Badge (WM Scale)": [
+        "Značka kontrasta APCA (WM Scale)"
+      ],
+      "block description\u0004Badge with the APCA lightness contrast (Lc) of a text and background colour pair and a usage hint for that value.": [
+        "Značka s svetlostnim kontrastom APCA (Lc) barvnega para besedila in ozadja ter priporočilom za rabo."
+      ],
+      "block keyword\u0004contrast": [
+        "kontrast"
+      ],
+      "block keyword\u0004apca": [
+        "apca"
+      ],
+      "block keyword\u0004a11y": [
+        "a11y"
+      ],
+      "block keyword\u0004accessibility": [
+        "dostopnost"
+      ],
+      "block title\u0004Fluid Container (@container)": [
+        "Tekoči vsebnik (@container)"
+      ],
+      "block description\u0004Container for inner blocks that sets container-type (default inline-size) and container-name (default wm-typographic-context) for container queries.": [
+        "Vsebnik za notranje bloke, ki nastavi container-type (inline-size) in container-name (wm-typographic-context)."
+      ],
+      "block keyword\u0004container": [
+        "vsebnik"
+      ],
+      "block keyword\u0004queries": [
+        "poizvedbe"
+      ],
+      "block keyword\u0004cqw": [
+        "cqw"
+      ],
+      "block keyword\u0004cqi": [
+        "cqi"
+      ],
+      "block keyword\u0004fluid": [
+        "tekoče"
+      ],
+      "block keyword\u0004layout": [
+        "postavitev"
+      ],
+      "block title\u0004Fluid Heading (WM Scale)": [
+        "Tekoči naslov (WM Scale)"
+      ],
+      "block description\u0004Heading (H1–H6) with the fluid font-size class of its level, balanced line wrapping and an optional custom clamp() value.": [
+        "Naslov (H1–H6) s tekočim razredom velikosti svoje ravni, uravnoteženim prelomom in izbirnim clamp()."
+      ],
+      "block keyword\u0004heading": [
+        "naslov"
+      ],
+      "block keyword\u0004typography": [
+        "tipografija"
+      ],
+      "block keyword\u0004scale": [
+        "lestvica"
+      ],
+      "block keyword\u0004modular": [
+        "modularno"
+      ],
+      "block title\u0004Fluid Lead Text (WM Scale)": [
+        "Tekoče uvodno besedilo (WM Scale)"
+      ],
+      "block description\u0004Paragraph with the fluid body font size, a maximum line length of 35–85 characters (default 65) and pretty line wrapping.": [
+        "Odstavek s tekočo velikostjo pisave, dolžino vrstice 35–85 znakov (privzeto 65) in estetskim prelomom."
+      ],
+      "block keyword\u0004lead": [
+        "uvod"
+      ],
+      "block keyword\u0004paragraph": [
+        "odstavek"
+      ],
+      "block keyword\u0004reading": [
+        "branje"
+      ],
+      "block title\u0004Ratio Visualizer (SVG Curve)": [
+        "Prikazovalnik razmerja (krivulja SVG)"
+      ],
+      "block description\u0004Shows the nine scale steps with their minimum and maximum size in px, calculated from the stored base sizes and ratio.": [
+        "Prikaže devet stopenj lestvice z najmanjšo in največjo velikostjo v px glede na shranjene nastavitve."
+      ],
+      "block keyword\u0004visualizer": [
+        "prikazovalnik"
+      ],
+      "block keyword\u0004ratio": [
+        "razmerje"
+      ],
+      "block keyword\u0004svg": [
+        "svg"
+      ],
+      "block keyword\u0004curve": [
+        "krivulja"
+      ],
+      "block keyword\u0004preview": [
+        "predogled"
+      ],
+      "block title\u0004Theme.json Exporter (WM Scale)": [
+        "Izvoznik Theme.json (WM Scale)"
+      ],
+      "block description\u0004Shows the theme.json fontSizes and the Tailwind CSS v4 @theme block generated from the stored scale.": [
+        "Prikaže fontSizes za theme.json in blok @theme za Tailwind CSS v4 iz shranjene lestvice."
+      ],
+      "block keyword\u0004theme.json": [
+        "theme.json"
+      ],
+      "block keyword\u0004exporter": [
+        "izvoznik"
+      ],
+      "block keyword\u0004tokens": [
+        "žetoni"
+      ],
+      "block keyword\u0004json": [
+        "json"
+      ],
+      "block keyword\u0004tailwind": [
+        "tailwind"
+      ],
+      "block title\u0004Typographic Grid (WM Scale)": [
+        "Tipografska mreža (WM Scale)"
+      ],
+      "block description\u0004Grid of 1–6 equal columns for inner blocks, with a gap from the scale (default var(--wm-step-2)).": [
+        "Mreža z 1 do 6 enakimi stolpci za notranje bloke in razmikom iz lestvice."
+      ],
+      "block keyword\u0004grid": [
+        "mreža"
+      ],
+      "block keyword\u0004columns": [
+        "stolpci"
+      ],
+      "block keyword\u0004rhythm": [
+        "ritem"
+      ],
+      "block keyword\u0004baseline": [
+        "osnovnica"
+      ]
+    }
+  }
+}

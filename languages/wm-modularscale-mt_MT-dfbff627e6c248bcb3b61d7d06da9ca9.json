@@ -1,0 +1,294 @@
+{
+  "translation-revision-date": "2026-11-21T15:04:18+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-modularscale",
+        "lang": "mt_MT",
+        "plural-forms": "nplurals=4; plural=(n==1 ? 0 : n==0 || (n%100>1 && n%100<11) ? 1 : (n%100>10 && n%100<20 ) ? 2 : 3);"
+      },
+      "Fluid Heading Settings": [
+        "Settings tat-titlu fluwidu"
+      ],
+      "Heading level (H1–H6)": [
+        "Livell tat-titlu (H1–H6)"
+      ],
+      "Modular scale step (-2 to +6)": [
+        "Pass tal-iskala modulari (-2 sa +6)"
+      ],
+      "Text alignment": [
+        "Allinjament tat-test"
+      ],
+      "Left": [
+        "Xellug"
+      ],
+      "Center": [
+        "Ċentru"
+      ],
+      "Right": [
+        "Lemin"
+      ],
+      "Custom CSS clamp() override": [
+        "Valur CSS clamp() personalizzat"
+      ],
+      "Optional full CSS clamp() expression overriding the scale step.": [
+        "Espressjoni CSS clamp() sħiħa fakultattiva li tieħu post il-pass tal-iskala."
+      ],
+      "Write fluid heading…": [
+        "Ikteb titlu fluwidu…"
+      ],
+      "Fluid Lead Settings": [
+        "Settings tal-introduzzjoni fluwida"
+      ],
+      "Maximum line length (characters)": [
+        "Tul massimu tal-linja (karattri)"
+      ],
+      "Write lead paragraph…": [
+        "Ikteb paragrafu introduttorju…"
+      ],
+      "Container Query Context": [
+        "Kuntest Container Query"
+      ],
+      "Container name": [
+        "Isem il-kontenitur"
+      ],
+      "Container type": [
+        "Tip ta’ kontenitur"
+      ],
+      "Inline size (cqi / cqw)": [
+        "Daqs inline (cqi / cqw)"
+      ],
+      "Size (width & height)": [
+        "Daqs (wisa’ u għoli)"
+      ],
+      "Normal": [
+        "Normali"
+      ],
+      "Typographic Grid Settings": [
+        "Settings tal-grilja tipografika"
+      ],
+      "Columns (1–6)": [
+        "Kolonni (1–6)"
+      ],
+      "Scale gap token": [
+        "Token tal-ispazju mill-iskala"
+      ],
+      "Step 0 (Body base)": [
+        "Pass 0 (Bażi tat-test)"
+      ],
+      "Step 1 (Compact)": [
+        "Pass 1 (Kumpatt)"
+      ],
+      "Step 2 (Default)": [
+        "Pass 2 (Default)"
+      ],
+      "Step 3 (Spacious)": [
+        "Pass 3 (Spazjuż)"
+      ],
+      "Step 4 (Wide)": [
+        "Pass 4 (Wiesa’)"
+      ],
+      "Ratio Visualizer Settings": [
+        "Settings tal-viżwalizzatur tal-proporzjon"
+      ],
+      "Show step labels on SVG axis": [
+        "Uri t-tikketti tal-passi fuq l-assi SVG"
+      ],
+      "Show step min/max cards": [
+        "Uri l-kards min/mass tal-passi"
+      ],
+      "Color theme": [
+        "Tema tal-kulur"
+      ],
+      "Dark": [
+        "Skura"
+      ],
+      "Light": [
+        "Ċara"
+      ],
+      "Ratio Visualizer (SVG Curve)": [
+        "Viżwalizzatur tal-proporzjon (kurva SVG)"
+      ],
+      "APCA Contrast Settings": [
+        "Settings tal-kuntrast APCA"
+      ],
+      "Foreground hex color": [
+        "Kulur hex tat-test"
+      ],
+      "Background hex color": [
+        "Kulur hex tal-isfond"
+      ],
+      "Target text role": [
+        "Rwol immirat tat-test"
+      ],
+      "Body copy (target Lc 75)": [
+        "Test prinċipali (mira Lc 75)"
+      ],
+      "UI / secondary text (target Lc 60)": [
+        "Test sekondarju / UI (mira Lc 60)"
+      ],
+      "Large headline (target Lc 45)": [
+        "Titlu kbir (mira Lc 45)"
+      ],
+      "APCA Contrast Badge (WM Scale)": [
+        "Badge tal-kuntrast APCA (WM Scale)"
+      ],
+      "Exporter Output Settings": [
+        "Settings tal-esportazzjoni"
+      ],
+      "Displayed export format": [
+        "Format tal-esportazzjoni muri"
+      ],
+      "Both (theme.json v3 + Tailwind v4)": [
+        "It-tnejn (theme.json v3 + Tailwind v4)"
+      ],
+      "theme.json v3 only": [
+        "theme.json v3 biss"
+      ],
+      "Tailwind CSS v4 @theme only": [
+        "Tailwind CSS v4 @theme biss"
+      ],
+      "Theme.json Exporter (WM Scale)": [
+        "Esportatur Theme.json (WM Scale)"
+      ],
+      "block title\u0004APCA Contrast Badge (WM Scale)": [
+        "Badge tal-kuntrast APCA (WM Scale)"
+      ],
+      "block description\u0004Badge with the APCA lightness contrast (Lc) of a text and background colour pair and a usage hint for that value.": [
+        "Badge bil-kuntrast tal-luminożità APCA (Lc) ta’ par kuluri test/sfond u ħjiel dwar l-użu."
+      ],
+      "block keyword\u0004contrast": [
+        "kuntrast"
+      ],
+      "block keyword\u0004apca": [
+        "apca"
+      ],
+      "block keyword\u0004a11y": [
+        "a11y"
+      ],
+      "block keyword\u0004accessibility": [
+        "aċċessibbiltà"
+      ],
+      "block title\u0004Fluid Container (@container)": [
+        "Kontenitur fluwidu (@container)"
+      ],
+      "block description\u0004Container for inner blocks that sets container-type (default inline-size) and container-name (default wm-typographic-context) for container queries.": [
+        "Kontenitur għal blokok interni li jissettja container-type (inline-size) u container-name (wm-typographic-context)."
+      ],
+      "block keyword\u0004container": [
+        "kontenitur"
+      ],
+      "block keyword\u0004queries": [
+        "mistoqsijiet"
+      ],
+      "block keyword\u0004cqw": [
+        "cqw"
+      ],
+      "block keyword\u0004cqi": [
+        "cqi"
+      ],
+      "block keyword\u0004fluid": [
+        "fluwidu"
+      ],
+      "block keyword\u0004layout": [
+        "tqassim"
+      ],
+      "block title\u0004Fluid Heading (WM Scale)": [
+        "Titlu fluwidu (WM Scale)"
+      ],
+      "block description\u0004Heading (H1–H6) with the fluid font-size class of its level, balanced line wrapping and an optional custom clamp() value.": [
+        "Titlu (H1–H6) bi klassi fluwida tal-livell tiegħu, qsim bilanċjat tal-linji u valur clamp() fakultattiv."
+      ],
+      "block keyword\u0004heading": [
+        "titlu"
+      ],
+      "block keyword\u0004typography": [
+        "tipografija"
+      ],
+      "block keyword\u0004scale": [
+        "skala"
+      ],
+      "block keyword\u0004modular": [
+        "modulari"
+      ],
+      "block title\u0004Fluid Lead Text (WM Scale)": [
+        "Test introduttorju fluwidu (WM Scale)"
+      ],
+      "block description\u0004Paragraph with the fluid body font size, a maximum line length of 35–85 characters (default 65) and pretty line wrapping.": [
+        "Paragrafu b’daqs fluwidu tat-test, tul ta’ linja ta’ 35–85 karattru (default 65) u qsim pulit."
+      ],
+      "block keyword\u0004lead": [
+        "introduzzjoni"
+      ],
+      "block keyword\u0004paragraph": [
+        "paragrafu"
+      ],
+      "block keyword\u0004reading": [
+        "qari"
+      ],
+      "block title\u0004Ratio Visualizer (SVG Curve)": [
+        "Viżwalizzatur tal-proporzjon (kurva SVG)"
+      ],
+      "block description\u0004Shows the nine scale steps with their minimum and maximum size in px, calculated from the stored base sizes and ratio.": [
+        "Juri d-disa’ passi tal-iskala bid-daqs minimu u massimu f’px ikkalkulati mill-iskala ssejvjata."
+      ],
+      "block keyword\u0004visualizer": [
+        "viżwalizzatur"
+      ],
+      "block keyword\u0004ratio": [
+        "proporzjon"
+      ],
+      "block keyword\u0004svg": [
+        "svg"
+      ],
+      "block keyword\u0004curve": [
+        "kurva"
+      ],
+      "block keyword\u0004preview": [
+        "previżjoni"
+      ],
+      "block title\u0004Theme.json Exporter (WM Scale)": [
+        "Esportatur Theme.json (WM Scale)"
+      ],
+      "block description\u0004Shows the theme.json fontSizes and the Tailwind CSS v4 @theme block generated from the stored scale.": [
+        "Juri l-fontSizes ta’ theme.json u l-blokk @theme ta’ Tailwind CSS v4 iġġenerati mill-iskala ssejvjata."
+      ],
+      "block keyword\u0004theme.json": [
+        "theme.json"
+      ],
+      "block keyword\u0004exporter": [
+        "esportatur"
+      ],
+      "block keyword\u0004tokens": [
+        "tokens"
+      ],
+      "block keyword\u0004json": [
+        "json"
+      ],
+      "block keyword\u0004tailwind": [
+        "tailwind"
+      ],
+      "block title\u0004Typographic Grid (WM Scale)": [
+        "Grilja tipografika (WM Scale)"
+      ],
+      "block description\u0004Grid of 1–6 equal columns for inner blocks, with a gap from the scale (default var(--wm-step-2)).": [
+        "Grilja ta’ 1 sa 6 kolonni ndaqs għal blokok interni bi spazju mill-iskala."
+      ],
+      "block keyword\u0004grid": [
+        "grilja"
+      ],
+      "block keyword\u0004columns": [
+        "kolonni"
+      ],
+      "block keyword\u0004rhythm": [
+        "ritmu"
+      ],
+      "block keyword\u0004baseline": [
+        "linja bażi"
+      ]
+    }
+  }
+}

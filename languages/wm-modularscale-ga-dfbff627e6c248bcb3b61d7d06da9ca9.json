@@ -1,0 +1,294 @@
+{
+  "translation-revision-date": "2026-11-21T15:04:18+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-modularscale",
+        "lang": "ga",
+        "plural-forms": "nplurals=5; plural=(n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : 4);"
+      },
+      "Fluid Heading Settings": [
+        "Socruithe ceannlíne sreabhaí"
+      ],
+      "Heading level (H1–H6)": [
+        "Leibhéal ceannlíne (H1–H6)"
+      ],
+      "Modular scale step (-2 to +6)": [
+        "Céim scála mhodúlaigh (-2 go +6)"
+      ],
+      "Text alignment": [
+        "Ailíniú téacs"
+      ],
+      "Left": [
+        "Clé"
+      ],
+      "Center": [
+        "Lár"
+      ],
+      "Right": [
+        "Deas"
+      ],
+      "Custom CSS clamp() override": [
+        "Sárú CSS clamp() saincheaptha"
+      ],
+      "Optional full CSS clamp() expression overriding the scale step.": [
+        "Slonn iomlán CSS clamp() roghnach a sháraíonn céim an scála."
+      ],
+      "Write fluid heading…": [
+        "Scríobh ceannlíne shreabhach…"
+      ],
+      "Fluid Lead Settings": [
+        "Socruithe réamhrá shreabhaigh"
+      ],
+      "Maximum line length (characters)": [
+        "Uasfhad líne (carachtair)"
+      ],
+      "Write lead paragraph…": [
+        "Scríobh alt réamhrá…"
+      ],
+      "Container Query Context": [
+        "Comhthéacs Container Query"
+      ],
+      "Container name": [
+        "Ainm an choimeádáin"
+      ],
+      "Container type": [
+        "Cineál coimeádáin"
+      ],
+      "Inline size (cqi / cqw)": [
+        "Méid inlíne (cqi / cqw)"
+      ],
+      "Size (width & height)": [
+        "Méid (leithead & airde)"
+      ],
+      "Normal": [
+        "Gnáth"
+      ],
+      "Typographic Grid Settings": [
+        "Socruithe greille clóghrafaí"
+      ],
+      "Columns (1–6)": [
+        "Colúin (1–6)"
+      ],
+      "Scale gap token": [
+        "Comhartha bearna ón scála"
+      ],
+      "Step 0 (Body base)": [
+        "Céim 0 (Bunmhéid téacs)"
+      ],
+      "Step 1 (Compact)": [
+        "Céim 1 (Dlúth)"
+      ],
+      "Step 2 (Default)": [
+        "Céim 2 (Réamhshocrú)"
+      ],
+      "Step 3 (Spacious)": [
+        "Céim 3 (Fairsing)"
+      ],
+      "Step 4 (Wide)": [
+        "Céim 4 (Leathan)"
+      ],
+      "Ratio Visualizer Settings": [
+        "Socruithe amharcléirithe cóimheasa"
+      ],
+      "Show step labels on SVG axis": [
+        "Taispeáin lipéid céime ar ais SVG"
+      ],
+      "Show step min/max cards": [
+        "Taispeáin cártaí íos/uas na gcéimeanna"
+      ],
+      "Color theme": [
+        "Téama dathanna"
+      ],
+      "Dark": [
+        "Dorcha"
+      ],
+      "Light": [
+        "Geal"
+      ],
+      "Ratio Visualizer (SVG Curve)": [
+        "Amharcléiriú cóimheasa (cuar SVG)"
+      ],
+      "APCA Contrast Settings": [
+        "Socruithe codarsnachta APCA"
+      ],
+      "Foreground hex color": [
+        "Dath hex tulra"
+      ],
+      "Background hex color": [
+        "Dath hex cúlra"
+      ],
+      "Target text role": [
+        "Spriocról téacs"
+      ],
+      "Body copy (target Lc 75)": [
+        "Príomhthéacs (sprioc Lc 75)"
+      ],
+      "UI / secondary text (target Lc 60)": [
+        "Téacs tánaisteach / UI (sprioc Lc 60)"
+      ],
+      "Large headline (target Lc 45)": [
+        "Ceannlíne mhór (sprioc Lc 45)"
+      ],
+      "APCA Contrast Badge (WM Scale)": [
+        "Suaitheantas codarsnachta APCA (WM Scale)"
+      ],
+      "Exporter Output Settings": [
+        "Socruithe easpórtála"
+      ],
+      "Displayed export format": [
+        "Formáid easpórtála ar taispeáint"
+      ],
+      "Both (theme.json v3 + Tailwind v4)": [
+        "An dá cheann (theme.json v3 + Tailwind v4)"
+      ],
+      "theme.json v3 only": [
+        "theme.json v3 amháin"
+      ],
+      "Tailwind CSS v4 @theme only": [
+        "Tailwind CSS v4 @theme amháin"
+      ],
+      "Theme.json Exporter (WM Scale)": [
+        "Easpórtálaí Theme.json (WM Scale)"
+      ],
+      "block title\u0004APCA Contrast Badge (WM Scale)": [
+        "Suaitheantas codarsnachta APCA (WM Scale)"
+      ],
+      "block description\u0004Badge with the APCA lightness contrast (Lc) of a text and background colour pair and a usage hint for that value.": [
+        "Suaitheantas le codarsnacht gile APCA (Lc) péire dathanna téacs/cúlra agus leid úsáide."
+      ],
+      "block keyword\u0004contrast": [
+        "codarsnacht"
+      ],
+      "block keyword\u0004apca": [
+        "apca"
+      ],
+      "block keyword\u0004a11y": [
+        "a11y"
+      ],
+      "block keyword\u0004accessibility": [
+        "inrochtaineacht"
+      ],
+      "block title\u0004Fluid Container (@container)": [
+        "Coimeádán sreabhach (@container)"
+      ],
+      "block description\u0004Container for inner blocks that sets container-type (default inline-size) and container-name (default wm-typographic-context) for container queries.": [
+        "Coimeádán do bhloic inmheánacha a shocraíonn container-type (inline-size) agus container-name (wm-typographic-context)."
+      ],
+      "block keyword\u0004container": [
+        "coimeádán"
+      ],
+      "block keyword\u0004queries": [
+        "iarratais"
+      ],
+      "block keyword\u0004cqw": [
+        "cqw"
+      ],
+      "block keyword\u0004cqi": [
+        "cqi"
+      ],
+      "block keyword\u0004fluid": [
+        "sreabhach"
+      ],
+      "block keyword\u0004layout": [
+        "leagan amach"
+      ],
+      "block title\u0004Fluid Heading (WM Scale)": [
+        "Ceannlíne shreabhach (WM Scale)"
+      ],
+      "block description\u0004Heading (H1–H6) with the fluid font-size class of its level, balanced line wrapping and an optional custom clamp() value.": [
+        "Ceannlíne (H1–H6) le rang clómhéide sreabhach a leibhéil, timfhilleadh cothrom agus clamp() roghnach."
+      ],
+      "block keyword\u0004heading": [
+        "ceannlíne"
+      ],
+      "block keyword\u0004typography": [
+        "clóghrafaíocht"
+      ],
+      "block keyword\u0004scale": [
+        "scála"
+      ],
+      "block keyword\u0004modular": [
+        "modúlach"
+      ],
+      "block title\u0004Fluid Lead Text (WM Scale)": [
+        "Réamhrá sreabhach (WM Scale)"
+      ],
+      "block description\u0004Paragraph with the fluid body font size, a maximum line length of 35–85 characters (default 65) and pretty line wrapping.": [
+        "Alt le clómhéid shreabhach, fad líne 35–85 carachtar (réamhshocrú 65) agus timfhilleadh néata."
+      ],
+      "block keyword\u0004lead": [
+        "réamhrá"
+      ],
+      "block keyword\u0004paragraph": [
+        "alt"
+      ],
+      "block keyword\u0004reading": [
+        "léitheoireacht"
+      ],
+      "block title\u0004Ratio Visualizer (SVG Curve)": [
+        "Amharcléiriú cóimheasa (cuar SVG)"
+      ],
+      "block description\u0004Shows the nine scale steps with their minimum and maximum size in px, calculated from the stored base sizes and ratio.": [
+        "Taispeánann sé na naoi gcéim den scála lena n-íosmhéid agus uasmhéid i px ón scála sábháilte."
+      ],
+      "block keyword\u0004visualizer": [
+        "amharcléiriú"
+      ],
+      "block keyword\u0004ratio": [
+        "cóimheas"
+      ],
+      "block keyword\u0004svg": [
+        "svg"
+      ],
+      "block keyword\u0004curve": [
+        "cuar"
+      ],
+      "block keyword\u0004preview": [
+        "réamhamharc"
+      ],
+      "block title\u0004Theme.json Exporter (WM Scale)": [
+        "Easpórtálaí Theme.json (WM Scale)"
+      ],
+      "block description\u0004Shows the theme.json fontSizes and the Tailwind CSS v4 @theme block generated from the stored scale.": [
+        "Taispeánann sé fontSizes do theme.json agus bloc @theme Tailwind CSS v4 ón scála sábháilte."
+      ],
+      "block keyword\u0004theme.json": [
+        "theme.json"
+      ],
+      "block keyword\u0004exporter": [
+        "easpórtálaí"
+      ],
+      "block keyword\u0004tokens": [
+        "comharthaí"
+      ],
+      "block keyword\u0004json": [
+        "json"
+      ],
+      "block keyword\u0004tailwind": [
+        "tailwind"
+      ],
+      "block title\u0004Typographic Grid (WM Scale)": [
+        "Greille chlóghrafach (WM Scale)"
+      ],
+      "block description\u0004Grid of 1–6 equal columns for inner blocks, with a gap from the scale (default var(--wm-step-2)).": [
+        "Greille 1–6 cholún chomhionanna do bhloic inmheánacha le bearna ón scála."
+      ],
+      "block keyword\u0004grid": [
+        "greille"
+      ],
+      "block keyword\u0004columns": [
+        "colúin"
+      ],
+      "block keyword\u0004rhythm": [
+        "ritim"
+      ],
+      "block keyword\u0004baseline": [
+        "bunlíne"
+      ]
+    }
+  }
+}

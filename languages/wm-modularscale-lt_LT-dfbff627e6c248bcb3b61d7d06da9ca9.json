@@ -1,0 +1,294 @@
+{
+  "translation-revision-date": "2026-11-21T15:04:18+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-modularscale",
+        "lang": "lt_LT",
+        "plural-forms": "nplurals=3; plural=(n%10==1 && (n%100<11 || n%100>19) ? 0 : n%10>=2 && n%10<=9 && (n%100<11 || n%100>19) ? 1 : 2);"
+      },
+      "Fluid Heading Settings": [
+        "Sklandžios antraštės nuostatos"
+      ],
+      "Heading level (H1–H6)": [
+        "Antraštės lygis (H1–H6)"
+      ],
+      "Modular scale step (-2 to +6)": [
+        "Modulinės skalės pakopa (-2 iki +6)"
+      ],
+      "Text alignment": [
+        "Teksto lygiavimas"
+      ],
+      "Left": [
+        "Kairėje"
+      ],
+      "Center": [
+        "Centre"
+      ],
+      "Right": [
+        "Dešinėje"
+      ],
+      "Custom CSS clamp() override": [
+        "Pasirinktinė CSS clamp() reikšmė"
+      ],
+      "Optional full CSS clamp() expression overriding the scale step.": [
+        "Pasirenkama pilna CSS clamp() išraiška, pakeičianti skalės pakopą."
+      ],
+      "Write fluid heading…": [
+        "Įveskite sklandžią antraštę…"
+      ],
+      "Fluid Lead Settings": [
+        "Sklandžios įžangos nuostatos"
+      ],
+      "Maximum line length (characters)": [
+        "Didžiausias eilutės ilgis (simboliai)"
+      ],
+      "Write lead paragraph…": [
+        "Įveskite įžanginę pastraipą…"
+      ],
+      "Container Query Context": [
+        "Container Query kontekstas"
+      ],
+      "Container name": [
+        "Konteinerio pavadinimas"
+      ],
+      "Container type": [
+        "Konteinerio tipas"
+      ],
+      "Inline size (cqi / cqw)": [
+        "Eilutės dydis (cqi / cqw)"
+      ],
+      "Size (width & height)": [
+        "Dydis (plotis ir aukštis)"
+      ],
+      "Normal": [
+        "Įprastas"
+      ],
+      "Typographic Grid Settings": [
+        "Tipografinio tinklelio nuostatos"
+      ],
+      "Columns (1–6)": [
+        "Stulpeliai (1–6)"
+      ],
+      "Scale gap token": [
+        "Skalės tarpo žetonas"
+      ],
+      "Step 0 (Body base)": [
+        "0 pakopa (Pagrindinis tekstas)"
+      ],
+      "Step 1 (Compact)": [
+        "1 pakopa (Kompaktiškas)"
+      ],
+      "Step 2 (Default)": [
+        "2 pakopa (Numatytasis)"
+      ],
+      "Step 3 (Spacious)": [
+        "3 pakopa (Erdvus)"
+      ],
+      "Step 4 (Wide)": [
+        "4 pakopa (Platus)"
+      ],
+      "Ratio Visualizer Settings": [
+        "Santykio vizualizatoriaus nuostatos"
+      ],
+      "Show step labels on SVG axis": [
+        "Rodyti pakopų žymas SVG ašyje"
+      ],
+      "Show step min/max cards": [
+        "Rodyti pakopų min./maks. korteles"
+      ],
+      "Color theme": [
+        "Spalvų tema"
+      ],
+      "Dark": [
+        "Tamsi"
+      ],
+      "Light": [
+        "Šviesi"
+      ],
+      "Ratio Visualizer (SVG Curve)": [
+        "Santykio vizualizatorius (SVG kreivė)"
+      ],
+      "APCA Contrast Settings": [
+        "APCA kontrasto nuostatos"
+      ],
+      "Foreground hex color": [
+        "Teksto hex spalva"
+      ],
+      "Background hex color": [
+        "Fono hex spalva"
+      ],
+      "Target text role": [
+        "Numatyta teksto paskirtis"
+      ],
+      "Body copy (target Lc 75)": [
+        "Pagrindinis tekstas (tikslas Lc 75)"
+      ],
+      "UI / secondary text (target Lc 60)": [
+        "Antrinis / UI tekstas (tikslas Lc 60)"
+      ],
+      "Large headline (target Lc 45)": [
+        "Didelė antraštė (tikslas Lc 45)"
+      ],
+      "APCA Contrast Badge (WM Scale)": [
+        "APCA kontrasto ženklelis (WM Scale)"
+      ],
+      "Exporter Output Settings": [
+        "Eksporto nuostatos"
+      ],
+      "Displayed export format": [
+        "Rodomas eksporto formatas"
+      ],
+      "Both (theme.json v3 + Tailwind v4)": [
+        "Abu (theme.json v3 + Tailwind v4)"
+      ],
+      "theme.json v3 only": [
+        "Tik theme.json v3"
+      ],
+      "Tailwind CSS v4 @theme only": [
+        "Tik Tailwind CSS v4 @theme"
+      ],
+      "Theme.json Exporter (WM Scale)": [
+        "Theme.json eksportuotojas (WM Scale)"
+      ],
+      "block title\u0004APCA Contrast Badge (WM Scale)": [
+        "APCA kontrasto ženklelis (WM Scale)"
+      ],
+      "block description\u0004Badge with the APCA lightness contrast (Lc) of a text and background colour pair and a usage hint for that value.": [
+        "Ženklelis su teksto ir fono spalvų poros APCA šviesumo kontrastu (Lc) bei naudojimo patarimu."
+      ],
+      "block keyword\u0004contrast": [
+        "kontrastas"
+      ],
+      "block keyword\u0004apca": [
+        "apca"
+      ],
+      "block keyword\u0004a11y": [
+        "a11y"
+      ],
+      "block keyword\u0004accessibility": [
+        "prieinamumas"
+      ],
+      "block title\u0004Fluid Container (@container)": [
+        "Sklandus konteineris (@container)"
+      ],
+      "block description\u0004Container for inner blocks that sets container-type (default inline-size) and container-name (default wm-typographic-context) for container queries.": [
+        "Vidinių blokų konteineris, nustatantis container-type (inline-size) ir container-name (wm-typographic-context)."
+      ],
+      "block keyword\u0004container": [
+        "konteineris"
+      ],
+      "block keyword\u0004queries": [
+        "užklausos"
+      ],
+      "block keyword\u0004cqw": [
+        "cqw"
+      ],
+      "block keyword\u0004cqi": [
+        "cqi"
+      ],
+      "block keyword\u0004fluid": [
+        "sklandus"
+      ],
+      "block keyword\u0004layout": [
+        "išdėstymas"
+      ],
+      "block title\u0004Fluid Heading (WM Scale)": [
+        "Sklandi antraštė (WM Scale)"
+      ],
+      "block description\u0004Heading (H1–H6) with the fluid font-size class of its level, balanced line wrapping and an optional custom clamp() value.": [
+        "Antraštė (H1–H6) su savo lygio sklandžia šrifto dydžio klase, subalansuotu eilučių laužymu ir pasirenkama clamp() reikšme."
+      ],
+      "block keyword\u0004heading": [
+        "antraštė"
+      ],
+      "block keyword\u0004typography": [
+        "tipografija"
+      ],
+      "block keyword\u0004scale": [
+        "skalė"
+      ],
+      "block keyword\u0004modular": [
+        "modulinis"
+      ],
+      "block title\u0004Fluid Lead Text (WM Scale)": [
+        "Sklandus įžanginis tekstas (WM Scale)"
+      ],
+      "block description\u0004Paragraph with the fluid body font size, a maximum line length of 35–85 characters (default 65) and pretty line wrapping.": [
+        "Pastraipa su sklandžiu pagrindinio šrifto dydžiu, 35–85 simbolių eilutės ilgiu (numatyta 65) ir tvarkingu laužymu."
+      ],
+      "block keyword\u0004lead": [
+        "įžanga"
+      ],
+      "block keyword\u0004paragraph": [
+        "pastraipa"
+      ],
+      "block keyword\u0004reading": [
+        "skaitymas"
+      ],
+      "block title\u0004Ratio Visualizer (SVG Curve)": [
+        "Santykio vizualizatorius (SVG kreivė)"
+      ],
+      "block description\u0004Shows the nine scale steps with their minimum and maximum size in px, calculated from the stored base sizes and ratio.": [
+        "Rodo devynias skalės pakopas su mažiausiu ir didžiausiu px dydžiu pagal išsaugotas reikšmes."
+      ],
+      "block keyword\u0004visualizer": [
+        "vizualizatorius"
+      ],
+      "block keyword\u0004ratio": [
+        "santykis"
+      ],
+      "block keyword\u0004svg": [
+        "svg"
+      ],
+      "block keyword\u0004curve": [
+        "kreivė"
+      ],
+      "block keyword\u0004preview": [
+        "peržiūra"
+      ],
+      "block title\u0004Theme.json Exporter (WM Scale)": [
+        "Theme.json eksportuotojas (WM Scale)"
+      ],
+      "block description\u0004Shows the theme.json fontSizes and the Tailwind CSS v4 @theme block generated from the stored scale.": [
+        "Rodo iš išsaugotos skalės sugeneruotus theme.json fontSizes ir Tailwind CSS v4 @theme bloką."
+      ],
+      "block keyword\u0004theme.json": [
+        "theme.json"
+      ],
+      "block keyword\u0004exporter": [
+        "eksportuotojas"
+      ],
+      "block keyword\u0004tokens": [
+        "žetonai"
+      ],
+      "block keyword\u0004json": [
+        "json"
+      ],
+      "block keyword\u0004tailwind": [
+        "tailwind"
+      ],
+      "block title\u0004Typographic Grid (WM Scale)": [
+        "Tipografinis tinklelis (WM Scale)"
+      ],
+      "block description\u0004Grid of 1–6 equal columns for inner blocks, with a gap from the scale (default var(--wm-step-2)).": [
+        "1–6 lygių stulpelių tinklelis vidiniams blokams su tarpu iš skalės."
+      ],
+      "block keyword\u0004grid": [
+        "tinklelis"
+      ],
+      "block keyword\u0004columns": [
+        "stulpeliai"
+      ],
+      "block keyword\u0004rhythm": [
+        "ritmas"
+      ],
+      "block keyword\u0004baseline": [
+        "bazinė linija"
+      ]
+    }
+  }
+}

@@ -1,0 +1,294 @@
+{
+  "translation-revision-date": "2026-11-21T15:04:18+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-modularscale",
+        "lang": "hu_HU",
+        "plural-forms": "nplurals=2; plural=(n != 1);"
+      },
+      "Fluid Heading Settings": [
+        "Folyamatos címsor beállításai"
+      ],
+      "Heading level (H1–H6)": [
+        "Címsorszint (H1–H6)"
+      ],
+      "Modular scale step (-2 to +6)": [
+        "Moduláris skálafokozat (-2-től +6-ig)"
+      ],
+      "Text alignment": [
+        "Szövegigazítás"
+      ],
+      "Left": [
+        "Balra"
+      ],
+      "Center": [
+        "Középre"
+      ],
+      "Right": [
+        "Jobbra"
+      ],
+      "Custom CSS clamp() override": [
+        "Egyéni CSS clamp() felülbírálás"
+      ],
+      "Optional full CSS clamp() expression overriding the scale step.": [
+        "Opcionális teljes CSS clamp() kifejezés a skálafokozat helyett."
+      ],
+      "Write fluid heading…": [
+        "Írjon folyamatos címsort…"
+      ],
+      "Fluid Lead Settings": [
+        "Folyamatos bevezető beállításai"
+      ],
+      "Maximum line length (characters)": [
+        "Maximális sorhossz (karakter)"
+      ],
+      "Write lead paragraph…": [
+        "Írjon bevezető bekezdést…"
+      ],
+      "Container Query Context": [
+        "Container Query környezet"
+      ],
+      "Container name": [
+        "Konténer neve"
+      ],
+      "Container type": [
+        "Konténer típusa"
+      ],
+      "Inline size (cqi / cqw)": [
+        "Sorirányú méret (cqi / cqw)"
+      ],
+      "Size (width & height)": [
+        "Méret (szélesség és magasság)"
+      ],
+      "Normal": [
+        "Normál"
+      ],
+      "Typographic Grid Settings": [
+        "Tipográfiai rács beállításai"
+      ],
+      "Columns (1–6)": [
+        "Oszlopok (1–6)"
+      ],
+      "Scale gap token": [
+        "Skálaköz token"
+      ],
+      "Step 0 (Body base)": [
+        "0. fokozat (Alapszöveg)"
+      ],
+      "Step 1 (Compact)": [
+        "1. fokozat (Tömör)"
+      ],
+      "Step 2 (Default)": [
+        "2. fokozat (Alapértelmezett)"
+      ],
+      "Step 3 (Spacious)": [
+        "3. fokozat (Szellős)"
+      ],
+      "Step 4 (Wide)": [
+        "4. fokozat (Széles)"
+      ],
+      "Ratio Visualizer Settings": [
+        "Arányvizualizáló beállításai"
+      ],
+      "Show step labels on SVG axis": [
+        "Fokozatcímkék megjelenítése az SVG-tengelyen"
+      ],
+      "Show step min/max cards": [
+        "Min/max kártyák megjelenítése"
+      ],
+      "Color theme": [
+        "Színséma"
+      ],
+      "Dark": [
+        "Sötét"
+      ],
+      "Light": [
+        "Világos"
+      ],
+      "Ratio Visualizer (SVG Curve)": [
+        "Arányvizualizáló (SVG-görbe)"
+      ],
+      "APCA Contrast Settings": [
+        "APCA-kontraszt beállításai"
+      ],
+      "Foreground hex color": [
+        "Előtérszín (hex)"
+      ],
+      "Background hex color": [
+        "Háttérszín (hex)"
+      ],
+      "Target text role": [
+        "Célzott szövegszerep"
+      ],
+      "Body copy (target Lc 75)": [
+        "Törzsszöveg (cél Lc 75)"
+      ],
+      "UI / secondary text (target Lc 60)": [
+        "Másodlagos / UI-szöveg (cél Lc 60)"
+      ],
+      "Large headline (target Lc 45)": [
+        "Nagy címsor (cél Lc 45)"
+      ],
+      "APCA Contrast Badge (WM Scale)": [
+        "APCA-kontrasztjelvény (WM Scale)"
+      ],
+      "Exporter Output Settings": [
+        "Exportálási beállítások"
+      ],
+      "Displayed export format": [
+        "Megjelenített exportformátum"
+      ],
+      "Both (theme.json v3 + Tailwind v4)": [
+        "Mindkettő (theme.json v3 + Tailwind v4)"
+      ],
+      "theme.json v3 only": [
+        "Csak theme.json v3"
+      ],
+      "Tailwind CSS v4 @theme only": [
+        "Csak Tailwind CSS v4 @theme"
+      ],
+      "Theme.json Exporter (WM Scale)": [
+        "Theme.json exportáló (WM Scale)"
+      ],
+      "block title\u0004APCA Contrast Badge (WM Scale)": [
+        "APCA-kontrasztjelvény (WM Scale)"
+      ],
+      "block description\u0004Badge with the APCA lightness contrast (Lc) of a text and background colour pair and a usage hint for that value.": [
+        "Jelvény a szöveg- és háttérszín APCA világossági kontrasztjával (Lc) és használati útmutatóval."
+      ],
+      "block keyword\u0004contrast": [
+        "kontraszt"
+      ],
+      "block keyword\u0004apca": [
+        "apca"
+      ],
+      "block keyword\u0004a11y": [
+        "a11y"
+      ],
+      "block keyword\u0004accessibility": [
+        "akadálymentesség"
+      ],
+      "block title\u0004Fluid Container (@container)": [
+        "Folyamatos konténer (@container)"
+      ],
+      "block description\u0004Container for inner blocks that sets container-type (default inline-size) and container-name (default wm-typographic-context) for container queries.": [
+        "Belső blokkok konténere container-type (inline-size) és container-name (wm-typographic-context) beállítással."
+      ],
+      "block keyword\u0004container": [
+        "konténer"
+      ],
+      "block keyword\u0004queries": [
+        "lekérdezések"
+      ],
+      "block keyword\u0004cqw": [
+        "cqw"
+      ],
+      "block keyword\u0004cqi": [
+        "cqi"
+      ],
+      "block keyword\u0004fluid": [
+        "folyamatos"
+      ],
+      "block keyword\u0004layout": [
+        "elrendezés"
+      ],
+      "block title\u0004Fluid Heading (WM Scale)": [
+        "Folyamatos címsor (WM Scale)"
+      ],
+      "block description\u0004Heading (H1–H6) with the fluid font-size class of its level, balanced line wrapping and an optional custom clamp() value.": [
+        "Címsor (H1–H6) a szintjéhez tartozó folyamatos betűméret-osztállyal, kiegyensúlyozott tördeléssel és opcionális clamp() értékkel."
+      ],
+      "block keyword\u0004heading": [
+        "címsor"
+      ],
+      "block keyword\u0004typography": [
+        "tipográfia"
+      ],
+      "block keyword\u0004scale": [
+        "skála"
+      ],
+      "block keyword\u0004modular": [
+        "moduláris"
+      ],
+      "block title\u0004Fluid Lead Text (WM Scale)": [
+        "Folyamatos bevezető szöveg (WM Scale)"
+      ],
+      "block description\u0004Paragraph with the fluid body font size, a maximum line length of 35–85 characters (default 65) and pretty line wrapping.": [
+        "Bekezdés folyamatos törzsmérettel, 35–85 karakteres sorhosszal (alapértelmezett 65) és esztétikus tördeléssel."
+      ],
+      "block keyword\u0004lead": [
+        "bevezető"
+      ],
+      "block keyword\u0004paragraph": [
+        "bekezdés"
+      ],
+      "block keyword\u0004reading": [
+        "olvasás"
+      ],
+      "block title\u0004Ratio Visualizer (SVG Curve)": [
+        "Arányvizualizáló (SVG-görbe)"
+      ],
+      "block description\u0004Shows the nine scale steps with their minimum and maximum size in px, calculated from the stored base sizes and ratio.": [
+        "Megjeleníti a kilenc skálafokozatot minimális és maximális px-méretükkel a mentett beállítások alapján."
+      ],
+      "block keyword\u0004visualizer": [
+        "vizualizáló"
+      ],
+      "block keyword\u0004ratio": [
+        "arány"
+      ],
+      "block keyword\u0004svg": [
+        "svg"
+      ],
+      "block keyword\u0004curve": [
+        "görbe"
+      ],
+      "block keyword\u0004preview": [
+        "előnézet"
+      ],
+      "block title\u0004Theme.json Exporter (WM Scale)": [
+        "Theme.json exportáló (WM Scale)"
+      ],
+      "block description\u0004Shows the theme.json fontSizes and the Tailwind CSS v4 @theme block generated from the stored scale.": [
+        "Megjeleníti a mentett skálából generált theme.json fontSizes tömböt és Tailwind CSS v4 @theme blokkot."
+      ],
+      "block keyword\u0004theme.json": [
+        "theme.json"
+      ],
+      "block keyword\u0004exporter": [
+        "exportáló"
+      ],
+      "block keyword\u0004tokens": [
+        "tokenek"
+      ],
+      "block keyword\u0004json": [
+        "json"
+      ],
+      "block keyword\u0004tailwind": [
+        "tailwind"
+      ],
+      "block title\u0004Typographic Grid (WM Scale)": [
+        "Tipográfiai rács (WM Scale)"
+      ],
+      "block description\u0004Grid of 1–6 equal columns for inner blocks, with a gap from the scale (default var(--wm-step-2)).": [
+        "1–6 egyenlő oszlopos rács belső blokkokhoz, skálából vett térközzel."
+      ],
+      "block keyword\u0004grid": [
+        "rács"
+      ],
+      "block keyword\u0004columns": [
+        "oszlopok"
+      ],
+      "block keyword\u0004rhythm": [
+        "ritmus"
+      ],
+      "block keyword\u0004baseline": [
+        "alapvonal"
+      ]
+    }
+  }
+}

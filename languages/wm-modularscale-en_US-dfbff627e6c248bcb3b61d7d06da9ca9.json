@@ -1,0 +1,294 @@
+{
+  "translation-revision-date": "2026-11-21T15:04:18+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-modularscale",
+        "lang": "en_US",
+        "plural-forms": "nplurals=2; plural=(n != 1);"
+      },
+      "Fluid Heading Settings": [
+        "Fluid Heading Settings"
+      ],
+      "Heading level (H1–H6)": [
+        "Heading level (H1–H6)"
+      ],
+      "Modular scale step (-2 to +6)": [
+        "Modular scale step (-2 to +6)"
+      ],
+      "Text alignment": [
+        "Text alignment"
+      ],
+      "Left": [
+        "Left"
+      ],
+      "Center": [
+        "Center"
+      ],
+      "Right": [
+        "Right"
+      ],
+      "Custom CSS clamp() override": [
+        "Custom CSS clamp() override"
+      ],
+      "Optional full CSS clamp() expression overriding the scale step.": [
+        "Optional full CSS clamp() expression overriding the scale step."
+      ],
+      "Write fluid heading…": [
+        "Write fluid heading…"
+      ],
+      "Fluid Lead Settings": [
+        "Fluid Lead Settings"
+      ],
+      "Maximum line length (characters)": [
+        "Maximum line length (characters)"
+      ],
+      "Write lead paragraph…": [
+        "Write lead paragraph…"
+      ],
+      "Container Query Context": [
+        "Container Query Context"
+      ],
+      "Container name": [
+        "Container name"
+      ],
+      "Container type": [
+        "Container type"
+      ],
+      "Inline size (cqi / cqw)": [
+        "Inline size (cqi / cqw)"
+      ],
+      "Size (width & height)": [
+        "Size (width & height)"
+      ],
+      "Normal": [
+        "Normal"
+      ],
+      "Typographic Grid Settings": [
+        "Typographic Grid Settings"
+      ],
+      "Columns (1–6)": [
+        "Columns (1–6)"
+      ],
+      "Scale gap token": [
+        "Scale gap token"
+      ],
+      "Step 0 (Body base)": [
+        "Step 0 (Body base)"
+      ],
+      "Step 1 (Compact)": [
+        "Step 1 (Compact)"
+      ],
+      "Step 2 (Default)": [
+        "Step 2 (Default)"
+      ],
+      "Step 3 (Spacious)": [
+        "Step 3 (Spacious)"
+      ],
+      "Step 4 (Wide)": [
+        "Step 4 (Wide)"
+      ],
+      "Ratio Visualizer Settings": [
+        "Ratio Visualizer Settings"
+      ],
+      "Show step labels on SVG axis": [
+        "Show step labels on SVG axis"
+      ],
+      "Show step min/max cards": [
+        "Show step min/max cards"
+      ],
+      "Color theme": [
+        "Color theme"
+      ],
+      "Dark": [
+        "Dark"
+      ],
+      "Light": [
+        "Light"
+      ],
+      "Ratio Visualizer (SVG Curve)": [
+        "Ratio Visualizer (SVG Curve)"
+      ],
+      "APCA Contrast Settings": [
+        "APCA Contrast Settings"
+      ],
+      "Foreground hex color": [
+        "Foreground hex color"
+      ],
+      "Background hex color": [
+        "Background hex color"
+      ],
+      "Target text role": [
+        "Target text role"
+      ],
+      "Body copy (target Lc 75)": [
+        "Body copy (target Lc 75)"
+      ],
+      "UI / secondary text (target Lc 60)": [
+        "UI / secondary text (target Lc 60)"
+      ],
+      "Large headline (target Lc 45)": [
+        "Large headline (target Lc 45)"
+      ],
+      "APCA Contrast Badge (WM Scale)": [
+        "APCA Contrast Badge (WM Scale)"
+      ],
+      "Exporter Output Settings": [
+        "Exporter Output Settings"
+      ],
+      "Displayed export format": [
+        "Displayed export format"
+      ],
+      "Both (theme.json v3 + Tailwind v4)": [
+        "Both (theme.json v3 + Tailwind v4)"
+      ],
+      "theme.json v3 only": [
+        "theme.json v3 only"
+      ],
+      "Tailwind CSS v4 @theme only": [
+        "Tailwind CSS v4 @theme only"
+      ],
+      "Theme.json Exporter (WM Scale)": [
+        "Theme.json Exporter (WM Scale)"
+      ],
+      "block title\u0004APCA Contrast Badge (WM Scale)": [
+        "APCA Contrast Badge (WM Scale)"
+      ],
+      "block description\u0004Badge with the APCA lightness contrast (Lc) of a text and background colour pair and a usage hint for that value.": [
+        "Badge with the APCA lightness contrast (Lc) of a text and background color pair and a usage hint for that value."
+      ],
+      "block keyword\u0004contrast": [
+        "contrast"
+      ],
+      "block keyword\u0004apca": [
+        "apca"
+      ],
+      "block keyword\u0004a11y": [
+        "a11y"
+      ],
+      "block keyword\u0004accessibility": [
+        "accessibility"
+      ],
+      "block title\u0004Fluid Container (@container)": [
+        "Fluid Container (@container)"
+      ],
+      "block description\u0004Container for inner blocks that sets container-type (default inline-size) and container-name (default wm-typographic-context) for container queries.": [
+        "Container for inner blocks that sets container-type (default inline-size) and container-name (default wm-typographic-context) for container queries."
+      ],
+      "block keyword\u0004container": [
+        "container"
+      ],
+      "block keyword\u0004queries": [
+        "queries"
+      ],
+      "block keyword\u0004cqw": [
+        "cqw"
+      ],
+      "block keyword\u0004cqi": [
+        "cqi"
+      ],
+      "block keyword\u0004fluid": [
+        "fluid"
+      ],
+      "block keyword\u0004layout": [
+        "layout"
+      ],
+      "block title\u0004Fluid Heading (WM Scale)": [
+        "Fluid Heading (WM Scale)"
+      ],
+      "block description\u0004Heading (H1–H6) with the fluid font-size class of its level, balanced line wrapping and an optional custom clamp() value.": [
+        "Heading (H1–H6) with the fluid font-size class of its level, balanced line wrapping and an optional custom clamp() value."
+      ],
+      "block keyword\u0004heading": [
+        "heading"
+      ],
+      "block keyword\u0004typography": [
+        "typography"
+      ],
+      "block keyword\u0004scale": [
+        "scale"
+      ],
+      "block keyword\u0004modular": [
+        "modular"
+      ],
+      "block title\u0004Fluid Lead Text (WM Scale)": [
+        "Fluid Lead Text (WM Scale)"
+      ],
+      "block description\u0004Paragraph with the fluid body font size, a maximum line length of 35–85 characters (default 65) and pretty line wrapping.": [
+        "Paragraph with the fluid body font size, a maximum line length of 35–85 characters (default 65) and pretty line wrapping."
+      ],
+      "block keyword\u0004lead": [
+        "lead"
+      ],
+      "block keyword\u0004paragraph": [
+        "paragraph"
+      ],
+      "block keyword\u0004reading": [
+        "reading"
+      ],
+      "block title\u0004Ratio Visualizer (SVG Curve)": [
+        "Ratio Visualizer (SVG Curve)"
+      ],
+      "block description\u0004Shows the nine scale steps with their minimum and maximum size in px, calculated from the stored base sizes and ratio.": [
+        "Shows the nine scale steps with their minimum and maximum size in px, calculated from the stored base sizes and ratio."
+      ],
+      "block keyword\u0004visualizer": [
+        "visualizer"
+      ],
+      "block keyword\u0004ratio": [
+        "ratio"
+      ],
+      "block keyword\u0004svg": [
+        "svg"
+      ],
+      "block keyword\u0004curve": [
+        "curve"
+      ],
+      "block keyword\u0004preview": [
+        "preview"
+      ],
+      "block title\u0004Theme.json Exporter (WM Scale)": [
+        "Theme.json Exporter (WM Scale)"
+      ],
+      "block description\u0004Shows the theme.json fontSizes and the Tailwind CSS v4 @theme block generated from the stored scale.": [
+        "Shows the theme.json fontSizes and the Tailwind CSS v4 @theme block generated from the stored scale."
+      ],
+      "block keyword\u0004theme.json": [
+        "theme.json"
+      ],
+      "block keyword\u0004exporter": [
+        "exporter"
+      ],
+      "block keyword\u0004tokens": [
+        "tokens"
+      ],
+      "block keyword\u0004json": [
+        "json"
+      ],
+      "block keyword\u0004tailwind": [
+        "tailwind"
+      ],
+      "block title\u0004Typographic Grid (WM Scale)": [
+        "Typographic Grid (WM Scale)"
+      ],
+      "block description\u0004Grid of 1–6 equal columns for inner blocks, with a gap from the scale (default var(--wm-step-2)).": [
+        "Grid of 1–6 equal columns for inner blocks, with a gap from the scale (default var(--wm-step-2))."
+      ],
+      "block keyword\u0004grid": [
+        "grid"
+      ],
+      "block keyword\u0004columns": [
+        "columns"
+      ],
+      "block keyword\u0004rhythm": [
+        "rhythm"
+      ],
+      "block keyword\u0004baseline": [
+        "baseline"
+      ]
+    }
+  }
+}

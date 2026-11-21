@@ -1,0 +1,973 @@
+# Translation of WM Modular Scale in mt_MT
+# Copyright (C) 2026 Arnold Wender
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: wm-modularscale 1.4.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wm-modularscale\n"
+"POT-Creation-Date: 2026-11-21T14:04:16+00:00\n"
+"PO-Revision-Date: 2026-11-21 15:04+0100\n"
+"Last-Translator: WM Suite <https://github.com/arnoldwender/wm-wp-"
+"modularscale/issues>\n"
+"Language-Team: WM Suite <https://github.com/arnoldwender/wm-wp-modularscale/"
+"issues>\n"
+"Language: mt_MT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n==0 || (n%100>1 && n%100<11) ? "
+"1 : (n%100>10 && n%100<20 ) ? 2 : 3);\n"
+"X-Generator: WM Suite i18n Compiler 2026\n"
+"X-Domain: wm-modularscale\n"
+
+#. Plugin Name of the plugin
+#: wm-modularscale.php src/Integration/Ecosystem_Bridge.php:199
+#: wm-modularscale.php:113 wm-modularscale.php:134
+msgid "WM Modular Scale"
+msgstr "WM Modular Scale"
+
+#. Plugin URI of the plugin
+#: wm-modularscale.php
+msgid "https://arnoldwender.com/wordpress-plugins/wm-modularscale/"
+msgstr "https://arnoldwender.com/wordpress-plugins/wm-modularscale/"
+
+#. Description of the plugin
+#: wm-modularscale.php
+msgid ""
+"Generates harmonious, responsive typography ratios and modular scales with a "
+"visual live preview sandbox for non-technical users."
+msgstr ""
+"Jiġġenera proporzjonijiet tipografiċi armonjużi u skali modulari responsivi "
+"bi previżjoni interattiva f’ħin reali."
+
+#. Author of the plugin
+#: wm-modularscale.php
+msgid "Arnold Wender"
+msgstr "Arnold Wender"
+
+#. Author URI of the plugin
+#: wm-modularscale.php
+msgid "https://arnoldwender.com"
+msgstr "https://arnoldwender.com"
+
+#: src/Gutenberg/Block_Manager.php:134
+msgid "WM Modular Scale — Typografie Enterprise"
+msgstr "WM Modular Scale — Tipografija Intrapriża"
+
+#: src/Integration/Ecosystem_Bridge.php:56
+msgid "WM Modular Scale Tokens"
+msgstr "Tokens ta’ WM Modular Scale"
+
+#: src/Integration/Ecosystem_Bridge.php:133
+msgid "WM Modular Scale Token"
+msgstr "Token ta’ WM Modular Scale"
+
+#: src/Integration/Ecosystem_Bridge.php:137
+msgid ""
+"Outputs a computed fluid clamp() token or px range from WM Modular Scale."
+msgstr ""
+"Jirritorna token fluwidu clamp() jew medda f’px ikkalkulata minn WM Modular "
+"Scale."
+
+#: src/Integration/Ecosystem_Bridge.php:141
+msgid "Scale step (-2 to 6)"
+msgstr "Pass tal-iskala (-2 sa 6)"
+
+#: src/Integration/Ecosystem_Bridge.php:146
+msgid "Output format"
+msgstr "Format tal-output"
+
+#: src/Integration/Ecosystem_Bridge.php:151
+msgid "CSS clamp() expression"
+msgstr "Espressjoni CSS clamp()"
+
+#: src/Integration/Ecosystem_Bridge.php:155
+msgid "Min–Max px range"
+msgstr "Medda min–mass f’px"
+
+#: src/Integration/Ecosystem_Bridge.php:159
+msgid "Maximum px size"
+msgstr "Daqs massimu f’px"
+
+#: src/Integration/Ecosystem_Bridge.php:207
+msgid "Fluid Typographic Hero & Lead"
+msgstr "Hero u introduzzjoni tipografika fluwida"
+
+#: src/Integration/Ecosystem_Bridge.php:208
+msgid ""
+"Container-query section pairing a Fluid Heading with an ergonomic Fluid Lead "
+"paragraph."
+msgstr ""
+"Sezzjoni container-query li tgħaqqad titlu fluwidu ma’ paragrafu "
+"introduttorju ergonomiku."
+
+#: src/Integration/Ecosystem_Bridge.php:211
+msgid "Harmonische Typografie im Browser"
+msgstr "Tipografija armonjuża fil-brawżer"
+
+#: src/Integration/Ecosystem_Bridge.php:212
+msgid ""
+"Fließende Schriftgrößen zwischen Mobilgerät und Desktop, berechnet aus "
+"Basisgröße und musikalischem Intervall."
+msgstr ""
+"Daqsijiet tat-tipa fluwidi bejn il-mowbajl u d-desktop, ikkalkulati mid-daqs "
+"bażi u intervall mużikali."
+
+#: src/Integration/Ecosystem_Bridge.php:221
+msgid "GenerateBlocks Fluid Scale Section"
+msgstr "Sezzjoni ta’ skala fluwida GenerateBlocks"
+
+#: src/Integration/Ecosystem_Bridge.php:222
+msgid ""
+"Two-layer GenerateBlocks section (gbp-section + gbp-section__inner) "
+"consuming --ms-* and --wm-step-* fluid tokens."
+msgstr ""
+"Sezzjoni GenerateBlocks b’żewġ saffi (gbp-section + gbp-section__inner) bit-"
+"tokens fluwidi --ms-* u --wm-step-*."
+
+#: src/Integration/Ecosystem_Bridge.php:229
+msgid "Modulare Skala mit GenerateBlocks"
+msgstr "Skala modulari ma’ GenerateBlocks"
+
+#: src/Integration/Ecosystem_Bridge.php:232
+msgid "Direkte Nutzung der berechneten CSS-Variablen ohne Media-Query-Stufen."
+msgstr "Użu dirett tal-varjabbli CSS ikkalkulati mingħajr breakpoints."
+
+#: src/Integration/Ecosystem_Bridge.php:254
+msgid "Compute Modular Typography Scale"
+msgstr "Ikkalkula Skala Tipografika Modulari"
+
+#: src/Integration/Ecosystem_Bridge.php:255
+msgid ""
+"Calculates the nine fluid clamp() steps (-2 to +6), line heights and WCAG "
+"1.4.4 zoom-safety flags for a base size and ratio."
+msgstr ""
+"Jikkalkula d-disa’ passi fluwidi clamp() (-2 sa +6), l-għoli tal-linji u l-"
+"verifika taż-żum WCAG 1.4.4."
+
+#: wm-modularscale.php:114
+msgid "Modular Scale"
+msgstr "Skala Modulari"
+
+#: wm-modularscale.php:125
+msgid "WM Modular Scale — Einstellungen & Vorschau"
+msgstr "WM Modular Scale — Settings u Previżjoni"
+
+#: wm-modularscale.php:126
+msgid "Typografie & Skalen"
+msgstr "Tipografija u Skali"
+
+#: wm-modularscale.php:135
+msgid "Modular Scale (Typografie)"
+msgstr "Modular Scale (Tipografija)"
+
+#: wm-modularscale.php:153
+msgid "WM Modular Scale — Harmonische Typografie & CSS Variablen"
+msgstr "WM Modular Scale — Tipografija Armonjuża u Varjabbli CSS"
+
+#: wm-modularscale.php:178
+msgid "Skala auf der Website angewendet"
+msgstr "L-iskala hija applikata fuq is-sit"
+
+#: wm-modularscale.php:180
+msgid "Skala berechnet, noch nicht auf die Website angewendet"
+msgstr "L-iskala ġiet ikkalkulata, għadha mhix applikata fuq is-sit"
+
+#: wm-modularscale.php:184
+msgid "Fluid-Tokens (--wm-step-*) und Stylesheet (--wmmsp-*)"
+msgstr "Tokens fluwidi (--wm-step-*) u stylesheet (--wmmsp-*)"
+
+#: wm-modularscale.php:191 wm-modularscale.php:301
+msgid "Basisgröße"
+msgstr "Daqs bażi"
+
+#: wm-modularscale.php:195
+msgid "Verhältnis"
+msgstr "Proporzjon"
+
+#: wm-modularscale.php:198
+msgid "Aktiv"
+msgstr "Attiva"
+
+#: wm-modularscale.php:198
+msgid "Aus"
+msgstr "Mitfija"
+
+#: wm-modularscale.php:199
+msgid "Auf der Website"
+msgstr "Fuq is-sit"
+
+#: wm-modularscale.php:205
+msgid "Typografie-Cockpit öffnen"
+msgstr "Iftaħ il-pannell tat-tipografija"
+
+#: wm-modularscale.php:220 wm-modularscale.php:319 wm-modularscale.php:347
+msgid "Einstellungen"
+msgstr "Settings"
+
+#: wm-modularscale.php:245
+msgid "Part of the WM Suite plugin family"
+msgstr "Parti mill-familja ta’ plugins WM Suite"
+
+#: wm-modularscale.php:247
+msgid "WM Suite"
+msgstr "WM Suite"
+
+#: wm-modularscale.php:248
+msgid "Hub"
+msgstr "Hub"
+
+#: wm-modularscale.php:248
+msgid "Standalone"
+msgstr "Indipendenti"
+
+#: wm-modularscale.php:262
+msgid "wird berechnet …"
+msgstr "qed jiġi kkalkulat …"
+
+#: wm-modularscale.php:283
+msgid "Kleine Terz 1.200 – Blog"
+msgstr "Terza żgħira 1.200 – Blog"
+
+#: wm-modularscale.php:284
+msgid "Große Terz 1.250 – Voreinstellung"
+msgstr "Terza kbira 1.250 – Default"
+
+#: wm-modularscale.php:285
+msgid "Quarte 1.333 – markante Überschriften"
+msgstr "Kwarta perfetta 1.333 – Titli prominenti"
+
+#: wm-modularscale.php:286
+msgid "Goldener Schnitt 1.618 – Magazin, große Titel"
+msgstr "Proporzjon tad-deheb 1.618 – Magażin, titli kbar"
+
+#: wm-modularscale.php:290
+msgid "1.125 — Große Sekunde (kompakt, Anwendungen)"
+msgstr "1.125 — Sekonda kbira (kumpatt, apps)"
+
+#: wm-modularscale.php:291
+msgid "1.200 — Kleine Terz (Blog)"
+msgstr "1.200 — Terza żgħira (blog)"
+
+#: wm-modularscale.php:292
+msgid "1.250 — Große Terz (Voreinstellung)"
+msgstr "1.250 — Terza kbira (default)"
+
+#: wm-modularscale.php:293
+msgid "1.333 — Quarte (markante Überschriften)"
+msgstr "1.333 — Kwarta perfetta (titli prominenti)"
+
+#: wm-modularscale.php:294
+msgid "1.414 — Übermäßige Quarte (Editorial)"
+msgstr "1.414 — Kwarta miżjuda (editorjali)"
+
+#: wm-modularscale.php:295
+msgid "1.500 — Quinte (kreative Layouts)"
+msgstr "1.500 — Kwinta perfetta (tqassim kreattiv)"
+
+#: wm-modularscale.php:296
+msgid "1.618 — Goldener Schnitt (sehr große Titel)"
+msgstr "1.618 — Proporzjon tad-deheb (titli kbar ħafna)"
+
+#: wm-modularscale.php:300 wm-modularscale.php:361
+msgid "Verhältnis (Ratio)"
+msgstr "Proporzjon (Ratio)"
+
+#: wm-modularscale.php:300
+msgid ""
+"Der feste Faktor zwischen zwei Stufen der Skala. Bei 1.25 ist jede Stufe 25 "
+"% größer als die vorherige."
+msgstr ""
+"Il-fattur fiss bejn żewġ passi tal-iskala. B’1.25 kull pass ikun 25% akbar "
+"minn ta’ qablu."
+
+#: wm-modularscale.php:301
+msgid ""
+"Die Schriftgröße des Fließtexts (<p>). Aus ihr werden alle Überschriften "
+"berechnet. Browser verwenden ohne eigene Einstellung 16 px."
+msgstr ""
+"Id-daqs tat-tipa tat-test prinċipali (<p>) li minnu jinħadmu t-titli kollha. "
+"Il-brawżers jużaw 16 px b’mod awtomatiku."
+
+#: wm-modularscale.php:302
+msgid "rem-Einheiten"
+msgstr "Unitajiet rem"
+
+#: wm-modularscale.php:302
+msgid ""
+"Relativ zur Schriftgröße, die im Browser eingestellt ist. Wer dort eine "
+"größere Schrift wählt, bekommt alle Stufen entsprechend größer."
+msgstr ""
+"Relattivi għad-daqs tat-tipa fil-brawżer. Min jagħżel tipa akbar jirċievi l-"
+"passi kollha akbar b’mod proporzjonali."
+
+#: wm-modularscale.php:303
+msgid "Goldener Schnitt (1.618)"
+msgstr "Proporzjon tad-deheb (1.618)"
+
+#: wm-modularscale.php:303
+msgid ""
+"Das Verhältnis (1 + √5) / 2. Als Skala ergibt es einen starken "
+"Größenunterschied zwischen Überschriften und Fließtext."
+msgstr ""
+"Il-proporzjon (1 + √5) / 2. Bħala skala joħloq kuntrast qawwi bejn it-titli "
+"u t-test."
+
+#: wm-modularscale.php:310
+msgid "Modulare Typografie"
+msgstr "Tipografija Modulari"
+
+#: wm-modularscale.php:311
+msgid "WM Modular Scale — Typografische Skala"
+msgstr "WM Modular Scale — Skala Tipografika"
+
+#: wm-modularscale.php:312
+msgid ""
+"Berechnet die Schriftgrößen für Überschriften (H1–H6) und Fließtext aus "
+"einer Basisgröße und einem Verhältnis und gibt sie als CSS-Variablen aus."
+msgstr ""
+"Jikkalkula d-daqsijiet tat-titli (H1–H6) u tat-test minn daqs bażi u "
+"proporzjon u joħroġhom bħala varjabbli CSS."
+
+#: wm-modularscale.php:316
+msgid "Seitennavigation"
+msgstr "Navigazzjoni tal-paġna"
+
+#: wm-modularscale.php:317
+msgid "Springen zu:"
+msgstr "Aqbeż għal:"
+
+#: wm-modularscale.php:318
+msgid "Anleitung & Vorlagen"
+msgstr "Gwida u Mudelli"
+
+#: wm-modularscale.php:320 wm-modularscale.php:417
+msgid "Live-Vorschau"
+msgstr "Previżjoni diretta"
+
+#: wm-modularscale.php:321 wm-modularscale.php:438
+msgid "CSS-Variablen"
+msgstr "Varjabbli CSS"
+
+#: wm-modularscale.php:322 wm-modularscale.php:447
+msgid "Glossar"
+msgstr "Glossarju"
+
+#: wm-modularscale.php:328
+msgid "Was ist eine modulare Skala?"
+msgstr "X’inhi skala modulari?"
+
+#: wm-modularscale.php:331
+msgid ""
+"Eine modulare Skala nimmt eine Basisgröße (zum Beispiel 16 px) und "
+"multipliziert sie Stufe für Stufe mit einem festen Verhältnis, wie die "
+"Intervalle in der Musik. So stehen Überschriften (H1 bis H6) und Fließtext "
+"in einem gleichbleibenden Größenverhältnis, statt einzeln festgelegt zu "
+"werden."
+msgstr ""
+"Skala modulari timmultiplika daqs bażi (eż. 16 px) pass pass bi proporzjon "
+"fiss bħall-intervalli mużikali sabiex H1–H6 u t-test jibqgħu f’armonija."
+
+#: wm-modularscale.php:334
+msgid "Vorlage übernehmen (setzt auch Basisgröße 16 und Einheit px):"
+msgstr "Applika mudell (jissettja wkoll bażi 16 u unità px):"
+
+#: wm-modularscale.php:355
+msgid "Basisgröße (Fließtext)"
+msgstr "Daqs bażi (test prinċipali)"
+
+#: wm-modularscale.php:357
+msgid ""
+"Die Größe des Fließtexts, aus der die Überschriften berechnet werden. "
+"Browser verwenden ohne eigene Einstellung 16 px."
+msgstr ""
+"Id-daqs tat-test li minnu jiġu kkalkulati t-titli. Il-brawżers jużaw 16 px "
+"b’mod awtomatiku."
+
+#: wm-modularscale.php:363
+msgid "Vorlage wählen oder Wert eingeben"
+msgstr "Agħżel mudell jew daħħal valur"
+
+#: wm-modularscale.php:368
+msgid "Verhältnis als Zahl"
+msgstr "Proporzjon numeriku"
+
+#: wm-modularscale.php:370
+msgid "Je größer der Wert, desto größer der Abstand zwischen H1 und H3."
+msgstr "Iktar ma jkun għoli l-valur, iktar tikber id-differenza bejn H1 u H3."
+
+#: wm-modularscale.php:374
+msgid "Einheit"
+msgstr "Unità"
+
+#: wm-modularscale.php:376
+msgid "px (Pixel, feste Größe)"
+msgstr "px (pixels, daqs fiss)"
+
+#: wm-modularscale.php:377
+msgid "rem (relativ zur Schriftgröße des Browsers)"
+msgstr "rem (relattiv għat-tipa tal-brawżer)"
+
+#: wm-modularscale.php:378
+msgid "em (relativ zum übergeordneten Element)"
+msgstr "em (relattiv għall-element ġenitur)"
+
+#: wm-modularscale.php:380
+msgid ""
+"Einheit der Variablen --wmmsp-* im Stylesheet. Die Fluid-Tokens --wm-step-* "
+"verwenden immer rem."
+msgstr ""
+"Unità tal-varjabbli --wmmsp-* fl-istylesheet. It-tokens fluwidi --wm-step-* "
+"dejjem jużaw rem."
+
+#: wm-modularscale.php:384
+msgid "Nachkommastellen"
+msgstr "Postijiet deċimali"
+
+#: wm-modularscale.php:386
+msgid ""
+"Auf so viele Nachkommastellen rundet das Stylesheet die Werte "
+"(Voreinstellung 2)."
+msgstr "Għadd ta’ postijiet deċimali għat-tqarrib fl-istylesheet (default 2)."
+
+#: wm-modularscale.php:393
+msgid "Skala auf der Website anwenden"
+msgstr "Applika l-iskala fuq is-sit"
+
+#: wm-modularscale.php:394
+msgid ""
+"Gibt die Fluid-Tokens --wm-step-* im Seitenkopf aus und lädt das Stylesheet, "
+"das body, h1–h6, Absätze, Listen, Zitate und Code aus diesen Werten setzt."
+msgstr ""
+"Jipprintja t-tokens fluwidi --wm-step-* fil-head u jgħabbi l-istylesheet "
+"għal body, h1–h6, paragrafi, listi, kwotazzjonijiet u kodiċi."
+
+#: wm-modularscale.php:403
+msgid "Einstellungen beim Entfernen des Plugins löschen"
+msgstr "Ħassar is-settings meta jitneħħa l-plugin"
+
+#: wm-modularscale.php:404
+msgid ""
+"Standardmäßig bleiben Basisgröße, Verhältnis und Skalen-Optionen erhalten, "
+"falls das Plugin später erneut installiert wird."
+msgstr ""
+"B’mod awtomatiku d-daqs bażi, il-proporzjon u l-għażliet jinżammu f’każ li l-"
+"plugin jerġa’ jiġi installat."
+
+#: wm-modularscale.php:410
+msgid "Typografie speichern"
+msgstr "Issejvja t-tipografija"
+
+#: wm-modularscale.php:419
+msgid ""
+"Zeigt die Größen des Stylesheets (--wmmsp-*) für die aktuellen Felder, bevor "
+"Sie speichern."
+msgstr ""
+"Juri d-daqsijiet tal-istylesheet (--wmmsp-*) għall-oqsma kurrenti qabel ma "
+"tissejvja."
+
+#: wm-modularscale.php:424
+msgid "Hauptüberschrift H1"
+msgstr "Titlu prinċipali H1"
+
+#: wm-modularscale.php:425
+msgid "Abschnittsüberschrift H2"
+msgstr "Titlu tas-sezzjoni H2"
+
+#: wm-modularscale.php:426
+msgid "Überschrift eines Inhaltsblocks H3"
+msgstr "Titlu tal-blokk H3"
+
+#: wm-modularscale.php:427
+msgid "Titel einer Karte H4"
+msgstr "Titlu tal-kard H4"
+
+#: wm-modularscale.php:428
+msgid "Kleine Überschrift H5"
+msgstr "Titlu żgħir H5"
+
+#: wm-modularscale.php:429
+msgid "Fußnote H6"
+msgstr "Nota f’qiegħ il-paġna H6"
+
+#: wm-modularscale.php:430
+msgid "Fließtext"
+msgstr "Test prinċipali"
+
+#: wm-modularscale.php:430
+msgid ""
+"Das ist ein Absatz im Fließtext. Seine Größe ist die Basisgröße; die "
+"Überschriften darüber sind daraus berechnet."
+msgstr ""
+"Dan huwa paragrafu ta’ test prinċipali. Id-daqs tiegħu huwa d-daqs bażi li "
+"minnu jinħadmu t-titli."
+
+#: wm-modularscale.php:440
+msgid ""
+"Diese Variablen setzt das Stylesheet, wenn die Skala angewendet wird. Die "
+"fließenden Stufen --wm-step-neg-2 bis --wm-step-6 berechnet das Plugin "
+"zusätzlich aus Basisgröße, maximaler Basisgröße und den Viewport-Breiten."
+msgstr ""
+"L-istylesheet jissettja dawn il-varjabbli meta tiġi applikata l-iskala. "
+"Barra minn hekk il-plugin jikkalkula --wm-step-neg-2 sa --wm-step-6."
+
+#: wm-modularscale.php:442
+msgid "Variablen werden berechnet …"
+msgstr "Il-varjabbli qed jiġu kkalkulati …"
+
+#: wm-modularscale.php:449
+msgid "Die Begriffe dieser Seite kurz erklärt."
+msgstr "Spjegazzjoni qasira tat-termini f’din il-paġna."
+
+#: blocks-src/index.js:66
+msgid "Fluid Heading Settings"
+msgstr "Settings tat-titlu fluwidu"
+
+#: blocks-src/index.js:68
+msgid "Heading level (H1–H6)"
+msgstr "Livell tat-titlu (H1–H6)"
+
+#: blocks-src/index.js:78
+msgid "Modular scale step (-2 to +6)"
+msgstr "Pass tal-iskala modulari (-2 sa +6)"
+
+#: blocks-src/index.js:85 blocks-src/index.js:153
+msgid "Text alignment"
+msgstr "Allinjament tat-test"
+
+#: blocks-src/index.js:88 blocks-src/index.js:156
+msgid "Left"
+msgstr "Xellug"
+
+#: blocks-src/index.js:89 blocks-src/index.js:157
+msgid "Center"
+msgstr "Ċentru"
+
+#: blocks-src/index.js:90 blocks-src/index.js:158
+msgid "Right"
+msgstr "Lemin"
+
+#: blocks-src/index.js:95
+msgid "Custom CSS clamp() override"
+msgstr "Valur CSS clamp() personalizzat"
+
+#: blocks-src/index.js:96
+msgid "Optional full CSS clamp() expression overriding the scale step."
+msgstr ""
+"Espressjoni CSS clamp() sħiħa fakultattiva li tieħu post il-pass tal-iskala."
+
+#: blocks-src/index.js:107
+msgid "Write fluid heading…"
+msgstr "Ikteb titlu fluwidu…"
+
+#: blocks-src/index.js:144
+msgid "Fluid Lead Settings"
+msgstr "Settings tal-introduzzjoni fluwida"
+
+#: blocks-src/index.js:146
+msgid "Maximum line length (characters)"
+msgstr "Tul massimu tal-linja (karattri)"
+
+#: blocks-src/index.js:168
+msgid "Write lead paragraph…"
+msgstr "Ikteb paragrafu introduttorju…"
+
+#: blocks-src/index.js:198
+msgid "Container Query Context"
+msgstr "Kuntest Container Query"
+
+#: blocks-src/index.js:200
+msgid "Container name"
+msgstr "Isem il-kontenitur"
+
+#: blocks-src/index.js:205
+msgid "Container type"
+msgstr "Tip ta’ kontenitur"
+
+#: blocks-src/index.js:208
+msgid "Inline size (cqi / cqw)"
+msgstr "Daqs inline (cqi / cqw)"
+
+#: blocks-src/index.js:209
+msgid "Size (width & height)"
+msgstr "Daqs (wisa’ u għoli)"
+
+#: blocks-src/index.js:210
+msgid "Normal"
+msgstr "Normali"
+
+#: blocks-src/index.js:247
+msgid "Typographic Grid Settings"
+msgstr "Settings tal-grilja tipografika"
+
+#: blocks-src/index.js:249
+msgid "Columns (1–6)"
+msgstr "Kolonni (1–6)"
+
+#: blocks-src/index.js:256
+msgid "Scale gap token"
+msgstr "Token tal-ispazju mill-iskala"
+
+#: blocks-src/index.js:259
+msgid "Step 0 (Body base)"
+msgstr "Pass 0 (Bażi tat-test)"
+
+#: blocks-src/index.js:260
+msgid "Step 1 (Compact)"
+msgstr "Pass 1 (Kumpatt)"
+
+#: blocks-src/index.js:261
+msgid "Step 2 (Default)"
+msgstr "Pass 2 (Default)"
+
+#: blocks-src/index.js:262
+msgid "Step 3 (Spacious)"
+msgstr "Pass 3 (Spazjuż)"
+
+#: blocks-src/index.js:263
+msgid "Step 4 (Wide)"
+msgstr "Pass 4 (Wiesa’)"
+
+#: blocks-src/index.js:291
+msgid "Ratio Visualizer Settings"
+msgstr "Settings tal-viżwalizzatur tal-proporzjon"
+
+#: blocks-src/index.js:293
+msgid "Show step labels on SVG axis"
+msgstr "Uri t-tikketti tal-passi fuq l-assi SVG"
+
+#: blocks-src/index.js:298
+msgid "Show step min/max cards"
+msgstr "Uri l-kards min/mass tal-passi"
+
+#: blocks-src/index.js:303
+msgid "Color theme"
+msgstr "Tema tal-kulur"
+
+#: blocks-src/index.js:306
+msgid "Dark"
+msgstr "Skura"
+
+#: blocks-src/index.js:307
+msgid "Light"
+msgstr "Ċara"
+
+#: blocks-src/index.js:313
+msgid "Ratio Visualizer (SVG Curve)"
+msgstr "Viżwalizzatur tal-proporzjon (kurva SVG)"
+
+#: blocks-src/index.js:335
+msgid "APCA Contrast Settings"
+msgstr "Settings tal-kuntrast APCA"
+
+#: blocks-src/index.js:337
+msgid "Foreground hex color"
+msgstr "Kulur hex tat-test"
+
+#: blocks-src/index.js:342
+msgid "Background hex color"
+msgstr "Kulur hex tal-isfond"
+
+#: blocks-src/index.js:347
+msgid "Target text role"
+msgstr "Rwol immirat tat-test"
+
+#: blocks-src/index.js:350
+msgid "Body copy (target Lc 75)"
+msgstr "Test prinċipali (mira Lc 75)"
+
+#: blocks-src/index.js:351
+msgid "UI / secondary text (target Lc 60)"
+msgstr "Test sekondarju / UI (mira Lc 60)"
+
+#: blocks-src/index.js:352
+msgid "Large headline (target Lc 45)"
+msgstr "Titlu kbir (mira Lc 45)"
+
+#: blocks-src/index.js:358
+msgid "APCA Contrast Badge (WM Scale)"
+msgstr "Badge tal-kuntrast APCA (WM Scale)"
+
+#: blocks-src/index.js:380
+msgid "Exporter Output Settings"
+msgstr "Settings tal-esportazzjoni"
+
+#: blocks-src/index.js:382
+msgid "Displayed export format"
+msgstr "Format tal-esportazzjoni muri"
+
+#: blocks-src/index.js:385
+msgid "Both (theme.json v3 + Tailwind v4)"
+msgstr "It-tnejn (theme.json v3 + Tailwind v4)"
+
+#: blocks-src/index.js:386
+msgid "theme.json v3 only"
+msgstr "theme.json v3 biss"
+
+#: blocks-src/index.js:387
+msgid "Tailwind CSS v4 @theme only"
+msgstr "Tailwind CSS v4 @theme biss"
+
+#: blocks-src/index.js:393
+msgid "Theme.json Exporter (WM Scale)"
+msgstr "Esportatur Theme.json (WM Scale)"
+
+#: src/Gutenberg/Blocks/contrast-matrix-badge/block.json
+msgctxt "block title"
+msgid "APCA Contrast Badge (WM Scale)"
+msgstr "Badge tal-kuntrast APCA (WM Scale)"
+
+#: src/Gutenberg/Blocks/contrast-matrix-badge/block.json
+msgctxt "block description"
+msgid ""
+"Badge with the APCA lightness contrast (Lc) of a text and background colour "
+"pair and a usage hint for that value."
+msgstr ""
+"Badge bil-kuntrast tal-luminożità APCA (Lc) ta’ par kuluri test/sfond u "
+"ħjiel dwar l-użu."
+
+#: src/Gutenberg/Blocks/contrast-matrix-badge/block.json
+msgctxt "block keyword"
+msgid "contrast"
+msgstr "kuntrast"
+
+#: src/Gutenberg/Blocks/contrast-matrix-badge/block.json
+msgctxt "block keyword"
+msgid "apca"
+msgstr "apca"
+
+#: src/Gutenberg/Blocks/contrast-matrix-badge/block.json
+msgctxt "block keyword"
+msgid "a11y"
+msgstr "a11y"
+
+#: src/Gutenberg/Blocks/contrast-matrix-badge/block.json
+msgctxt "block keyword"
+msgid "accessibility"
+msgstr "aċċessibbiltà"
+
+#: src/Gutenberg/Blocks/fluid-container/block.json
+msgctxt "block title"
+msgid "Fluid Container (@container)"
+msgstr "Kontenitur fluwidu (@container)"
+
+#: src/Gutenberg/Blocks/fluid-container/block.json
+msgctxt "block description"
+msgid ""
+"Container for inner blocks that sets container-type (default inline-size) "
+"and container-name (default wm-typographic-context) for container queries."
+msgstr ""
+"Kontenitur għal blokok interni li jissettja container-type (inline-size) u "
+"container-name (wm-typographic-context)."
+
+#: src/Gutenberg/Blocks/fluid-container/block.json
+msgctxt "block keyword"
+msgid "container"
+msgstr "kontenitur"
+
+#: src/Gutenberg/Blocks/fluid-container/block.json
+msgctxt "block keyword"
+msgid "queries"
+msgstr "mistoqsijiet"
+
+#: src/Gutenberg/Blocks/fluid-container/block.json
+msgctxt "block keyword"
+msgid "cqw"
+msgstr "cqw"
+
+#: src/Gutenberg/Blocks/fluid-container/block.json
+msgctxt "block keyword"
+msgid "cqi"
+msgstr "cqi"
+
+#: src/Gutenberg/Blocks/fluid-container/block.json
+#: src/Gutenberg/Blocks/fluid-heading/block.json
+#: src/Gutenberg/Blocks/fluid-lead/block.json
+msgctxt "block keyword"
+msgid "fluid"
+msgstr "fluwidu"
+
+#: src/Gutenberg/Blocks/fluid-container/block.json
+msgctxt "block keyword"
+msgid "layout"
+msgstr "tqassim"
+
+#: src/Gutenberg/Blocks/fluid-heading/block.json
+msgctxt "block title"
+msgid "Fluid Heading (WM Scale)"
+msgstr "Titlu fluwidu (WM Scale)"
+
+#: src/Gutenberg/Blocks/fluid-heading/block.json
+msgctxt "block description"
+msgid ""
+"Heading (H1–H6) with the fluid font-size class of its level, balanced line "
+"wrapping and an optional custom clamp() value."
+msgstr ""
+"Titlu (H1–H6) bi klassi fluwida tal-livell tiegħu, qsim bilanċjat tal-linji "
+"u valur clamp() fakultattiv."
+
+#: src/Gutenberg/Blocks/fluid-heading/block.json
+msgctxt "block keyword"
+msgid "heading"
+msgstr "titlu"
+
+#: src/Gutenberg/Blocks/fluid-heading/block.json
+#: src/Gutenberg/Blocks/fluid-lead/block.json
+#: src/Gutenberg/Blocks/typographic-grid/block.json
+msgctxt "block keyword"
+msgid "typography"
+msgstr "tipografija"
+
+#: src/Gutenberg/Blocks/fluid-heading/block.json
+#: src/Gutenberg/Blocks/ratio-visualizer/block.json
+msgctxt "block keyword"
+msgid "scale"
+msgstr "skala"
+
+#: src/Gutenberg/Blocks/fluid-heading/block.json
+msgctxt "block keyword"
+msgid "modular"
+msgstr "modulari"
+
+#: src/Gutenberg/Blocks/fluid-lead/block.json
+msgctxt "block title"
+msgid "Fluid Lead Text (WM Scale)"
+msgstr "Test introduttorju fluwidu (WM Scale)"
+
+#: src/Gutenberg/Blocks/fluid-lead/block.json
+msgctxt "block description"
+msgid ""
+"Paragraph with the fluid body font size, a maximum line length of 35–85 "
+"characters (default 65) and pretty line wrapping."
+msgstr ""
+"Paragrafu b’daqs fluwidu tat-test, tul ta’ linja ta’ 35–85 karattru (default "
+"65) u qsim pulit."
+
+#: src/Gutenberg/Blocks/fluid-lead/block.json
+msgctxt "block keyword"
+msgid "lead"
+msgstr "introduzzjoni"
+
+#: src/Gutenberg/Blocks/fluid-lead/block.json
+msgctxt "block keyword"
+msgid "paragraph"
+msgstr "paragrafu"
+
+#: src/Gutenberg/Blocks/fluid-lead/block.json
+msgctxt "block keyword"
+msgid "reading"
+msgstr "qari"
+
+#: src/Gutenberg/Blocks/ratio-visualizer/block.json
+msgctxt "block title"
+msgid "Ratio Visualizer (SVG Curve)"
+msgstr "Viżwalizzatur tal-proporzjon (kurva SVG)"
+
+#: src/Gutenberg/Blocks/ratio-visualizer/block.json
+msgctxt "block description"
+msgid ""
+"Shows the nine scale steps with their minimum and maximum size in px, "
+"calculated from the stored base sizes and ratio."
+msgstr ""
+"Juri d-disa’ passi tal-iskala bid-daqs minimu u massimu f’px ikkalkulati "
+"mill-iskala ssejvjata."
+
+#: src/Gutenberg/Blocks/ratio-visualizer/block.json
+msgctxt "block keyword"
+msgid "visualizer"
+msgstr "viżwalizzatur"
+
+#: src/Gutenberg/Blocks/ratio-visualizer/block.json
+msgctxt "block keyword"
+msgid "ratio"
+msgstr "proporzjon"
+
+#: src/Gutenberg/Blocks/ratio-visualizer/block.json
+msgctxt "block keyword"
+msgid "svg"
+msgstr "svg"
+
+#: src/Gutenberg/Blocks/ratio-visualizer/block.json
+msgctxt "block keyword"
+msgid "curve"
+msgstr "kurva"
+
+#: src/Gutenberg/Blocks/ratio-visualizer/block.json
+msgctxt "block keyword"
+msgid "preview"
+msgstr "previżjoni"
+
+#: src/Gutenberg/Blocks/theme-json-exporter/block.json
+msgctxt "block title"
+msgid "Theme.json Exporter (WM Scale)"
+msgstr "Esportatur Theme.json (WM Scale)"
+
+#: src/Gutenberg/Blocks/theme-json-exporter/block.json
+msgctxt "block description"
+msgid ""
+"Shows the theme.json fontSizes and the Tailwind CSS v4 @theme block "
+"generated from the stored scale."
+msgstr ""
+"Juri l-fontSizes ta’ theme.json u l-blokk @theme ta’ Tailwind CSS v4 "
+"iġġenerati mill-iskala ssejvjata."
+
+#: src/Gutenberg/Blocks/theme-json-exporter/block.json
+msgctxt "block keyword"
+msgid "theme.json"
+msgstr "theme.json"
+
+#: src/Gutenberg/Blocks/theme-json-exporter/block.json
+msgctxt "block keyword"
+msgid "exporter"
+msgstr "esportatur"
+
+#: src/Gutenberg/Blocks/theme-json-exporter/block.json
+msgctxt "block keyword"
+msgid "tokens"
+msgstr "tokens"
+
+#: src/Gutenberg/Blocks/theme-json-exporter/block.json
+msgctxt "block keyword"
+msgid "json"
+msgstr "json"
+
+#: src/Gutenberg/Blocks/theme-json-exporter/block.json
+msgctxt "block keyword"
+msgid "tailwind"
+msgstr "tailwind"
+
+#: src/Gutenberg/Blocks/typographic-grid/block.json
+msgctxt "block title"
+msgid "Typographic Grid (WM Scale)"
+msgstr "Grilja tipografika (WM Scale)"
+
+#: src/Gutenberg/Blocks/typographic-grid/block.json
+msgctxt "block description"
+msgid ""
+"Grid of 1–6 equal columns for inner blocks, with a gap from the scale "
+"(default var(--wm-step-2))."
+msgstr ""
+"Grilja ta’ 1 sa 6 kolonni ndaqs għal blokok interni bi spazju mill-iskala."
+
+#: src/Gutenberg/Blocks/typographic-grid/block.json
+msgctxt "block keyword"
+msgid "grid"
+msgstr "grilja"
+
+#: src/Gutenberg/Blocks/typographic-grid/block.json
+msgctxt "block keyword"
+msgid "columns"
+msgstr "kolonni"
+
+#: src/Gutenberg/Blocks/typographic-grid/block.json
+msgctxt "block keyword"
+msgid "rhythm"
+msgstr "ritmu"
+
+#: src/Gutenberg/Blocks/typographic-grid/block.json
+msgctxt "block keyword"
+msgid "baseline"
+msgstr "linja bażi"
+
+#~ msgid "https://www.arnoldwender.com"
+#~ msgstr "https://www.arnoldwender.com"

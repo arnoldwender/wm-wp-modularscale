@@ -1,0 +1,294 @@
+{
+  "translation-revision-date": "2026-11-21T15:04:18+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-modularscale",
+        "lang": "ro_RO",
+        "plural-forms": "nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100>0 && n%100<20)) ? 1 : 2);"
+      },
+      "Fluid Heading Settings": [
+        "Setări titlu fluid"
+      ],
+      "Heading level (H1–H6)": [
+        "Nivel titlu (H1–H6)"
+      ],
+      "Modular scale step (-2 to +6)": [
+        "Treaptă scară modulară (-2 până la +6)"
+      ],
+      "Text alignment": [
+        "Aliniere text"
+      ],
+      "Left": [
+        "Stânga"
+      ],
+      "Center": [
+        "Centru"
+      ],
+      "Right": [
+        "Dreapta"
+      ],
+      "Custom CSS clamp() override": [
+        "Suprascriere CSS clamp() personalizată"
+      ],
+      "Optional full CSS clamp() expression overriding the scale step.": [
+        "Expresie CSS clamp() opțională care înlocuiește treapta scării."
+      ],
+      "Write fluid heading…": [
+        "Scrie titlul fluid…"
+      ],
+      "Fluid Lead Settings": [
+        "Setări paragraf introductiv fluid"
+      ],
+      "Maximum line length (characters)": [
+        "Lungime maximă a rândului (caractere)"
+      ],
+      "Write lead paragraph…": [
+        "Scrie paragraful introductiv…"
+      ],
+      "Container Query Context": [
+        "Context Container Query"
+      ],
+      "Container name": [
+        "Nume container"
+      ],
+      "Container type": [
+        "Tip container"
+      ],
+      "Inline size (cqi / cqw)": [
+        "Dimensiune în linie (cqi / cqw)"
+      ],
+      "Size (width & height)": [
+        "Dimensiune (lățime și înălțime)"
+      ],
+      "Normal": [
+        "Normal"
+      ],
+      "Typographic Grid Settings": [
+        "Setări grilă tipografică"
+      ],
+      "Columns (1–6)": [
+        "Coloane (1–6)"
+      ],
+      "Scale gap token": [
+        "Token spațiere din scară"
+      ],
+      "Step 0 (Body base)": [
+        "Treapta 0 (Bază text)"
+      ],
+      "Step 1 (Compact)": [
+        "Treapta 1 (Compact)"
+      ],
+      "Step 2 (Default)": [
+        "Treapta 2 (Implicit)"
+      ],
+      "Step 3 (Spacious)": [
+        "Treapta 3 (Aerisit)"
+      ],
+      "Step 4 (Wide)": [
+        "Treapta 4 (Larg)"
+      ],
+      "Ratio Visualizer Settings": [
+        "Setări vizualizator raport"
+      ],
+      "Show step labels on SVG axis": [
+        "Afișează etichetele treptelor pe axa SVG"
+      ],
+      "Show step min/max cards": [
+        "Afișează cardurile min/max ale treptelor"
+      ],
+      "Color theme": [
+        "Temă cromatică"
+      ],
+      "Dark": [
+        "Întunecată"
+      ],
+      "Light": [
+        "Deschisă"
+      ],
+      "Ratio Visualizer (SVG Curve)": [
+        "Vizualizator raport (curbă SVG)"
+      ],
+      "APCA Contrast Settings": [
+        "Setări contrast APCA"
+      ],
+      "Foreground hex color": [
+        "Culoare hex text"
+      ],
+      "Background hex color": [
+        "Culoare hex fundal"
+      ],
+      "Target text role": [
+        "Rolul vizat al textului"
+      ],
+      "Body copy (target Lc 75)": [
+        "Text curent (țintă Lc 75)"
+      ],
+      "UI / secondary text (target Lc 60)": [
+        "Text secundar / UI (țintă Lc 60)"
+      ],
+      "Large headline (target Lc 45)": [
+        "Titlu mare (țintă Lc 45)"
+      ],
+      "APCA Contrast Badge (WM Scale)": [
+        "Insignă contrast APCA (WM Scale)"
+      ],
+      "Exporter Output Settings": [
+        "Setări export"
+      ],
+      "Displayed export format": [
+        "Format de export afișat"
+      ],
+      "Both (theme.json v3 + Tailwind v4)": [
+        "Ambele (theme.json v3 + Tailwind v4)"
+      ],
+      "theme.json v3 only": [
+        "Doar theme.json v3"
+      ],
+      "Tailwind CSS v4 @theme only": [
+        "Doar Tailwind CSS v4 @theme"
+      ],
+      "Theme.json Exporter (WM Scale)": [
+        "Exportator Theme.json (WM Scale)"
+      ],
+      "block title\u0004APCA Contrast Badge (WM Scale)": [
+        "Insignă contrast APCA (WM Scale)"
+      ],
+      "block description\u0004Badge with the APCA lightness contrast (Lc) of a text and background colour pair and a usage hint for that value.": [
+        "Insignă cu contrastul de luminozitate APCA (Lc) al unei perechi de culori text/fundal și recomandarea de utilizare."
+      ],
+      "block keyword\u0004contrast": [
+        "contrast"
+      ],
+      "block keyword\u0004apca": [
+        "apca"
+      ],
+      "block keyword\u0004a11y": [
+        "a11y"
+      ],
+      "block keyword\u0004accessibility": [
+        "accesibilitate"
+      ],
+      "block title\u0004Fluid Container (@container)": [
+        "Container fluid (@container)"
+      ],
+      "block description\u0004Container for inner blocks that sets container-type (default inline-size) and container-name (default wm-typographic-context) for container queries.": [
+        "Container pentru blocuri interne care setează container-type (inline-size) și container-name (wm-typographic-context)."
+      ],
+      "block keyword\u0004container": [
+        "container"
+      ],
+      "block keyword\u0004queries": [
+        "interogări"
+      ],
+      "block keyword\u0004cqw": [
+        "cqw"
+      ],
+      "block keyword\u0004cqi": [
+        "cqi"
+      ],
+      "block keyword\u0004fluid": [
+        "fluid"
+      ],
+      "block keyword\u0004layout": [
+        "așezare în pagină"
+      ],
+      "block title\u0004Fluid Heading (WM Scale)": [
+        "Titlu fluid (WM Scale)"
+      ],
+      "block description\u0004Heading (H1–H6) with the fluid font-size class of its level, balanced line wrapping and an optional custom clamp() value.": [
+        "Titlu (H1–H6) cu clasa fluidă a nivelului său, împărțire echilibrată a rândurilor și valoare clamp() opțională."
+      ],
+      "block keyword\u0004heading": [
+        "titlu"
+      ],
+      "block keyword\u0004typography": [
+        "tipografie"
+      ],
+      "block keyword\u0004scale": [
+        "scară"
+      ],
+      "block keyword\u0004modular": [
+        "modular"
+      ],
+      "block title\u0004Fluid Lead Text (WM Scale)": [
+        "Introducere fluidă (WM Scale)"
+      ],
+      "block description\u0004Paragraph with the fluid body font size, a maximum line length of 35–85 characters (default 65) and pretty line wrapping.": [
+        "Paragraf cu dimensiune fluidă a corpului, lungime maximă de 35–85 caractere (implicit 65) și încadrare armonioasă."
+      ],
+      "block keyword\u0004lead": [
+        "introducere"
+      ],
+      "block keyword\u0004paragraph": [
+        "paragraf"
+      ],
+      "block keyword\u0004reading": [
+        "lectură"
+      ],
+      "block title\u0004Ratio Visualizer (SVG Curve)": [
+        "Vizualizator raport (curbă SVG)"
+      ],
+      "block description\u0004Shows the nine scale steps with their minimum and maximum size in px, calculated from the stored base sizes and ratio.": [
+        "Afișează cele nouă trepte ale scării cu dimensiunea minimă și maximă în px calculate din valorile salvate."
+      ],
+      "block keyword\u0004visualizer": [
+        "vizualizator"
+      ],
+      "block keyword\u0004ratio": [
+        "raport"
+      ],
+      "block keyword\u0004svg": [
+        "svg"
+      ],
+      "block keyword\u0004curve": [
+        "curbă"
+      ],
+      "block keyword\u0004preview": [
+        "previzualizare"
+      ],
+      "block title\u0004Theme.json Exporter (WM Scale)": [
+        "Exportator Theme.json (WM Scale)"
+      ],
+      "block description\u0004Shows the theme.json fontSizes and the Tailwind CSS v4 @theme block generated from the stored scale.": [
+        "Afișează valorile fontSizes din theme.json și blocul @theme Tailwind CSS v4 generate din scara salvată."
+      ],
+      "block keyword\u0004theme.json": [
+        "theme.json"
+      ],
+      "block keyword\u0004exporter": [
+        "exportator"
+      ],
+      "block keyword\u0004tokens": [
+        "tokenuri"
+      ],
+      "block keyword\u0004json": [
+        "json"
+      ],
+      "block keyword\u0004tailwind": [
+        "tailwind"
+      ],
+      "block title\u0004Typographic Grid (WM Scale)": [
+        "Grilă tipografică (WM Scale)"
+      ],
+      "block description\u0004Grid of 1–6 equal columns for inner blocks, with a gap from the scale (default var(--wm-step-2)).": [
+        "Grilă cu 1–6 coloane egale pentru blocuri interne și spațiere preluată din scară."
+      ],
+      "block keyword\u0004grid": [
+        "grilă"
+      ],
+      "block keyword\u0004columns": [
+        "coloane"
+      ],
+      "block keyword\u0004rhythm": [
+        "ritm"
+      ],
+      "block keyword\u0004baseline": [
+        "linie de bază"
+      ]
+    }
+  }
+}
